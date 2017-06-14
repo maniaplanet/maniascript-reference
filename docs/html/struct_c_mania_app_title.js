@@ -1,0 +1,28 @@
+var struct_c_mania_app_title =
+[
+    [ "Authentication_GetToken", "struct_c_mania_app_title.html#a3f66834465c370dd8bd0fce66d84a718", null ],
+    [ "ExternalRequest_Clear", "struct_c_mania_app_title.html#a02aef98fa2b641512ac6a4d8e474b143", null ],
+    [ "Menu_Editor", "struct_c_mania_app_title.html#a0185512c8b5129eee2d28e38d664d23b", null ],
+    [ "Menu_Home", "struct_c_mania_app_title.html#ad360b86a7b377b48fdbe3fd498b47eda", null ],
+    [ "Menu_Internet", "struct_c_mania_app_title.html#a5d9fd95e08fc4b5744be7256904d5808", null ],
+    [ "Menu_Local", "struct_c_mania_app_title.html#a3bc6f98438932ec7cffd973bce799f19", null ],
+    [ "Menu_Profile", "struct_c_mania_app_title.html#ad413ae4455fd35fdd8f0bdbd3fee293e", null ],
+    [ "Menu_Quit", "struct_c_mania_app_title.html#a0630cf0b8a58059975c479649e8d604d", null ],
+    [ "Menu_Solo", "struct_c_mania_app_title.html#a0b03c9b141a931960e06eebc5dfd1b91", null ],
+    [ "PlayMap", "struct_c_mania_app_title.html#ab65ec8de7797055590b966c22dd0e770", null ],
+    [ "AchievementsManager", "struct_c_mania_app_title.html#aa4fbf8e0f6264cf47fa6f11cbdade23f", null ],
+    [ "Authentication_ErrorCode", "struct_c_mania_app_title.html#a6be36899aa576e36c9ab893fe66c54ff", null ],
+    [ "Authentication_GetTokenResponseReceived", "struct_c_mania_app_title.html#a623da0d7f80322fd1a38609cb56eff27", null ],
+    [ "Authentication_Token", "struct_c_mania_app_title.html#a5ae0177b6fe5f741fcf0270f78168ea4", null ],
+    [ "BadgeManager", "struct_c_mania_app_title.html#af6e00171ec1ef989f1acd0ed48fd1d95", null ],
+    [ "DontScaleMainMenuForHMD", "struct_c_mania_app_title.html#a39ca75072a9a11e48e0e5d7c6eafd7c4", null ],
+    [ "ExternalRequest_Data", "struct_c_mania_app_title.html#ab4c4e75fefee3091562c0027c195e9ee", null ],
+    [ "ExternalRequest_Type", "struct_c_mania_app_title.html#a08b3b6df58ff84af337e610cc12b2c18", null ],
+    [ "LoadingScreenRequireKeyPressed", "struct_c_mania_app_title.html#a11e88e1110e2a26da9f6d2169119a91b", null ],
+    [ "MatchSettingsManager", "struct_c_mania_app_title.html#a2c6ff6dca7e54f06bd8b742dd433f970", null ],
+    [ "Notifications", "struct_c_mania_app_title.html#a335d4118c316f734c39760de071abeac", null ],
+    [ "PendingEvents", "struct_c_mania_app_title.html#a891837344ac36383ac300b4ecd296910", null ],
+    [ "TitleControl", "struct_c_mania_app_title.html#a7704ca880021e31743173feeb0c35557", null ],
+    [ "TitleEdition", "struct_c_mania_app_title.html#ac9799d9e4935c0c9455184afbd9a3e08", null ],
+    [ "TitleFlow", "struct_c_mania_app_title.html#a0d24ad10b46a61b38a93021d49ed23c3", null ]
+];

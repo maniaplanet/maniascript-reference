@@ -1,0 +1,38 @@
+var struct_c_audio_manager =
+[
+    [ "ELibSound", "struct_c_audio_manager.html#a68189bafad245a73f063c39f871b1f7e", [
+      [ "Alert", "struct_c_audio_manager.html#a68189bafad245a73f063c39f871b1f7ea4713abce987ee88f3810daa7ccc4054a", null ],
+      [ "ShowDialog", "struct_c_audio_manager.html#a68189bafad245a73f063c39f871b1f7ea11e6b7123f2c4942951c7d430ef45a79", null ],
+      [ "HideDialog", "struct_c_audio_manager.html#a68189bafad245a73f063c39f871b1f7ea7fe920a70a665e60f2097334e0767fd0", null ],
+      [ "ShowMenu", "struct_c_audio_manager.html#a68189bafad245a73f063c39f871b1f7ea1bb109c78326917ac338b624f04b4e54", null ],
+      [ "HideMenu", "struct_c_audio_manager.html#a68189bafad245a73f063c39f871b1f7ea0083cce586e46a7966254ed05bab6b44", null ],
+      [ "Focus", "struct_c_audio_manager.html#a68189bafad245a73f063c39f871b1f7ea6d04438677d99d528ad5529a6290b639", null ],
+      [ "Valid", "struct_c_audio_manager.html#a68189bafad245a73f063c39f871b1f7ea83dabbb96df5a93e3facb88b6c24e8d9", null ],
+      [ "Start", "struct_c_audio_manager.html#a68189bafad245a73f063c39f871b1f7ea626becb149e553092924a6f8844cb3c7", null ],
+      [ "Countdown", "struct_c_audio_manager.html#a68189bafad245a73f063c39f871b1f7ea9808ce3924397dfeaf171bba267c74ea", null ],
+      [ "Victory", "struct_c_audio_manager.html#a68189bafad245a73f063c39f871b1f7ea9af0d5ae608ec89c3526154e7664a8ec", null ],
+      [ "ScoreIncrease", "struct_c_audio_manager.html#a68189bafad245a73f063c39f871b1f7ea9f155c0d2d48534c8f7d704a02c7f8ff", null ],
+      [ "Checkpoint", "struct_c_audio_manager.html#a68189bafad245a73f063c39f871b1f7ea2f88ab20557007566179c8554b92bac4", null ]
+    ] ],
+    [ "ClearAllDelayedSoundsEvents", "struct_c_audio_manager.html#a61431ceb42efd0a09b411c76f9889b35", null ],
+    [ "CreateMusic", "struct_c_audio_manager.html#ab292a8285ddf155c523cec597cf40528", null ],
+    [ "CreateSound", "struct_c_audio_manager.html#a8b53b76db1f2ca63d40cec176c094cec", null ],
+    [ "CreateSound", "struct_c_audio_manager.html#a69f6d45178e548e7fded8b3da55d9c79", null ],
+    [ "DestroyMusic", "struct_c_audio_manager.html#acb0526314945e1177667bd87d6b24a85", null ],
+    [ "DestroySound", "struct_c_audio_manager.html#a7ea4dc3a23842125c79c7e7e08e5a045", null ],
+    [ "PlaySoundEvent", "struct_c_audio_manager.html#a8f210d77fd06fec5db46987393cb8e1f", null ],
+    [ "PlaySoundEvent", "struct_c_audio_manager.html#adefc2b9263fa693e22b00a6771db59a3", null ],
+    [ "PlaySoundEvent", "struct_c_audio_manager.html#a05b166a7e0f25604b9e01f330a424ac4", null ],
+    [ "PlaySoundEvent", "struct_c_audio_manager.html#a7485a0dd3aa6286eb958e4096af5977d", null ],
+    [ "PlaySoundEvent", "struct_c_audio_manager.html#ad7768a8e54c06fc0c82bf6f3c9dc7841", null ],
+    [ "PlaySoundEvent", "struct_c_audio_manager.html#abe29d539faf75bed8120756d948fe7a7", null ],
+    [ "PlaySoundEvent", "struct_c_audio_manager.html#a921e269624afa6ed3ca14a9cfecc0bb2", null ],
+    [ "PlaySoundEvent", "struct_c_audio_manager.html#a7b25e8e0f41327f17bbff927f528ff7a", null ],
+    [ "PlaySoundEvent", "struct_c_audio_manager.html#a5834fdb01195d970824953a57ed0e34a", null ],
+    [ "PlaySoundEvent", "struct_c_audio_manager.html#ad19ee7e91f4a2282f4072b0ef078afee", null ],
+    [ "ForceEnableMusic", "struct_c_audio_manager.html#aa386351b5f370fa5001caba94ff550f6", null ],
+    [ "LimitMusicVolumedB", "struct_c_audio_manager.html#a48dc4c60431030658988cc559d639a6a", null ],
+    [ "LimitSceneSoundVolumedB", "struct_c_audio_manager.html#a5e29e215c2b79eed2c77f3f8977a27e1", null ],
+    [ "LimitUiSoundVolumedB", "struct_c_audio_manager.html#a4f829279aa906ebe008062b47f5637e8", null ],
+    [ "Sounds", "struct_c_audio_manager.html#a76bc8abbf02218bd7bd8673c7c48fbee", null ]
+];

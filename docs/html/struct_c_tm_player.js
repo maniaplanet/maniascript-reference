@@ -1,0 +1,46 @@
+var struct_c_tm_player =
+[
+    [ "ETmJumpMode", "struct_c_tm_player.html#a4f5198300527b3f0d1bd5d7841343f54", [
+      [ "Disabled", "struct_c_tm_player.html#a4f5198300527b3f0d1bd5d7841343f54a9ac8f56918c6a2620493ddad8bc3a860", null ],
+      [ "Simple", "struct_c_tm_player.html#a4f5198300527b3f0d1bd5d7841343f54ad5d127ceb0466742d60ab663848f667f", null ],
+      [ "Double", "struct_c_tm_player.html#a4f5198300527b3f0d1bd5d7841343f54a0a98116731b4f11ca4d6ec59c2881e9e", null ],
+      [ "Infinite", "struct_c_tm_player.html#a4f5198300527b3f0d1bd5d7841343f54a47a8fc3ca2df6ca851cb396149558b37", null ]
+    ] ],
+    [ "ETmRacePlayerCoopMode", "struct_c_tm_player.html#ae1a8f8db4e054b72801041c9a645d1ea", [
+      [ "None", "struct_c_tm_player.html#ae1a8f8db4e054b72801041c9a645d1eaac1e55ffe23218e83089bb39a619d298f", null ],
+      [ "Symbiosys", "struct_c_tm_player.html#ae1a8f8db4e054b72801041c9a645d1eaa730da4978953bdaf44ebab4f9034c7e2", null ],
+      [ "Checkpoint", "struct_c_tm_player.html#ae1a8f8db4e054b72801041c9a645d1eaac20e50f4e63d3fed3c5f2993c0c92be0", null ]
+    ] ],
+    [ "AccelCoef", "struct_c_tm_player.html#afe28477ae880a57f5d620b3a94ff4c98", null ],
+    [ "AimDirection", "struct_c_tm_player.html#a113937a949def7bd3caa27805a9c4009", null ],
+    [ "AimPitch", "struct_c_tm_player.html#a41bdd0d785b22dc06633e3308bdce7bc", null ],
+    [ "AimYaw", "struct_c_tm_player.html#a88c8b6092f32d57204d364b5d405fb51", null ],
+    [ "ButtonSmashFrenzy", "struct_c_tm_player.html#aa88b3b3e18381a2a9e047b591e9b7a71", null ],
+    [ "ControlCoef", "struct_c_tm_player.html#a557817ca43daad310404577045d901ab", null ],
+    [ "ControllerCount", "struct_c_tm_player.html#a77b473fa5c7e1f9acbd46d40b4c0bd1f", null ],
+    [ "ControllerId0", "struct_c_tm_player.html#a0b6c2cce37593298d48709e6cb4069a3", null ],
+    [ "ControllerId1", "struct_c_tm_player.html#ab1628a69eabf42091f4ebfe8d9291080", null ],
+    [ "ControllerId2", "struct_c_tm_player.html#aaf8de5cb909c35fbb913e41a80ecec3a", null ],
+    [ "ControllerId3", "struct_c_tm_player.html#a5b2d8936bea626d6cb4d818dd6a8040b", null ],
+    [ "CoopMode", "struct_c_tm_player.html#a9f66df41fe825104419feab42ae86a1b", null ],
+    [ "CurLap", "struct_c_tm_player.html#a68addaf70440f3ab8b87084d0309fc7f", null ],
+    [ "CurRace", "struct_c_tm_player.html#ada614548a826350184bc406f69e21ec3", null ],
+    [ "CurrentClan", "struct_c_tm_player.html#acf86603b6f4c550dbb3f8f16c2259596", null ],
+    [ "CurrentNbLaps", "struct_c_tm_player.html#a5baa30024f0afae33e9046dfc6e3a979", null ],
+    [ "CurTriggerIndex", "struct_c_tm_player.html#a32f510347adcb928460eaaab74cd5033", null ],
+    [ "EnableCatchUpSpeed", "struct_c_tm_player.html#ab32bd62ca8a812c4a4f418149df860d7", null ],
+    [ "EnableEmptyCars", "struct_c_tm_player.html#aefd046e9e98bf3dfca6d84f0a1bcccef", null ],
+    [ "EnableOnlineMode", "struct_c_tm_player.html#ae363a70c6adf41471ac7ee5befe1ae8c", null ],
+    [ "EnableStuntMode", "struct_c_tm_player.html#ae8925aa30acd72ccfbc1dff501922ed8", null ],
+    [ "EnableTurboButton", "struct_c_tm_player.html#acb03441ecd6dc203b585d3f382e69a1c", null ],
+    [ "ForcedAerialCamera", "struct_c_tm_player.html#a30fe4ad5a63d8eee508f4cdb2a05e5be", null ],
+    [ "ForceModelId", "struct_c_tm_player.html#a62dc967c1560e2ab3fd7d06d6167f078", null ],
+    [ "GravityCoef", "struct_c_tm_player.html#ab1729334baebd9a02bad5b8aacd0af88", null ],
+    [ "IsSpawned", "struct_c_tm_player.html#a5139989e374f4db8818153fda36ac2d9", null ],
+    [ "JumpMode", "struct_c_tm_player.html#aec90460b8586e25faebcb777602b92b0", null ],
+    [ "MaxiAirControl", "struct_c_tm_player.html#a9c3db4aba1cb147249007d28a9f6d71c", null ],
+    [ "Position", "struct_c_tm_player.html#a65eb205bab36bacc82fe3c73b0beacc2", null ],
+    [ "RaceStartTime", "struct_c_tm_player.html#a365bfffd4c2fcda5d3c8f9ada0964777", null ],
+    [ "Score", "struct_c_tm_player.html#ac8e253645962a485f6a3185528427c09", null ],
+    [ "TinyCar", "struct_c_tm_player.html#a16a10cf607cb1b55e401e1e9f899ef57", null ]
+];
