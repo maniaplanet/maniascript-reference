@@ -1,5 +1,6 @@
 var NAVTREEINDEX9 =
 {
+"struct_c_mode.html#a959b035a61a67e0d7afdd42dae4b766ea72bf62a877a1b9623d2f18480713a8b9":[1,0,87,0,0],
 "struct_c_mode.html#a959b035a61a67e0d7afdd42dae4b766ea72bf62a877a1b9623d2f18480713a8b9":[1,0,87,1,0],
 "struct_c_mode.html#a959b035a61a67e0d7afdd42dae4b766ea8e2624e5f76fee9ddaf85f8c00a041b9":[1,0,87,1,4],
 "struct_c_mode.html#a959b035a61a67e0d7afdd42dae4b766eac4394f0d1428ad7f460aca142ed57c67":[1,0,87,1,1],
@@ -134,16 +135,16 @@ var NAVTREEINDEX9 =
 "struct_c_module_playground_scores_table.html#af61929e75cced81edd9f8efb38772310a1ef038184e43e7b80eb4348c45a5b986":[1,0,99,1,0],
 "struct_c_module_playground_scores_table.html#af61929e75cced81edd9f8efb38772310a257846699712bffcb4f6bbd5c887ffe3":[1,0,99,1,4],
 "struct_c_module_playground_scores_table.html#af61929e75cced81edd9f8efb38772310a257846699712bffcb4f6bbd5c887ffe3":[1,0,99,0,10],
-"struct_c_module_playground_scores_table.html#af61929e75cced81edd9f8efb38772310a3a7ea2d5ac56f287dc90214776290a3f":[1,0,99,1,8],
 "struct_c_module_playground_scores_table.html#af61929e75cced81edd9f8efb38772310a3a7ea2d5ac56f287dc90214776290a3f":[1,0,99,0,11],
-"struct_c_module_playground_scores_table.html#af61929e75cced81edd9f8efb38772310a601d131b49ad3b91d05ddd3dae13ccef":[1,0,99,1,5],
+"struct_c_module_playground_scores_table.html#af61929e75cced81edd9f8efb38772310a3a7ea2d5ac56f287dc90214776290a3f":[1,0,99,1,8],
 "struct_c_module_playground_scores_table.html#af61929e75cced81edd9f8efb38772310a601d131b49ad3b91d05ddd3dae13ccef":[1,0,99,0,13],
+"struct_c_module_playground_scores_table.html#af61929e75cced81edd9f8efb38772310a601d131b49ad3b91d05ddd3dae13ccef":[1,0,99,1,5],
 "struct_c_module_playground_scores_table.html#af61929e75cced81edd9f8efb38772310a6499218ab18b531f23d7e96ac791b1f6":[1,0,99,0,15],
 "struct_c_module_playground_scores_table.html#af61929e75cced81edd9f8efb38772310a6499218ab18b531f23d7e96ac791b1f6":[1,0,99,1,7],
-"struct_c_module_playground_scores_table.html#af61929e75cced81edd9f8efb38772310a763ea277c15309adc1f9da7c3d00787c":[1,0,99,0,16],
 "struct_c_module_playground_scores_table.html#af61929e75cced81edd9f8efb38772310a763ea277c15309adc1f9da7c3d00787c":[1,0,99,1,3],
-"struct_c_module_playground_scores_table.html#af61929e75cced81edd9f8efb38772310aa1620083f895317203583e68bafa913a":[1,0,99,1,9],
+"struct_c_module_playground_scores_table.html#af61929e75cced81edd9f8efb38772310a763ea277c15309adc1f9da7c3d00787c":[1,0,99,0,16],
 "struct_c_module_playground_scores_table.html#af61929e75cced81edd9f8efb38772310aa1620083f895317203583e68bafa913a":[1,0,99,0,18],
+"struct_c_module_playground_scores_table.html#af61929e75cced81edd9f8efb38772310aa1620083f895317203583e68bafa913a":[1,0,99,1,9],
 "struct_c_module_playground_scores_table.html#af61929e75cced81edd9f8efb38772310aa95211cb31d95873a614c4f50c0a6725":[1,0,99,0,6],
 "struct_c_module_playground_scores_table.html#af61929e75cced81edd9f8efb38772310aa95211cb31d95873a614c4f50c0a6725":[1,0,99,1,1],
 "struct_c_module_playground_scores_table.html#af61929e75cced81edd9f8efb38772310ae939de5b30504e42896f8a0fe68cb0db":[1,0,99,1,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX9 =
 "struct_c_pack_creator_title_info.html#ac2e39d1f6fba1d7e383080a5142edd89":[1,0,110,0],
 "struct_c_pack_creator_title_info.html#ad9c7bd329ff04c1da36def65a9e21a57":[1,0,110,5],
 "struct_c_player.html":[1,0,111],
-"struct_c_player.html#a2e46183f532d9a1f2a66854e6a81a004":[1,0,111,2],
-"struct_c_player.html#a7abbb55db2eac259658e216cb30d3f55":[1,0,111,1]
+"struct_c_player.html#a2e46183f532d9a1f2a66854e6a81a004":[1,0,111,2]
 };

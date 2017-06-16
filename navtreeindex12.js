@@ -1,5 +1,6 @@
 var NAVTREEINDEX12 =
 {
+"struct_c_sm_mode_event.html#aeada34601591162dd676b6a4e48b9307":[1,0,141,46],
 "struct_c_sm_mode_event.html#af167393c0e34d686ee2ba93df6fa96ef":[1,0,141,13],
 "struct_c_sm_mode_event.html#af2266da17af143c5abc7317b10a27663":[1,0,141,10],
 "struct_c_sm_mode_event.html#af2ccdd0fb2ef9ee5bc0d7de7a6f5801d":[1,0,141,39],
@@ -248,6 +249,5 @@ var NAVTREEINDEX12 =
 "struct_c_task_result___buddy_challenge_records_comparison.html#acfe662feb99d16f3e156b9093a9c47a8":[1,0,151,2],
 "struct_c_task_result___buddy_challenge_records_comparison.html#ae4cf904a79ec58e6b1fad54e019351bd":[1,0,151,7],
 "struct_c_task_result___buddy_challenge_records_comparison.html#ae53b4030385e16bfa0cb1c246c0a289f":[1,0,151,3],
-"struct_c_task_result___buddy_challenge_records_comparison.html#af7ebb287d418001131f93bc8c2c6d270":[1,0,151,0],
-"struct_c_task_result___check_targeted_privilege.html":[1,0,152]
+"struct_c_task_result___buddy_challenge_records_comparison.html#af7ebb287d418001131f93bc8c2c6d270":[1,0,151,0]
 };

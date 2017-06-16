@@ -174,6 +174,7 @@ var struct_c_editor_mesh =
     [ "SetOfElements_GetVerticesCount", "struct_c_editor_mesh.html#a5c7192e7bdf624fd6df1b10f5ad030ff", null ],
     [ "SetOfElements_HasHorizontalFaces", "struct_c_editor_mesh.html#a0111a51d56e9d3d652223beff38ed3e6", null ],
     [ "SetOfElements_HasVerticalFaces", "struct_c_editor_mesh.html#a91e76f1a16262d335e63450f60b656b9", null ],
+    [ "SetOfElements_ProjectOnGround", "struct_c_editor_mesh.html#a5f86d9d373f2c20bc85525a81313fdae", null ],
     [ "SetOfElements_ProjectOnPlane", "struct_c_editor_mesh.html#a66a7ae2a7d7b88c21dfba55aa965f8bb", null ],
     [ "SetOfElements_SetAllElements", "struct_c_editor_mesh.html#abff70b537d5dc8fb0f052838e67eb765", null ],
     [ "SetOfElements_SetAllFaces", "struct_c_editor_mesh.html#ae86848106f003ed7acfa3c855f72f558", null ],

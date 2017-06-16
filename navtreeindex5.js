@@ -1,5 +1,6 @@
 var NAVTREEINDEX5 =
 {
+"struct_c_input_pad.html#a78f3549739f988e8289c2eb38cd33557":[1,0,46,26],
 "struct_c_input_pad.html#a7dd7a5e89debb5553402eb75be7869c7":[1,0,46,4],
 "struct_c_input_pad.html#a81cf328886c3e23f4317833c36045797":[1,0,46,8],
 "struct_c_input_pad.html#a8b2c1c1f5911d3f257ebeb611c0cba4b":[1,0,46,28],
@@ -248,6 +249,5 @@ var NAVTREEINDEX5 =
 "struct_c_map.html#acc951c3d0fa7ad06f4d712a50f96308a":[1,0,59,12],
 "struct_c_map.html#ad5b33765ae3e1c1f4400b027937371a6":[1,0,59,5],
 "struct_c_map.html#ad7eb636b0ec6efd44dd388a9c91743ba":[1,0,59,17],
-"struct_c_map.html#afbfb4f0ca4a96d6359a0e96fb3c8ad0c":[1,0,59,18],
-"struct_c_map_editor_plugin.html":[1,0,60]
+"struct_c_map.html#afbfb4f0ca4a96d6359a0e96fb3c8ad0c":[1,0,59,18]
 };

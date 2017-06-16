@@ -1,5 +1,6 @@
 var NAVTREEINDEX4 =
 {
+"struct_c_http_manager.html#a0ef46bc2c718a656b2926688e72efcd6":[1,0,41,7],
 "struct_c_http_manager.html#a17b9f1f8183ddb4ac47f223c64edaf6b":[1,0,41,0],
 "struct_c_http_manager.html#a2dd784250d9e2027fc49eb07d3e18940":[1,0,41,2],
 "struct_c_http_manager.html#a4ac0b5e57abd363e2c11aa71879da565":[1,0,41,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX4 =
 "struct_c_input_pad.html#a452bbccbe83c73f36b11005fb7fb4a14":[1,0,46,6],
 "struct_c_input_pad.html#a4a20bf8959141eec19d0ccb6efbf912d":[1,0,46,9],
 "struct_c_input_pad.html#a4a3189f86d63ee8dbe7a76842d15b274":[1,0,46,7],
-"struct_c_input_pad.html#a52cca03fa6bacf05296d9cfd2889054f":[1,0,46,27],
-"struct_c_input_pad.html#a78f3549739f988e8289c2eb38cd33557":[1,0,46,26]
+"struct_c_input_pad.html#a52cca03fa6bacf05296d9cfd2889054f":[1,0,46,27]
 };

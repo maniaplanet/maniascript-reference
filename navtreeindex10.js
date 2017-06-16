@@ -1,5 +1,6 @@
 var NAVTREEINDEX10 =
 {
+"struct_c_player.html#a7abbb55db2eac259658e216cb30d3f55":[1,0,111,1],
 "struct_c_player.html#ab6a98ee225e5d68a1e128b9334fb0c89":[1,0,111,0],
 "struct_c_playground_client.html":[1,0,112],
 "struct_c_playground_client.html#a0174c04b168633f42a7fc77900fc8e4f":[1,0,112,17],
@@ -248,6 +249,5 @@ var NAVTREEINDEX10 =
 "struct_c_sm_map_bot_path.html#a48a3643d95082f2ba757ab0d465ddafb":[1,0,130,0],
 "struct_c_sm_map_bot_path.html#a79d7df0a4e72affe5ef57aeb4488fe76":[1,0,130,1],
 "struct_c_sm_map_bot_path.html#aa4c2c5b1cea1afe29bfc168041694f4a":[1,0,130,2],
-"struct_c_sm_map_bot_spawn.html":[1,0,131],
-"struct_c_sm_map_bot_spawn.html#a20e196829053b0d7a1841014a8f6896f":[1,0,131,0]
+"struct_c_sm_map_bot_spawn.html":[1,0,131]
 };
