@@ -12,7 +12,7 @@ var searchData=
   ['variantair',['VariantAir',['../struct_c_block_model.html#ab861d73833c35101afe28ff982376c5a',1,'CBlockModel']]],
   ['variantground',['VariantGround',['../struct_c_block_model.html#a32c1f4fc79536b7b81afadbdcf4069a3',1,'CBlockModel']]],
   ['vel',['Vel',['../struct_c_sm_object.html#a10dffd593729ed709efcb46a78bcc4f5',1,'CSmObject']]],
-  ['velocity',['Velocity',['../struct_c_sm_player.html#a063d771af9b015f89e2f18fa65505051',1,'CSmPlayer']]],
+  ['velocity',['Velocity',['../struct_c_sm_player.html#a063d771af9b015f89e2f18fa65505051',1,'CSmPlayer::Velocity()'],['../struct_c_tm_player.html#a3e57712cd22117f9ce34b35f10f6008b',1,'CTmPlayer::Velocity()']]],
   ['version',['Version',['../struct_c_game_mode_info.html#af3bffff21331880b5ad4eb0ec64376ce',1,'CGameModeInfo']]],
   ['vertexcount',['VertexCount',['../struct_c_editor_mesh.html#a22da10d1ffe96b0d05ccc0af69eea1ca',1,'CEditorMesh']]],
   ['verticalalign',['VerticalAlign',['../struct_c_ml_control.html#adcc86e6e91916d042058b994a5e31977',1,'CMlControl']]],

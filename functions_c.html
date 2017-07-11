@@ -33,7 +33,7 @@
   <td id="projectlogo"><img alt="Logo" src="Planet_VERY_SMALL.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">ManiaScript Reference
-   &#160;<span id="projectnumber">16-06-2017</span>
+   &#160;<span id="projectnumber">11-07-2017</span>
    </div>
    <div id="projectbrief">ManiaScript reference for Maniaplanet</div>
   </td>
@@ -337,6 +337,21 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 <li>CharPressed
 : <a class="el" href="struct_c_ml_script_event.html#ae7233319a32860aad010d35457c089fc">CMlScriptEvent</a>
 </li>
+<li>ChatCommand
+: <a class="el" href="struct_c_server_plugin_event.html#a8c500907f6d8ee82888eb35cec35ac8da26c27b9ae6014cb57335dff4b6f402dc">CServerPluginEvent</a>
+</li>
+<li>ChatCommandData
+: <a class="el" href="struct_c_server_plugin_event.html#a5727f495a0bc8fe9b92cefc5e3d40730">CServerPluginEvent</a>
+</li>
+<li>ChatCommandType
+: <a class="el" href="struct_c_server_plugin_event.html#af01096fe7642717157ab5590d4eea5a4">CServerPluginEvent</a>
+</li>
+<li>ChatMessage
+: <a class="el" href="struct_c_server_plugin_event.html#a8c500907f6d8ee82888eb35cec35ac8dac66d2eaaf1ed45c23303305053267edc">CServerPluginEvent</a>
+</li>
+<li>ChatText
+: <a class="el" href="struct_c_server_plugin_event.html#a7614744df270fb6cfd4ed3631bbbe922">CServerPluginEvent</a>
+</li>
 <li>Cheats_Reset()
 : <a class="el" href="struct_c_tm_mode.html#af74f038fcddf1bf7a34028cb1c8872e3">CTmMode</a>
 </li>
@@ -462,12 +477,24 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 <li>ClearScriptMetadata()
 : <a class="el" href="struct_c_macroblock_model.html#ad2f8cfce83e0933d7e77804ea45da8a2">CMacroblockModel</a>
 </li>
+<li>Client
+: <a class="el" href="struct_c_server_plugin_event.html#a783c1bd7ef134795a75e289f41914f9d">CServerPluginEvent</a>
+</li>
 <li>ClientManiaAppUrl
 : <a class="el" href="struct_c_mode.html#a34193b3a0e1a7828506a429ae014acdc">CMode</a>
+</li>
+<li>Clients
+: <a class="el" href="struct_c_server_plugin.html#a8e19e29a676c7d9a1baa0bc4ab6b7bb1">CServerPlugin</a>
+</li>
+<li>ClientTitleVersion
+: <a class="el" href="struct_c_client.html#a20ac89a0d1ec2433ec4ee3cfc5b6b69f">CClient</a>
 </li>
 <li>ClientUI
 : <a class="el" href="struct_c_mania_app_playground_common.html#a6037b1e2f261105912f5453f7a07e0c0">CManiaAppPlaygroundCommon</a>
 , <a class="el" href="struct_c_ml_script_ingame.html#ac6074eac6d796989a1d52f0bfe1d3fa3">CMlScriptIngame</a>
+</li>
+<li>ClientVersion
+: <a class="el" href="struct_c_client.html#a2b812cb99eb05adbfb7ab2d22fbf09c6">CClient</a>
 </li>
 <li>Clip
 : <a class="el" href="struct_c_ml_quad.html#a66ce971ec6287e81c095e77c9e79474eaa2dbf59509c5ce0fee6bc2a92eb776d0">CMlQuad</a>
@@ -646,26 +673,21 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 </li>
 <li>ControllerCount
 : <a class="el" href="struct_c_tm_ml_player.html#ac4ad61e4415d127a62a3a76b917b2a50">CTmMlPlayer</a>
-, <a class="el" href="struct_c_tm_player.html#a77b473fa5c7e1f9acbd46d40b4c0bd1f">CTmPlayer</a>
 </li>
 <li>ControllerId
 : <a class="el" href="struct_c_input_pad.html#a81cf328886c3e23f4317833c36045797">CInputPad</a>
 </li>
 <li>ControllerId0
 : <a class="el" href="struct_c_tm_ml_player.html#a9e272d2ed0255baaecd5aeaa1f5ae7ff">CTmMlPlayer</a>
-, <a class="el" href="struct_c_tm_player.html#a0b6c2cce37593298d48709e6cb4069a3">CTmPlayer</a>
 </li>
 <li>ControllerId1
 : <a class="el" href="struct_c_tm_ml_player.html#a757de33c01523521d41338d5c495cc1d">CTmMlPlayer</a>
-, <a class="el" href="struct_c_tm_player.html#ab1628a69eabf42091f4ebfe8d9291080">CTmPlayer</a>
 </li>
 <li>ControllerId2
 : <a class="el" href="struct_c_tm_ml_player.html#accfd276fea9a9dec4212b12f69476fe1">CTmMlPlayer</a>
-, <a class="el" href="struct_c_tm_player.html#aaf8de5cb909c35fbb913e41a80ecec3a">CTmPlayer</a>
 </li>
 <li>ControllerId3
 : <a class="el" href="struct_c_tm_ml_player.html#ae8e0e1b814dc158badae0c0bbc741654">CTmMlPlayer</a>
-, <a class="el" href="struct_c_tm_player.html#a5b2d8936bea626d6cb4d818dd6a8040b">CTmPlayer</a>
 </li>
 <li>Controls
 : <a class="el" href="struct_c_ml_frame.html#a51b41d7e6f5385f4b09f07c42d4a5c52">CMlFrame</a>
@@ -684,7 +706,6 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 </li>
 <li>CoopMode
 : <a class="el" href="struct_c_tm_ml_player.html#aa6a1cbeced4b313fdd1fbcd29d5f1b57">CTmMlPlayer</a>
-, <a class="el" href="struct_c_tm_player.html#a9f66df41fe825104419feab42ae86a1b">CTmPlayer</a>
 </li>
 <li>CoopSymbiosysPercentTotal
 : <a class="el" href="struct_c_tm_ml_player.html#a29adcece1e3e5ab6c48a52566171392b">CTmMlPlayer</a>
@@ -766,16 +787,16 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 : <a class="el" href="struct_c_map_info.html#aae84ebbbb33a259d3c919b5789e03ef0">CMapInfo</a>
 </li>
 <li>CreateGet()
-: <a class="el" href="struct_c_http_manager.html#a2dd784250d9e2027fc49eb07d3e18940">CHttpManager</a>
+: <a class="el" href="struct_c_http_manager.html#a7987a5904142513920e8afe7e3d740c2">CHttpManager</a>
 </li>
 <li>CreateMusic()
 : <a class="el" href="struct_c_audio_manager.html#ab292a8285ddf155c523cec597cf40528">CAudioManager</a>
 </li>
 <li>CreatePost()
-: <a class="el" href="struct_c_http_manager.html#ac11e219d952b6df51a9701a55c70f161">CHttpManager</a>
+: <a class="el" href="struct_c_http_manager.html#a4ac0b5e57abd363e2c11aa71879da565">CHttpManager</a>
 </li>
 <li>CreateServer()
-: <a class="el" href="struct_c_title_flow.html#a86e9ff65bcc29896213aca96702b03ba">CTitleFlow</a>
+: <a class="el" href="struct_c_title_flow.html#a2a672a787edeef7debab968d123e10ee">CTitleFlow</a>
 </li>
 <li>CreateSound()
 : <a class="el" href="struct_c_audio_manager.html#a8b53b76db1f2ca63d40cec176c094cec">CAudioManager</a>
@@ -993,13 +1014,16 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 <li>CustomEventData
 : <a class="el" href="struct_c_mania_app_event.html#a5edfd263aa3014f7f14adfefc766d3d5">CManiaAppEvent</a>
 , <a class="el" href="struct_c_ml_script_event.html#a4e7c951454075a55262434581aa68a9f">CMlScriptEvent</a>
+, <a class="el" href="struct_c_u_i_config_event.html#a56f7035a648846e9f04c7ff19d15bfe6">CUIConfigEvent</a>
 </li>
 <li>CustomEventLayer
 : <a class="el" href="struct_c_mania_app_event.html#a5f8c1aa59e23b54a54e5664946e5d825">CManiaAppEvent</a>
+, <a class="el" href="struct_c_u_i_config_event.html#ab441cdffda4ccac8dba02dbad78692e4">CUIConfigEvent</a>
 </li>
 <li>CustomEventType
 : <a class="el" href="struct_c_mania_app_event.html#a26481af6bb326cfd9325b0e4711a0f71">CManiaAppEvent</a>
 , <a class="el" href="struct_c_ml_script_event.html#a1549f22f6db7c9721a4a39b2bcfd0689">CMlScriptEvent</a>
+, <a class="el" href="struct_c_u_i_config_event.html#ae9f9eebd6460d53ef4f7eb848e3d53c3">CUIConfigEvent</a>
 </li>
 <li>CustomInteger
 : <a class="el" href="struct_c_module_playground_scores_table.html#a821f9be011b31e0bc3c89aab4899be53a0d0d72c0d2a57864410c81cc2eeef899">CModulePlaygroundScoresTable</a>

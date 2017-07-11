@@ -1,6 +1,9 @@
 var searchData=
 [
   ['pack_5fdownloadorupdate',['Pack_DownloadOrUpdate',['../struct_c_data_file_mgr.html#a7cddbc5bfedd329fd8b5e44e9ba24936',1,'CDataFileMgr']]],
+  ['part_5fclearanchor',['Part_ClearAnchor',['../struct_c_editor_mesh.html#a64ccbbebf7a35f22ee5f7e2ad0116982',1,'CEditorMesh']]],
+  ['part_5fsetanchorpos',['Part_SetAnchorPos',['../struct_c_editor_mesh.html#a18aae81d10328767551cef186702ef22',1,'CEditorMesh']]],
+  ['part_5fsetisjoint',['Part_SetIsJoint',['../struct_c_editor_mesh.html#a7486cba23a270a22a1c9650e85b4083d',1,'CEditorMesh']]],
   ['parts_5fgroup',['Parts_Group',['../struct_c_editor_mesh.html#a3bd52bd36da97f5af3863a788bd130bd',1,'CEditorMesh']]],
   ['parts_5fmergeselectedparts',['Parts_MergeSelectedParts',['../struct_c_editor_mesh.html#ad9d6c6be77ee1476b4434bb3f189a72a',1,'CEditorMesh']]],
   ['parts_5fungroupselectedparts',['Parts_UngroupSelectedParts',['../struct_c_editor_mesh.html#a601ece9098b16f91fe16c8060d9be469',1,'CEditorMesh']]],

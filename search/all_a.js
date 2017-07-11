@@ -12,5 +12,5 @@ var searchData=
   ['keyright',['KeyRight',['../struct_c_ml_script.html#ac605116db666dee15dd0023c1445c475',1,'CMlScript']]],
   ['keyspace',['KeySpace',['../struct_c_ml_script.html#adbb306edca3f6be39bc6f79da60c99bc',1,'CMlScript']]],
   ['keyup',['KeyUp',['../struct_c_ml_script.html#ad88f1d2ee3c61b264b5ada28a4a3be60',1,'CMlScript']]],
-  ['kickuser',['KickUser',['../struct_c_server_admin.html#a5f99e79818cb17108cb8f337f7602282',1,'CServerAdmin']]]
+  ['kick',['Kick',['../struct_c_server_admin.html#a12fb5279853f22d141b138a3e58bc426',1,'CServerAdmin::Kick(CUser User, Text Reason)'],['../struct_c_server_admin.html#a55a5db1da4f60aaeb529e6fe2660f0a9',1,'CServerAdmin::Kick(CClient Client, Text Reason)']]]
 ];

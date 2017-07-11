@@ -37,5 +37,5 @@ var searchData=
   ['atlasselections_5ftextureatlasselection',['AtlasSelections_TextureAtlasSelection',['../struct_c_editor_mesh.html#a75505d3a1ad00fb67de4f682efa77d22',1,'CEditorMesh']]],
   ['authentication_5fgettoken',['Authentication_GetToken',['../struct_c_mania_app_title.html#a3f66834465c370dd8bd0fce66d84a718',1,'CManiaAppTitle']]],
   ['autosave',['AutoSave',['../struct_c_map_editor_plugin.html#a5b5f078d778759736a1d0601af4e77a3',1,'CMapEditorPlugin::AutoSave()'],['../struct_c_editor_mesh.html#ac87351602340a92ac2c0f5d621711eb2',1,'CEditorMesh::AutoSave()']]],
-  ['autoteambalance',['AutoTeamBalance',['../struct_c_mode.html#a901a6935241251fdff75498a029cf153',1,'CMode::AutoTeamBalance()'],['../struct_c_server_admin.html#ad8d2ecb41971f0e126137fc759478da9',1,'CServerAdmin::AutoTeamBalance()']]]
+  ['autoteambalance',['AutoTeamBalance',['../struct_c_server_admin.html#ad8d2ecb41971f0e126137fc759478da9',1,'CServerAdmin::AutoTeamBalance()'],['../struct_c_mode.html#a901a6935241251fdff75498a029cf153',1,'CMode::AutoTeamBalance()']]]
 ];

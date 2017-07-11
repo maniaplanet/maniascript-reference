@@ -33,7 +33,7 @@
   <td id="projectlogo"><img alt="Logo" src="Planet_VERY_SMALL.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">ManiaScript Reference
-   &#160;<span id="projectnumber">16-06-2017</span>
+   &#160;<span id="projectnumber">11-07-2017</span>
    </div>
    <div id="projectbrief">ManiaScript reference for Maniaplanet</div>
   </td>
@@ -125,8 +125,9 @@ Inheritance diagram for CEditorMesh:</div>
  <div class="center">
   <img src="struct_c_editor_mesh.png" usemap="#CEditorMesh_map" alt=""/>
   <map id="CEditorMesh_map" name="CEditorMesh_map">
-<area href="struct_c_editor_asset.html" alt="CEditorAsset" shape="rect" coords="0,56,85,80"/>
-<area href="struct_c_nod.html" alt="CNod" shape="rect" coords="0,0,85,24"/>
+<area href="struct_c_editor_asset.html" alt="CEditorAsset" shape="rect" coords="0,112,123,136"/>
+<area href="struct_c_game_editor_parent.html" alt="CGameEditorParent" shape="rect" coords="0,56,123,80"/>
+<area href="struct_c_nod.html" alt="CNod" shape="rect" coords="0,0,123,24"/>
 </map>
  </div></div>
 <table class="memberdecls">
@@ -151,23 +152,25 @@ Public Types</h2></td></tr>
 <tr class="memitem:a6714e5bf21b474ab2bdf740405c3dd3b"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a6714e5bf21b474ab2bdf740405c3dd3b">EInteraction</a> { <br />
 &#160;&#160;<a class="el" href="struct_c_editor_mesh.html#a6714e5bf21b474ab2bdf740405c3dd3babded02af5327f2f4712e061b6b4391d6">Creation</a>, 
 <a class="el" href="struct_c_editor_mesh.html#a6714e5bf21b474ab2bdf740405c3dd3ba551c90af81f1be9314a2cf59d2ea2a68">Pick</a>, 
+<a class="el" href="struct_c_editor_mesh.html#a6714e5bf21b474ab2bdf740405c3dd3ba1124b43bdcdf1ecc3b31e1b7de1d563a">PickJoint</a>, 
 <a class="el" href="struct_c_editor_mesh.html#a6714e5bf21b474ab2bdf740405c3dd3ba3996551ed5b437d5520ecda0494ad482">Selection</a>, 
-<a class="el" href="struct_c_editor_mesh.html#a6714e5bf21b474ab2bdf740405c3dd3ba9fd266b01af30139a03951bac5dafc08">Translation</a>, 
 <br />
-&#160;&#160;<a class="el" href="struct_c_editor_mesh.html#a6714e5bf21b474ab2bdf740405c3dd3ba4a974a510873ddb82119c4b48445e2ad">PickTranslation</a>, 
+&#160;&#160;<a class="el" href="struct_c_editor_mesh.html#a6714e5bf21b474ab2bdf740405c3dd3ba9fd266b01af30139a03951bac5dafc08">Translation</a>, 
+<a class="el" href="struct_c_editor_mesh.html#a6714e5bf21b474ab2bdf740405c3dd3ba4a974a510873ddb82119c4b48445e2ad">PickTranslation</a>, 
 <a class="el" href="struct_c_editor_mesh.html#a6714e5bf21b474ab2bdf740405c3dd3ba30dcdf571cb62b70c50c76610507cd50">Rotation</a>, 
 <a class="el" href="struct_c_editor_mesh.html#a6714e5bf21b474ab2bdf740405c3dd3ba720a3dc2c2d5893ce3d378c8a7f495ad">PickRotation</a>, 
-<a class="el" href="struct_c_editor_mesh.html#a6714e5bf21b474ab2bdf740405c3dd3baae94da64de4ffcb8a46892ee636fff91">Scale</a>, 
 <br />
-&#160;&#160;<a class="el" href="struct_c_editor_mesh.html#a7547cc34ad474355f44babec40d2c8b3a5696bd5fd989b8f8af87a4d5d1120b59">Curve2D</a>, 
+&#160;&#160;<a class="el" href="struct_c_editor_mesh.html#a6714e5bf21b474ab2bdf740405c3dd3baae94da64de4ffcb8a46892ee636fff91">Scale</a>, 
+<a class="el" href="struct_c_editor_mesh.html#a7547cc34ad474355f44babec40d2c8b3a5696bd5fd989b8f8af87a4d5d1120b59">Curve2D</a>, 
 <a class="el" href="struct_c_editor_mesh.html#a6714e5bf21b474ab2bdf740405c3dd3ba5dcb299091e9c6ffdf0abbdf3a070358">Merge</a>, 
 <a class="el" href="struct_c_editor_mesh.html#a6714e5bf21b474ab2bdf740405c3dd3ba1c44e1991f0881944ad80fedfc36a98f">Split</a>, 
-<a class="el" href="struct_c_editor_mesh.html#a6714e5bf21b474ab2bdf740405c3dd3ba8a701ed6c1a098696f8cdd4f3ff226f1">Mirror</a>, 
 <br />
-&#160;&#160;<a class="el" href="struct_c_editor_mesh.html#a6714e5bf21b474ab2bdf740405c3dd3ba9a3313e370f28d27554c8afd574fc970">Paste</a>, 
+&#160;&#160;<a class="el" href="struct_c_editor_mesh.html#a6714e5bf21b474ab2bdf740405c3dd3ba8a701ed6c1a098696f8cdd4f3ff226f1">Mirror</a>, 
+<a class="el" href="struct_c_editor_mesh.html#a6714e5bf21b474ab2bdf740405c3dd3ba9a3313e370f28d27554c8afd574fc970">Paste</a>, 
 <a class="el" href="struct_c_editor_mesh.html#a6714e5bf21b474ab2bdf740405c3dd3ba2612ce030d8b60c35b56290ec4320b24">PasteMaterial</a>, 
 <a class="el" href="struct_c_editor_mesh.html#a6714e5bf21b474ab2bdf740405c3dd3bab64a4403996f6f07fc91be88c59d4881">BlocTransformation</a>, 
-<a class="el" href="struct_c_editor_mesh.html#a6714e5bf21b474ab2bdf740405c3dd3ba941bce807ffc936905d6561d5d43a260">None</a>
+<br />
+&#160;&#160;<a class="el" href="struct_c_editor_mesh.html#a6714e5bf21b474ab2bdf740405c3dd3ba941bce807ffc936905d6561d5d43a260">None</a>
 <br />
  }<tr class="separator:a6714e5bf21b474ab2bdf740405c3dd3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </td></tr>
@@ -234,6 +237,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ac9fbebea2a9df2ddcaa5dc67d4879777"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4cb919462595550e33373057e245d13c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_text.html">Text</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a4cb919462595550e33373057e245d13c">PickInfo_GetError</a> ()</td></tr>
 <tr class="separator:a4cb919462595550e33373057e245d13c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18aae81d10328767551cef186702ef22"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a18aae81d10328767551cef186702ef22">Part_SetAnchorPos</a> (<a class="el" href="class_vec3.html">Vec3</a> Position)</td></tr>
+<tr class="separator:a18aae81d10328767551cef186702ef22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7486cba23a270a22a1c9650e85b4083d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a7486cba23a270a22a1c9650e85b4083d">Part_SetIsJoint</a> (<a class="el" href="class_boolean.html">Boolean</a> IsJoint)</td></tr>
+<tr class="separator:a7486cba23a270a22a1c9650e85b4083d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64ccbbebf7a35f22ee5f7e2ad0116982"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a64ccbbebf7a35f22ee5f7e2ad0116982">Part_ClearAnchor</a> ()</td></tr>
+<tr class="separator:a64ccbbebf7a35f22ee5f7e2ad0116982"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a457d782a5019ee3ee11b756e9e02ecb1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ident.html">Ident</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a457d782a5019ee3ee11b756e9e02ecb1">Material_GetMaterialIdSelected</a> ()</td></tr>
 <tr class="separator:a457d782a5019ee3ee11b756e9e02ecb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab6095ef72450e83e38724037f0fcb983"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#ab6095ef72450e83e38724037f0fcb983">Material_SetMaterialIdSelected</a> (<a class="el" href="class_ident.html">Ident</a> MaterialEditorId)</td></tr>
@@ -300,12 +309,20 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a62d04967fb10e5706b6349d8134936c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3fbb65ff01f2f5259916f6831c1df104"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a3fbb65ff01f2f5259916f6831c1df104">Interaction_CloseCurve2D</a> (<a class="el" href="class_boolean.html">Boolean</a> CanDoCurve2D)</td></tr>
 <tr class="separator:a3fbb65ff01f2f5259916f6831c1df104"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ade62253fe2d51c459525e7ea6465dba0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#ade62253fe2d51c459525e7ea6465dba0">Interaction_StartPick</a> (<a class="el" href="struct_c_editor_mesh.html#aa7d0bf1a42d523262b6c6a28d6484cad">EElemType</a> ElemType)</td></tr>
-<tr class="separator:ade62253fe2d51c459525e7ea6465dba0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:addf22b3d9676dcab3398e657b06af214"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#addf22b3d9676dcab3398e657b06af214">Interaction_StartPick</a> (<a class="el" href="struct_c_editor_mesh.html#aa7d0bf1a42d523262b6c6a28d6484cad">EElemType</a> ElemType, <a class="el" href="class_ident.html">Ident</a> SetToPickFrom)</td></tr>
+<tr class="separator:addf22b3d9676dcab3398e657b06af214"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca6ea826bbeffa5c743f0fe203e03226"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#aca6ea826bbeffa5c743f0fe203e03226">Interaction_StartPickJoint</a> ()</td></tr>
+<tr class="separator:aca6ea826bbeffa5c743f0fe203e03226"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2acd5d0de673b65b631ea83eee046e73"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a2acd5d0de673b65b631ea83eee046e73">Interaction_StartMerge</a> (<a class="el" href="class_ident.html">Ident</a> MergeSetHandle)</td></tr>
 <tr class="separator:a2acd5d0de673b65b631ea83eee046e73"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3aa06816baec8fe48c5e59c49af8d79d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a3aa06816baec8fe48c5e59c49af8d79d">Interaction_StartMirror</a> (<a class="el" href="class_ident.html">Ident</a> SetHandle)</td></tr>
 <tr class="separator:a3aa06816baec8fe48c5e59c49af8d79d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3829aecc2f4488e9130b282c3d0f9e7c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a3829aecc2f4488e9130b282c3d0f9e7c">Interaction_Selection_ClearParams</a> ()</td></tr>
+<tr class="separator:a3829aecc2f4488e9130b282c3d0f9e7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4335b3b92270ef0a7fcdbfd87391e7c8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a4335b3b92270ef0a7fcdbfd87391e7c8">Interaction_Selection_SetUseParts</a> (<a class="el" href="class_boolean.html">Boolean</a> UseParts)</td></tr>
+<tr class="separator:a4335b3b92270ef0a7fcdbfd87391e7c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa109c09b24a64030da2a321aa120625e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#aa109c09b24a64030da2a321aa120625e">Interaction_Selection_SetCanEnterLeaf</a> (<a class="el" href="class_boolean.html">Boolean</a> CanEnterLeaf)</td></tr>
+<tr class="separator:aa109c09b24a64030da2a321aa120625e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3bb8390c6d68d298f9262c3398dbfcf6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a3bb8390c6d68d298f9262c3398dbfcf6">Interaction_StartSelection</a> (<a class="el" href="class_ident.html">Ident</a> SelectionSetHandle, <a class="el" href="struct_c_editor_mesh.html#aa7d0bf1a42d523262b6c6a28d6484cad">EElemType</a> ElemType, <a class="el" href="class_ident.html">Ident</a> SelectionSetToPickFrom)</td></tr>
 <tr class="separator:a3bb8390c6d68d298f9262c3398dbfcf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3f976437067406170a5bf513823b28c9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a3f976437067406170a5bf513823b28c9">Interaction_CloseSelection</a> ()</td></tr>
@@ -535,10 +552,14 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a2576d76d27a8fa03572a6bbee4120789"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4ead6b44b607f71ac90501b7161b027b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a4ead6b44b607f71ac90501b7161b027b">DisplayFaces</a></td></tr>
 <tr class="separator:a4ead6b44b607f71ac90501b7161b027b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7d839cbd67ab7b7298c4b1d4956320a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#ae7d839cbd67ab7b7298c4b1d4956320a">DisplayJoints</a></td></tr>
+<tr class="separator:ae7d839cbd67ab7b7298c4b1d4956320a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1980e143849c2d654cfef1f94b27f31f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_c_editor_mesh.html#a6b44abc4e2e53a7c1d5f2b5c0b712846">EEdgesDisplay</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a1980e143849c2d654cfef1f94b27f31f">DisplayEdges</a></td></tr>
 <tr class="separator:a1980e143849c2d654cfef1f94b27f31f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af0f68a2891808ed54964a01c06900698"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#af0f68a2891808ed54964a01c06900698">GridSnap_IsActive</a></td></tr>
 <tr class="separator:af0f68a2891808ed54964a01c06900698"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba24658c13e16b156f02bdaea13fa56c"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#aba24658c13e16b156f02bdaea13fa56c">MaterialsUpdateId</a></td></tr>
+<tr class="separator:aba24658c13e16b156f02bdaea13fa56c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a44a34ebfc5c0893084ef50b09046eaa1"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_ident.html">Ident</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a44a34ebfc5c0893084ef50b09046eaa1">MaterialIds</a></td></tr>
 <tr class="separator:a44a34ebfc5c0893084ef50b09046eaa1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0fe69099e718bd95d058936970b579c5"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a0fe69099e718bd95d058936970b579c5">Material_Atlas_SelectedSubTexIndex</a></td></tr>
@@ -559,10 +580,10 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a2243841f8278632f798cf2190a678419"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae4acc438b5bfd104473d6881ee27ce26"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#ae4acc438b5bfd104473d6881ee27ce26">PrefabNamesUpdateId</a></td></tr>
 <tr class="separator:ae4acc438b5bfd104473d6881ee27ce26"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac2d903fb686845b67cdc920aa9817c6b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#ac2d903fb686845b67cdc920aa9817c6b">Selection_UseParts</a></td></tr>
-<tr class="separator:ac2d903fb686845b67cdc920aa9817c6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0bbbdbfff8cc6871b27d97728c338cab"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_c_editor_event.html">CEditorEvent</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a0bbbdbfff8cc6871b27d97728c338cab">PendingEvents</a></td></tr>
 <tr class="separator:a0bbbdbfff8cc6871b27d97728c338cab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a418ce6f5a2a49b2cff0606431aff742f"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a418ce6f5a2a49b2cff0606431aff742f">IsExperimental</a></td></tr>
+<tr class="separator:a418ce6f5a2a49b2cff0606431aff742f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_struct_c_nod"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_struct_c_nod')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="struct_c_nod.html">CNod</a></td></tr>
 <tr class="memitem:a4e8985f12f3e272263bfb85ef29196e4 inherit pub_attribs_struct_c_nod"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_ident.html">Ident</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_nod.html#a4e8985f12f3e272263bfb85ef29196e4">Id</a></td></tr>
 <tr class="separator:a4e8985f12f3e272263bfb85ef29196e4 inherit pub_attribs_struct_c_nod"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -665,6 +686,8 @@ Public Attributes</h2></td></tr>
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="a6714e5bf21b474ab2bdf740405c3dd3babded02af5327f2f4712e061b6b4391d6"></a>Creation&#160;</td><td class="fielddoc">
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a6714e5bf21b474ab2bdf740405c3dd3ba551c90af81f1be9314a2cf59d2ea2a68"></a>Pick&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a6714e5bf21b474ab2bdf740405c3dd3ba1124b43bdcdf1ecc3b31e1b7de1d563a"></a>PickJoint&#160;</td><td class="fielddoc">
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a6714e5bf21b474ab2bdf740405c3dd3ba3996551ed5b437d5520ecda0494ad482"></a>Selection&#160;</td><td class="fielddoc">
 </td></tr>
@@ -1532,6 +1555,53 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a3829aecc2f4488e9130b282c3d0f9e7c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_void.html">Void</a> CEditorMesh::Interaction_Selection_ClearParams </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aa109c09b24a64030da2a321aa120625e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_void.html">Void</a> CEditorMesh::Interaction_Selection_SetCanEnterLeaf </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_boolean.html">Boolean</a>&#160;</td>
+          <td class="paramname"><em>CanEnterLeaf</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a4335b3b92270ef0a7fcdbfd87391e7c8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_void.html">Void</a> CEditorMesh::Interaction_Selection_SetUseParts </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_boolean.html">Boolean</a>&#160;</td>
+          <td class="paramname"><em>UseParts</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a74b98d5d370e52940febd993ee98bbed"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1659,7 +1729,7 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ade62253fe2d51c459525e7ea6465dba0"></a>
+<a class="anchor" id="addf22b3d9676dcab3398e657b06af214"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -1667,7 +1737,32 @@ Public Attributes</h2></td></tr>
           <td class="memname"><a class="el" href="class_void.html">Void</a> CEditorMesh::Interaction_StartPick </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="struct_c_editor_mesh.html#aa7d0bf1a42d523262b6c6a28d6484cad">EElemType</a>&#160;</td>
-          <td class="paramname"><em>ElemType</em></td><td>)</td>
+          <td class="paramname"><em>ElemType</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_ident.html">Ident</a>&#160;</td>
+          <td class="paramname"><em>SetToPickFrom</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aca6ea826bbeffa5c743f0fe203e03226"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_void.html">Void</a> CEditorMesh::Interaction_StartPickJoint </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -2170,6 +2265,53 @@ Public Attributes</h2></td></tr>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_ident.html">Ident</a>&#160;</td>
           <td class="paramname"><em>SetHandle</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a64ccbbebf7a35f22ee5f7e2ad0116982"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_void.html">Void</a> CEditorMesh::Part_ClearAnchor </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a18aae81d10328767551cef186702ef22"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_void.html">Void</a> CEditorMesh::Part_SetAnchorPos </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_vec3.html">Vec3</a>&#160;</td>
+          <td class="paramname"><em>Position</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a7486cba23a270a22a1c9650e85b4083d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_void.html">Void</a> CEditorMesh::Part_SetIsJoint </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_boolean.html">Boolean</a>&#160;</td>
+          <td class="paramname"><em>IsJoint</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -3601,6 +3743,18 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="ae7d839cbd67ab7b7298c4b1d4956320a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_boolean.html">Boolean</a> CEditorMesh::DisplayJoints</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a2576d76d27a8fa03572a6bbee4120789"></a>
 <div class="memitem">
 <div class="memproto">
@@ -3661,6 +3815,18 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a418ce6f5a2a49b2cff0606431aff742f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="class_boolean.html">Boolean</a> CEditorMesh::IsExperimental</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a0fe69099e718bd95d058936970b579c5"></a>
 <div class="memitem">
 <div class="memproto">
@@ -3679,6 +3845,18 @@ Public Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">const <a class="el" href="class_ident.html">Ident</a> [] CEditorMesh::MaterialIds</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aba24658c13e16b156f02bdaea13fa56c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="class_integer.html">Integer</a> CEditorMesh::MaterialsUpdateId</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -3775,18 +3953,6 @@ Public Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">const <a class="el" href="class_real.html">Real</a> CEditorMesh::ScalingStep</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="ac2d903fb686845b67cdc920aa9817c6b"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_boolean.html">Boolean</a> CEditorMesh::Selection_UseParts</td>
         </tr>
       </table>
 </div><div class="memdoc">

@@ -33,7 +33,7 @@
   <td id="projectlogo"><img alt="Logo" src="Planet_VERY_SMALL.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">ManiaScript Reference
-   &#160;<span id="projectnumber">16-06-2017</span>
+   &#160;<span id="projectnumber">11-07-2017</span>
    </div>
    <div id="projectbrief">ManiaScript reference for Maniaplanet</div>
   </td>
@@ -138,7 +138,8 @@ Public Types</h2></td></tr>
 <br />
 &#160;&#160;<a class="el" href="struct_c_u_i_config_event.html#a97bff10bb47adfa5e380999fe2c5bf9ba279ee8e849aca1ce8c0189aad376f5ca">OnModuleStorePurchase</a>, 
 <a class="el" href="struct_c_u_i_config_event.html#a97bff10bb47adfa5e380999fe2c5bf9ba87f2fe485f81ec07b4f5f83352b956f7">OnModuleInventoryDrop</a>, 
-<a class="el" href="struct_c_u_i_config_event.html#a97bff10bb47adfa5e380999fe2c5bf9bad741f4dd174bf3e3f0ed4fa3f0297ad8">OnModuleInventoryEquip</a>
+<a class="el" href="struct_c_u_i_config_event.html#a97bff10bb47adfa5e380999fe2c5bf9bad741f4dd174bf3e3f0ed4fa3f0297ad8">OnModuleInventoryEquip</a>, 
+<a class="el" href="struct_c_u_i_config_event.html#a97bff10bb47adfa5e380999fe2c5bf9bacb02c7b1112a901367a5cadd683955fa">OnLayerCustomEvent</a>
 <br />
  }<tr class="separator:a97bff10bb47adfa5e380999fe2c5bf9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </td></tr>
@@ -160,23 +161,31 @@ Public Types</h2></td></tr>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a14a3e7ff5b92aa812ac8f42b57efeed3"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_c_u_i_config_event.html#a97bff10bb47adfa5e380999fe2c5bf9b">EType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_u_i_config_event.html#a14a3e7ff5b92aa812ac8f42b57efeed3">Type</a></td></tr>
 <tr class="separator:a14a3e7ff5b92aa812ac8f42b57efeed3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aea6f081a886bf769a859f11eedb9363e"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_c_u_i_config.html">CUIConfig</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_u_i_config_event.html#aea6f081a886bf769a859f11eedb9363e">UIConfig</a></td></tr>
-<tr class="separator:aea6f081a886bf769a859f11eedb9363e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca67dcba63a434cb8d042fa16ad9cba3"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_c_u_i_config.html">CUIConfig</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_u_i_config_event.html#aca67dcba63a434cb8d042fa16ad9cba3">UI</a></td></tr>
+<tr class="separator:aca67dcba63a434cb8d042fa16ad9cba3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d3987b4ac42e7191e1bef8ea0fa2250"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_c_u_i_config_event.html#a62066118dcfb3d3f20ce4388dce7409c">EModuleType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_u_i_config_event.html#a2d3987b4ac42e7191e1bef8ea0fa2250">ModuleType</a></td></tr>
+<tr class="separator:a2d3987b4ac42e7191e1bef8ea0fa2250"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6b24652e9dd9f6763188f8c8d30d2055"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_text.html">Text</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_u_i_config_event.html#a6b24652e9dd9f6763188f8c8d30d2055">Param1</a></td></tr>
 <tr class="separator:a6b24652e9dd9f6763188f8c8d30d2055"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abaa9af06c76c0e34c405cc0eb4bc5010"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_text.html">Text</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_u_i_config_event.html#abaa9af06c76c0e34c405cc0eb4bc5010">Param2</a></td></tr>
 <tr class="separator:abaa9af06c76c0e34c405cc0eb4bc5010"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab441cdffda4ccac8dba02dbad78692e4"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_c_u_i_layer.html">CUILayer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_u_i_config_event.html#ab441cdffda4ccac8dba02dbad78692e4">CustomEventLayer</a></td></tr>
+<tr class="separator:ab441cdffda4ccac8dba02dbad78692e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9f9eebd6460d53ef4f7eb848e3d53c3"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_text.html">Text</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_u_i_config_event.html#ae9f9eebd6460d53ef4f7eb848e3d53c3">CustomEventType</a></td></tr>
+<tr class="separator:ae9f9eebd6460d53ef4f7eb848e3d53c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56f7035a648846e9f04c7ff19d15bfe6"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_text.html">Text</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_u_i_config_event.html#a56f7035a648846e9f04c7ff19d15bfe6">CustomEventData</a></td></tr>
+<tr class="separator:a56f7035a648846e9f04c7ff19d15bfe6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3a4c9c05b532746a0a3924d7c866100c"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_text.html">Text</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_u_i_config_event.html#a3a4c9c05b532746a0a3924d7c866100c">ItemUrl</a></td></tr>
 <tr class="separator:a3a4c9c05b532746a0a3924d7c866100c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4a759acc7306dcfb3bfb0200508d2e39"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_u_i_config_event.html#a4a759acc7306dcfb3bfb0200508d2e39">Quantity</a></td></tr>
 <tr class="separator:a4a759acc7306dcfb3bfb0200508d2e39"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2d3987b4ac42e7191e1bef8ea0fa2250"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_c_u_i_config_event.html#a62066118dcfb3d3f20ce4388dce7409c">EModuleType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_u_i_config_event.html#a2d3987b4ac42e7191e1bef8ea0fa2250">ModuleType</a></td></tr>
-<tr class="separator:a2d3987b4ac42e7191e1bef8ea0fa2250"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_struct_c_nod"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_struct_c_nod')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="struct_c_nod.html">CNod</a></td></tr>
 <tr class="memitem:a4e8985f12f3e272263bfb85ef29196e4 inherit pub_attribs_struct_c_nod"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_ident.html">Ident</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_nod.html#a4e8985f12f3e272263bfb85ef29196e4">Id</a></td></tr>
 <tr class="separator:a4e8985f12f3e272263bfb85ef29196e4 inherit pub_attribs_struct_c_nod"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Enumeration Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>UIConfig Event </p>
+</div><h2 class="groupheader">Member Enumeration Documentation</h2>
 <a class="anchor" id="a62066118dcfb3d3f20ce4388dce7409c"></a>
 <div class="memitem">
 <div class="memproto">
@@ -231,11 +240,49 @@ Public Attributes</h2></td></tr>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a97bff10bb47adfa5e380999fe2c5bf9bad741f4dd174bf3e3f0ed4fa3f0297ad8"></a>OnModuleInventoryEquip&#160;</td><td class="fielddoc">
 </td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a97bff10bb47adfa5e380999fe2c5bf9bacb02c7b1112a901367a5cadd683955fa"></a>OnLayerCustomEvent&#160;</td><td class="fielddoc">
+</td></tr>
 </table>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="a56f7035a648846e9f04c7ff19d15bfe6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="class_text.html">Text</a> [] CUIConfigEvent::CustomEventData</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ab441cdffda4ccac8dba02dbad78692e4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="struct_c_u_i_layer.html">CUILayer</a> CUIConfigEvent::CustomEventLayer</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae9f9eebd6460d53ef4f7eb848e3d53c3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="class_text.html">Text</a> CUIConfigEvent::CustomEventType</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a3a4c9c05b532746a0a3924d7c866100c"></a>
 <div class="memitem">
 <div class="memproto">
@@ -308,12 +355,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aea6f081a886bf769a859f11eedb9363e"></a>
+<a class="anchor" id="aca67dcba63a434cb8d042fa16ad9cba3"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="struct_c_u_i_config.html">CUIConfig</a> CUIConfigEvent::UIConfig</td>
+          <td class="memname">const <a class="el" href="struct_c_u_i_config.html">CUIConfig</a> CUIConfigEvent::UI</td>
         </tr>
       </table>
 </div><div class="memdoc">

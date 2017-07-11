@@ -50,6 +50,7 @@ var searchData=
   ['requestloadmap',['RequestLoadMap',['../struct_c_mode.html#aff6a993953583eaff2706a2638e4935b',1,'CMode']]],
   ['requestmainuserchange',['RequestMainUserChange',['../struct_c_user_v2_manager.html#a15e906b6fdb8f16e54b8edbb4a6a63a9',1,'CUserV2Manager']]],
   ['requestspectatorclient',['RequestSpectatorClient',['../struct_c_ml_script_ingame.html#a03be57434761393ec5884c5b787b0a27',1,'CMlScriptIngame::RequestSpectatorClient()'],['../struct_c_playground_client.html#aa0a5f834e1dfce7f1ee4cad448d6dbae',1,'CPlaygroundClient::RequestSpectatorClient()']]],
+  ['requestswitchtospectator',['RequestSwitchToSpectator',['../struct_c_server_admin.html#a1248c56e252cf6228677860543ce40ab',1,'CServerAdmin::RequestSwitchToSpectator(CUser User)'],['../struct_c_server_admin.html#a96201289f8740a35674a0403f1f1e96b',1,'CServerAdmin::RequestSwitchToSpectator(CClient Client)']]],
   ['requestunloadmap',['RequestUnloadMap',['../struct_c_mode.html#a484dddd1e515dc19bfbba15956d0cc33',1,'CMode']]],
   ['reset',['Reset',['../struct_c_module_playground_store.html#a5437200127d5ac63ce6094f079b5075d',1,'CModulePlaygroundStore::Reset()'],['../struct_c_module_playground_store.html#ad43f55ec9a9c534dd1955b568e3befcf',1,'CModulePlaygroundStore::Reset(CPlayer Player)']]],
   ['resetall',['ResetAll',['../struct_c_u_i_config_mgr.html#a0ce99d5d0c3340d8dc9cb7415c941d70',1,'CUIConfigMgr']]],

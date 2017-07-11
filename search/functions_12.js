@@ -18,6 +18,8 @@ var searchData=
   ['scriptedbot_5fmovedeltaandaim',['ScriptedBot_MoveDeltaAndAim',['../struct_c_sm_mode.html#aa5854b0e32503f77f93a6a2b80b543cf',1,'CSmMode']]],
   ['scriptedbot_5frequestaction',['ScriptedBot_RequestAction',['../struct_c_sm_mode.html#aec8d001256503e7675c48ad51d27ebba',1,'CSmMode']]],
   ['scriptedbot_5frequestguntrigger',['ScriptedBot_RequestGunTrigger',['../struct_c_sm_mode.html#a55a8aa6b4fc7d16c46141da5ae7c7ff3',1,'CSmMode']]],
+  ['scriptmodename_5fcheck',['ScriptModeName_Check',['../struct_c_match_settings.html#a6b5a92c1bad581dc7b4c8b2b79afeaba',1,'CMatchSettings']]],
+  ['scriptmodename_5fset',['ScriptModeName_Set',['../struct_c_match_settings.html#a4c03413a238502750f08eeef25fa656a',1,'CMatchSettings']]],
   ['selection_5fredo',['Selection_Redo',['../struct_c_editor_mesh.html#a2292ce880790404fefab103778d7316a',1,'CEditorMesh']]],
   ['selection_5fundo',['Selection_Undo',['../struct_c_editor_mesh.html#aa4d5a54b531f557c1c41daed6cc4902d',1,'CEditorMesh']]],
   ['selectionset_5fselectall',['SelectionSet_SelectAll',['../struct_c_editor_mesh.html#aaad04b502a925b6ab8d678e995017122',1,'CEditorMesh']]],

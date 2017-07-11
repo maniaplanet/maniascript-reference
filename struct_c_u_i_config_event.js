@@ -17,13 +17,17 @@ var struct_c_u_i_config_event =
       [ "OnModuleHideRequest", "struct_c_u_i_config_event.html#a97bff10bb47adfa5e380999fe2c5bf9bab5b0248f5694f81411a0116ca9eb09ba", null ],
       [ "OnModuleStorePurchase", "struct_c_u_i_config_event.html#a97bff10bb47adfa5e380999fe2c5bf9ba279ee8e849aca1ce8c0189aad376f5ca", null ],
       [ "OnModuleInventoryDrop", "struct_c_u_i_config_event.html#a97bff10bb47adfa5e380999fe2c5bf9ba87f2fe485f81ec07b4f5f83352b956f7", null ],
-      [ "OnModuleInventoryEquip", "struct_c_u_i_config_event.html#a97bff10bb47adfa5e380999fe2c5bf9bad741f4dd174bf3e3f0ed4fa3f0297ad8", null ]
+      [ "OnModuleInventoryEquip", "struct_c_u_i_config_event.html#a97bff10bb47adfa5e380999fe2c5bf9bad741f4dd174bf3e3f0ed4fa3f0297ad8", null ],
+      [ "OnLayerCustomEvent", "struct_c_u_i_config_event.html#a97bff10bb47adfa5e380999fe2c5bf9bacb02c7b1112a901367a5cadd683955fa", null ]
     ] ],
+    [ "CustomEventData", "struct_c_u_i_config_event.html#a56f7035a648846e9f04c7ff19d15bfe6", null ],
+    [ "CustomEventLayer", "struct_c_u_i_config_event.html#ab441cdffda4ccac8dba02dbad78692e4", null ],
+    [ "CustomEventType", "struct_c_u_i_config_event.html#ae9f9eebd6460d53ef4f7eb848e3d53c3", null ],
     [ "ItemUrl", "struct_c_u_i_config_event.html#a3a4c9c05b532746a0a3924d7c866100c", null ],
     [ "ModuleType", "struct_c_u_i_config_event.html#a2d3987b4ac42e7191e1bef8ea0fa2250", null ],
     [ "Param1", "struct_c_u_i_config_event.html#a6b24652e9dd9f6763188f8c8d30d2055", null ],
     [ "Param2", "struct_c_u_i_config_event.html#abaa9af06c76c0e34c405cc0eb4bc5010", null ],
     [ "Quantity", "struct_c_u_i_config_event.html#a4a759acc7306dcfb3bfb0200508d2e39", null ],
     [ "Type", "struct_c_u_i_config_event.html#a14a3e7ff5b92aa812ac8f42b57efeed3", null ],
-    [ "UIConfig", "struct_c_u_i_config_event.html#aea6f081a886bf769a859f11eedb9363e", null ]
+    [ "UI", "struct_c_u_i_config_event.html#aca67dcba63a434cb8d042fa16ad9cba3", null ]
 ];

@@ -24,6 +24,7 @@ var hierarchy =
       [ "CBlockUnit", "struct_c_block_unit.html", null ],
       [ "CBlockUnitModel", "struct_c_block_unit_model.html", null ],
       [ "CCampaign", "struct_c_campaign.html", null ],
+      [ "CClient", "struct_c_client.html", null ],
       [ "CCollector", "struct_c_collector.html", [
         [ "CBlockModel", "struct_c_block_model.html", [
           [ "CBlockModelClip", "struct_c_block_model_clip.html", null ]
@@ -31,12 +32,14 @@ var hierarchy =
         [ "CMacroblockModel", "struct_c_macroblock_model.html", null ]
       ] ],
       [ "CDataFileMgr", "struct_c_data_file_mgr.html", null ],
-      [ "CEditorAsset", "struct_c_editor_asset.html", [
-        [ "CEditorMesh", "struct_c_editor_mesh.html", null ]
-      ] ],
-      [ "CEditorEditor", "struct_c_editor_editor.html", null ],
-      [ "CEditorModule", "struct_c_editor_module.html", null ],
       [ "CEditorPluginHandle", "struct_c_editor_plugin_handle.html", null ],
+      [ "CGameEditorParent", "struct_c_game_editor_parent.html", [
+        [ "CEditorAsset", "struct_c_editor_asset.html", [
+          [ "CEditorMesh", "struct_c_editor_mesh.html", null ]
+        ] ],
+        [ "CEditorEditor", "struct_c_editor_editor.html", null ],
+        [ "CEditorModule", "struct_c_editor_module.html", null ]
+      ] ],
       [ "CGameMatchSettingsPlaylistItemScript", "struct_c_game_match_settings_playlist_item_script.html", null ],
       [ "CGameModeInfo", "struct_c_game_mode_info.html", null ],
       [ "CGamePlayerMapRecordScript", "struct_c_game_player_map_record_script.html", null ],
@@ -159,6 +162,8 @@ var hierarchy =
       [ "CScoreMgr", "struct_c_score_mgr.html", null ],
       [ "CServerAdmin", "struct_c_server_admin.html", null ],
       [ "CServerInfo", "struct_c_server_info.html", null ],
+      [ "CServerPlugin", "struct_c_server_plugin.html", null ],
+      [ "CServerPluginEvent", "struct_c_server_plugin_event.html", null ],
       [ "CSmAction", "struct_c_sm_action.html", null ],
       [ "CSmActionEvent", "struct_c_sm_action_event.html", null ],
       [ "CSmBase", "struct_c_sm_base.html", null ],

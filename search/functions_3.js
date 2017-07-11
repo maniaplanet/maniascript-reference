@@ -3,7 +3,7 @@ var searchData=
   ['dataattributeexists',['DataAttributeExists',['../struct_c_ml_control.html#a9c603f2f4c41bf498b5358353e2cab66',1,'CMlControl']]],
   ['dataattributeget',['DataAttributeGet',['../struct_c_ml_control.html#ace23a7ead00eedeb51514e5dd008afcf',1,'CMlControl']]],
   ['dataattributeset',['DataAttributeSet',['../struct_c_ml_control.html#aa79ed2c5f92a84aa0b112c9042f1d41a',1,'CMlControl']]],
-  ['dbg_5fdumpdeclareforvariables',['Dbg_DumpDeclareForVariables',['../struct_c_ml_script.html#af6e2bbdec91af83ae39f977071a7570e',1,'CMlScript::Dbg_DumpDeclareForVariables()'],['../struct_c_mania_app.html#a40070306176f129819401999f3c17e20',1,'CManiaApp::Dbg_DumpDeclareForVariables()'],['../struct_c_mode.html#a39aa25003e87cb8981364bee3c7c5478',1,'CMode::Dbg_DumpDeclareForVariables()']]],
+  ['dbg_5fdumpdeclareforvariables',['Dbg_DumpDeclareForVariables',['../struct_c_ml_script.html#af6e2bbdec91af83ae39f977071a7570e',1,'CMlScript::Dbg_DumpDeclareForVariables()'],['../struct_c_mania_app.html#a40070306176f129819401999f3c17e20',1,'CManiaApp::Dbg_DumpDeclareForVariables()'],['../struct_c_server_plugin.html#a65d4ea0f1e84599971727b2e37ec096b',1,'CServerPlugin::Dbg_DumpDeclareForVariables()'],['../struct_c_mode.html#a39aa25003e87cb8981364bee3c7c5478',1,'CMode::Dbg_DumpDeclareForVariables()']]],
   ['dbg_5fsetprocessed',['Dbg_SetProcessed',['../struct_c_ml_script.html#abbc8dd6203cd36e11527ae8733942737',1,'CMlScript']]],
   ['demotoken_5fgetandusetoken',['DemoToken_GetAndUseToken',['../struct_c_mode.html#a599514b9c44858b0d9cb242d362b84d7',1,'CMode']]],
   ['demotoken_5fstartusingtoken',['DemoToken_StartUsingToken',['../struct_c_mode.html#a4ee915f483a4ccb3f9d4b04faec38d66',1,'CMode']]],

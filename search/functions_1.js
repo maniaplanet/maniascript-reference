@@ -5,6 +5,7 @@ var searchData=
   ['badgedestroy',['BadgeDestroy',['../struct_c_badge_editor.html#a8e466f2076672721697f489ee0c36df1',1,'CBadgeEditor::BadgeDestroy()'],['../struct_c_badge_manager.html#ae5c8704fe5e462b5852ede8d42bfa4c3',1,'CBadgeManager::BadgeDestroy()']]],
   ['badgereadfromprofile',['BadgeReadFromProfile',['../struct_c_badge_editor.html#a6d4c1d612192a593953940c6ae7005d6',1,'CBadgeEditor::BadgeReadFromProfile()'],['../struct_c_badge_manager.html#a17bfc63387310f29ad59e381f011e071',1,'CBadgeManager::BadgeReadFromProfile()']]],
   ['badgewritetoprofile',['BadgeWriteToProfile',['../struct_c_badge_editor.html#a1492f8ed3cc8ac898507a67b1a35a738',1,'CBadgeEditor::BadgeWriteToProfile()'],['../struct_c_badge_manager.html#add033bfe9c4a655cfb54d347812df228',1,'CBadgeManager::BadgeWriteToProfile()']]],
+  ['ban',['Ban',['../struct_c_server_admin.html#a1adbacdb24b1b2e3d08d39b60ed948eb',1,'CServerAdmin::Ban(CUser User, Text Reason)'],['../struct_c_server_admin.html#ab78282e2c2865c7646b712276435c47e',1,'CServerAdmin::Ban(CClient Client, Text Reason)']]],
   ['beginprocessing',['BeginProcessing',['../struct_c_video.html#aa7616d8fb5c182211fb527e65d1ff957',1,'CVideo']]],
   ['binding_5fisactive',['Binding_IsActive',['../struct_c_editor_main_plugin.html#a16e36e0a0953f9abc2ed284fd1ead046',1,'CEditorMainPlugin']]],
   ['bindings_5faddbinding',['Bindings_AddBinding',['../struct_c_editor_editor.html#a6ba6352d60de34ab4c2e7e68168f72b3',1,'CEditorEditor']]],

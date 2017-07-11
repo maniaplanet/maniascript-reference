@@ -22,7 +22,7 @@ var searchData=
   ['horizontalalign',['HorizontalAlign',['../struct_c_ml_control.html#a8f5f036aee721040b297cdac2959ab68',1,'CMlControl']]],
   ['hpf_5fcutoffratio',['HPF_CutoffRatio',['../struct_c_audio_source_music.html#aa49c49b5b4d3754d187828fad466f31d',1,'CAudioSourceMusic']]],
   ['hpf_5fq',['HPF_Q',['../struct_c_audio_source_music.html#ab4937016a4f08313814dea5425781e86',1,'CAudioSourceMusic']]],
-  ['http',['Http',['../struct_c_ml_script.html#a956488fee6f61a2b6f8ded5cdc59cebc',1,'CMlScript::Http()'],['../struct_c_mania_app.html#a87be0e963157b8112d73f1462e104e35',1,'CManiaApp::Http()'],['../struct_c_mode.html#acee254016b4567376d77a66402f4f02d',1,'CMode::Http()']]],
+  ['http',['Http',['../struct_c_ml_script.html#a956488fee6f61a2b6f8ded5cdc59cebc',1,'CMlScript::Http()'],['../struct_c_mania_app.html#a87be0e963157b8112d73f1462e104e35',1,'CManiaApp::Http()'],['../struct_c_server_plugin.html#acddb20e41d02f9cd881113e07682514c',1,'CServerPlugin::Http()'],['../struct_c_mode.html#acee254016b4567376d77a66402f4f02d',1,'CMode::Http()']]],
   ['hud',['Hud',['../struct_c_mode.html#afec7ff710fad50c7b649c3b683ce5de9',1,'CMode']]],
   ['hud3dfontfilename',['Hud3dFontFileName',['../struct_c_pack_creator_title_info.html#a4cbc6ebd6a48fcc95e7ff0b915448363',1,'CPackCreatorTitleInfo']]]
 ];

@@ -68,5 +68,5 @@ var searchData=
   ['buddylogin',['BuddyLogin',['../struct_c_task_result___buddy_challenge_records_comparison.html#a8e5b2310283c57fe0600668b4c399d1c',1,'CTaskResult_BuddyChallengeRecordsComparison']]],
   ['button',['Button',['../struct_c_input_event.html#aa7d35d365f5e79a2501ee0f9f07e37dd',1,'CInputEvent']]],
   ['buttonevents',['ButtonEvents',['../struct_c_input_pad.html#a4a3189f86d63ee8dbe7a76842d15b274',1,'CInputPad']]],
-  ['buttonsmashfrenzy',['ButtonSmashFrenzy',['../struct_c_tm_ml_player.html#ad2c2147574d7bddb8d6cb46b33e08b16',1,'CTmMlPlayer::ButtonSmashFrenzy()'],['../struct_c_tm_player.html#aa88b3b3e18381a2a9e047b591e9b7a71',1,'CTmPlayer::ButtonSmashFrenzy()']]]
+  ['buttonsmashfrenzy',['ButtonSmashFrenzy',['../struct_c_tm_ml_player.html#ad2c2147574d7bddb8d6cb46b33e08b16',1,'CTmMlPlayer']]]
 ];

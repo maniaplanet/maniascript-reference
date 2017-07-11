@@ -8,6 +8,7 @@ var searchData=
   ['backout',['BackOut',['../struct_c_mania_app.html#a0520db6298ac4610253bc18fb36ab282a744c6cdf179174788d78a23b9bc03dee',1,'CManiaApp::BackOut()'],['../struct_c_anim_manager.html#a166e6c79ac8754c37a72cf73f3acfc56a58855f7ebc76b2441b63a6128731f9e4',1,'CAnimManager::BackOut()']]],
   ['basic',['Basic',['../struct_c_ml_entry.html#a75c6d0214303a0014f81d2fa1e40b50fa251e6435f330d38bb4daef1025195164',1,'CMlEntry::Basic()'],['../struct_c_ml_text_edit.html#abcf9d22e93297ec3783de6a7558484d0a6c30d1f44322b888936ba67a85a9c2f8',1,'CMlTextEdit::Basic()']]],
   ['beforestart',['BeforeStart',['../struct_c_tm_ml_player.html#ac5345baaa4e3f5d6a6c0fe4fd89dc048a46d5e0ea7b28982d0354439d17e8c1f5',1,'CTmMlPlayer']]],
+  ['beginround',['BeginRound',['../struct_c_server_plugin_event.html#a8c500907f6d8ee82888eb35cec35ac8daaba2a8a3d6a5e7ad8667a0031c19f429',1,'CServerPluginEvent']]],
   ['bestrace_5fcheckpointsprogress',['BestRace_CheckpointsProgress',['../struct_c_tm_mode.html#a0440710dc01ed0ebce964975ab2fc261a8f17240ab3438dbfeb4c36371e166e30',1,'CTmMode']]],
   ['bestrace_5fnbrespawns',['BestRace_NbRespawns',['../struct_c_tm_mode.html#a0440710dc01ed0ebce964975ab2fc261a91af421c0f075c4b16c443f9fd39f881',1,'CTmMode']]],
   ['bestrace_5fstunts',['BestRace_Stunts',['../struct_c_tm_mode.html#a0440710dc01ed0ebce964975ab2fc261afddeb99a5af6e66ca423993dd5b69aab',1,'CTmMode']]],

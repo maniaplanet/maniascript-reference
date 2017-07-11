@@ -13,6 +13,7 @@ var searchData=
   ['badgereadfromprofile',['BadgeReadFromProfile',['../struct_c_badge_editor.html#a6d4c1d612192a593953940c6ae7005d6',1,'CBadgeEditor::BadgeReadFromProfile()'],['../struct_c_badge_manager.html#a17bfc63387310f29ad59e381f011e071',1,'CBadgeManager::BadgeReadFromProfile()']]],
   ['badges',['Badges',['../struct_c_badge_editor.html#a322fed3f9891ad7bc8c2fc10051a193f',1,'CBadgeEditor::Badges()'],['../struct_c_badge_manager.html#ae4f7b45374b10707d8eac134fafcfedb',1,'CBadgeManager::Badges()']]],
   ['badgewritetoprofile',['BadgeWriteToProfile',['../struct_c_badge_editor.html#a1492f8ed3cc8ac898507a67b1a35a738',1,'CBadgeEditor::BadgeWriteToProfile()'],['../struct_c_badge_manager.html#add033bfe9c4a655cfb54d347812df228',1,'CBadgeManager::BadgeWriteToProfile()']]],
+  ['ban',['Ban',['../struct_c_server_admin.html#a1adbacdb24b1b2e3d08d39b60ed948eb',1,'CServerAdmin::Ban(CUser User, Text Reason)'],['../struct_c_server_admin.html#ab78282e2c2865c7646b712276435c47e',1,'CServerAdmin::Ban(CClient Client, Text Reason)']]],
   ['base',['Base',['../struct_c_sm_map_landmark.html#abc012e6ab1b0a2242702175b130402a5',1,'CSmMapLandmark::Base()'],['../struct_c_sm_block.html#a927bc91599d1ab753886307c5fdc053a',1,'CSmBlock::Base()']]],
   ['basetitleid',['BaseTitleId',['../struct_c_title.html#af0c378b58093272e4c1c6ac70fddc660',1,'CTitle']]],
   ['basetitleids',['BaseTitleIds',['../struct_c_pack_creator_title_info.html#ac19d8fb66153d87e3c27ac77a8c78d63',1,'CPackCreatorTitleInfo']]],
@@ -22,6 +23,7 @@ var searchData=
   ['beatsperminute',['BeatsPerMinute',['../struct_c_audio_source_music.html#a49aefaaef7c56970fcf327e706f10d7a',1,'CAudioSourceMusic']]],
   ['beforestart',['BeforeStart',['../struct_c_tm_ml_player.html#ac5345baaa4e3f5d6a6c0fe4fd89dc048a46d5e0ea7b28982d0354439d17e8c1f5',1,'CTmMlPlayer']]],
   ['beginprocessing',['BeginProcessing',['../struct_c_video.html#aa7616d8fb5c182211fb527e65d1ff957',1,'CVideo']]],
+  ['beginround',['BeginRound',['../struct_c_server_plugin_event.html#a8c500907f6d8ee82888eb35cec35ac8daaba2a8a3d6a5e7ad8667a0031c19f429',1,'CServerPluginEvent']]],
   ['behaviour',['Behaviour',['../struct_c_sm_player_driver.html#a86cc4d816dc356fc444525e412b5ec80',1,'CSmPlayerDriver']]],
   ['bestlap',['BestLap',['../struct_c_tm_score.html#a6a84c3867d5eff24777dbbbf5e742073',1,'CTmScore']]],
   ['bestrace',['BestRace',['../struct_c_tm_score.html#a5bede5a589a4c864f44474f3e82e741e',1,'CTmScore']]],
@@ -132,5 +134,5 @@ var searchData=
   ['bumptxty',['BumpTxTy',['../struct_c_image.html#a08e7113d1020b72c7c425874760e7437a6a0ca9eb22614b19fcd11c9906b2a734',1,'CImage']]],
   ['button',['Button',['../struct_c_input_event.html#aa7d35d365f5e79a2501ee0f9f07e37dd',1,'CInputEvent']]],
   ['buttonevents',['ButtonEvents',['../struct_c_input_pad.html#a4a3189f86d63ee8dbe7a76842d15b274',1,'CInputPad']]],
-  ['buttonsmashfrenzy',['ButtonSmashFrenzy',['../struct_c_tm_ml_player.html#ad2c2147574d7bddb8d6cb46b33e08b16',1,'CTmMlPlayer::ButtonSmashFrenzy()'],['../struct_c_tm_player.html#aa88b3b3e18381a2a9e047b591e9b7a71',1,'CTmPlayer::ButtonSmashFrenzy()']]]
+  ['buttonsmashfrenzy',['ButtonSmashFrenzy',['../struct_c_tm_ml_player.html#ad2c2147574d7bddb8d6cb46b33e08b16',1,'CTmMlPlayer']]]
 ];

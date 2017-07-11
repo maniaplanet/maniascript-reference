@@ -9,6 +9,7 @@ var struct_c_playground_client =
     [ "ShowProfile", "struct_c_playground_client.html#a7d3ce2bde6346933487156f87379480f", null ],
     [ "DisablePlayingStateTracking", "struct_c_playground_client.html#ab288b5b40d344b8c72f8fc66bed31c5d", null ],
     [ "GameTime", "struct_c_playground_client.html#a9cf9c1d00ec4ab11764afcbfb59f73f6", null ],
+    [ "IsInGameMenuDisplayed", "struct_c_playground_client.html#ad8f617f5703358a5c9d0fb9305b8e65d", null ],
     [ "IsLoadingScreen", "struct_c_playground_client.html#abdc162d0016b6664a09b0f39939549f2", null ],
     [ "IsSpectator", "struct_c_playground_client.html#ae6a59e5c816c72deee15ace90b31f538", null ],
     [ "IsSpectatorClient", "struct_c_playground_client.html#a43c33ac502649c6cc9c7f44c82c6c939", null ],

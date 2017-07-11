@@ -67,7 +67,7 @@ var searchData=
   ['linktype',['LinkType',['../struct_c_ml_script.html#aed6dfd4a2b14d2308f90f63c43042fed',1,'CMlScript']]],
   ['ln',['Ln',['../namespace_math_lib.html#ad58b9177a5f905f543cb87a46e6c5fff',1,'MathLib']]],
   ['loaded',['Loaded',['../struct_c_score_mgr.html#ab6655ef85cffaec3ca8114237b96bceca444c5f4ac2376a36164bf67062139728',1,'CScoreMgr']]],
-  ['loadedtitle',['LoadedTitle',['../struct_c_ml_script.html#a319638df65b8661a74350e7e7040505b',1,'CMlScript::LoadedTitle()'],['../struct_c_mania_app.html#a8e0cfa1264843b75bbdd74c1669fe9cb',1,'CManiaApp::LoadedTitle()'],['../struct_c_mode.html#a474b7d884910d9360796de3729ec3939',1,'CMode::LoadedTitle()']]],
+  ['loadedtitle',['LoadedTitle',['../struct_c_ml_script.html#a319638df65b8661a74350e7e7040505b',1,'CMlScript::LoadedTitle()'],['../struct_c_mania_app.html#a8e0cfa1264843b75bbdd74c1669fe9cb',1,'CManiaApp::LoadedTitle()'],['../struct_c_server_plugin.html#a1b97cadbedbdfa7ebe630fc629f9eead',1,'CServerPlugin::LoadedTitle()'],['../struct_c_mode.html#a474b7d884910d9360796de3729ec3939',1,'CMode::LoadedTitle()']]],
   ['loading',['Loading',['../struct_c_score_mgr.html#ab6655ef85cffaec3ca8114237b96bceca348222ad267fefc39c58b6b4b0915a35',1,'CScoreMgr']]],
   ['loadingscreen',['LoadingScreen',['../struct_c_u_i_layer.html#a67edc88dc1458b9a0d9645f4d3b9021daa5739301b9d8969bb7ca6d9a41722b37',1,'CUILayer']]],
   ['loadingscreenrequirekeypressed',['LoadingScreenRequireKeyPressed',['../struct_c_mania_app_title.html#a11e88e1110e2a26da9f6d2169119a91b',1,'CManiaAppTitle']]],

@@ -33,7 +33,7 @@ var searchData=
   ['limituisoundvolumedb',['LimitUiSoundVolumedB',['../struct_c_audio_manager.html#a4f829279aa906ebe008062b47f5637e8',1,'CAudioManager']]],
   ['linespacing',['LineSpacing',['../struct_c_ml_text_edit.html#acfac2b7adc6791b3dd584690bae2cc15',1,'CMlTextEdit::LineSpacing()'],['../struct_c_ml_label.html#a0f63dc0614a0d06c8d4aa18ad6e40fec',1,'CMlLabel::LineSpacing()']]],
   ['linksinhibited',['LinksInhibited',['../struct_c_ml_page.html#a558fab722245e800b40fd84eb7aefd06',1,'CMlPage']]],
-  ['loadedtitle',['LoadedTitle',['../struct_c_ml_script.html#a319638df65b8661a74350e7e7040505b',1,'CMlScript::LoadedTitle()'],['../struct_c_mania_app.html#a8e0cfa1264843b75bbdd74c1669fe9cb',1,'CManiaApp::LoadedTitle()'],['../struct_c_mode.html#a474b7d884910d9360796de3729ec3939',1,'CMode::LoadedTitle()']]],
+  ['loadedtitle',['LoadedTitle',['../struct_c_ml_script.html#a319638df65b8661a74350e7e7040505b',1,'CMlScript::LoadedTitle()'],['../struct_c_mania_app.html#a8e0cfa1264843b75bbdd74c1669fe9cb',1,'CManiaApp::LoadedTitle()'],['../struct_c_server_plugin.html#a1b97cadbedbdfa7ebe630fc629f9eead',1,'CServerPlugin::LoadedTitle()'],['../struct_c_mode.html#a474b7d884910d9360796de3729ec3939',1,'CMode::LoadedTitle()']]],
   ['loadingscreenrequirekeypressed',['LoadingScreenRequireKeyPressed',['../struct_c_mania_app_title.html#a11e88e1110e2a26da9f6d2169119a91b',1,'CManiaAppTitle']]],
   ['localpage',['LocalPage',['../struct_c_u_i_layer.html#a013f4a4f0d2d98dfbbcba2b3de68b142',1,'CUILayer']]],
   ['localservers',['LocalServers',['../struct_c_title_flow.html#ab44e7927191c1cd7fb1092c60b0349f5',1,'CTitleFlow']]],
