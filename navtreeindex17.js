@@ -1,7 +1,5 @@
 var NAVTREEINDEX17 =
 {
-"struct_c_video.html#a66766a36352128ca363fb8571cf8f9ae":[1,0,189,9],
-"struct_c_video.html#a79f8dec8c3c890b3c551ee5c3fcb1e4a":[1,0,189,2],
 "struct_c_video.html#a7f9146430bd837c720c177a6c9365141":[1,0,189,5],
 "struct_c_video.html#aa7616d8fb5c182211fb527e65d1ff957":[1,0,189,1],
 "struct_c_video.html#ab8049352b5d1785f42f9b8251fe66c6a":[1,0,189,0],

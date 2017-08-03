@@ -30,7 +30,7 @@ var struct_c_tm_mode =
     [ "Cheats_Reset", "struct_c_tm_mode.html#af74f038fcddf1bf7a34028cb1c8872e3", null ],
     [ "Discard", "struct_c_tm_mode.html#afd8d824a16069245527ca08461a6c22c", null ],
     [ "Ladder_ComputeRank", "struct_c_tm_mode.html#a4d3aa87552be8370bfbd1debdc90ca26", null ],
-    [ "PassOn", "struct_c_tm_mode.html#a00ade96b9d567287b8b6604804113a06", null ],
+    [ "PassOn", "struct_c_tm_mode.html#a37aec35d690a45e4a87abe5260fbc324", null ],
     [ "RaceGhost_Add", "struct_c_tm_mode.html#ad36747af707c0454584ac4053deebc50", null ],
     [ "RaceGhost_Add", "struct_c_tm_mode.html#ad09aed1936b1421e5b4c533a3a299b4f", null ],
     [ "RaceGhost_AddWithOffset", "struct_c_tm_mode.html#a95e3d3ac06f978e0f92927d036124b31", null ],

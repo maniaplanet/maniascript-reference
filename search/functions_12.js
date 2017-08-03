@@ -125,7 +125,6 @@ var searchData=
   ['showmodehelp',['ShowModeHelp',['../struct_c_ml_script_ingame.html#a49bc392108a73a15f6aecad15caccf99',1,'CMlScriptIngame']]],
   ['showprofile',['ShowProfile',['../struct_c_ml_script_ingame.html#ae09c47238374d6d6573970da5fa8b58a',1,'CMlScriptIngame::ShowProfile()'],['../struct_c_playground_client.html#a7d3ce2bde6346933487156f87379480f',1,'CPlaygroundClient::ShowProfile()']]],
   ['sin',['Sin',['../namespace_math_lib.html#af4ab071b26c049fe170ed021a526973b',1,'MathLib']]],
-  ['smartsplit',['SmartSplit',['../namespace_text_lib.html#a9f6e4b7f240ace7e049911a297693db9',1,'TextLib']]],
   ['smoothstep',['SmoothStep',['../namespace_anim_lib.html#a75c08d703db002ee254ce9e5e537966f',1,'AnimLib']]],
   ['solo_5fsetnewrecord',['Solo_SetNewRecord',['../struct_c_mode.html#ab880ca8eaaec656afdbfe47277d2de5e',1,'CMode']]],
   ['sortbymapname',['SortByMapName',['../struct_c_task_result___buddy_challenge_records_comparison.html#af7ebb287d418001131f93bc8c2c6d270',1,'CTaskResult_BuddyChallengeRecordsComparison']]],

@@ -15,7 +15,6 @@ var struct_c_server_plugin =
     [ "NeutralEmblemUrl", "struct_c_server_plugin.html#ac43cae76995f5442393b07588b8910f3", null ],
     [ "Now", "struct_c_server_plugin.html#a48b43c270168340da7ee5b4d09f2c552", null ],
     [ "PendingEvents", "struct_c_server_plugin.html#aa3274064bfaf82888a996b6745b06b75", null ],
-    [ "Period", "struct_c_server_plugin.html#a392776a19ae532bb58659c3c2724394b", null ],
     [ "Players", "struct_c_server_plugin.html#a5f9992a3e888c0a903bfeccb73772cdd", null ],
     [ "Scores", "struct_c_server_plugin.html#ac17bc41ad4ba4b9139bcc3e9dcbaa39b", null ],
     [ "ServerAdmin", "struct_c_server_plugin.html#ada77abedd967e8ab147b55091e1372dd", null ],

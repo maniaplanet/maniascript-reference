@@ -1,6 +1,5 @@
 var NAVTREEINDEX4 =
 {
-"struct_c_high_score_comparison.html#acbabfdec719bff198f912178db10b224":[1,0,41,9],
 "struct_c_high_score_comparison.html#accf9e5c67b5754f3adf80a647334b60d":[1,0,41,17],
 "struct_c_high_score_comparison.html#adc13a800a704e9f1a9dbd896344da829":[1,0,41,6],
 "struct_c_high_score_comparison.html#af2b02b6878bf5036ad107ecf05b23a40":[1,0,41,5],
@@ -249,5 +248,6 @@ var NAVTREEINDEX4 =
 "struct_c_input_pad.html":[1,0,48],
 "struct_c_input_pad.html#a054ae455c3bab3ddf209d2935ef400db":[1,0,48,20],
 "struct_c_input_pad.html#a0991ff7af7682a9885f238a3b16b8174":[1,0,48,3],
-"struct_c_input_pad.html#a12137c30f421d5227891bc716acf938f":[1,0,48,1]
+"struct_c_input_pad.html#a12137c30f421d5227891bc716acf938f":[1,0,48,1],
+"struct_c_input_pad.html#a12137c30f421d5227891bc716acf938fa117c46971ae186a7424402c5ca9f85d0":[1,0,48,1,2]
 };

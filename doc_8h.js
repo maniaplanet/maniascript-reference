@@ -316,7 +316,6 @@ var doc_8h =
     [ "Replace", "doc_8h.html#ab4d1be88a57ba627dc8f8e5cf6ddf158", null ],
     [ "ReplaceChars", "doc_8h.html#a73e47db87525a2cbca556001d12c4c34", null ],
     [ "Sin", "doc_8h.html#af4ab071b26c049fe170ed021a526973b", null ],
-    [ "SmartSplit", "doc_8h.html#a9f6e4b7f240ace7e049911a297693db9", null ],
     [ "SmoothStep", "doc_8h.html#a75c08d703db002ee254ce9e5e537966f", null ],
     [ "Split", "doc_8h.html#afccf793afd7079bd2c9f9cfec6b29cc5", null ],
     [ "Sqrt", "doc_8h.html#a2bd4b87a898cc3cce512b05cefc4c6c3", null ],
