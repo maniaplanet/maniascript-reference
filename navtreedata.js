@@ -36,18 +36,18 @@ var NAVTREEINDEX =
 "struct_c_editor_mesh.html#a46ac9923638cb3b9565e8d68be12f098",
 "struct_c_high_score_comparison.html#accf9e5c67b5754f3adf80a647334b60d",
 "struct_c_input_pad.html#a12137c30f421d5227891bc716acf938fa174bf84e5db1712e750760f7b3ebaed8",
-"struct_c_map.html#a344d1fd0dbf77b0b033cc9a5d5bc1963",
-"struct_c_map_editor_plugin_event.html#a4c735d4b86e22b5eb6954ee00c8015f4a3c866f6975ca3af7e7429b0bf06a6b5b",
-"struct_c_ml_page.html#a558fab722245e800b40fd84eb7aefd06",
-"struct_c_mode.html#a661d7f2c31627bf372c480237aeed22d",
-"struct_c_pack_creator_title_info.html#a06612b1841aa980a340351a0b43b4651",
-"struct_c_sm_action.html#aa9b05a19f1b3a63406fd98971e460ffc",
-"struct_c_sm_mode.html#af673765129b6885bab9245c1f393d79b",
-"struct_c_station.html#a126af4204bc25735636480ce0b04ab80a69d3bd60a46b43574ded48b9cfb8875c",
-"struct_c_tm_ml_player.html#a44f6d6f0f776a7d50943e9f98ee86193",
-"struct_c_tm_mode_event.html#a7f39d66869b3bd454fcad406659f6d55",
-"struct_c_u_i_config.html#ab71668c42e1f9c0ab8f5b213389bfb24",
-"struct_c_video.html#a7f9146430bd837c720c177a6c9365141"
+"struct_c_map.html#a33cecc018e75619d5773b81e50176b01",
+"struct_c_map_editor_plugin_event.html#a4c735d4b86e22b5eb6954ee00c8015f4a29d099be12fefeb180a072cbf29c3930",
+"struct_c_ml_page.html#a01f26c1160a1b83722cf02a433bcbf65",
+"struct_c_mode.html#a5832edcf13c2f7aba7388c9622d3b720",
+"struct_c_pack_creator_title_info.html#a03e4ae64fbd3dc96178d676775ea0a9b",
+"struct_c_sm_action.html#a99e1f60ca7d63e4e1711f29b2e9359df",
+"struct_c_sm_mode.html#af2a4da49a7488ab9dc8cd6f1c988b181",
+"struct_c_station.html#a126af4204bc25735636480ce0b04ab80a347419a304c7e233ed566cf2bcc9fb8d",
+"struct_c_tm_ml_player.html#a40aa671c01265fe5005afc98e90a3aa3",
+"struct_c_tm_mode_event.html#a20cb18975c1e3f05d4ea3ac8c2db055d",
+"struct_c_u_i_config.html#a9a33583965dce359c0610c0a00855d84",
+"struct_c_user_v2_manager.html#acb9a0e9e706b09e0a8e87641c87824a5"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

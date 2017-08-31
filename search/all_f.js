@@ -127,7 +127,7 @@ var searchData=
   ['playmap',['PlayMap',['../struct_c_mania_app_title.html#ab65ec8de7797055590b966c22dd0e770',1,'CManiaAppTitle::PlayMap()'],['../struct_c_title_flow.html#a9b79cc7509b1b6c7b13fd78e451e8a9d',1,'CTitleFlow::PlayMap()']]],
   ['playmaplist',['PlayMapList',['../struct_c_title_flow.html#a009fd23f9924a18cec7deaa2e52b9fd3',1,'CTitleFlow']]],
   ['playmatchsettings',['PlayMatchSettings',['../struct_c_title_flow.html#abdcc6f3b0e228ce203b26fea89faad83',1,'CTitleFlow']]],
-  ['playmultionsamescreen',['PlayMultiOnSameScreen',['../struct_c_title_flow.html#a511d07a2be6fd959bc2e990b1df6edf1',1,'CTitleFlow::PlayMultiOnSameScreen(ESplitScreenLayout LayoutType, Text[] MapList, Text Mode, Text SettingsXml)'],['../struct_c_title_flow.html#a56e2ce11aaead672f92ea32acaeb8e40',1,'CTitleFlow::PlayMultiOnSameScreen(ESplitScreenLayout LayoutType, CMatchSettings MatchSettings)']]],
+  ['playmultionsamescreen',['PlayMultiOnSameScreen',['../struct_c_title_flow.html#aa5288feee22401b582941307e5d3ab28',1,'CTitleFlow::PlayMultiOnSameScreen(Text[] MapList, Text Mode, Text SettingsXml)'],['../struct_c_title_flow.html#a94f2f1b4c2c7122b54bd29cda7947930',1,'CTitleFlow::PlayMultiOnSameScreen(CMatchSettings MatchSettings)']]],
   ['playmultiplayerasync',['PlayMultiplayerAsync',['../struct_c_privilege_mgr.html#a63e80ff8938f51fa630c9ea71cf5d36ca42c3465a9813e9a1abce0bb591392264',1,'CPrivilegeMgr']]],
   ['playmultiplayermode',['PlayMultiplayerMode',['../struct_c_privilege_mgr.html#a63e80ff8938f51fa630c9ea71cf5d36caf8d761b948bd3bd9bc283a538e2cbe92',1,'CPrivilegeMgr']]],
   ['playmultiplayersession',['PlayMultiplayerSession',['../struct_c_privilege_mgr.html#a63e80ff8938f51fa630c9ea71cf5d36cad04288f02fa989aee4c43849baa46c83',1,'CPrivilegeMgr']]],

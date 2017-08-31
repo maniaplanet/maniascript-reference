@@ -9,6 +9,8 @@ var searchData=
   ['hasbuddies',['HasBuddies',['../struct_c_server_info.html#aad4ce4c50db937fd47485facda585199',1,'CServerInfo']]],
   ['hascheckpoint',['HasCheckpoint',['../struct_c_macroblock_model.html#ac864bb0fce6791e8694e7ff4f9fa9a57',1,'CMacroblockModel']]],
   ['hasclass',['HasClass',['../struct_c_ml_control.html#a55069f6469a1b15dab46c0f58cb857b5',1,'CMlControl']]],
+  ['hascustomintro',['HasCustomIntro',['../struct_c_map.html#a504a473f4db754ec6db5cf39d764cf21',1,'CMap']]],
+  ['hascustommusic',['HasCustomMusic',['../struct_c_map.html#a945d460ba382c702f5767934e3fe6e48',1,'CMap']]],
   ['hasfailed',['HasFailed',['../struct_c_task_result.html#afe64aff9fb277ce73ce65724263078df',1,'CTaskResult']]],
   ['hasfinish',['HasFinish',['../struct_c_macroblock_model.html#a46ebdd4749f3b6d753bbb0a590958423',1,'CMacroblockModel']]],
   ['hasfinished',['HasFinished',['../struct_c_module_menu_file_browser.html#aa45031c8c366f89971c5a1ce7b32fe97',1,'CModuleMenuFileBrowser']]],

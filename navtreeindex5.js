@@ -193,6 +193,7 @@ var NAVTREEINDEX5 =
 "struct_c_mania_app_event.html#a7face332b8785f7e9c7b81a040f98b13":[1,0,54,5],
 "struct_c_mania_app_event.html#a8f1c91e6bc7d11f5ed6c9c3010d37d71":[1,0,54,10],
 "struct_c_mania_app_playground.html":[1,0,55],
+"struct_c_mania_app_playground.html#aea020e3ef9336dbafbde4267ed1972c3":[1,0,55,0],
 "struct_c_mania_app_playground_common.html":[1,0,56],
 "struct_c_mania_app_playground_common.html#a37ab43d85288a12948aac9bba49d7b3b":[1,0,56,3],
 "struct_c_mania_app_playground_common.html#a4113aa2ce5c98b3af18e9f72d442199e":[1,0,56,4],
@@ -244,10 +245,9 @@ var NAVTREEINDEX5 =
 "struct_c_mania_app_title_layer.html#a388c881bcafe46629b01e1cf12016c99":[1,0,60,0],
 "struct_c_mania_app_title_layer.html#a4042b5589b7a59c56d35f6c52fe036e0":[1,0,60,2],
 "struct_c_map.html":[1,0,61],
-"struct_c_map.html#a019c860adf5591cec50cc5c8be57cd03":[1,0,61,19],
-"struct_c_map.html#a071cb989a9e5d75907f5472d6ae1c3f0":[1,0,61,11],
-"struct_c_map.html#a07c8f0911db9714c2e7f4f3643e0effd":[1,0,61,13],
+"struct_c_map.html#a019c860adf5591cec50cc5c8be57cd03":[1,0,61,21],
+"struct_c_map.html#a071cb989a9e5d75907f5472d6ae1c3f0":[1,0,61,13],
+"struct_c_map.html#a07c8f0911db9714c2e7f4f3643e0effd":[1,0,61,15],
 "struct_c_map.html#a0f8046003ba31347a01491afc2a80534":[1,0,61,2],
-"struct_c_map.html#a1af85b48af10ada8acdaacc40eaa631c":[1,0,61,7],
-"struct_c_map.html#a33cecc018e75619d5773b81e50176b01":[1,0,61,16]
+"struct_c_map.html#a1af85b48af10ada8acdaacc40eaa631c":[1,0,61,7]
 };

@@ -8,6 +8,8 @@ var struct_c_map =
     [ "Comments", "struct_c_map.html#ad5b33765ae3e1c1f4400b027937371a6", null ],
     [ "CopperPrice", "struct_c_map.html#a85f1394430608079d0e90c7c214ba4c0", null ],
     [ "DecorationName", "struct_c_map.html#a1af85b48af10ada8acdaacc40eaa631c", null ],
+    [ "HasCustomIntro", "struct_c_map.html#a504a473f4db754ec6db5cf39d764cf21", null ],
+    [ "HasCustomMusic", "struct_c_map.html#a945d460ba382c702f5767934e3fe6e48", null ],
     [ "MapInfo", "struct_c_map.html#a344d1fd0dbf77b0b033cc9a5d5bc1963", null ],
     [ "MapName", "struct_c_map.html#aaf42952015853314409f0654d7a3c2f5", null ],
     [ "MapStyle", "struct_c_map.html#abcb1909a649ff5d07f41406b158ac249", null ],

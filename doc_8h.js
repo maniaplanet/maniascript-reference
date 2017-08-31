@@ -25,7 +25,7 @@ var doc_8h =
     [ "CManiaAppTitleLayer", "struct_c_mania_app_title_layer.html", "struct_c_mania_app_title_layer" ],
     [ "CManiaAppEvent", "struct_c_mania_app_event.html", "struct_c_mania_app_event" ],
     [ "CManiaAppTitle", "struct_c_mania_app_title.html", "struct_c_mania_app_title" ],
-    [ "CManiaAppPlayground", "struct_c_mania_app_playground.html", null ],
+    [ "CManiaAppPlayground", "struct_c_mania_app_playground.html", "struct_c_mania_app_playground" ],
     [ "CManiaAppStation", "struct_c_mania_app_station.html", "struct_c_mania_app_station" ],
     [ "CModulePlayground", "struct_c_module_playground.html", "struct_c_module_playground" ],
     [ "CModulePlaygroundInventory", "struct_c_module_playground_inventory.html", "struct_c_module_playground_inventory" ],

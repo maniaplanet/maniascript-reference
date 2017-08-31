@@ -55,7 +55,7 @@ var annotated_dup =
     [ "CManiaAppBase", "struct_c_mania_app_base.html", "struct_c_mania_app_base" ],
     [ "CManiaAppBrowser", "struct_c_mania_app_browser.html", "struct_c_mania_app_browser" ],
     [ "CManiaAppEvent", "struct_c_mania_app_event.html", "struct_c_mania_app_event" ],
-    [ "CManiaAppPlayground", "struct_c_mania_app_playground.html", null ],
+    [ "CManiaAppPlayground", "struct_c_mania_app_playground.html", "struct_c_mania_app_playground" ],
     [ "CManiaAppPlaygroundCommon", "struct_c_mania_app_playground_common.html", "struct_c_mania_app_playground_common" ],
     [ "CManiaAppPlaygroundEvent", "struct_c_mania_app_playground_event.html", "struct_c_mania_app_playground_event" ],
     [ "CManiaAppStation", "struct_c_mania_app_station.html", "struct_c_mania_app_station" ],
