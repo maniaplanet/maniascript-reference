@@ -50,6 +50,7 @@ var searchData=
   ['direction',['Direction',['../struct_c_block.html#a862728dcc69b7e16a340bbb01f6c911f',1,'CBlock::Direction()'],['../struct_c_sm_action_event.html#a9b9b25a4dc01baa57ff0efeac72080d8',1,'CSmActionEvent::Direction()']]],
   ['directx',['DirectX',['../struct_c_image.html#ae961fd6fbfb7c36ef6d761d84e9d540aa2fd0fa8a46c69c7c8d52d0f03e9f4e00',1,'CImage']]],
   ['dirfront',['DirFront',['../struct_c_sm_landmark.html#a91b6fda563750f31b852c58d8b64dbd5',1,'CSmLandmark']]],
+  ['disableautounderground',['DisableAutoUnderground',['../struct_c_ml_minimap.html#a5d123249e112f1acfac35cda95acef2b',1,'CMlMinimap']]],
   ['disabled',['Disabled',['../struct_c_tm_mode.html#ae28d334ad9d6a876b29acff0a1165426a422be3d7a79f4d5871cc4875d8335329',1,'CTmMode::Disabled()'],['../struct_c_tm_ml_player.html#abd4a2bc74a11615999825258a9c2d3eaa6a2e6395cf50a1f1a63cffd338caf534',1,'CTmMlPlayer::Disabled()'],['../struct_c_tm_player.html#a4f5198300527b3f0d1bd5d7841343f54a9ac8f56918c6a2620493ddad8bc3a860',1,'CTmPlayer::Disabled()']]],
   ['disableplayingstatetracking',['DisablePlayingStateTracking',['../struct_c_playground_client.html#ab288b5b40d344b8c72f8fc66bed31c5d',1,'CPlaygroundClient']]],
   ['disablepreload',['DisablePreload',['../struct_c_ml_frame.html#ac26167ea40fda9c185cafbc7c0102357',1,'CMlFrame']]],

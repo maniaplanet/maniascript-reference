@@ -243,11 +243,11 @@ var NAVTREEINDEX7 =
 "struct_c_ml_media_player.html#afe7ccb712480f0c60448e4093eff362b":[1,0,80,6],
 "struct_c_ml_minimap.html":[1,0,81],
 "struct_c_ml_minimap.html#a25e62389be8cd7131622a47e717d47d4":[1,0,81,1],
-"struct_c_ml_minimap.html#a2a0e4c70b70a9f1d92ca2f4c2218e204":[1,0,81,5],
-"struct_c_ml_minimap.html#a3aea83a862dc58c98d6baa7bbd71b031":[1,0,81,4],
-"struct_c_ml_minimap.html#a58aadba8d99bd95331f32b6878d65c89":[1,0,81,3],
-"struct_c_ml_minimap.html#a5cee0d7f051ff871b39cd025ae8f6b58":[1,0,81,6],
+"struct_c_ml_minimap.html#a2a0e4c70b70a9f1d92ca2f4c2218e204":[1,0,81,6],
+"struct_c_ml_minimap.html#a3aea83a862dc58c98d6baa7bbd71b031":[1,0,81,5],
+"struct_c_ml_minimap.html#a58aadba8d99bd95331f32b6878d65c89":[1,0,81,4],
+"struct_c_ml_minimap.html#a5cee0d7f051ff871b39cd025ae8f6b58":[1,0,81,7],
+"struct_c_ml_minimap.html#a5d123249e112f1acfac35cda95acef2b":[1,0,81,2],
 "struct_c_ml_minimap.html#a5e9b2c6625198ea78bf930e554839327":[1,0,81,0],
-"struct_c_ml_minimap.html#a7f05d7a1744527fa90f0a71dafb9797e":[1,0,81,2],
-"struct_c_ml_page.html":[1,0,82]
+"struct_c_ml_minimap.html#a7f05d7a1744527fa90f0a71dafb9797e":[1,0,81,3]
 };

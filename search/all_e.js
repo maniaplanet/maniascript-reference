@@ -34,6 +34,7 @@ var searchData=
   ['onhitobject',['OnHitObject',['../struct_c_sm_action_event.html#adea0bc4e3b9a4b25c0dcebd93fe73c22ac6de047a51f8d2692f7f3d881e542567',1,'CSmActionEvent']]],
   ['onhitplayer',['OnHitPlayer',['../struct_c_sm_action_event.html#adea0bc4e3b9a4b25c0dcebd93fe73c22af5c6c81c382d0e6df9c1991eab0d985c',1,'CSmActionEvent']]],
   ['onhitshield',['OnHitShield',['../struct_c_sm_action_event.html#adea0bc4e3b9a4b25c0dcebd93fe73c22a3ed512739fcb2b8717b992b5be19901b',1,'CSmActionEvent']]],
+  ['onhitturret',['OnHitTurret',['../struct_c_sm_action_event.html#adea0bc4e3b9a4b25c0dcebd93fe73c22a88afb0f73b5d803a9a052baf91bc8ec3',1,'CSmActionEvent']]],
   ['onlayercustomevent',['OnLayerCustomEvent',['../struct_c_u_i_config_event.html#a97bff10bb47adfa5e380999fe2c5bf9bacb02c7b1112a901367a5cadd683955fa',1,'CUIConfigEvent']]],
   ['onlinepresences',['OnlinePresences',['../struct_c_task_result___get_online_presence.html#a181d47c917564de364124de0cd864483',1,'CTaskResult_GetOnlinePresence']]],
   ['only',['Only',['../struct_c_campaign.html#af3f7273695043889cf2174868667ea6aad2decf8f8efb66778273fae7bd5e2562',1,'CCampaign']]],

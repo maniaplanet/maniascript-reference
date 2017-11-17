@@ -6,7 +6,8 @@ var struct_c_sm_action_event =
       [ "OnActiveChange", "struct_c_sm_action_event.html#adea0bc4e3b9a4b25c0dcebd93fe73c22a3dc682af60c9a3eea4aa37a2e88dc86b", null ],
       [ "OnHitObject", "struct_c_sm_action_event.html#adea0bc4e3b9a4b25c0dcebd93fe73c22ac6de047a51f8d2692f7f3d881e542567", null ],
       [ "OnHitShield", "struct_c_sm_action_event.html#adea0bc4e3b9a4b25c0dcebd93fe73c22a3ed512739fcb2b8717b992b5be19901b", null ],
-      [ "OnShieldEnd", "struct_c_sm_action_event.html#adea0bc4e3b9a4b25c0dcebd93fe73c22a191b88b134b37eea98953ed1d2cb98f3", null ]
+      [ "OnShieldEnd", "struct_c_sm_action_event.html#adea0bc4e3b9a4b25c0dcebd93fe73c22a191b88b134b37eea98953ed1d2cb98f3", null ],
+      [ "OnHitTurret", "struct_c_sm_action_event.html#adea0bc4e3b9a4b25c0dcebd93fe73c22a88afb0f73b5d803a9a052baf91bc8ec3", null ]
     ] ],
     [ "ContextId", "struct_c_sm_action_event.html#a13c4dd6b32d6135682bf6585bc014e7f", null ],
     [ "Damage", "struct_c_sm_action_event.html#a3e0710a22ffc6edbd6e27a5f502c2ead", null ],
@@ -17,5 +18,6 @@ var struct_c_sm_action_event =
     [ "Position", "struct_c_sm_action_event.html#a67ef5b9a55ae13e11c8e58dbb09ccbd5", null ],
     [ "ProjectileModelId", "struct_c_sm_action_event.html#a96c8c38ed0927ec51dad0ac7e844f86d", null ],
     [ "Shield", "struct_c_sm_action_event.html#a27addb2657a81e33de9e7a2ed309e5fd", null ],
+    [ "Turret", "struct_c_sm_action_event.html#aad41d3fff27e69a864e61144d50c7263", null ],
     [ "Type", "struct_c_sm_action_event.html#a42216971e4b0bed8bf304b44e7abcb9b", null ]
 ];

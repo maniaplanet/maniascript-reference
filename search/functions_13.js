@@ -18,5 +18,6 @@ var searchData=
   ['trim',['Trim',['../namespace_text_lib.html#aee99a14e422de3a68114f658fd164161',1,'TextLib']]],
   ['turret_5fcreate',['Turret_Create',['../struct_c_mode_turret_manager.html#a608c314f7982c73d24be67d5996df28c',1,'CModeTurretManager']]],
   ['turret_5fdestroy',['Turret_Destroy',['../struct_c_mode_turret_manager.html#a65555cf2772c32174492a9ce48f609de',1,'CModeTurretManager']]],
+  ['turret_5fdestroyall',['Turret_DestroyAll',['../struct_c_mode_turret_manager.html#a88aacefe3ce77ce457f2f49c8cbd3ea8',1,'CModeTurretManager']]],
   ['tweakteamcolorstoavoidhueoverlap',['TweakTeamColorsToAvoidHueOverlap',['../struct_c_server_plugin.html#ac4a4acb4d8aee7bec6538ddeb312c27a',1,'CServerPlugin::TweakTeamColorsToAvoidHueOverlap()'],['../struct_c_mode.html#af7b52d6a2a90366513bdeb34acd8e7cb',1,'CMode::TweakTeamColorsToAvoidHueOverlap()']]]
 ];

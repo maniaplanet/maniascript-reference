@@ -23,6 +23,7 @@ var searchData=
   ['dialog_5fsuccess',['Dialog_Success',['../struct_c_title_edition.html#a77ea63059339fc42065a5f63be95f29f',1,'CTitleEdition']]],
   ['direction',['Direction',['../struct_c_block.html#a862728dcc69b7e16a340bbb01f6c911f',1,'CBlock::Direction()'],['../struct_c_sm_action_event.html#a9b9b25a4dc01baa57ff0efeac72080d8',1,'CSmActionEvent::Direction()']]],
   ['dirfront',['DirFront',['../struct_c_sm_landmark.html#a91b6fda563750f31b852c58d8b64dbd5',1,'CSmLandmark']]],
+  ['disableautounderground',['DisableAutoUnderground',['../struct_c_ml_minimap.html#a5d123249e112f1acfac35cda95acef2b',1,'CMlMinimap']]],
   ['disableplayingstatetracking',['DisablePlayingStateTracking',['../struct_c_playground_client.html#ab288b5b40d344b8c72f8fc66bed31c5d',1,'CPlaygroundClient']]],
   ['disablepreload',['DisablePreload',['../struct_c_ml_frame.html#ac26167ea40fda9c185cafbc7c0102357',1,'CMlFrame']]],
   ['disablequickenter',['DisableQuickEnter',['../struct_c_station.html#a7ac51ace9cc28b6db5f75ab9bcddb473',1,'CStation']]],

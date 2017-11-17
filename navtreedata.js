@@ -38,16 +38,16 @@ var NAVTREEINDEX =
 "struct_c_input_pad.html#a12137c30f421d5227891bc716acf938fa174bf84e5db1712e750760f7b3ebaed8",
 "struct_c_map.html#a33cecc018e75619d5773b81e50176b01",
 "struct_c_map_editor_plugin_event.html#a4c735d4b86e22b5eb6954ee00c8015f4a29d099be12fefeb180a072cbf29c3930",
-"struct_c_ml_page.html#a01f26c1160a1b83722cf02a433bcbf65",
-"struct_c_mode.html#a5832edcf13c2f7aba7388c9622d3b720",
-"struct_c_pack_creator_title_info.html#a03e4ae64fbd3dc96178d676775ea0a9b",
-"struct_c_sm_action.html#a99e1f60ca7d63e4e1711f29b2e9359df",
-"struct_c_sm_mode.html#af2a4da49a7488ab9dc8cd6f1c988b181",
-"struct_c_station.html#a126af4204bc25735636480ce0b04ab80a347419a304c7e233ed566cf2bcc9fb8d",
-"struct_c_tm_ml_player.html#a40aa671c01265fe5005afc98e90a3aa3",
-"struct_c_tm_mode_event.html#a20cb18975c1e3f05d4ea3ac8c2db055d",
-"struct_c_u_i_config.html#a9a33583965dce359c0610c0a00855d84",
-"struct_c_user_v2_manager.html#acb9a0e9e706b09e0a8e87641c87824a5"
+"struct_c_ml_page.html",
+"struct_c_mode.html#a539c9a57eab98fbc05d35db680380a99",
+"struct_c_pack_creator_recipient.html#ae4cbdd0d906c1c6b80f72e3ded902c28",
+"struct_c_sm_action.html#a944997baf6ecaa9c8097d472289a60db",
+"struct_c_sm_mode.html#ae22a7c269efbd5b815bea1ccd18d804c",
+"struct_c_sm_score.html#ae6edbae31b2dcab0facb08ca7118acff",
+"struct_c_tm_ml_player.html#a35d987268b97970135a91847891a3781",
+"struct_c_tm_mode.html#ae90b5fde3e0f4b3bfa7a7955e73e24df",
+"struct_c_u_i_config.html#a835e9a41e804c2468d86553a267b2358",
+"struct_c_user_v2.html#a72aaa772520566e875f9f6a66659be02"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
