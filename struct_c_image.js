@@ -98,7 +98,7 @@ var struct_c_image =
       [ "Wrap", "struct_c_image.html#a9758ef4613fe5398bc197add6fc9f3abac375ff84d58dba951ea83472108af86f", null ],
       [ "Mirror", "struct_c_image.html#a9758ef4613fe5398bc197add6fc9f3aba2721529b5a21523ab687409b26437d04", null ],
       [ "Clamp", "struct_c_image.html#a9758ef4613fe5398bc197add6fc9f3abad3abec3a1d85fe74a88a5e8c771cadbd", null ],
-      [ "BorderSM3", "struct_c_image.html#a9758ef4613fe5398bc197add6fc9f3aba7e0b95b25d7d622984dd4433a6b56712", null ]
+      [ "Border", "struct_c_image.html#a9758ef4613fe5398bc197add6fc9f3aba3727b64cc7eb10b5813713a974caf267", null ]
     ] ],
     [ "ETexFilter", "struct_c_image.html#ab6a97378ff4f0d4a6db83ad7c97737fc", [
       [ "Point", "struct_c_image.html#ab6a97378ff4f0d4a6db83ad7c97737fcaf3dd05e615c87f43752a25dc84528ac7", null ],

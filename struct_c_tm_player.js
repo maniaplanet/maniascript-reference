@@ -23,6 +23,7 @@ var struct_c_tm_player =
     [ "CurTriggerIndex", "struct_c_tm_player.html#a32f510347adcb928460eaaab74cd5033", null ],
     [ "ForceModelId", "struct_c_tm_player.html#a62dc967c1560e2ab3fd7d06d6167f078", null ],
     [ "GravityCoef", "struct_c_tm_player.html#ab1729334baebd9a02bad5b8aacd0af88", null ],
+    [ "IdleDuration", "struct_c_tm_player.html#a2bbcf0b0f6b8461dc1eba92ad738fc5e", null ],
     [ "IsSpawned", "struct_c_tm_player.html#a5139989e374f4db8818153fda36ac2d9", null ],
     [ "Position", "struct_c_tm_player.html#a65eb205bab36bacc82fe3c73b0beacc2", null ],
     [ "RaceStartTime", "struct_c_tm_player.html#a365bfffd4c2fcda5d3c8f9ada0964777", null ],

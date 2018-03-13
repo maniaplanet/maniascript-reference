@@ -9,7 +9,8 @@ var struct_c_title_flow =
       [ "ModuleStudio", "struct_c_title_flow.html#ad51d2d86558aaff062c7965146b9d656a1c8ad087e422674f4836c7b32a5b81e6", null ],
       [ "PixelArt", "struct_c_title_flow.html#ad51d2d86558aaff062c7965146b9d656af44db30ab9e4123ff763040658b9ee68", null ],
       [ "EditorEditor", "struct_c_title_flow.html#ad51d2d86558aaff062c7965146b9d656a40273b31ecc70f22443cf9e1b65032a2", null ],
-      [ "VehicleAssembler", "struct_c_title_flow.html#ad51d2d86558aaff062c7965146b9d656a26bf4ea7bec9709c5838abe4794a8641", null ]
+      [ "VehicleAssembler", "struct_c_title_flow.html#ad51d2d86558aaff062c7965146b9d656a26bf4ea7bec9709c5838abe4794a8641", null ],
+      [ "MaterialEditor", "struct_c_title_flow.html#ad51d2d86558aaff062c7965146b9d656a5e59547e53a59d66dad20f04cb0c2779", null ]
     ] ],
     [ "EResult", "struct_c_title_flow.html#ae7f3ebed25e3c3966e2313dd6b7db15d", [
       [ "Success", "struct_c_title_flow.html#ae7f3ebed25e3c3966e2313dd6b7db15da1afac7e994bf6273790748c930edf54d", null ],

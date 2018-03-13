@@ -2,8 +2,8 @@ var struct_c_server_plugin_event =
 [
     [ "EType", "struct_c_server_plugin_event.html#a8c500907f6d8ee82888eb35cec35ac8d", [
       [ "Unknown", "struct_c_server_plugin_event.html#a8c500907f6d8ee82888eb35cec35ac8dac06ba3aeb14a02d64aa0896b6f1ffb7b", null ],
-      [ "PlayerAdded", "struct_c_server_plugin_event.html#a8c500907f6d8ee82888eb35cec35ac8da2996cb459417c3446f532374c6f09a3d", null ],
-      [ "PlayerRemoved", "struct_c_server_plugin_event.html#a8c500907f6d8ee82888eb35cec35ac8dafa866ff21b6abe5e38b4929430d06953", null ],
+      [ "ClientConnected", "struct_c_server_plugin_event.html#a8c500907f6d8ee82888eb35cec35ac8da37109c5fa7f28726b767e1c8d0e2e6b3", null ],
+      [ "ClientDisconnected", "struct_c_server_plugin_event.html#a8c500907f6d8ee82888eb35cec35ac8dad5082082f600a5cb13cb7efa6fa30175", null ],
       [ "MapLoaded", "struct_c_server_plugin_event.html#a8c500907f6d8ee82888eb35cec35ac8da963da648cb21857af42d86503dd4aa0e", null ],
       [ "MapUnloaded", "struct_c_server_plugin_event.html#a8c500907f6d8ee82888eb35cec35ac8da3ce79a51ddc300838c33ad028e490b03", null ],
       [ "BeginRound", "struct_c_server_plugin_event.html#a8c500907f6d8ee82888eb35cec35ac8daaba2a8a3d6a5e7ad8667a0031c19f429", null ],
