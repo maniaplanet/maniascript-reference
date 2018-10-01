@@ -152,6 +152,7 @@ var annotated_dup =
     [ "CSmScore", "struct_c_sm_score.html", "struct_c_sm_score" ],
     [ "CSmSector", "struct_c_sm_sector.html", "struct_c_sm_sector" ],
     [ "CStation", "struct_c_station.html", "struct_c_station" ],
+    [ "CSystemPlatform", "struct_c_system_platform.html", "struct_c_system_platform" ],
     [ "CTaskResult", "struct_c_task_result.html", "struct_c_task_result" ],
     [ "CTaskResult_BuddiesChallengeRecord", "struct_c_task_result___buddies_challenge_record.html", "struct_c_task_result___buddies_challenge_record" ],
     [ "CTaskResult_BuddiesChallengeRecordsComparison", "struct_c_task_result___buddies_challenge_records_comparison.html", "struct_c_task_result___buddies_challenge_records_comparison" ],

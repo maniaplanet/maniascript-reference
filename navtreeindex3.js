@@ -1,5 +1,7 @@
 var NAVTREEINDEX3 =
 {
+"struct_c_game_match_settings_playlist_item_script.html#acf9182d2517a35948e59bbd5df851a98":[0,0,37,0],
+"struct_c_game_mode_info.html":[0,0,38],
 "struct_c_game_mode_info.html#a18789e14b870f7a7eb6f47f7f5281274":[0,0,38,0],
 "struct_c_game_mode_info.html#a63ecde8151a51a3cc750a1dad31c77db":[0,0,38,2],
 "struct_c_game_mode_info.html#a7f1725474a26681a4a81954a5fc2af58":[0,0,38,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX3 =
 "struct_c_input_manager.html#a25712104af13a6238172a2bdedcbaebca07771282b3a95c6564ffa2c1d5823a6b":[0,0,47,0,14],
 "struct_c_input_manager.html#a25712104af13a6238172a2bdedcbaebca0c4b01df56704af465bca598b443366d":[0,0,47,0,10],
 "struct_c_input_manager.html#a25712104af13a6238172a2bdedcbaebca0fa6c89c0ab3172e15155319dae7f664":[0,0,47,0,7],
-"struct_c_input_manager.html#a25712104af13a6238172a2bdedcbaebca12cc3dcbae5ebd901beb03af50b06f84":[0,0,47,0,19],
-"struct_c_input_manager.html#a25712104af13a6238172a2bdedcbaebca1d292d262005f6e49421ba05e9ad6a24":[0,0,47,0,23],
-"struct_c_input_manager.html#a25712104af13a6238172a2bdedcbaebca37f8acbd039dcfcf0a3ffccd3f6e3a7b":[0,0,47,0,8]
+"struct_c_input_manager.html#a25712104af13a6238172a2bdedcbaebca12cc3dcbae5ebd901beb03af50b06f84":[0,0,47,0,19]
 };

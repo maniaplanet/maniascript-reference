@@ -40,6 +40,5 @@ var searchData=
   ['statuscode',['StatusCode',['../struct_c_http_request.html#a8ba4e2daf726dcf2853497facafd8d92',1,'CHttpRequest']]],
   ['stuntcurfigureepicgauge',['StuntCurFigureEpicGauge',['../struct_c_tm_ml_player.html#ade08303ea0cc46b295e90d08005ef385',1,'CTmMlPlayer']]],
   ['stuntcurfiguremastergauge',['StuntCurFigureMasterGauge',['../struct_c_tm_ml_player.html#a7f758a759bfb553fb2ece5a49a81983f',1,'CTmMlPlayer']]],
-  ['subfolders',['SubFolders',['../struct_c_task_result___map_list.html#af8189587c66b60d18cd045b1a16175a2',1,'CTaskResult_MapList::SubFolders()'],['../struct_c_task_result___replay_list.html#a5483d0f4f4e5da3287000f8870bbcafc',1,'CTaskResult_ReplayList::SubFolders()'],['../struct_c_task_result___file_list.html#a460ea6106e0e673381c5b60381370f0a',1,'CTaskResult_FileList::SubFolders()']]],
-  ['systemplatform',['SystemPlatform',['../struct_c_mode.html#aa6c21a1346cafa2a095bfd043bd2157b',1,'CMode']]]
+  ['subfolders',['SubFolders',['../struct_c_task_result___map_list.html#af8189587c66b60d18cd045b1a16175a2',1,'CTaskResult_MapList::SubFolders()'],['../struct_c_task_result___replay_list.html#a5483d0f4f4e5da3287000f8870bbcafc',1,'CTaskResult_ReplayList::SubFolders()'],['../struct_c_task_result___file_list.html#a460ea6106e0e673381c5b60381370f0a',1,'CTaskResult_FileList::SubFolders()']]]
 ];

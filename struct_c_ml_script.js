@@ -32,10 +32,7 @@ var struct_c_ml_script =
     [ "TriggerPageAction", "struct_c_ml_script.html#a902b667cf6776e9807f259034cd01fa5", null ],
     [ "AnimMgr", "struct_c_ml_script.html#abaa60e32d13a2b0bbf0be4b740c9f90b", null ],
     [ "Audio", "struct_c_ml_script.html#af838b3fc6e00e34a383e7f37da57434e", null ],
-    [ "CurrentLocalDateText", "struct_c_ml_script.html#ac8578a930ce45661670d89899927adbd", null ],
     [ "CurrentTime", "struct_c_ml_script.html#af02596abb5307d987df80bee5d9a8ad0", null ],
-    [ "CurrentTimeText", "struct_c_ml_script.html#ac32e6b63e2cf987cd3fef80487886c95", null ],
-    [ "CurrentTimezone", "struct_c_ml_script.html#abf62622a33ee024c699020825560f7db", null ],
     [ "DataFileMgr", "struct_c_ml_script.html#ac0e05374777d9cbb27d5dee8f31ab086", null ],
     [ "Dbg_WarnOnDroppedEvents", "struct_c_ml_script.html#ac1cdd278a4fcfd71b88550802ed47d58", null ],
     [ "EnableMenuNavigationInputs", "struct_c_ml_script.html#ade0ee6159285e169408b4f3832ba4676", null ],
@@ -64,8 +61,7 @@ var struct_c_ml_script =
     [ "PresenceMgr", "struct_c_ml_script.html#a4982b2ca14ddce0546bf42451c8ca028", null ],
     [ "PrivilegeMgr", "struct_c_ml_script.html#a12ee5dc4e4f55382cf6888fe967292e2", null ],
     [ "ScoreMgr", "struct_c_ml_script.html#a11bac056dd5d625c9b809a205d7f0cfe", null ],
-    [ "SystemPlatform", "struct_c_ml_script.html#aeffc89581cba0d873e0a719de51ac9af", null ],
-    [ "SystemSkuIdentifier", "struct_c_ml_script.html#a8b08d2c1f16feb4af1fa31027a441e16", null ],
+    [ "System", "struct_c_ml_script.html#a6144ecbbd5a864a8c6ed7238946bcac6", null ],
     [ "Video", "struct_c_ml_script.html#a7e1a14326c9c295b260cf92d0cb10222", null ],
     [ "Xml", "struct_c_ml_script.html#add71e6084f1650c863883bf19ac86613", null ]
 ];

@@ -1,5 +1,7 @@
 var NAVTREEINDEX2 =
 {
+"struct_c_editor_mesh.html#a2808705dc07dd3fbefef500aa90c1a02":[0,0,32,124],
+"struct_c_editor_mesh.html#a2a56afde77f0567909cf3429713e6e0c":[0,0,32,172],
 "struct_c_editor_mesh.html#a2a5d6d7d6ee3e302654ff99b22f329b5":[0,0,32,9],
 "struct_c_editor_mesh.html#a2ab955326754c0e70f1dc9a45313b565":[0,0,32,155],
 "struct_c_editor_mesh.html#a2acd5d0de673b65b631ea83eee046e73":[0,0,32,60],
@@ -247,7 +249,5 @@ var NAVTREEINDEX2 =
 "struct_c_editor_plugin_module_event.html#ae0181ba328f8886cc048507694b03ec4af289c863f5a3fd6643a3fe7141d64a88":[0,0,35,0,3],
 "struct_c_game_editor_parent.html":[0,0,36],
 "struct_c_game_match_settings_playlist_item_script.html":[0,0,37],
-"struct_c_game_match_settings_playlist_item_script.html#a479c12ccb1df9b76f7309363f0e68d50":[0,0,37,1],
-"struct_c_game_match_settings_playlist_item_script.html#acf9182d2517a35948e59bbd5df851a98":[0,0,37,0],
-"struct_c_game_mode_info.html":[0,0,38]
+"struct_c_game_match_settings_playlist_item_script.html#a479c12ccb1df9b76f7309363f0e68d50":[0,0,37,1]
 };

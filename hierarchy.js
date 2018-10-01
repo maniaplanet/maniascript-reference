@@ -187,6 +187,7 @@ var hierarchy =
       [ "CSmPlayerDriver", "struct_c_sm_player_driver.html", null ],
       [ "CSmSector", "struct_c_sm_sector.html", null ],
       [ "CStation", "struct_c_station.html", null ],
+      [ "CSystemPlatform", "struct_c_system_platform.html", null ],
       [ "CTaskResult", "struct_c_task_result.html", [
         [ "CTaskResult_BuddiesChallengeRecord", "struct_c_task_result___buddies_challenge_record.html", null ],
         [ "CTaskResult_BuddiesChallengeRecordsComparison", "struct_c_task_result___buddies_challenge_records_comparison.html", null ],

@@ -1,7 +1,5 @@
 var NAVTREEINDEX5 =
 {
-"struct_c_mania_app_station.html#ae8387be3d9849c7f938b00545a06b1c6":[0,0,58,4],
-"struct_c_mania_app_title.html":[0,0,59],
 "struct_c_mania_app_title.html#a0185512c8b5129eee2d28e38d664d23b":[0,0,59,2],
 "struct_c_mania_app_title.html#a02aef98fa2b641512ac6a4d8e474b143":[0,0,59,1],
 "struct_c_mania_app_title.html#a0630cf0b8a58059975c479649e8d604d":[0,0,59,7],
@@ -249,5 +247,7 @@ var NAVTREEINDEX5 =
 "struct_c_map_editor_plugin.html#aef9021459bbb43c39cd10e8dfc8f6899":[0,0,62,47],
 "struct_c_map_editor_plugin.html#af121c0aa567a075b32807e3a58abe679":[0,0,62,6],
 "struct_c_map_editor_plugin.html#af18347b44cefd34f491d578db9531ee2":[0,0,62,157],
-"struct_c_map_editor_plugin.html#af1bcd66c5c246e1b026027ab0c072f55":[0,0,62,164]
+"struct_c_map_editor_plugin.html#af1bcd66c5c246e1b026027ab0c072f55":[0,0,62,164],
+"struct_c_map_editor_plugin.html#af201a91fbc1a5754cbc30fd5b4bf4c64":[0,0,62,80],
+"struct_c_map_editor_plugin.html#af3185bdb04c5022150140c85ccc29ad2":[0,0,62,78]
 };

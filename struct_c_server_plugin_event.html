@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">ManiaScript Reference
-   &#160;<span id="projectnumber">2018-02</span>
+   &#160;<span id="projectnumber">2018-07</span>
    </div>
   </td>
  </tr>
@@ -114,13 +114,17 @@ Public Types</h2></td></tr>
 <b>ClientDisconnected</b>, 
 <b>MapLoaded</b>, 
 <br />
-&#160;&#160;<b>MapUnloaded</b>, 
+&#160;&#160;<b>BeginMatch</b>, 
 <b>BeginRound</b>, 
 <b>EndRound</b>, 
-<b>ChatCommand</b>, 
+<b>EndMatch</b>, 
 <br />
-&#160;&#160;<b>ChatMessage</b>, 
-<b>ModeCallback</b>
+&#160;&#160;<b>MapUnloadRequested</b>, 
+<b>MapUnloaded</b>, 
+<b>ChatCommand</b>, 
+<b>ChatMessage</b>, 
+<br />
+&#160;&#160;<b>ModeCallback</b>
 <br />
  }</td></tr>
 <tr class="separator:a8c500907f6d8ee82888eb35cec35ac8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -147,6 +151,12 @@ const <a class="el" href="class_text.html">Text</a>&#160;</td><td class="memItem
 <tr class="memitem:a6861976f47cdaab4f4aef1b2319336e3"><td class="memItemLeft" align="right" valign="top"><a id="a6861976f47cdaab4f4aef1b2319336e3"></a>
 const <a class="el" href="class_text.html">Text</a> []&#160;</td><td class="memItemRight" valign="bottom"><b>ModeCallbackData</b></td></tr>
 <tr class="separator:a6861976f47cdaab4f4aef1b2319336e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb1c36e94fb54e1bc5cc16c5f0094c20"><td class="memItemLeft" align="right" valign="top"><a id="afb1c36e94fb54e1bc5cc16c5f0094c20"></a>
+const <a class="el" href="struct_c_score.html">CScore</a> []&#160;</td><td class="memItemRight" valign="bottom"><b>EndMatchScores</b></td></tr>
+<tr class="separator:afb1c36e94fb54e1bc5cc16c5f0094c20"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0b2d35d5711e369b559847a3c7c641e"><td class="memItemLeft" align="right" valign="top"><a id="ae0b2d35d5711e369b559847a3c7c641e"></a>
+const <a class="el" href="class_integer.html">Integer</a> []&#160;</td><td class="memItemRight" valign="bottom"><b>EndMatchRanks</b></td></tr>
+<tr class="separator:ae0b2d35d5711e369b559847a3c7c641e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_struct_c_nod"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_struct_c_nod')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="struct_c_nod.html">CNod</a></td></tr>
 <tr class="memitem:a4e8985f12f3e272263bfb85ef29196e4 inherit pub_attribs_struct_c_nod"><td class="memItemLeft" align="right" valign="top"><a id="a4e8985f12f3e272263bfb85ef29196e4"></a>
 const <a class="el" href="class_ident.html">Ident</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Id</b></td></tr>

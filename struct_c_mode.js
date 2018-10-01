@@ -91,7 +91,7 @@ var struct_c_mode =
     [ "ServerName", "struct_c_mode.html#a42640ee4066d96ede1529f714baa2341", null ],
     [ "ServerShutdownRequested", "struct_c_mode.html#ab116a66dcc16a7ecb8fb12eb673a72c4", null ],
     [ "Solo_NewRecordSequenceInProgress", "struct_c_mode.html#a48bbb0f29e80eb70034dc247533a6c33", null ],
-    [ "SystemPlatform", "struct_c_mode.html#aa6c21a1346cafa2a095bfd043bd2157b", null ],
+    [ "System", "struct_c_mode.html#ae894c1ef2b8177ec377235ab59069133", null ],
     [ "Teams", "struct_c_mode.html#aed64b87ba02df02c6ebcc107f476a522", null ],
     [ "TurretsManager", "struct_c_mode.html#abbdf04d19f50d67a3035c07d00fb7ed4", null ],
     [ "UIManager", "struct_c_mode.html#ae22d9ed212df8698a620a497bc2f2472", null ],

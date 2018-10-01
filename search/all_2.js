@@ -172,6 +172,7 @@ var searchData=
   ['csmscore',['CSmScore',['../struct_c_sm_score.html',1,'']]],
   ['csmsector',['CSmSector',['../struct_c_sm_sector.html',1,'']]],
   ['cstation',['CStation',['../struct_c_station.html',1,'']]],
+  ['csystemplatform',['CSystemPlatform',['../struct_c_system_platform.html',1,'']]],
   ['ctaskresult',['CTaskResult',['../struct_c_task_result.html',1,'']]],
   ['ctaskresult_5fbuddieschallengerecord',['CTaskResult_BuddiesChallengeRecord',['../struct_c_task_result___buddies_challenge_record.html',1,'']]],
   ['ctaskresult_5fbuddieschallengerecordscomparison',['CTaskResult_BuddiesChallengeRecordsComparison',['../struct_c_task_result___buddies_challenge_records_comparison.html',1,'']]],
