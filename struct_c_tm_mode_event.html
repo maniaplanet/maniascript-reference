@@ -94,6 +94,8 @@ $(document).ready(function(){initNavTree('struct_c_tm_mode_event.html','');});
 <div class="title">CTmModeEvent Struct Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p><code>#include &lt;<a class="el" href="doc_8h_source.html">doc.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for CTmModeEvent:</div>
 <div class="dyncontent">
@@ -106,181 +108,690 @@ Inheritance diagram for CTmModeEvent:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a8f8e2301c21e90787805f01d60dd35dd"><td class="memItemLeft" align="right" valign="top"><a id="a8f8e2301c21e90787805f01d60dd35dd"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>EType</b> { <br />
-&#160;&#160;<b>Unknown</b>, 
-<b>StartLine</b>, 
-<b>WayPoint</b>, 
-<b>GiveUp</b>, 
+<tr class="memitem:a8f8e2301c21e90787805f01d60dd35dd"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_tm_mode_event.html#a8f8e2301c21e90787805f01d60dd35dd">EType</a> { <br />
+&#160;&#160;<a class="el" href="struct_c_tm_mode_event.html#a8f8e2301c21e90787805f01d60dd35dda1b4ae6f4f28f7214634464106653451f">Unknown</a>, 
+<a class="el" href="struct_c_tm_mode_event.html#a8f8e2301c21e90787805f01d60dd35ddaded6bc4a40360211de188aca8a9fa7c1">StartLine</a>, 
+<a class="el" href="struct_c_tm_mode_event.html#a8f8e2301c21e90787805f01d60dd35ddae23c0b399d84952feeacabda05884099">WayPoint</a>, 
+<a class="el" href="struct_c_tm_mode_event.html#a8f8e2301c21e90787805f01d60dd35ddaae572eea2fc91d76838b840f0b0f4629">GiveUp</a>, 
 <br />
-&#160;&#160;<b>Respawn</b>, 
-<b>Stunt</b>, 
-<b>OnPlayerAdded</b>, 
-<b>OnPlayerRemoved</b>, 
+&#160;&#160;<a class="el" href="struct_c_tm_mode_event.html#a8f8e2301c21e90787805f01d60dd35ddabdb218f0f2119b16523966976c90c104">Respawn</a>, 
+<a class="el" href="struct_c_tm_mode_event.html#a8f8e2301c21e90787805f01d60dd35ddadc60feebabc5c60021b2221aca599c5e">Stunt</a>, 
+<a class="el" href="struct_c_tm_mode_event.html#a8f8e2301c21e90787805f01d60dd35ddab41080fb0802cacd259c292098c16b1b">OnPlayerAdded</a>, 
+<a class="el" href="struct_c_tm_mode_event.html#a8f8e2301c21e90787805f01d60dd35dda3823ef0d497fa27df27251105f321e30">OnPlayerRemoved</a>, 
 <br />
-&#160;&#160;<b>OnCommand</b>
+&#160;&#160;<a class="el" href="struct_c_tm_mode_event.html#a8f8e2301c21e90787805f01d60dd35dda159cec7384285861e4fa610108230251">OnCommand</a>
 <br />
  }</td></tr>
 <tr class="separator:a8f8e2301c21e90787805f01d60dd35dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac9740bcb1c7d12ee789cb98aba09d9fa"><td class="memItemLeft" align="right" valign="top"><a id="ac9740bcb1c7d12ee789cb98aba09d9fa"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>EStuntFigure</b> { <br />
-&#160;&#160;<b>None</b>, 
-<b>StraightJump</b>, 
-<b>Flip</b>, 
-<b>BackFlip</b>, 
+<tr class="memitem:ac9740bcb1c7d12ee789cb98aba09d9fa"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_tm_mode_event.html#ac9740bcb1c7d12ee789cb98aba09d9fa">EStuntFigure</a> { <br />
+&#160;&#160;<a class="el" href="struct_c_tm_mode_event.html#ac9740bcb1c7d12ee789cb98aba09d9faa1078f240511295637a79604b6fc922c6">None</a>, 
+<a class="el" href="struct_c_tm_mode_event.html#ac9740bcb1c7d12ee789cb98aba09d9faa139a8f3a945143b57d86788d9feac0b2">StraightJump</a>, 
+<a class="el" href="struct_c_tm_mode_event.html#ac9740bcb1c7d12ee789cb98aba09d9faad6158273f85dd59f6c06fcb48cb78b4e">Flip</a>, 
+<a class="el" href="struct_c_tm_mode_event.html#ac9740bcb1c7d12ee789cb98aba09d9faac8fa4ca8442618679f810ddb3e261bdc">BackFlip</a>, 
 <br />
-&#160;&#160;<b>Spin</b>, 
-<b>Aerial</b>, 
-<b>AlleyOop</b>, 
-<b>Roll</b>, 
+&#160;&#160;<a class="el" href="struct_c_tm_mode_event.html#ac9740bcb1c7d12ee789cb98aba09d9faa393f1f8cf45b822e96f8f7380f0c7f0e">Spin</a>, 
+<a class="el" href="struct_c_tm_mode_event.html#ac9740bcb1c7d12ee789cb98aba09d9faa913f7fb7e8339b00ab0eebb4d86c667f">Aerial</a>, 
+<a class="el" href="struct_c_tm_mode_event.html#ac9740bcb1c7d12ee789cb98aba09d9faa1b77b3222e70fba11cf025766ca95ed5">AlleyOop</a>, 
+<a class="el" href="struct_c_tm_mode_event.html#ac9740bcb1c7d12ee789cb98aba09d9faa9092a2448a81c34dab1582d4cea58e23">Roll</a>, 
 <br />
-&#160;&#160;<b>Corkscrew</b>, 
-<b>SpinOff</b>, 
-<b>Rodeo</b>, 
-<b>FlipFlap</b>, 
+&#160;&#160;<a class="el" href="struct_c_tm_mode_event.html#ac9740bcb1c7d12ee789cb98aba09d9faa203f39153ebadb69bd82489969cb2575">Corkscrew</a>, 
+<a class="el" href="struct_c_tm_mode_event.html#ac9740bcb1c7d12ee789cb98aba09d9faa645f4b0ef4ae40569442e7d18ff6eb65">SpinOff</a>, 
+<a class="el" href="struct_c_tm_mode_event.html#ac9740bcb1c7d12ee789cb98aba09d9faa1bac5712c08164ad65ee7dc512161291">Rodeo</a>, 
+<a class="el" href="struct_c_tm_mode_event.html#ac9740bcb1c7d12ee789cb98aba09d9faa0664bbd292effc9e48a69580ece61753">FlipFlap</a>, 
 <br />
-&#160;&#160;<b>Twister</b>, 
-<b>FreeStyle</b>, 
-<b>SpinningMix</b>, 
-<b>FlippingChaos</b>, 
+&#160;&#160;<a class="el" href="struct_c_tm_mode_event.html#ac9740bcb1c7d12ee789cb98aba09d9faa244661798927d76b8a612e8c6071c9b4">Twister</a>, 
+<a class="el" href="struct_c_tm_mode_event.html#ac9740bcb1c7d12ee789cb98aba09d9faa291ab5b5d6435f0607968c13219a99c9">FreeStyle</a>, 
+<a class="el" href="struct_c_tm_mode_event.html#ac9740bcb1c7d12ee789cb98aba09d9faa97b931d443b95580f5400f4ba08761cb">SpinningMix</a>, 
+<a class="el" href="struct_c_tm_mode_event.html#ac9740bcb1c7d12ee789cb98aba09d9faa9bf1456137274cd303a8740af946e7c6">FlippingChaos</a>, 
 <br />
-&#160;&#160;<b>RollingMadness</b>, 
-<b>WreckNone</b>, 
-<b>WreckStraightJump</b>, 
-<b>WreckFlip</b>, 
+&#160;&#160;<a class="el" href="struct_c_tm_mode_event.html#ac9740bcb1c7d12ee789cb98aba09d9faaa3af90183cbfcaea5ff9b25acdffa3e3">RollingMadness</a>, 
+<a class="el" href="struct_c_tm_mode_event.html#ac9740bcb1c7d12ee789cb98aba09d9faaaac7ac193c117a1ec1c8ecd71098a2e4">WreckNone</a>, 
+<a class="el" href="struct_c_tm_mode_event.html#ac9740bcb1c7d12ee789cb98aba09d9faa125ad0c7afe38f003a2c3ee27e17f39b">WreckStraightJump</a>, 
+<a class="el" href="struct_c_tm_mode_event.html#ac9740bcb1c7d12ee789cb98aba09d9faaec41b589617968f6d92b2c87f8ff160a">WreckFlip</a>, 
 <br />
-&#160;&#160;<b>WreckBackFlip</b>, 
-<b>WreckSpin</b>, 
-<b>WreckAerial</b>, 
-<b>WreckAlleyOop</b>, 
+&#160;&#160;<a class="el" href="struct_c_tm_mode_event.html#ac9740bcb1c7d12ee789cb98aba09d9faaf84fb43ec71929244c2d03c58c5771d9">WreckBackFlip</a>, 
+<a class="el" href="struct_c_tm_mode_event.html#ac9740bcb1c7d12ee789cb98aba09d9faa5304464ebd59b45cd3a3b874303f7030">WreckSpin</a>, 
+<a class="el" href="struct_c_tm_mode_event.html#ac9740bcb1c7d12ee789cb98aba09d9faab1ffa36d6091b9794341afeea0fb19e3">WreckAerial</a>, 
+<a class="el" href="struct_c_tm_mode_event.html#ac9740bcb1c7d12ee789cb98aba09d9faad88a4efa3a524208049dc2b804fbf02f">WreckAlleyOop</a>, 
 <br />
-&#160;&#160;<b>WreckRoll</b>, 
-<b>WreckCorkscrew</b>, 
-<b>WreckSpinOff</b>, 
-<b>WreckRodeo</b>, 
+&#160;&#160;<a class="el" href="struct_c_tm_mode_event.html#ac9740bcb1c7d12ee789cb98aba09d9faa5b7f8ffbe8efccc9d045a98c77d494b7">WreckRoll</a>, 
+<a class="el" href="struct_c_tm_mode_event.html#ac9740bcb1c7d12ee789cb98aba09d9faa5b3996d9896325e9d339f7df749ee383">WreckCorkscrew</a>, 
+<a class="el" href="struct_c_tm_mode_event.html#ac9740bcb1c7d12ee789cb98aba09d9faa6149b4fc93ca3024d7c71df0a7154574">WreckSpinOff</a>, 
+<a class="el" href="struct_c_tm_mode_event.html#ac9740bcb1c7d12ee789cb98aba09d9faa6e5d3bf71c5bbcf557b5ccfa280f6ca3">WreckRodeo</a>, 
 <br />
-&#160;&#160;<b>WreckFlipFlap</b>, 
-<b>WreckTwister</b>, 
-<b>WreckFreeStyle</b>, 
-<b>WreckSpinningMix</b>, 
+&#160;&#160;<a class="el" href="struct_c_tm_mode_event.html#ac9740bcb1c7d12ee789cb98aba09d9faa756a1cbbe0422199afd3cdc4bdbce691">WreckFlipFlap</a>, 
+<a class="el" href="struct_c_tm_mode_event.html#ac9740bcb1c7d12ee789cb98aba09d9faadc103186bce3821b6088e68274dfa349">WreckTwister</a>, 
+<a class="el" href="struct_c_tm_mode_event.html#ac9740bcb1c7d12ee789cb98aba09d9faa2e04a30d6e5f5f327eb7a6665e319466">WreckFreeStyle</a>, 
+<a class="el" href="struct_c_tm_mode_event.html#ac9740bcb1c7d12ee789cb98aba09d9faa6d126c0144d0e687c204392106b35713">WreckSpinningMix</a>, 
 <br />
-&#160;&#160;<b>WreckFlippingChaos</b>, 
-<b>WreckRollingMadness</b>, 
-<b>TimePenalty</b>, 
-<b>RespawnPenalty</b>, 
+&#160;&#160;<a class="el" href="struct_c_tm_mode_event.html#ac9740bcb1c7d12ee789cb98aba09d9faa6e095ffe421babac2845089d3910409f">WreckFlippingChaos</a>, 
+<a class="el" href="struct_c_tm_mode_event.html#ac9740bcb1c7d12ee789cb98aba09d9faaa582c102f49d550857bd5de32dfdf061">WreckRollingMadness</a>, 
+<a class="el" href="struct_c_tm_mode_event.html#ac9740bcb1c7d12ee789cb98aba09d9faa02b19b4f7e24eaf82666b68faf965d53">TimePenalty</a>, 
+<a class="el" href="struct_c_tm_mode_event.html#ac9740bcb1c7d12ee789cb98aba09d9faacceaff8d389c36bb7a6a8290b3b4ae62">RespawnPenalty</a>, 
 <br />
-&#160;&#160;<b>Grind</b>, 
-<b>Reset</b>
+&#160;&#160;<a class="el" href="struct_c_tm_mode_event.html#ac9740bcb1c7d12ee789cb98aba09d9faaf58d6f543577e78a48e78a09bc59a155">Grind</a>, 
+<a class="el" href="struct_c_tm_mode_event.html#ac9740bcb1c7d12ee789cb98aba09d9faa9854d1bce86250e8f6b9ed62d859bbf8">Reset</a>
 <br />
  }</td></tr>
 <tr class="separator:ac9740bcb1c7d12ee789cb98aba09d9fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:af6771af8b65f80eec2e9ec550f79f729"><td class="memItemLeft" align="right" valign="top"><a id="af6771af8b65f80eec2e9ec550f79f729"></a>
-const EType&#160;</td><td class="memItemRight" valign="bottom"><b>Type</b></td></tr>
+<tr class="memitem:af6771af8b65f80eec2e9ec550f79f729"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_c_tm_mode_event.html#a8f8e2301c21e90787805f01d60dd35dd">EType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_tm_mode_event.html#af6771af8b65f80eec2e9ec550f79f729">Type</a></td></tr>
 <tr class="separator:af6771af8b65f80eec2e9ec550f79f729"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af7e6bb7974181afae02cb7801d482792"><td class="memItemLeft" align="right" valign="top"><a id="af7e6bb7974181afae02cb7801d482792"></a>
-const <a class="el" href="struct_c_tm_player.html">CTmPlayer</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Player</b></td></tr>
+<tr class="memitem:af7e6bb7974181afae02cb7801d482792"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_c_tm_player.html">CTmPlayer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_tm_mode_event.html#af7e6bb7974181afae02cb7801d482792">Player</a></td></tr>
 <tr class="separator:af7e6bb7974181afae02cb7801d482792"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2e6c35996fc7033d284dc694be794e82"><td class="memItemLeft" align="right" valign="top"><a id="a2e6c35996fc7033d284dc694be794e82"></a>
-<a class="el" href="class_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><b>RaceTime</b></td></tr>
+<tr class="memitem:a2e6c35996fc7033d284dc694be794e82"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_tm_mode_event.html#a2e6c35996fc7033d284dc694be794e82">RaceTime</a></td></tr>
 <tr class="separator:a2e6c35996fc7033d284dc694be794e82"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a68aa1fb75fafcf4e05ae3e50e2d49f55"><td class="memItemLeft" align="right" valign="top"><a id="a68aa1fb75fafcf4e05ae3e50e2d49f55"></a>
-const <a class="el" href="class_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><b>CheckpointInRace</b></td></tr>
+<tr class="memitem:a68aa1fb75fafcf4e05ae3e50e2d49f55"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_tm_mode_event.html#a68aa1fb75fafcf4e05ae3e50e2d49f55">CheckpointInRace</a></td></tr>
 <tr class="separator:a68aa1fb75fafcf4e05ae3e50e2d49f55"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2df3e83f2eebfd17b143d2dee602af73"><td class="memItemLeft" align="right" valign="top"><a id="a2df3e83f2eebfd17b143d2dee602af73"></a>
-const <a class="el" href="class_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><b>CheckpointInLap</b></td></tr>
+<tr class="memitem:a2df3e83f2eebfd17b143d2dee602af73"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_tm_mode_event.html#a2df3e83f2eebfd17b143d2dee602af73">CheckpointInLap</a></td></tr>
 <tr class="separator:a2df3e83f2eebfd17b143d2dee602af73"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a224717b523158c472d6b75baaac900f0"><td class="memItemLeft" align="right" valign="top"><a id="a224717b523158c472d6b75baaac900f0"></a>
-const <a class="el" href="class_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><b>IsEndLap</b></td></tr>
+<tr class="memitem:a224717b523158c472d6b75baaac900f0"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_tm_mode_event.html#a224717b523158c472d6b75baaac900f0">IsEndLap</a></td></tr>
 <tr class="separator:a224717b523158c472d6b75baaac900f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af9bc1372b9cedc4b1742a8c68dfb6004"><td class="memItemLeft" align="right" valign="top"><a id="af9bc1372b9cedc4b1742a8c68dfb6004"></a>
-const <a class="el" href="class_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><b>IsEndRace</b></td></tr>
+<tr class="memitem:af9bc1372b9cedc4b1742a8c68dfb6004"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_tm_mode_event.html#af9bc1372b9cedc4b1742a8c68dfb6004">IsEndRace</a></td></tr>
 <tr class="separator:af9bc1372b9cedc4b1742a8c68dfb6004"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac1a9fac1420e948bc2117538d0a20d71"><td class="memItemLeft" align="right" valign="top"><a id="ac1a9fac1420e948bc2117538d0a20d71"></a>
-<a class="el" href="class_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><b>LapTime</b></td></tr>
+<tr class="memitem:ac1a9fac1420e948bc2117538d0a20d71"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_tm_mode_event.html#ac1a9fac1420e948bc2117538d0a20d71">LapTime</a></td></tr>
 <tr class="separator:ac1a9fac1420e948bc2117538d0a20d71"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4d814e1dce255879f0ae75b5fb16c7de"><td class="memItemLeft" align="right" valign="top"><a id="a4d814e1dce255879f0ae75b5fb16c7de"></a>
-<a class="el" href="class_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><b>StuntsScore</b></td></tr>
+<tr class="memitem:a4d814e1dce255879f0ae75b5fb16c7de"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_tm_mode_event.html#a4d814e1dce255879f0ae75b5fb16c7de">StuntsScore</a></td></tr>
 <tr class="separator:a4d814e1dce255879f0ae75b5fb16c7de"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac2db1bf9c98e51961feb2f7a0acfe8ba"><td class="memItemLeft" align="right" valign="top"><a id="ac2db1bf9c98e51961feb2f7a0acfe8ba"></a>
-<a class="el" href="class_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><b>NbRespawns</b></td></tr>
+<tr class="memitem:ac2db1bf9c98e51961feb2f7a0acfe8ba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_tm_mode_event.html#ac2db1bf9c98e51961feb2f7a0acfe8ba">NbRespawns</a></td></tr>
 <tr class="separator:ac2db1bf9c98e51961feb2f7a0acfe8ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6756c6bd419c1288df04ff42b73795ec"><td class="memItemLeft" align="right" valign="top"><a id="a6756c6bd419c1288df04ff42b73795ec"></a>
-const <a class="el" href="class_ident.html">Ident</a>&#160;</td><td class="memItemRight" valign="bottom"><b>BlockId</b></td></tr>
+<tr class="memitem:a6756c6bd419c1288df04ff42b73795ec"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_ident.html">Ident</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_tm_mode_event.html#a6756c6bd419c1288df04ff42b73795ec">BlockId</a></td></tr>
 <tr class="separator:a6756c6bd419c1288df04ff42b73795ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1bcb189dc23a8d78d11b68a4af49c466"><td class="memItemLeft" align="right" valign="top"><a id="a1bcb189dc23a8d78d11b68a4af49c466"></a>
-<a class="el" href="class_real.html">Real</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Speed</b></td></tr>
+<tr class="memitem:a1bcb189dc23a8d78d11b68a4af49c466"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_real.html">Real</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_tm_mode_event.html#a1bcb189dc23a8d78d11b68a4af49c466">Speed</a></td></tr>
 <tr class="separator:a1bcb189dc23a8d78d11b68a4af49c466"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a28a8ea900b521440e1bb4b65fabdb649"><td class="memItemLeft" align="right" valign="top"><a id="a28a8ea900b521440e1bb4b65fabdb649"></a>
-<a class="el" href="class_real.html">Real</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Distance</b></td></tr>
+<tr class="memitem:a28a8ea900b521440e1bb4b65fabdb649"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_real.html">Real</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_tm_mode_event.html#a28a8ea900b521440e1bb4b65fabdb649">Distance</a></td></tr>
 <tr class="separator:a28a8ea900b521440e1bb4b65fabdb649"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad0ea05ff22cb75cdf58074f439e6531b"><td class="memItemLeft" align="right" valign="top"><a id="ad0ea05ff22cb75cdf58074f439e6531b"></a>
-<a class="el" href="class_real.html">Real</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Damages</b></td></tr>
+<tr class="memitem:ad0ea05ff22cb75cdf58074f439e6531b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_real.html">Real</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_tm_mode_event.html#ad0ea05ff22cb75cdf58074f439e6531b">Damages</a></td></tr>
 <tr class="separator:ad0ea05ff22cb75cdf58074f439e6531b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a628ab2db00f34ae2d3eed53b3e3c740a"><td class="memItemLeft" align="right" valign="top"><a id="a628ab2db00f34ae2d3eed53b3e3c740a"></a>
-const EStuntFigure&#160;</td><td class="memItemRight" valign="bottom"><b>StuntFigure</b></td></tr>
+<tr class="memitem:a628ab2db00f34ae2d3eed53b3e3c740a"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_c_tm_mode_event.html#ac9740bcb1c7d12ee789cb98aba09d9fa">EStuntFigure</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_tm_mode_event.html#a628ab2db00f34ae2d3eed53b3e3c740a">StuntFigure</a></td></tr>
 <tr class="separator:a628ab2db00f34ae2d3eed53b3e3c740a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a92af020798f16f054a6960d6bf90e7e2"><td class="memItemLeft" align="right" valign="top"><a id="a92af020798f16f054a6960d6bf90e7e2"></a>
-const <a class="el" href="class_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Angle</b></td></tr>
+<tr class="memitem:a92af020798f16f054a6960d6bf90e7e2"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_tm_mode_event.html#a92af020798f16f054a6960d6bf90e7e2">Angle</a></td></tr>
 <tr class="separator:a92af020798f16f054a6960d6bf90e7e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6036b14f19233722cdb646f903d6e971"><td class="memItemLeft" align="right" valign="top"><a id="a6036b14f19233722cdb646f903d6e971"></a>
-const <a class="el" href="class_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Points</b></td></tr>
+<tr class="memitem:a6036b14f19233722cdb646f903d6e971"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_tm_mode_event.html#a6036b14f19233722cdb646f903d6e971">Points</a></td></tr>
 <tr class="separator:a6036b14f19233722cdb646f903d6e971"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac0d9dd3a14f86c6802ea063998fa4936"><td class="memItemLeft" align="right" valign="top"><a id="ac0d9dd3a14f86c6802ea063998fa4936"></a>
-const <a class="el" href="class_real.html">Real</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Factor</b></td></tr>
+<tr class="memitem:ac0d9dd3a14f86c6802ea063998fa4936"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_real.html">Real</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_tm_mode_event.html#ac0d9dd3a14f86c6802ea063998fa4936">Factor</a></td></tr>
 <tr class="separator:ac0d9dd3a14f86c6802ea063998fa4936"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a110c25567d633d7e718aa3e2a26f8a2f"><td class="memItemLeft" align="right" valign="top"><a id="a110c25567d633d7e718aa3e2a26f8a2f"></a>
-const <a class="el" href="class_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Combo</b></td></tr>
+<tr class="memitem:a110c25567d633d7e718aa3e2a26f8a2f"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_tm_mode_event.html#a110c25567d633d7e718aa3e2a26f8a2f">Combo</a></td></tr>
 <tr class="separator:a110c25567d633d7e718aa3e2a26f8a2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a221aaeea7cfdcaa4fcf92a876777cc26"><td class="memItemLeft" align="right" valign="top"><a id="a221aaeea7cfdcaa4fcf92a876777cc26"></a>
-const <a class="el" href="class_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><b>IsStraight</b></td></tr>
+<tr class="memitem:a221aaeea7cfdcaa4fcf92a876777cc26"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_tm_mode_event.html#a221aaeea7cfdcaa4fcf92a876777cc26">IsStraight</a></td></tr>
 <tr class="separator:a221aaeea7cfdcaa4fcf92a876777cc26"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a23cc0042e0865a89b9536d5927de0dfc"><td class="memItemLeft" align="right" valign="top"><a id="a23cc0042e0865a89b9536d5927de0dfc"></a>
-const <a class="el" href="class_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><b>IsReverse</b></td></tr>
+<tr class="memitem:a23cc0042e0865a89b9536d5927de0dfc"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_tm_mode_event.html#a23cc0042e0865a89b9536d5927de0dfc">IsReverse</a></td></tr>
 <tr class="separator:a23cc0042e0865a89b9536d5927de0dfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a84702d6e16c361c3c9ed3d78d0ca73d5"><td class="memItemLeft" align="right" valign="top"><a id="a84702d6e16c361c3c9ed3d78d0ca73d5"></a>
-const <a class="el" href="class_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><b>IsPerfectLanding</b></td></tr>
+<tr class="memitem:a84702d6e16c361c3c9ed3d78d0ca73d5"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_tm_mode_event.html#a84702d6e16c361c3c9ed3d78d0ca73d5">IsPerfectLanding</a></td></tr>
 <tr class="separator:a84702d6e16c361c3c9ed3d78d0ca73d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab8a1f12d9bb3bd49cf35e2e6c2adc687"><td class="memItemLeft" align="right" valign="top"><a id="ab8a1f12d9bb3bd49cf35e2e6c2adc687"></a>
-const <a class="el" href="class_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><b>IsMasterJump</b></td></tr>
+<tr class="memitem:ab8a1f12d9bb3bd49cf35e2e6c2adc687"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_tm_mode_event.html#ab8a1f12d9bb3bd49cf35e2e6c2adc687">IsMasterJump</a></td></tr>
 <tr class="separator:ab8a1f12d9bb3bd49cf35e2e6c2adc687"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8d306138091cd70d6a5a583cab835677"><td class="memItemLeft" align="right" valign="top"><a id="a8d306138091cd70d6a5a583cab835677"></a>
-const <a class="el" href="class_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><b>IsMasterLanding</b></td></tr>
+<tr class="memitem:a8d306138091cd70d6a5a583cab835677"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_tm_mode_event.html#a8d306138091cd70d6a5a583cab835677">IsMasterLanding</a></td></tr>
 <tr class="separator:a8d306138091cd70d6a5a583cab835677"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a73d116b46049b29bc7499b86c9b63cb3"><td class="memItemLeft" align="right" valign="top"><a id="a73d116b46049b29bc7499b86c9b63cb3"></a>
-const <a class="el" href="class_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><b>IsEpicLanding</b></td></tr>
+<tr class="memitem:a73d116b46049b29bc7499b86c9b63cb3"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_tm_mode_event.html#a73d116b46049b29bc7499b86c9b63cb3">IsEpicLanding</a></td></tr>
 <tr class="separator:a73d116b46049b29bc7499b86c9b63cb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7167966fdf0e2e9121760c03c2a8eec5"><td class="memItemLeft" align="right" valign="top"><a id="a7167966fdf0e2e9121760c03c2a8eec5"></a>
-const <a class="el" href="struct_c_user.html">CUser</a>&#160;</td><td class="memItemRight" valign="bottom"><b>User</b></td></tr>
+<tr class="memitem:a7167966fdf0e2e9121760c03c2a8eec5"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_c_user.html">CUser</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_tm_mode_event.html#a7167966fdf0e2e9121760c03c2a8eec5">User</a></td></tr>
 <tr class="separator:a7167966fdf0e2e9121760c03c2a8eec5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afb309ca288cd67beef01ff43ada4341c"><td class="memItemLeft" align="right" valign="top"><a id="afb309ca288cd67beef01ff43ada4341c"></a>
-const <a class="el" href="class_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><b>PlayerWasSpawned</b></td></tr>
+<tr class="memitem:afb309ca288cd67beef01ff43ada4341c"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_tm_mode_event.html#afb309ca288cd67beef01ff43ada4341c">PlayerWasSpawned</a></td></tr>
 <tr class="separator:afb309ca288cd67beef01ff43ada4341c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a20cb18975c1e3f05d4ea3ac8c2db055d"><td class="memItemLeft" align="right" valign="top"><a id="a20cb18975c1e3f05d4ea3ac8c2db055d"></a>
-const <a class="el" href="class_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><b>PlayerWasInLadderMatch</b></td></tr>
+<tr class="memitem:a20cb18975c1e3f05d4ea3ac8c2db055d"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_tm_mode_event.html#a20cb18975c1e3f05d4ea3ac8c2db055d">PlayerWasInLadderMatch</a></td></tr>
 <tr class="separator:a20cb18975c1e3f05d4ea3ac8c2db055d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a92947bd86586e0f2986c30be96ba9a0b"><td class="memItemLeft" align="right" valign="top"><a id="a92947bd86586e0f2986c30be96ba9a0b"></a>
-const <a class="el" href="class_text.html">Text</a>&#160;</td><td class="memItemRight" valign="bottom"><b>CommandName</b></td></tr>
+<tr class="memitem:a92947bd86586e0f2986c30be96ba9a0b"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_text.html">Text</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_tm_mode_event.html#a92947bd86586e0f2986c30be96ba9a0b">CommandName</a></td></tr>
 <tr class="separator:a92947bd86586e0f2986c30be96ba9a0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7f39d66869b3bd454fcad406659f6d55"><td class="memItemLeft" align="right" valign="top"><a id="a7f39d66869b3bd454fcad406659f6d55"></a>
-const <a class="el" href="class_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><b>CommandValueBoolean</b></td></tr>
+<tr class="memitem:a7f39d66869b3bd454fcad406659f6d55"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_tm_mode_event.html#a7f39d66869b3bd454fcad406659f6d55">CommandValueBoolean</a></td></tr>
 <tr class="separator:a7f39d66869b3bd454fcad406659f6d55"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae16e1877246bd6b418602eb63720bd60"><td class="memItemLeft" align="right" valign="top"><a id="ae16e1877246bd6b418602eb63720bd60"></a>
-const <a class="el" href="class_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><b>CommandValueInteger</b></td></tr>
+<tr class="memitem:ae16e1877246bd6b418602eb63720bd60"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_tm_mode_event.html#ae16e1877246bd6b418602eb63720bd60">CommandValueInteger</a></td></tr>
 <tr class="separator:ae16e1877246bd6b418602eb63720bd60"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab01419bedea79352d632a87500608f85"><td class="memItemLeft" align="right" valign="top"><a id="ab01419bedea79352d632a87500608f85"></a>
-const <a class="el" href="class_real.html">Real</a>&#160;</td><td class="memItemRight" valign="bottom"><b>CommandValueReal</b></td></tr>
+<tr class="memitem:ab01419bedea79352d632a87500608f85"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_real.html">Real</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_tm_mode_event.html#ab01419bedea79352d632a87500608f85">CommandValueReal</a></td></tr>
 <tr class="separator:ab01419bedea79352d632a87500608f85"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a939cfc12ba9cc89606f7e383a8ccb656"><td class="memItemLeft" align="right" valign="top"><a id="a939cfc12ba9cc89606f7e383a8ccb656"></a>
-const <a class="el" href="class_text.html">Text</a>&#160;</td><td class="memItemRight" valign="bottom"><b>CommandValueText</b></td></tr>
+<tr class="memitem:a939cfc12ba9cc89606f7e383a8ccb656"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_text.html">Text</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_tm_mode_event.html#a939cfc12ba9cc89606f7e383a8ccb656">CommandValueText</a></td></tr>
 <tr class="separator:a939cfc12ba9cc89606f7e383a8ccb656"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_struct_c_nod"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_struct_c_nod')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="struct_c_nod.html">CNod</a></td></tr>
-<tr class="memitem:a4e8985f12f3e272263bfb85ef29196e4 inherit pub_attribs_struct_c_nod"><td class="memItemLeft" align="right" valign="top"><a id="a4e8985f12f3e272263bfb85ef29196e4"></a>
-const <a class="el" href="class_ident.html">Ident</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Id</b></td></tr>
+<tr class="memitem:a4e8985f12f3e272263bfb85ef29196e4 inherit pub_attribs_struct_c_nod"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_ident.html">Ident</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_nod.html#a4e8985f12f3e272263bfb85ef29196e4">Id</a></td></tr>
 <tr class="separator:a4e8985f12f3e272263bfb85ef29196e4 inherit pub_attribs_struct_c_nod"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="ac9740bcb1c7d12ee789cb98aba09d9fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9740bcb1c7d12ee789cb98aba09d9fa">&#9670;&nbsp;</a></span>EStuntFigure</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="struct_c_tm_mode_event.html#ac9740bcb1c7d12ee789cb98aba09d9fa">CTmModeEvent::EStuntFigure</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ac9740bcb1c7d12ee789cb98aba09d9faa1078f240511295637a79604b6fc922c6"></a>None&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac9740bcb1c7d12ee789cb98aba09d9faa139a8f3a945143b57d86788d9feac0b2"></a>StraightJump&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac9740bcb1c7d12ee789cb98aba09d9faad6158273f85dd59f6c06fcb48cb78b4e"></a>Flip&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac9740bcb1c7d12ee789cb98aba09d9faac8fa4ca8442618679f810ddb3e261bdc"></a>BackFlip&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac9740bcb1c7d12ee789cb98aba09d9faa393f1f8cf45b822e96f8f7380f0c7f0e"></a>Spin&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac9740bcb1c7d12ee789cb98aba09d9faa913f7fb7e8339b00ab0eebb4d86c667f"></a>Aerial&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac9740bcb1c7d12ee789cb98aba09d9faa1b77b3222e70fba11cf025766ca95ed5"></a>AlleyOop&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac9740bcb1c7d12ee789cb98aba09d9faa9092a2448a81c34dab1582d4cea58e23"></a>Roll&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac9740bcb1c7d12ee789cb98aba09d9faa203f39153ebadb69bd82489969cb2575"></a>Corkscrew&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac9740bcb1c7d12ee789cb98aba09d9faa645f4b0ef4ae40569442e7d18ff6eb65"></a>SpinOff&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac9740bcb1c7d12ee789cb98aba09d9faa1bac5712c08164ad65ee7dc512161291"></a>Rodeo&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac9740bcb1c7d12ee789cb98aba09d9faa0664bbd292effc9e48a69580ece61753"></a>FlipFlap&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac9740bcb1c7d12ee789cb98aba09d9faa244661798927d76b8a612e8c6071c9b4"></a>Twister&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac9740bcb1c7d12ee789cb98aba09d9faa291ab5b5d6435f0607968c13219a99c9"></a>FreeStyle&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac9740bcb1c7d12ee789cb98aba09d9faa97b931d443b95580f5400f4ba08761cb"></a>SpinningMix&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac9740bcb1c7d12ee789cb98aba09d9faa9bf1456137274cd303a8740af946e7c6"></a>FlippingChaos&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac9740bcb1c7d12ee789cb98aba09d9faaa3af90183cbfcaea5ff9b25acdffa3e3"></a>RollingMadness&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac9740bcb1c7d12ee789cb98aba09d9faaaac7ac193c117a1ec1c8ecd71098a2e4"></a>WreckNone&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac9740bcb1c7d12ee789cb98aba09d9faa125ad0c7afe38f003a2c3ee27e17f39b"></a>WreckStraightJump&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac9740bcb1c7d12ee789cb98aba09d9faaec41b589617968f6d92b2c87f8ff160a"></a>WreckFlip&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac9740bcb1c7d12ee789cb98aba09d9faaf84fb43ec71929244c2d03c58c5771d9"></a>WreckBackFlip&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac9740bcb1c7d12ee789cb98aba09d9faa5304464ebd59b45cd3a3b874303f7030"></a>WreckSpin&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac9740bcb1c7d12ee789cb98aba09d9faab1ffa36d6091b9794341afeea0fb19e3"></a>WreckAerial&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac9740bcb1c7d12ee789cb98aba09d9faad88a4efa3a524208049dc2b804fbf02f"></a>WreckAlleyOop&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac9740bcb1c7d12ee789cb98aba09d9faa5b7f8ffbe8efccc9d045a98c77d494b7"></a>WreckRoll&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac9740bcb1c7d12ee789cb98aba09d9faa5b3996d9896325e9d339f7df749ee383"></a>WreckCorkscrew&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac9740bcb1c7d12ee789cb98aba09d9faa6149b4fc93ca3024d7c71df0a7154574"></a>WreckSpinOff&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac9740bcb1c7d12ee789cb98aba09d9faa6e5d3bf71c5bbcf557b5ccfa280f6ca3"></a>WreckRodeo&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac9740bcb1c7d12ee789cb98aba09d9faa756a1cbbe0422199afd3cdc4bdbce691"></a>WreckFlipFlap&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac9740bcb1c7d12ee789cb98aba09d9faadc103186bce3821b6088e68274dfa349"></a>WreckTwister&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac9740bcb1c7d12ee789cb98aba09d9faa2e04a30d6e5f5f327eb7a6665e319466"></a>WreckFreeStyle&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac9740bcb1c7d12ee789cb98aba09d9faa6d126c0144d0e687c204392106b35713"></a>WreckSpinningMix&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac9740bcb1c7d12ee789cb98aba09d9faa6e095ffe421babac2845089d3910409f"></a>WreckFlippingChaos&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac9740bcb1c7d12ee789cb98aba09d9faaa582c102f49d550857bd5de32dfdf061"></a>WreckRollingMadness&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac9740bcb1c7d12ee789cb98aba09d9faa02b19b4f7e24eaf82666b68faf965d53"></a>TimePenalty&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac9740bcb1c7d12ee789cb98aba09d9faacceaff8d389c36bb7a6a8290b3b4ae62"></a>RespawnPenalty&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac9740bcb1c7d12ee789cb98aba09d9faaf58d6f543577e78a48e78a09bc59a155"></a>Grind&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac9740bcb1c7d12ee789cb98aba09d9faa9854d1bce86250e8f6b9ed62d859bbf8"></a>Reset&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="a8f8e2301c21e90787805f01d60dd35dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f8e2301c21e90787805f01d60dd35dd">&#9670;&nbsp;</a></span>EType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="struct_c_tm_mode_event.html#a8f8e2301c21e90787805f01d60dd35dd">CTmModeEvent::EType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a8f8e2301c21e90787805f01d60dd35dda1b4ae6f4f28f7214634464106653451f"></a>Unknown&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8f8e2301c21e90787805f01d60dd35ddaded6bc4a40360211de188aca8a9fa7c1"></a>StartLine&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8f8e2301c21e90787805f01d60dd35ddae23c0b399d84952feeacabda05884099"></a>WayPoint&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8f8e2301c21e90787805f01d60dd35ddaae572eea2fc91d76838b840f0b0f4629"></a>GiveUp&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8f8e2301c21e90787805f01d60dd35ddabdb218f0f2119b16523966976c90c104"></a>Respawn&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8f8e2301c21e90787805f01d60dd35ddadc60feebabc5c60021b2221aca599c5e"></a>Stunt&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8f8e2301c21e90787805f01d60dd35ddab41080fb0802cacd259c292098c16b1b"></a>OnPlayerAdded&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8f8e2301c21e90787805f01d60dd35dda3823ef0d497fa27df27251105f321e30"></a>OnPlayerRemoved&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8f8e2301c21e90787805f01d60dd35dda159cec7384285861e4fa610108230251"></a>OnCommand&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a92af020798f16f054a6960d6bf90e7e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92af020798f16f054a6960d6bf90e7e2">&#9670;&nbsp;</a></span>Angle</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="class_integer.html">Integer</a> CTmModeEvent::Angle</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6756c6bd419c1288df04ff42b73795ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6756c6bd419c1288df04ff42b73795ec">&#9670;&nbsp;</a></span>BlockId</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="class_ident.html">Ident</a> CTmModeEvent::BlockId</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2df3e83f2eebfd17b143d2dee602af73"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2df3e83f2eebfd17b143d2dee602af73">&#9670;&nbsp;</a></span>CheckpointInLap</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="class_integer.html">Integer</a> CTmModeEvent::CheckpointInLap</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a68aa1fb75fafcf4e05ae3e50e2d49f55"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68aa1fb75fafcf4e05ae3e50e2d49f55">&#9670;&nbsp;</a></span>CheckpointInRace</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="class_integer.html">Integer</a> CTmModeEvent::CheckpointInRace</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a110c25567d633d7e718aa3e2a26f8a2f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a110c25567d633d7e718aa3e2a26f8a2f">&#9670;&nbsp;</a></span>Combo</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="class_integer.html">Integer</a> CTmModeEvent::Combo</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a92947bd86586e0f2986c30be96ba9a0b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92947bd86586e0f2986c30be96ba9a0b">&#9670;&nbsp;</a></span>CommandName</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="class_text.html">Text</a> CTmModeEvent::CommandName</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7f39d66869b3bd454fcad406659f6d55"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f39d66869b3bd454fcad406659f6d55">&#9670;&nbsp;</a></span>CommandValueBoolean</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="class_boolean.html">Boolean</a> CTmModeEvent::CommandValueBoolean</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae16e1877246bd6b418602eb63720bd60"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae16e1877246bd6b418602eb63720bd60">&#9670;&nbsp;</a></span>CommandValueInteger</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="class_integer.html">Integer</a> CTmModeEvent::CommandValueInteger</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab01419bedea79352d632a87500608f85"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab01419bedea79352d632a87500608f85">&#9670;&nbsp;</a></span>CommandValueReal</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="class_real.html">Real</a> CTmModeEvent::CommandValueReal</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a939cfc12ba9cc89606f7e383a8ccb656"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a939cfc12ba9cc89606f7e383a8ccb656">&#9670;&nbsp;</a></span>CommandValueText</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="class_text.html">Text</a> CTmModeEvent::CommandValueText</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad0ea05ff22cb75cdf58074f439e6531b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad0ea05ff22cb75cdf58074f439e6531b">&#9670;&nbsp;</a></span>Damages</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_real.html">Real</a> CTmModeEvent::Damages</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a28a8ea900b521440e1bb4b65fabdb649"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28a8ea900b521440e1bb4b65fabdb649">&#9670;&nbsp;</a></span>Distance</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_real.html">Real</a> CTmModeEvent::Distance</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac0d9dd3a14f86c6802ea063998fa4936"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0d9dd3a14f86c6802ea063998fa4936">&#9670;&nbsp;</a></span>Factor</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="class_real.html">Real</a> CTmModeEvent::Factor</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a224717b523158c472d6b75baaac900f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a224717b523158c472d6b75baaac900f0">&#9670;&nbsp;</a></span>IsEndLap</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="class_boolean.html">Boolean</a> CTmModeEvent::IsEndLap</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af9bc1372b9cedc4b1742a8c68dfb6004"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9bc1372b9cedc4b1742a8c68dfb6004">&#9670;&nbsp;</a></span>IsEndRace</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="class_boolean.html">Boolean</a> CTmModeEvent::IsEndRace</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a73d116b46049b29bc7499b86c9b63cb3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73d116b46049b29bc7499b86c9b63cb3">&#9670;&nbsp;</a></span>IsEpicLanding</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="class_boolean.html">Boolean</a> CTmModeEvent::IsEpicLanding</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab8a1f12d9bb3bd49cf35e2e6c2adc687"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab8a1f12d9bb3bd49cf35e2e6c2adc687">&#9670;&nbsp;</a></span>IsMasterJump</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="class_boolean.html">Boolean</a> CTmModeEvent::IsMasterJump</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8d306138091cd70d6a5a583cab835677"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d306138091cd70d6a5a583cab835677">&#9670;&nbsp;</a></span>IsMasterLanding</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="class_boolean.html">Boolean</a> CTmModeEvent::IsMasterLanding</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a84702d6e16c361c3c9ed3d78d0ca73d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84702d6e16c361c3c9ed3d78d0ca73d5">&#9670;&nbsp;</a></span>IsPerfectLanding</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="class_boolean.html">Boolean</a> CTmModeEvent::IsPerfectLanding</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a23cc0042e0865a89b9536d5927de0dfc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a23cc0042e0865a89b9536d5927de0dfc">&#9670;&nbsp;</a></span>IsReverse</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="class_boolean.html">Boolean</a> CTmModeEvent::IsReverse</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a221aaeea7cfdcaa4fcf92a876777cc26"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a221aaeea7cfdcaa4fcf92a876777cc26">&#9670;&nbsp;</a></span>IsStraight</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="class_boolean.html">Boolean</a> CTmModeEvent::IsStraight</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac1a9fac1420e948bc2117538d0a20d71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1a9fac1420e948bc2117538d0a20d71">&#9670;&nbsp;</a></span>LapTime</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_integer.html">Integer</a> CTmModeEvent::LapTime</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac2db1bf9c98e51961feb2f7a0acfe8ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2db1bf9c98e51961feb2f7a0acfe8ba">&#9670;&nbsp;</a></span>NbRespawns</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_integer.html">Integer</a> CTmModeEvent::NbRespawns</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af7e6bb7974181afae02cb7801d482792"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7e6bb7974181afae02cb7801d482792">&#9670;&nbsp;</a></span>Player</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="struct_c_tm_player.html">CTmPlayer</a> CTmModeEvent::Player</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a20cb18975c1e3f05d4ea3ac8c2db055d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a20cb18975c1e3f05d4ea3ac8c2db055d">&#9670;&nbsp;</a></span>PlayerWasInLadderMatch</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="class_boolean.html">Boolean</a> CTmModeEvent::PlayerWasInLadderMatch</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afb309ca288cd67beef01ff43ada4341c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb309ca288cd67beef01ff43ada4341c">&#9670;&nbsp;</a></span>PlayerWasSpawned</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="class_boolean.html">Boolean</a> CTmModeEvent::PlayerWasSpawned</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6036b14f19233722cdb646f903d6e971"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6036b14f19233722cdb646f903d6e971">&#9670;&nbsp;</a></span>Points</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="class_integer.html">Integer</a> CTmModeEvent::Points</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2e6c35996fc7033d284dc694be794e82"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e6c35996fc7033d284dc694be794e82">&#9670;&nbsp;</a></span>RaceTime</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_integer.html">Integer</a> CTmModeEvent::RaceTime</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1bcb189dc23a8d78d11b68a4af49c466"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1bcb189dc23a8d78d11b68a4af49c466">&#9670;&nbsp;</a></span>Speed</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_real.html">Real</a> CTmModeEvent::Speed</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a628ab2db00f34ae2d3eed53b3e3c740a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a628ab2db00f34ae2d3eed53b3e3c740a">&#9670;&nbsp;</a></span>StuntFigure</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="struct_c_tm_mode_event.html#ac9740bcb1c7d12ee789cb98aba09d9fa">EStuntFigure</a> CTmModeEvent::StuntFigure</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4d814e1dce255879f0ae75b5fb16c7de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d814e1dce255879f0ae75b5fb16c7de">&#9670;&nbsp;</a></span>StuntsScore</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_integer.html">Integer</a> CTmModeEvent::StuntsScore</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af6771af8b65f80eec2e9ec550f79f729"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af6771af8b65f80eec2e9ec550f79f729">&#9670;&nbsp;</a></span>Type</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="struct_c_tm_mode_event.html#a8f8e2301c21e90787805f01d60dd35dd">EType</a> CTmModeEvent::Type</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7167966fdf0e2e9121760c03c2a8eec5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7167966fdf0e2e9121760c03c2a8eec5">&#9670;&nbsp;</a></span>User</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="struct_c_user.html">CUser</a> CTmModeEvent::User</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/ManiaScriptDocumentation/Sources/<a class="el" href="doc_8h_source.html">doc.h</a></li>
+<li><a class="el" href="doc_8h_source.html">doc.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

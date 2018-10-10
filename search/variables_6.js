@@ -1,9 +1,26 @@
 var searchData=
 [
   ['gamemodes',['GameModes',['../struct_c_task_result___game_mode_list.html#ad02711fa231f77c0b0aba9365f740d30',1,'CTaskResult_GameModeList']]],
+  ['gameplay',['Gameplay',['../struct_c_sm_mode.html#abb2ce17cabfd5266af621cf411671611',1,'CSmMode']]],
+  ['gameplayversion',['GameplayVersion',['../struct_c_sm_mode.html#ad4146751b755e5960531c2f84309eba1',1,'CSmMode']]],
+  ['gametime',['GameTime',['../struct_c_ml_script_ingame.html#a3020a2294847820887a0679ad8c0bb45',1,'CMlScriptIngame::GameTime()'],['../struct_c_playground_client.html#a9cf9c1d00ec4ab11764afcbfb59f73f6',1,'CPlaygroundClient::GameTime()']]],
+  ['gate',['Gate',['../struct_c_sm_map_landmark.html#a694b67396fea1f5f93b3d0eb7b239c38',1,'CSmMapLandmark']]],
+  ['gauge',['Gauge',['../struct_c_sm_map_landmark.html#a40fa6de79e57f9f63d81ff3492ea0ba1',1,'CSmMapLandmark::Gauge()'],['../struct_c_sm_block_pole.html#ab4590cdab5695976a11406b407a262c6',1,'CSmBlockPole::Gauge()']]],
+  ['gaugeclan',['GaugeClan',['../struct_c_u_i_config.html#a2b211934c155eef5c5a07c8c48b5a3cb',1,'CUIConfig']]],
+  ['gaugemessage',['GaugeMessage',['../struct_c_u_i_config.html#a2991193806f6ad14ab15da8c6eda8542',1,'CUIConfig']]],
+  ['gaugeratio',['GaugeRatio',['../struct_c_u_i_config.html#a176a478292551eddc4c3df64049a9f83',1,'CUIConfig']]],
+  ['generatedblockmodel',['GeneratedBlockModel',['../struct_c_macroblock_model.html#a196caf0264c0acddf32202f7741e42dc',1,'CMacroblockModel']]],
+  ['getclasschildren_5fresult',['GetClassChildren_Result',['../struct_c_ml_page.html#a24e37748f927d902ce8ffb087b71fc1b',1,'CMlPage']]],
   ['getcost',['GetCost',['../struct_c_pack_creator_recipient.html#ae4cbdd0d906c1c6b80f72e3ded902c28',1,'CPackCreatorRecipient']]],
   ['getlinearhue',['GetLinearHue',['../struct_c_sm_player.html#af68b1071913a7b6ad9c0c5e1c9f7c52e',1,'CSmPlayer']]],
+  ['getserverinfo_5fresult',['GetServerInfo_Result',['../struct_c_title_flow.html#ac54e1a7ea4239b5b9a69325d119d3e49',1,'CTitleFlow']]],
   ['ghost',['Ghost',['../struct_c_task_result___ghost.html#a3e8646f1c9c51554d443353fb2199435',1,'CTaskResult_Ghost']]],
+  ['ghostalpha',['GhostAlpha',['../struct_c_station.html#ab5183f732649ccbfd173e2285249b7a3',1,'CStation']]],
   ['ghosts',['Ghosts',['../struct_c_data_file_mgr.html#a9ed40ed84da923fc56a29639e3cc5d83',1,'CDataFileMgr::Ghosts()'],['../struct_c_task_result___ghost_list.html#a8fae2507eec7ba68ec4467296a1b1b17',1,'CTaskResult_GhostList::Ghosts()']]],
-  ['gradingratio',['GradingRatio',['../struct_c_ml_gauge.html#aeb102508b1deaa95a66e62a782e46985',1,'CMlGauge']]]
+  ['giveup',['GiveUp',['../struct_c_sm_mode_event.html#a4766d6a3d3a1479ff65355385b3e5fae',1,'CSmModeEvent']]],
+  ['gotomaterialeditor',['GoToMaterialEditor',['../struct_c_editor_mesh.html#a8f64593d10be0357ce084e18b7963cbf',1,'CEditorMesh']]],
+  ['gradingratio',['GradingRatio',['../struct_c_ml_gauge.html#aeb102508b1deaa95a66e62a782e46985',1,'CMlGauge']]],
+  ['gravitycoef',['GravityCoef',['../struct_c_tm_ml_player.html#a1bf58b35d1c7923ffe2edc90cda640ae',1,'CTmMlPlayer::GravityCoef()'],['../struct_c_tm_player.html#ab1729334baebd9a02bad5b8aacd0af88',1,'CTmPlayer::GravityCoef()']]],
+  ['gridsnap_5fisactive',['GridSnap_IsActive',['../struct_c_editor_mesh.html#af0f68a2891808ed54964a01c06900698',1,'CEditorMesh']]],
+  ['guiplayer',['GUIPlayer',['../struct_c_sm_ml_script_ingame.html#a01ca6df404d0b32d9f0da480eb3aa1a3',1,'CSmMlScriptIngame::GUIPlayer()'],['../struct_c_tm_ml_script_ingame.html#aaf4c3ee4d143abc22d30aed00988e84e',1,'CTmMlScriptIngame::GUIPlayer()']]]
 ];

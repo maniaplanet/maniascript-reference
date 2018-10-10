@@ -1,10 +1,18 @@
 var searchData=
 [
-  ['registerpackforeditedtitle',['RegisterPackForEditedTitle',['../struct_c_pack_creator.html#a33e7498dbb54a136ade38191e27eb280',1,'CPackCreator']]],
-  ['releasetaskresult',['ReleaseTaskResult',['../struct_c_privilege_mgr.html#a6e96c6fe50828e4d6167af7d1e48ae47',1,'CPrivilegeMgr']]],
-  ['replay_5fgetfilteredgamelist',['Replay_GetFilteredGameList',['../struct_c_data_file_mgr.html#a71731ceec6b1c3592b5baa6782445f45',1,'CDataFileMgr']]],
-  ['replay_5fgetgamelist',['Replay_GetGameList',['../struct_c_data_file_mgr.html#a024f454939c806b9bfe20cc539523259',1,'CDataFileMgr']]],
-  ['replay_5fload',['Replay_Load',['../struct_c_data_file_mgr.html#aea036184108318f2e4f607d851bd4462',1,'CDataFileMgr']]],
-  ['replay_5fsave',['Replay_Save',['../struct_c_data_file_mgr.html#a6a9acb591af1a863cf9b3bb01e2326c4',1,'CDataFileMgr']]],
-  ['requestspectatorclient',['RequestSpectatorClient',['../struct_c_ml_script_ingame.html#a03be57434761393ec5884c5b787b0a27',1,'CMlScriptIngame::RequestSpectatorClient()'],['../struct_c_playground_client.html#aa0a5f834e1dfce7f1ee4cad448d6dbae',1,'CPlaygroundClient::RequestSpectatorClient()']]]
+  ['ladder_5faddplayer',['Ladder_AddPlayer',['../struct_c_mode.html#ad714c8136604e87560f5ce5cffe48cec',1,'CMode']]],
+  ['ladder_5fcancelmatchrequest',['Ladder_CancelMatchRequest',['../struct_c_mode.html#afa731f08963cffaed254daf582c09f5f',1,'CMode']]],
+  ['ladder_5fclosematchrequest',['Ladder_CloseMatchRequest',['../struct_c_mode.html#ab21de51ba360d66835bae5bb4201f111',1,'CMode']]],
+  ['ladder_5fcomputerank',['Ladder_ComputeRank',['../struct_c_tm_mode.html#a4d3aa87552be8370bfbd1debdc90ca26',1,'CTmMode']]],
+  ['ladder_5fenablechallengemode',['Ladder_EnableChallengeMode',['../struct_c_mode.html#ad2c9d03b51a16e2b54f50b4d3fe00eb9',1,'CMode']]],
+  ['ladder_5fopenmatch_5faddplayer',['Ladder_OpenMatch_AddPlayer',['../struct_c_mode.html#ad9d12aa0441f85e257bdbed15471c624',1,'CMode']]],
+  ['ladder_5fopenmatch_5fbeginrequest',['Ladder_OpenMatch_BeginRequest',['../struct_c_mode.html#a539c9a57eab98fbc05d35db680380a99',1,'CMode']]],
+  ['ladder_5fopenmatch_5fendrequest',['Ladder_OpenMatch_EndRequest',['../struct_c_mode.html#ab05995a051733c2a6c8ac560d8fd35f7',1,'CMode']]],
+  ['ladder_5fopenmatch_5frequest',['Ladder_OpenMatch_Request',['../struct_c_mode.html#ad835bf69d4294aa3ad9da4199ca70fc2',1,'CMode']]],
+  ['ladder_5fsetmatchmakingmatchid',['Ladder_SetMatchMakingMatchId',['../struct_c_mode.html#ae141b574ee04ea9cf3a3eecc87a115ea',1,'CMode']]],
+  ['ladder_5fsetresultsversion',['Ladder_SetResultsVersion',['../struct_c_mode.html#a0cfda24f1e43c5a0fbdfa623681a1d7e',1,'CMode']]],
+  ['layercustomevent',['LayerCustomEvent',['../struct_c_mania_app.html#a2954530981e5378d1bd443dfc2e8c3e1',1,'CManiaApp']]],
+  ['leave',['Leave',['../struct_c_badge_editor.html#a23cda4fb096bcbb29f41227cc253fb05',1,'CBadgeEditor']]],
+  ['length',['Length',['../namespace_text_lib.html#a52b38fab64f0cca6b75628ca3ba91b8f',1,'TextLib']]],
+  ['ln',['Ln',['../namespace_math_lib.html#ad58b9177a5f905f543cb87a46e6c5fff',1,'MathLib']]]
 ];

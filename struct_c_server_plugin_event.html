@@ -108,63 +108,196 @@ Inheritance diagram for CServerPluginEvent:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a8c500907f6d8ee82888eb35cec35ac8d"><td class="memItemLeft" align="right" valign="top"><a id="a8c500907f6d8ee82888eb35cec35ac8d"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>EType</b> { <br />
-&#160;&#160;<b>Unknown</b>, 
-<b>ClientConnected</b>, 
-<b>ClientDisconnected</b>, 
-<b>MapLoaded</b>, 
+<tr class="memitem:a8c500907f6d8ee82888eb35cec35ac8d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_server_plugin_event.html#a8c500907f6d8ee82888eb35cec35ac8d">EType</a> { <br />
+&#160;&#160;<a class="el" href="struct_c_server_plugin_event.html#a8c500907f6d8ee82888eb35cec35ac8dac06ba3aeb14a02d64aa0896b6f1ffb7b">Unknown</a>, 
+<a class="el" href="struct_c_server_plugin_event.html#a8c500907f6d8ee82888eb35cec35ac8da37109c5fa7f28726b767e1c8d0e2e6b3">ClientConnected</a>, 
+<a class="el" href="struct_c_server_plugin_event.html#a8c500907f6d8ee82888eb35cec35ac8dad5082082f600a5cb13cb7efa6fa30175">ClientDisconnected</a>, 
+<a class="el" href="struct_c_server_plugin_event.html#a8c500907f6d8ee82888eb35cec35ac8da963da648cb21857af42d86503dd4aa0e">MapLoaded</a>, 
 <br />
-&#160;&#160;<b>BeginMatch</b>, 
-<b>BeginRound</b>, 
-<b>EndRound</b>, 
-<b>EndMatch</b>, 
+&#160;&#160;<a class="el" href="struct_c_server_plugin_event.html#a8c500907f6d8ee82888eb35cec35ac8da0980af11ca932eb9277a3e0984e83140">BeginMatch</a>, 
+<a class="el" href="struct_c_server_plugin_event.html#a8c500907f6d8ee82888eb35cec35ac8daaba2a8a3d6a5e7ad8667a0031c19f429">BeginRound</a>, 
+<a class="el" href="struct_c_server_plugin_event.html#a8c500907f6d8ee82888eb35cec35ac8da875929187338323983af798928efc31c">EndRound</a>, 
+<a class="el" href="struct_c_server_plugin_event.html#a8c500907f6d8ee82888eb35cec35ac8da2e68953a0e9edb51a43050316be77463">EndMatch</a>, 
 <br />
-&#160;&#160;<b>MapUnloadRequested</b>, 
-<b>MapUnloaded</b>, 
-<b>ChatCommand</b>, 
-<b>ChatMessage</b>, 
+&#160;&#160;<a class="el" href="struct_c_server_plugin_event.html#a8c500907f6d8ee82888eb35cec35ac8dab731a5f462bc6fc363609850e75f4e3c">MapUnloadRequested</a>, 
+<a class="el" href="struct_c_server_plugin_event.html#a8c500907f6d8ee82888eb35cec35ac8da3ce79a51ddc300838c33ad028e490b03">MapUnloaded</a>, 
+<a class="el" href="struct_c_server_plugin_event.html#a8c500907f6d8ee82888eb35cec35ac8da26c27b9ae6014cb57335dff4b6f402dc">ChatCommand</a>, 
+<a class="el" href="struct_c_server_plugin_event.html#a8c500907f6d8ee82888eb35cec35ac8dac66d2eaaf1ed45c23303305053267edc">ChatMessage</a>, 
 <br />
-&#160;&#160;<b>ModeCallback</b>
+&#160;&#160;<a class="el" href="struct_c_server_plugin_event.html#a8c500907f6d8ee82888eb35cec35ac8da8c76b445b793e01ba90594e10d391a1d">ModeCallback</a>
 <br />
  }</td></tr>
 <tr class="separator:a8c500907f6d8ee82888eb35cec35ac8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a0244a0e082ef7ee11f62268101692081"><td class="memItemLeft" align="right" valign="top">const EType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_server_plugin_event.html#a0244a0e082ef7ee11f62268101692081">Type</a></td></tr>
+<tr class="memitem:a0244a0e082ef7ee11f62268101692081"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_c_server_plugin_event.html#a8c500907f6d8ee82888eb35cec35ac8d">EType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_server_plugin_event.html#a0244a0e082ef7ee11f62268101692081">Type</a></td></tr>
 <tr class="separator:a0244a0e082ef7ee11f62268101692081"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a783c1bd7ef134795a75e289f41914f9d"><td class="memItemLeft" align="right" valign="top"><a id="a783c1bd7ef134795a75e289f41914f9d"></a>
-const <a class="el" href="struct_c_client.html">CClient</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Client</b></td></tr>
+<tr class="memitem:a783c1bd7ef134795a75e289f41914f9d"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_c_client.html">CClient</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_server_plugin_event.html#a783c1bd7ef134795a75e289f41914f9d">Client</a></td></tr>
 <tr class="separator:a783c1bd7ef134795a75e289f41914f9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7614744df270fb6cfd4ed3631bbbe922"><td class="memItemLeft" align="right" valign="top"><a id="a7614744df270fb6cfd4ed3631bbbe922"></a>
-const <a class="el" href="class_text.html">Text</a>&#160;</td><td class="memItemRight" valign="bottom"><b>ChatText</b></td></tr>
+<tr class="memitem:a7614744df270fb6cfd4ed3631bbbe922"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_text.html">Text</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_server_plugin_event.html#a7614744df270fb6cfd4ed3631bbbe922">ChatText</a></td></tr>
 <tr class="separator:a7614744df270fb6cfd4ed3631bbbe922"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af01096fe7642717157ab5590d4eea5a4"><td class="memItemLeft" align="right" valign="top"><a id="af01096fe7642717157ab5590d4eea5a4"></a>
-const <a class="el" href="class_text.html">Text</a>&#160;</td><td class="memItemRight" valign="bottom"><b>ChatCommandType</b></td></tr>
+<tr class="memitem:af01096fe7642717157ab5590d4eea5a4"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_text.html">Text</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_server_plugin_event.html#af01096fe7642717157ab5590d4eea5a4">ChatCommandType</a></td></tr>
 <tr class="separator:af01096fe7642717157ab5590d4eea5a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5727f495a0bc8fe9b92cefc5e3d40730"><td class="memItemLeft" align="right" valign="top"><a id="a5727f495a0bc8fe9b92cefc5e3d40730"></a>
-const <a class="el" href="class_text.html">Text</a> []&#160;</td><td class="memItemRight" valign="bottom"><b>ChatCommandData</b></td></tr>
+<tr class="memitem:a5727f495a0bc8fe9b92cefc5e3d40730"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_text.html">Text</a> []&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_server_plugin_event.html#a5727f495a0bc8fe9b92cefc5e3d40730">ChatCommandData</a></td></tr>
 <tr class="separator:a5727f495a0bc8fe9b92cefc5e3d40730"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a96f5b330a1fa61e8d227a83acb5cfb64"><td class="memItemLeft" align="right" valign="top"><a id="a96f5b330a1fa61e8d227a83acb5cfb64"></a>
-const <a class="el" href="class_text.html">Text</a>&#160;</td><td class="memItemRight" valign="bottom"><b>ModeCallbackType</b></td></tr>
+<tr class="memitem:a96f5b330a1fa61e8d227a83acb5cfb64"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_text.html">Text</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_server_plugin_event.html#a96f5b330a1fa61e8d227a83acb5cfb64">ModeCallbackType</a></td></tr>
 <tr class="separator:a96f5b330a1fa61e8d227a83acb5cfb64"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6861976f47cdaab4f4aef1b2319336e3"><td class="memItemLeft" align="right" valign="top"><a id="a6861976f47cdaab4f4aef1b2319336e3"></a>
-const <a class="el" href="class_text.html">Text</a> []&#160;</td><td class="memItemRight" valign="bottom"><b>ModeCallbackData</b></td></tr>
+<tr class="memitem:a6861976f47cdaab4f4aef1b2319336e3"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_text.html">Text</a> []&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_server_plugin_event.html#a6861976f47cdaab4f4aef1b2319336e3">ModeCallbackData</a></td></tr>
 <tr class="separator:a6861976f47cdaab4f4aef1b2319336e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afb1c36e94fb54e1bc5cc16c5f0094c20"><td class="memItemLeft" align="right" valign="top"><a id="afb1c36e94fb54e1bc5cc16c5f0094c20"></a>
-const <a class="el" href="struct_c_score.html">CScore</a> []&#160;</td><td class="memItemRight" valign="bottom"><b>EndMatchScores</b></td></tr>
+<tr class="memitem:afb1c36e94fb54e1bc5cc16c5f0094c20"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_c_score.html">CScore</a> []&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_server_plugin_event.html#afb1c36e94fb54e1bc5cc16c5f0094c20">EndMatchScores</a></td></tr>
 <tr class="separator:afb1c36e94fb54e1bc5cc16c5f0094c20"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae0b2d35d5711e369b559847a3c7c641e"><td class="memItemLeft" align="right" valign="top"><a id="ae0b2d35d5711e369b559847a3c7c641e"></a>
-const <a class="el" href="class_integer.html">Integer</a> []&#160;</td><td class="memItemRight" valign="bottom"><b>EndMatchRanks</b></td></tr>
+<tr class="memitem:ae0b2d35d5711e369b559847a3c7c641e"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_integer.html">Integer</a> []&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_server_plugin_event.html#ae0b2d35d5711e369b559847a3c7c641e">EndMatchRanks</a></td></tr>
 <tr class="separator:ae0b2d35d5711e369b559847a3c7c641e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_struct_c_nod"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_struct_c_nod')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="struct_c_nod.html">CNod</a></td></tr>
-<tr class="memitem:a4e8985f12f3e272263bfb85ef29196e4 inherit pub_attribs_struct_c_nod"><td class="memItemLeft" align="right" valign="top"><a id="a4e8985f12f3e272263bfb85ef29196e4"></a>
-const <a class="el" href="class_ident.html">Ident</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Id</b></td></tr>
+<tr class="memitem:a4e8985f12f3e272263bfb85ef29196e4 inherit pub_attribs_struct_c_nod"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_ident.html">Ident</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_nod.html#a4e8985f12f3e272263bfb85ef29196e4">Id</a></td></tr>
 <tr class="separator:a4e8985f12f3e272263bfb85ef29196e4 inherit pub_attribs_struct_c_nod"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>ServerPlugin Event </p>
-</div><h2 class="groupheader">Member Data Documentation</h2>
+</div><h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="a8c500907f6d8ee82888eb35cec35ac8d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c500907f6d8ee82888eb35cec35ac8d">&#9670;&nbsp;</a></span>EType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="struct_c_server_plugin_event.html#a8c500907f6d8ee82888eb35cec35ac8d">CServerPluginEvent::EType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a8c500907f6d8ee82888eb35cec35ac8dac06ba3aeb14a02d64aa0896b6f1ffb7b"></a>Unknown&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8c500907f6d8ee82888eb35cec35ac8da37109c5fa7f28726b767e1c8d0e2e6b3"></a>ClientConnected&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8c500907f6d8ee82888eb35cec35ac8dad5082082f600a5cb13cb7efa6fa30175"></a>ClientDisconnected&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8c500907f6d8ee82888eb35cec35ac8da963da648cb21857af42d86503dd4aa0e"></a>MapLoaded&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8c500907f6d8ee82888eb35cec35ac8da0980af11ca932eb9277a3e0984e83140"></a>BeginMatch&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8c500907f6d8ee82888eb35cec35ac8daaba2a8a3d6a5e7ad8667a0031c19f429"></a>BeginRound&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8c500907f6d8ee82888eb35cec35ac8da875929187338323983af798928efc31c"></a>EndRound&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8c500907f6d8ee82888eb35cec35ac8da2e68953a0e9edb51a43050316be77463"></a>EndMatch&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8c500907f6d8ee82888eb35cec35ac8dab731a5f462bc6fc363609850e75f4e3c"></a>MapUnloadRequested&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8c500907f6d8ee82888eb35cec35ac8da3ce79a51ddc300838c33ad028e490b03"></a>MapUnloaded&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8c500907f6d8ee82888eb35cec35ac8da26c27b9ae6014cb57335dff4b6f402dc"></a>ChatCommand&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8c500907f6d8ee82888eb35cec35ac8dac66d2eaaf1ed45c23303305053267edc"></a>ChatMessage&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a8c500907f6d8ee82888eb35cec35ac8da8c76b445b793e01ba90594e10d391a1d"></a>ModeCallback&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a5727f495a0bc8fe9b92cefc5e3d40730"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5727f495a0bc8fe9b92cefc5e3d40730">&#9670;&nbsp;</a></span>ChatCommandData</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="class_text.html">Text</a> [] CServerPluginEvent::ChatCommandData</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af01096fe7642717157ab5590d4eea5a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af01096fe7642717157ab5590d4eea5a4">&#9670;&nbsp;</a></span>ChatCommandType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="class_text.html">Text</a> CServerPluginEvent::ChatCommandType</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7614744df270fb6cfd4ed3631bbbe922"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7614744df270fb6cfd4ed3631bbbe922">&#9670;&nbsp;</a></span>ChatText</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="class_text.html">Text</a> CServerPluginEvent::ChatText</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a783c1bd7ef134795a75e289f41914f9d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a783c1bd7ef134795a75e289f41914f9d">&#9670;&nbsp;</a></span>Client</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="struct_c_client.html">CClient</a> CServerPluginEvent::Client</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae0b2d35d5711e369b559847a3c7c641e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0b2d35d5711e369b559847a3c7c641e">&#9670;&nbsp;</a></span>EndMatchRanks</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="class_integer.html">Integer</a> [] CServerPluginEvent::EndMatchRanks</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afb1c36e94fb54e1bc5cc16c5f0094c20"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb1c36e94fb54e1bc5cc16c5f0094c20">&#9670;&nbsp;</a></span>EndMatchScores</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="struct_c_score.html">CScore</a> [] CServerPluginEvent::EndMatchScores</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6861976f47cdaab4f4aef1b2319336e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6861976f47cdaab4f4aef1b2319336e3">&#9670;&nbsp;</a></span>ModeCallbackData</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="class_text.html">Text</a> [] CServerPluginEvent::ModeCallbackData</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a96f5b330a1fa61e8d227a83acb5cfb64"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a96f5b330a1fa61e8d227a83acb5cfb64">&#9670;&nbsp;</a></span>ModeCallbackType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="class_text.html">Text</a> CServerPluginEvent::ModeCallbackType</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a0244a0e082ef7ee11f62268101692081"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0244a0e082ef7ee11f62268101692081">&#9670;&nbsp;</a></span>Type</h2>
 
@@ -172,7 +305,7 @@ const <a class="el" href="class_ident.html">Ident</a>&#160;</td><td class="memIt
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const EType CServerPluginEvent::Type</td>
+          <td class="memname">const <a class="el" href="struct_c_server_plugin_event.html#a8c500907f6d8ee82888eb35cec35ac8d">EType</a> CServerPluginEvent::Type</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -181,7 +314,7 @@ const <a class="el" href="class_ident.html">Ident</a>&#160;</td><td class="memIt
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>D:/ManiaScriptDocumentation/Sources/<a class="el" href="doc_8h_source.html">doc.h</a></li>
+<li><a class="el" href="doc_8h_source.html">doc.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

@@ -1,24 +1,4 @@
 var searchData=
 [
-  ['score',['Score',['../struct_c_natural_leader_board_info.html#a29ac0b027e3819b08e431f677c90b178',1,'CNaturalLeaderBoardInfo::Score()'],['../struct_c_game_player_map_record_script.html#ae7706444898e396fa7b3b6e7dbad72a1',1,'CGamePlayerMapRecordScript::Score()'],['../struct_c_real_leader_board_info.html#a3f9d40cf97cb771f87dac3d1508886fb',1,'CRealLeaderBoardInfo::Score()']]],
-  ['scores',['Scores',['../struct_c_server_plugin.html#ac17bc41ad4ba4b9139bcc3e9dcbaa39b',1,'CServerPlugin']]],
-  ['serverinfo',['ServerInfo',['../struct_c_server_admin.html#ab7411983c8ea521bb38dff66d7801628',1,'CServerAdmin']]],
-  ['serverlogin',['ServerLogin',['../struct_c_online_presence.html#a0d5f326bf5403bb48f0a552f03de592f',1,'COnlinePresence']]],
-  ['skillpoints',['SkillPoints',['../struct_c_game_player_map_record_script.html#a531800e7dae10efc23bd3147c904d051',1,'CGamePlayerMapRecordScript']]],
-  ['solo_5fhascampaign',['Solo_HasCampaign',['../struct_c_pack_creator_title_info.html#a939d0bfdc6e226063cf89f5fb6bd9b6d',1,'CPackCreatorTitleInfo']]],
-  ['spectatorobservermode',['SpectatorObserverMode',['../struct_c_u_i_config.html#ae487c67ad6a4e0dcf406c427144350fa',1,'CUIConfig']]],
-  ['spectators',['Spectators',['../struct_c_server_plugin.html#a7755ba8bcc727a4079397fa4cad48612',1,'CServerPlugin']]],
-  ['speed',['Speed',['../struct_c_tm_player.html#a76b1748c7472869b6d8fd19268263a9d',1,'CTmPlayer']]],
-  ['speedpower',['SpeedPower',['../struct_c_sm_player.html#aa285ce086cbe809bc45fed1edd2c1c5b',1,'CSmPlayer']]],
-  ['staminagain',['StaminaGain',['../struct_c_sm_player.html#a92559b6c1da3193cb7f38141d40c753f',1,'CSmPlayer']]],
-  ['staminamax',['StaminaMax',['../struct_c_sm_player.html#ae5c716e229cb962797567656ba358e23',1,'CSmPlayer']]],
-  ['staminapower',['StaminaPower',['../struct_c_sm_player.html#ae6dd26ef847434777c2faae343ea9921',1,'CSmPlayer']]],
-  ['statdesc',['StatDesc',['../struct_c_achievements_stat.html#a028d5a0e4a08e57ff27089319241ca35',1,'CAchievementsStat']]],
-  ['statdescriptions',['StatDescriptions',['../struct_c_achievements_manager.html#ad824ae2af8f98e714f11696b94f0911a',1,'CAchievementsManager']]],
-  ['station_5fmanialinkurl',['Station_ManialinkUrl',['../struct_c_pack_creator_title_info.html#a04f64e47a990268fafb0f59dc8406499',1,'CPackCreatorTitleInfo']]],
-  ['stats',['Stats',['../struct_c_achievements_manager.html#a04e22505b061368a9e30e8059fcd64af',1,'CAchievementsManager']]],
-  ['statuscode',['StatusCode',['../struct_c_http_request.html#a8ba4e2daf726dcf2853497facafd8d92',1,'CHttpRequest']]],
-  ['stuntcurfigureepicgauge',['StuntCurFigureEpicGauge',['../struct_c_tm_ml_player.html#ade08303ea0cc46b295e90d08005ef385',1,'CTmMlPlayer']]],
-  ['stuntcurfiguremastergauge',['StuntCurFigureMasterGauge',['../struct_c_tm_ml_player.html#a7f758a759bfb553fb2ece5a49a81983f',1,'CTmMlPlayer']]],
-  ['subfolders',['SubFolders',['../struct_c_task_result___map_list.html#af8189587c66b60d18cd045b1a16175a2',1,'CTaskResult_MapList::SubFolders()'],['../struct_c_task_result___replay_list.html#a5483d0f4f4e5da3287000f8870bbcafc',1,'CTaskResult_ReplayList::SubFolders()'],['../struct_c_task_result___file_list.html#a460ea6106e0e673381c5b60381370f0a',1,'CTaskResult_FileList::SubFolders()']]]
+  ['quantity',['Quantity',['../struct_c_u_i_config_event.html#a4a759acc7306dcfb3bfb0200508d2e39',1,'CUIConfigEvent']]]
 ];

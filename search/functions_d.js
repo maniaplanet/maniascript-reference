@@ -1,4 +1,8 @@
 var searchData=
 [
-  ['taskresult_5frelease',['TaskResult_Release',['../struct_c_data_file_mgr.html#a54a96c90c99682164b4b6ad0595f702f',1,'CDataFileMgr::TaskResult_Release()'],['../struct_c_score_mgr.html#ac9db5a3147bdbe6da625d697f4c1d9e7',1,'CScoreMgr::TaskResult_Release()']]]
+  ['nearestinteger',['NearestInteger',['../namespace_math_lib.html#aaff43751c3cffb6c6ba9f1d4a899a087',1,'MathLib']]],
+  ['nearestreal',['NearestReal',['../namespace_math_lib.html#affe75fa0f9dd156f06f02584b82c1649',1,'MathLib']]],
+  ['newmodule',['NewModule',['../struct_c_editor_module.html#a4d816e550d1150eb07e7b9a99a9646a2',1,'CEditorModule']]],
+  ['nextmap',['NextMap',['../struct_c_server_plugin.html#a65afddb2827202ef282afcaef9ca6215',1,'CServerPlugin']]],
+  ['nextvariant',['NextVariant',['../struct_c_audio_source_music.html#a4f495f6e0160038f14d0487463460ff6',1,'CAudioSourceMusic::NextVariant()'],['../struct_c_audio_source_music.html#a6f9bdb435ee68e8021b7dbf0318f88b0',1,'CAudioSourceMusic::NextVariant(Boolean IsIntensityDecreasing)']]]
 ];

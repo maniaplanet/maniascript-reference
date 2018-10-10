@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['playground_5fgetplayerghost',['Playground_GetPlayerGhost',['../struct_c_score_mgr.html#a9c238d0691d5a8fa4809cf3fdcc381a9',1,'CScoreMgr']]],
-  ['publishfile',['PublishFile',['../struct_c_title_flow.html#a24ccd7b7dc9cd2f7cf8a48eaf9c2ec07',1,'CTitleFlow']]]
+  ['kick',['Kick',['../struct_c_server_admin.html#a12fb5279853f22d141b138a3e58bc426',1,'CServerAdmin::Kick(CUser User, Text Reason)'],['../struct_c_server_admin.html#a55a5db1da4f60aaeb529e6fe2660f0a9',1,'CServerAdmin::Kick(CClient Client, Text Reason)']]]
 ];
