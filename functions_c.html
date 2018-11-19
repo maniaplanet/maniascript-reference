@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">ManiaScript Reference
-   &#160;<span id="projectnumber">2018-07</span>
+   &#160;<span id="projectnumber">2018-11</span>
    </div>
   </td>
  </tr>
@@ -110,8 +110,17 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 <li>Camera9
 : <a class="el" href="struct_c_map_editor_plugin_event.html#a4c735d4b86e22b5eb6954ee00c8015f4a399a43314a20029d43db2066f26dea27">CMapEditorPluginEvent</a>
 </li>
+<li>CameraButtonOff
+: <a class="el" href="struct_c_editor_event.html#a991b45df4bb1de4750259553e55ab9b6a8a70addc4bf156469aa894a1968b8835">CEditorEvent</a>
+</li>
+<li>CameraButtonOn
+: <a class="el" href="struct_c_editor_event.html#a991b45df4bb1de4750259553e55ab9b6a2c9e562cc6dc2087f5260cd60daca670">CEditorEvent</a>
+</li>
 <li>CameraDown
 : <a class="el" href="struct_c_map_editor_plugin_event.html#a4c735d4b86e22b5eb6954ee00c8015f4ac0c6d54941b0c394264cb811353ab724">CMapEditorPluginEvent</a>
+</li>
+<li>CameraEatingInputsScript
+: <a class="el" href="struct_c_editor_mesh.html#a8cf872fb79f411044b7c2ed05d0660cc">CEditorMesh</a>
 </li>
 <li>CameraHAngle
 : <a class="el" href="struct_c_map_editor_plugin.html#ad8e55042b39b10fa5293ec548b0a5323">CMapEditorPlugin</a>
@@ -119,14 +128,8 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 <li>CameraLeft
 : <a class="el" href="struct_c_map_editor_plugin_event.html#a4c735d4b86e22b5eb6954ee00c8015f4ac353cb828cf7fe0d81fc9879ef3ff7d3">CMapEditorPluginEvent</a>
 </li>
-<li>CameraNormal
-: <a class="el" href="struct_c_image.html#a5b05fbaf9bec64dc97451d12c91d72eaa5a0910eb8b9c42600ff9154f258e79c1">CImage</a>
-</li>
 <li>CameraPosition
 : <a class="el" href="struct_c_map_editor_plugin.html#a896dddf3f6f7fd307cd1f8562feba77e">CMapEditorPlugin</a>
-</li>
-<li>CameraReflectionVector
-: <a class="el" href="struct_c_image.html#a5b05fbaf9bec64dc97451d12c91d72eaa145603e7ae9c0f4c9892035c69f147a0">CImage</a>
 </li>
 <li>CameraRight
 : <a class="el" href="struct_c_map_editor_plugin_event.html#a4c735d4b86e22b5eb6954ee00c8015f4a716a8a6183aed63412344318662e4a57">CMapEditorPluginEvent</a>
@@ -145,9 +148,6 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 </li>
 <li>CameraVAngle
 : <a class="el" href="struct_c_map_editor_plugin.html#a479d91f17bc7663ab0ed32459985161c">CMapEditorPlugin</a>
-</li>
-<li>CameraVertex
-: <a class="el" href="struct_c_image.html#a5b05fbaf9bec64dc97451d12c91d72eaab2fb89e6613c5e6b0faad3255e406350">CImage</a>
 </li>
 <li>CameraZoomNext
 : <a class="el" href="struct_c_map_editor_plugin_event.html#a4c735d4b86e22b5eb6954ee00c8015f4a87ef0716499b93998b1d304cc65d1593">CMapEditorPluginEvent</a>
@@ -171,7 +171,7 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 : <a class="el" href="struct_c_score_mgr.html#a763b193725765a0d660e3f450cc93adc">CScoreMgr</a>
 </li>
 <li>Campaign_GetOpponentRecords()
-: <a class="el" href="struct_c_score_mgr.html#ae08e5c00587480af24242e7605db4690">CScoreMgr</a>
+: <a class="el" href="struct_c_score_mgr.html#a82e113891ad6b5dfe69e584907a468e0">CScoreMgr</a>
 </li>
 <li>Campaign_GetSkillPoints()
 : <a class="el" href="struct_c_score_mgr.html#ac150bfb6384e2f19ed722fc301b7aef4">CScoreMgr</a>
@@ -208,8 +208,23 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 , <a class="el" href="struct_c_ml_script_event.html#a37c233ecfe65713310c257e0a53d54e6a8e29100c2a4dd8e21d035fad3fbb2f14">CMlScriptEvent</a>
 , <a class="el" href="struct_c_task_result.html#abde707fdaf46dad1653de82ca4126258">CTaskResult</a>
 </li>
-<li>Canceled
-: <a class="el" href="struct_c_task_result.html#adc9a4f53a903fa8d776b9ae769eeb8f1a73d717d67adf7f5ccf9fe6bbe2b2a430">CTaskResult</a>
+<li>CanChangeAvatar
+: <a class="el" href="struct_c_user_v2_profile.html#ae60bb0fadaf78dd7b478299439d99b7a">CUserV2Profile</a>
+</li>
+<li>CanChangeGroups
+: <a class="el" href="struct_c_user_v2_profile.html#ae69b93400888f5f50e4d938c0f306a71">CUserV2Profile</a>
+</li>
+<li>CanChangeNickName
+: <a class="el" href="struct_c_user_v2_profile.html#a29d7fededc7b88517a26e93199debb10">CUserV2Profile</a>
+</li>
+<li>CanChangePassword
+: <a class="el" href="struct_c_user_v2_profile.html#af92ff1cf5b90f60bab67583a753f4886">CUserV2Profile</a>
+</li>
+<li>CanChangeSkin
+: <a class="el" href="struct_c_user_v2_profile.html#ab3fcc8c6fe0b95e6459bcc68f2385b5a">CUserV2Profile</a>
+</li>
+<li>CanChangeZone
+: <a class="el" href="struct_c_user_v2_profile.html#a79c2854f90ba01ef0596adbba3db98aa">CUserV2Profile</a>
 </li>
 <li>CanHaveAnchor
 : <a class="el" href="struct_c_block.html#a15c90972fb704def77d8b48599e6ed2d">CBlock</a>
@@ -236,7 +251,7 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 : <a class="el" href="struct_c_map_editor_plugin.html#a6109c6e5d215c1b7db35578c93f22dac">CMapEditorPlugin</a>
 </li>
 <li>CanPublishFiles
-: <a class="el" href="struct_c_title_flow.html#aa8edd9343894837d1ba5a5382a23d966">CTitleFlow</a>
+: <a class="el" href="struct_c_title_control.html#a3d53b64d79060f7cbc40c4e74d0e9b81">CTitleControl</a>
 </li>
 <li>CanRespawnPlayer()
 : <a class="el" href="struct_c_sm_mode.html#a8d2fcec83a37f4a3ad867287bf4ae866">CSmMode</a>
@@ -254,18 +269,16 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 </li>
 <li>CardinalDirections
 : <a class="el" href="struct_c_block.html#a71f82ed508c3a5c7d2e2d975991bfb75">CBlock</a>
-, <a class="el" href="struct_c_item_anchor.html#a59918042f35bef267dabf05466483541">CItemAnchor</a>
 , <a class="el" href="struct_c_map_editor_plugin.html#a6e0ac52ee0ab64b0df1d01aeed483053">CMapEditorPlugin</a>
-</li>
-<li>CardinalDirEnum
-: <a class="el" href="struct_c_block_model_variant.html#a6fb2e0a2b4c359664f88227dbd7d05cd">CBlockModelVariant</a>
-, <a class="el" href="struct_c_block_unit_model.html#ac350234575fc8c00ba7fb60d0d515774">CBlockUnitModel</a>
 </li>
 <li>CenteredBar
 : <a class="el" href="struct_c_ml_gauge.html#a9310d14d07de0d803533f0c4fb5604e5">CMlGauge</a>
 </li>
+<li>CenterSpringIntensity
+: <a class="el" href="struct_c_vehicle_settings.html#abfeaabd105cb83c5a790907b87c2baf6">CVehicleSettings</a>
+</li>
 <li>ChallengeEditor
-: <a class="el" href="struct_c_title_flow.html#ad51d2d86558aaff062c7965146b9d656ac706592bbade77ea04753f9ad6155319">CTitleFlow</a>
+: <a class="el" href="struct_c_title_control.html#a85476bbdda32f803352f933025a9c589aff84e4145a09fa7f1a3f811a6ecb2641">CTitleControl</a>
 </li>
 <li>ChallengeNames
 : <a class="el" href="struct_c_server_info.html#a067d067d2470b80edd64e79e4f26c954">CServerInfo</a>
@@ -273,8 +286,14 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 <li>ChangeImageUrl()
 : <a class="el" href="struct_c_ml_quad.html#add8b0e55843334cea3f9d43b54f6b5a8">CMlQuad</a>
 </li>
+<li>Chaos
+: <a class="el" href="struct_c_editor_mesh.html#abc85e532d322099837fe77712c2fd90ca5e66f93cec93375eb8274414b67692ef">CEditorMesh</a>
+</li>
 <li>CharPressed
 : <a class="el" href="struct_c_ml_script_event.html#ae7233319a32860aad010d35457c089fc">CMlScriptEvent</a>
+</li>
+<li>Chat
+: <a class="el" href="struct_c_u_i_config.html#aeca36d227222274a17ec48dbc0f06c4da7173c1c3844738af668f2c0ce0fa6b66">CUIConfig</a>
 </li>
 <li>ChatCommand
 : <a class="el" href="struct_c_server_plugin_event.html#a8c500907f6d8ee82888eb35cec35ac8da26c27b9ae6014cb57335dff4b6f402dc">CServerPluginEvent</a>
@@ -299,7 +318,6 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 , <a class="el" href="struct_c_block_model.html#a38143764f437576c59c72aa948fa0daba3f671bf982a3f9a257a8b90f83b64de8">CBlockModel</a>
 , <a class="el" href="struct_c_ml_script_ingame.html#a03f99561065dc005e6eeb89489e1d302a9bf3165d739d67f87aec2d7918259a88">CMlScriptIngame</a>
 , <a class="el" href="struct_c_tm_ml_player.html#a716ace0fafb01a2f865de77bed8ae2aaa04717e6869c7bf35ca8b08ce1e32a5ae">CTmMlPlayer</a>
-, <a class="el" href="struct_c_tm_player.html#ae1a8f8db4e054b72801041c9a645d1eaac20e50f4e63d3fed3c5f2993c0c92be0">CTmPlayer</a>
 , <a class="el" href="struct_c_u_i_config.html#adbe295669674a531f7a99442f36ae8cfa853b2aa1588ff9b8b43e757f0730208b">CUIConfig</a>
 </li>
 <li>CheckpointInLap
@@ -316,45 +334,34 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 <li>CheckpointsProgress
 : <a class="el" href="struct_c_tm_result.html#a86cd4051657fa8fba601bf8f5723241ea34f9548738edb9827f4ddb4b47b7f869">CTmResult</a>
 </li>
-<li>CheckPrivilege()
-: <a class="el" href="struct_c_privilege_mgr.html#a1ff55323e9180a62e731e023d8d9ef09">CPrivilegeMgr</a>
-</li>
-<li>CheckPrivilegeForAllUsers()
-: <a class="el" href="struct_c_privilege_mgr.html#a09ef384c2a38685a8ffcd0d33a906fb6">CPrivilegeMgr</a>
-</li>
-<li>CheckTargetedPrivilege()
-: <a class="el" href="struct_c_privilege_mgr.html#aed4e3a7cf3ca2155988b85af20699c4f">CPrivilegeMgr</a>
-</li>
-<li>CheckTargetedPrivilegeForAllUsers()
-: <a class="el" href="struct_c_privilege_mgr.html#a907cc30a9564715cf84ebd1231af78f9">CPrivilegeMgr</a>
-</li>
 <li>Children
-: <a class="el" href="struct_c_xml_node.html#a0b6f5d24e6b74852264715e301ecdaea">CXmlNode</a>
+: <a class="el" href="struct_c_mode_vehicle_manager.html#ac0a7d6209b172e2d2c91d2c68b32be4da4cf68cf0d19e8c857cb43202c225bc45">CModeVehicleManager</a>
+, <a class="el" href="struct_c_parsing_node.html#accc10011c3ae5d40d5733478a59a8d43">CParsingNode</a>
+</li>
+<li>Chrono
+: <a class="el" href="struct_c_editor_module.html#a2f7873156c745148df4f05fc2b57c8c1ab65a494d857f562729d3b1727e6a70ab">CEditorModule</a>
+, <a class="el" href="struct_c_module_playground_hud.html#a391104e9c60c8976849dec643d74d132">CModulePlaygroundHud</a>
+, <a class="el" href="struct_c_u_i_config_event.html#a62066118dcfb3d3f20ce4388dce7409ca3018827a7ebb44237cf95467e0116800">CUIConfigEvent</a>
 </li>
 <li>CircIn
 : <a class="el" href="struct_c_anim_manager.html#a166e6c79ac8754c37a72cf73f3acfc56a59f1acd5793578ae976faea67a394468">CAnimManager</a>
-, <a class="el" href="struct_c_mania_app.html#a0520db6298ac4610253bc18fb36ab282a8c98f8cfc3677e6a009f2ecf9c04e9d8">CManiaApp</a>
 </li>
 <li>CircInOut
 : <a class="el" href="struct_c_anim_manager.html#a166e6c79ac8754c37a72cf73f3acfc56ac16b86c304d89eb27b51a2dac6e0f977">CAnimManager</a>
-, <a class="el" href="struct_c_mania_app.html#a0520db6298ac4610253bc18fb36ab282a4711f42345ddc109f98aab03173d5f21">CManiaApp</a>
 </li>
 <li>CircOut
 : <a class="el" href="struct_c_anim_manager.html#a166e6c79ac8754c37a72cf73f3acfc56a6973763bf41a3dda2d013686c2ce21d8">CAnimManager</a>
-, <a class="el" href="struct_c_mania_app.html#a0520db6298ac4610253bc18fb36ab282ad18ca95d65204e59402c2b34969644e1">CManiaApp</a>
 </li>
 <li>City
 : <a class="el" href="struct_c_team.html#a7a7f2657f513fd049d6d9a8c17e6d7ad">CTeam</a>
 </li>
-<li>Clamp
-: <a class="el" href="struct_c_image.html#a9758ef4613fe5398bc197add6fc9f3abad3abec3a1d85fe74a88a5e8c771cadbd">CImage</a>
-</li>
 <li>Clan
-: <a class="el" href="struct_c_ml_gauge.html#a79ae3e0f290fd66ac9c54cf27c229462">CMlGauge</a>
+: <a class="el" href="struct_c_map_bot_path.html#af2d2bae3579907f66d744b77817a5122">CMapBotPath</a>
+, <a class="el" href="struct_c_ml_gauge.html#a79ae3e0f290fd66ac9c54cf27c229462">CMlGauge</a>
+, <a class="el" href="struct_c_mode_vehicle.html#a7b6934a9c8476c3f3a15af684e266020">CModeVehicle</a>
 , <a class="el" href="struct_c_sm_base.html#abaf1d451f9495defc2b2d9c2a9f357c8">CSmBase</a>
 , <a class="el" href="struct_c_sm_gauge.html#afbbd4af51fe93b24dcd9c60df19a6442">CSmGauge</a>
 , <a class="el" href="struct_c_sm_map_base.html#a2db9dbf482502380074d57d81f7eead2">CSmMapBase</a>
-, <a class="el" href="struct_c_sm_map_bot_path.html#a48a3643d95082f2ba757ab0d465ddafb">CSmMapBotPath</a>
 , <a class="el" href="struct_c_sm_map_gate.html#a9609cf535a9493c1183c7cf66a004344">CSmMapGate</a>
 , <a class="el" href="struct_c_sm_map_gauge.html#a616225cb6daa412bc9e05d142ccd2efc">CSmMapGauge</a>
 </li>
@@ -387,15 +394,11 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 : <a class="el" href="struct_c_sm_mode.html#a62c216e3b503d2da992990e45fe89a25">CSmMode</a>
 , <a class="el" href="struct_c_tm_mode.html#a49c32ed34ca930d6d84503fc2346a349">CTmMode</a>
 </li>
-<li>ClassicClip
-: <a class="el" href="struct_c_block_model_clip.html#a649d0769a22658f392db27d34f18a7d8a7b8b5b3008c2f86d1395b611b77b796c">CBlockModelClip</a>
-</li>
 <li>ClassicMapEditor
 : <a class="el" href="struct_c_map_editor_plugin_event.html#a4c735d4b86e22b5eb6954ee00c8015f4afa822051eadde6043c6f0bb4cd613ece">CMapEditorPluginEvent</a>
 </li>
-<li>Clear
-: <a class="el" href="struct_c_image.html#a9c504a384b929bc6372e5d291ec73f7eabc57f258d9516607f088973679f364f1">CImage</a>
-, <a class="el" href="struct_c_sm_score.html#a35fbe82d00fa680f5338ebbe3f1bdb50">CSmScore</a>
+<li>Clear()
+: <a class="el" href="struct_c_sm_score.html#a35fbe82d00fa680f5338ebbe3f1bdb50">CSmScore</a>
 , <a class="el" href="struct_c_tm_score.html#a5dd66d1869c2d3980aabfeeb20522fc5">CTmScore</a>
 </li>
 <li>ClearAllDelayedSoundsEvents()
@@ -406,6 +409,9 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 </li>
 <li>ClearMapMetadata()
 : <a class="el" href="struct_c_map_type.html#a181117e0a4f1dd340efd97b78d2fc06c">CMapType</a>
+</li>
+<li>ClearMessages()
+: <a class="el" href="struct_c_u_i_config.html#a3e5d32e9b80c33b6182138b5e807987d">CUIConfig</a>
 </li>
 <li>ClearRumble()
 : <a class="el" href="struct_c_input_pad.html#a0991ff7af7682a9885f238a3b16b8174">CInputPad</a>
@@ -418,6 +424,9 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 </li>
 <li>Client
 : <a class="el" href="struct_c_server_plugin_event.html#a783c1bd7ef134795a75e289f41914f9d">CServerPluginEvent</a>
+</li>
+<li>Client_ComputeMinimap
+: <a class="el" href="struct_c_server_plugin.html#a5cc618b0cd912b9a88070ea2c7209d8f">CServerPlugin</a>
 </li>
 <li>ClientConnected
 : <a class="el" href="struct_c_server_plugin_event.html#a8c500907f6d8ee82888eb35cec35ac8da37109c5fa7f28726b767e1c8d0e2e6b3">CServerPluginEvent</a>
@@ -466,6 +475,9 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 <li>CloseScoresTable()
 : <a class="el" href="struct_c_ml_script_ingame.html#a47fdc067b19125fed0c2839930011bda">CMlScriptIngame</a>
 </li>
+<li>CloseUVEditor
+: <a class="el" href="struct_c_editor_event.html#a991b45df4bb1de4750259553e55ab9b6a4f3803d6c051d40c04704bc81a90c0cc">CEditorEvent</a>
+</li>
 <li>ClubLink
 : <a class="el" href="struct_c_user.html#af9715aa01eaf27d180c4d1c75b436667">CUser</a>
 </li>
@@ -485,24 +497,10 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 <li>CollectionSquareSize
 : <a class="el" href="struct_c_map_editor_plugin.html#a980ff9485e1d0fd76978d670c2ed9994">CMapEditorPlugin</a>
 </li>
-<li>Collector
-: <a class="el" href="struct_c_block_model.html#a0199aff2b908fc8a1fc4d3518f507d11a428782b7d693a801fe8a30b927991324">CBlockModel</a>
-</li>
 <li>Color
-: <a class="el" href="struct_c_image.html#a08e7113d1020b72c7c425874760e7437afa9a0b09fce995508fc333265e579f7a">CImage</a>
-, <a class="el" href="struct_c_ml_gauge.html#a55ce3a43f0182e1887389ccf7cd00bb7">CMlGauge</a>
+: <a class="el" href="struct_c_ml_gauge.html#a55ce3a43f0182e1887389ccf7cd00bb7">CMlGauge</a>
 , <a class="el" href="struct_c_ml_graph_curve.html#affce2465f0a90491fc5852f3232abc3b">CMlGraphCurve</a>
 , <a class="el" href="struct_c_user.html#a0395644ce5f0509f39f69a7fe7079b42">CUser</a>
-, <a class="el" href="struct_c_user_v2.html#a83e32e4dce95e06f8fca958369b2bc33">CUserV2</a>
-</li>
-<li>Color16b
-: <a class="el" href="struct_c_image.html#a3a431aa494c1717ec6317f72ddada69fa6569cd8961a21fed3936ced6ed7cc737">CImage</a>
-</li>
-<li>Color32b
-: <a class="el" href="struct_c_image.html#a3a431aa494c1717ec6317f72ddada69faa6b011a83a3870666a4fa13e54fa6d96">CImage</a>
-</li>
-<li>ColorFloat
-: <a class="el" href="struct_c_image.html#a08e7113d1020b72c7c425874760e7437aed748e8a2036860ee42193d9fe1341e8">CImage</a>
 </li>
 <li>Colorize
 : <a class="el" href="struct_c_ml_quad.html#a0fa376b9aedec8f78b6082986d8c79b5">CMlQuad</a>
@@ -518,9 +516,6 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 </li>
 <li>ColorText
 : <a class="el" href="struct_c_team.html#a81eea9a70111459b0a46be0b64b85ae6">CTeam</a>
-</li>
-<li>Column
-: <a class="el" href="struct_c_campaign.html#a97ffa673db21000db7d3461d81caf0fba59aa43554e84e782dea263c9af8d2d74">CCampaign</a>
 </li>
 <li>Combo
 : <a class="el" href="struct_c_ml_script_ingame.html#a03f99561065dc005e6eeb89489e1d302aca3d59549524b793f4508ad6621fb07f">CMlScriptIngame</a>
@@ -558,13 +553,46 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 : <a class="el" href="struct_c_tm_result.html#a7c8af7b7413230aa8a5390c86b3ab01a">CTmResult</a>
 </li>
 <li>CompatibleMapTypes
-: <a class="el" href="struct_c_game_mode_info.html#a18789e14b870f7a7eb6f47f7f5281274">CGameModeInfo</a>
+: <a class="el" href="struct_c_task_result___mode_info.html#a322796db083f83be06bd1155be5416dc">CTaskResult_ModeInfo</a>
 </li>
 <li>ComponentLayer
 : <a class="el" href="struct_c_module_menu_component.html#a887249cabd993a110ae94fb17fc2ae95">CModuleMenuComponent</a>
 </li>
 <li>Components
 : <a class="el" href="struct_c_module_menu_layer.html#ad9627e96136bb9072d70eeceba3c9596">CModuleMenuLayer</a>
+</li>
+<li>Compose_Array_Close()
+: <a class="el" href="struct_c_parsing_manager.html#a857ddfe2e047b88026eb2fce001306d1">CParsingManager</a>
+</li>
+<li>Compose_Array_Open()
+: <a class="el" href="struct_c_parsing_manager.html#acaa57fc902d1e16819fb6a1557c5c07a">CParsingManager</a>
+</li>
+<li>Compose_Attribute()
+: <a class="el" href="struct_c_parsing_manager.html#a49f1b783f81614e28ef443d39872bfe2">CParsingManager</a>
+</li>
+<li>Compose_Destroy()
+: <a class="el" href="struct_c_parsing_manager.html#a3475e5815a0d0208bae3c86ec3b2e0ec">CParsingManager</a>
+</li>
+<li>Compose_End()
+: <a class="el" href="struct_c_parsing_manager.html#a7db1b9296a7ab3e73c3286ede7f32d39">CParsingManager</a>
+</li>
+<li>Compose_GetResult()
+: <a class="el" href="struct_c_parsing_manager.html#a95e826b9a850515535214a264fc043de">CParsingManager</a>
+</li>
+<li>Compose_Node_Close()
+: <a class="el" href="struct_c_parsing_manager.html#a1fe6710849efc4fec070243c9c2ca23d">CParsingManager</a>
+</li>
+<li>Compose_Node_Open()
+: <a class="el" href="struct_c_parsing_manager.html#a6d7c7ae2e2f5c44a5dea6792ee9e40c4">CParsingManager</a>
+</li>
+<li>Compose_Start_Json()
+: <a class="el" href="struct_c_parsing_manager.html#a8eabb7e0c2fe225ad76dba059e42a015">CParsingManager</a>
+</li>
+<li>Compose_Start_Xml()
+: <a class="el" href="struct_c_parsing_manager.html#a9a0eb699588c515811ed204f9d69aed0">CParsingManager</a>
+</li>
+<li>Compose_Value()
+: <a class="el" href="struct_c_parsing_manager.html#a73098ac9bf806c1074222728ac0bcb87">CParsingManager</a>
 </li>
 <li>ComputeHeight()
 : <a class="el" href="struct_c_ml_label.html#a32bd47ab9c8960a6215ef0ea4bd26dc7">CMlLabel</a>
@@ -573,14 +601,7 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 : <a class="el" href="struct_c_map_editor_plugin.html#ad2caacef5d00cb3fc9a2216d48695fa6">CMapEditorPlugin</a>
 </li>
 <li>ComputeWidth()
-: <a class="el" href="struct_c_ml_label.html#a541735e3ee998c13694ea0c2f9418acf">CMlLabel</a>
-</li>
-<li>Conductor
-: <a class="el" href="struct_c_block_model.html#a0199aff2b908fc8a1fc4d3518f507d11a4c9cbae2346fa8e35021617bf90ee89f">CBlockModel</a>
-, <a class="el" href="struct_c_block_model_variant.html#a1b3269c896ac2c68ea4cee549bdca79ba0d8f04b6bf30f5fa162fe0c3f3b5a713">CBlockModelVariant</a>
-</li>
-<li>Config
-: <a class="el" href="struct_c_user_v2.html#a72aaa772520566e875f9f6a66659be02">CUserV2</a>
+: <a class="el" href="struct_c_ml_label.html#adbd10ca96e0756c8191ef9ba5f33695f">CMlLabel</a>
 </li>
 <li>Consumable1
 : <a class="el" href="struct_c_sm_mode.html#a0db40aa4cad21ff7acfb15363031b302a96ec52240f975c659e0dd143f464c135">CSmMode</a>
@@ -591,7 +612,7 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 , <a class="el" href="struct_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082ab50770d16f451c440ba7eed82ffca27e">CSmModeEvent</a>
 </li>
 <li>Context
-: <a class="el" href="struct_c_game_player_map_record_script.html#a11b27e5125bc5ade461738df27522684">CGamePlayerMapRecordScript</a>
+: <a class="el" href="struct_c_task_result___map_record.html#a3484867b4b3126a4ad9f4ba0b0fd44e3">CTaskResult_MapRecord</a>
 </li>
 <li>Context_IsActive()
 : <a class="el" href="struct_c_editor_main_plugin.html#a939d1b7bc18f17a6efcfa2639ad31e37">CEditorMainPlugin</a>
@@ -599,8 +620,20 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 <li>Context_SetActive()
 : <a class="el" href="struct_c_editor_main_plugin.html#ad214aeb3c53487e7d78bc3e01fc94c50">CEditorMainPlugin</a>
 </li>
+<li>ContextAdd()
+: <a class="el" href="struct_c_module_playground_hud_model.html#a74fe5502ad609de9038ee8b6d91ec336">CModulePlaygroundHudModel</a>
+</li>
 <li>ContextId
 : <a class="el" href="struct_c_sm_action_event.html#a13c4dd6b32d6135682bf6585bc014e7f">CSmActionEvent</a>
+</li>
+<li>ContextRemove()
+: <a class="el" href="struct_c_module_playground_hud_model.html#a2b1811f526e37a5d629af9a50802fb19">CModulePlaygroundHudModel</a>
+</li>
+<li>ContextSetId()
+: <a class="el" href="struct_c_module_playground_hud_model.html#acbe52c3d9ea29efa019b3e909f67e2a3">CModulePlaygroundHudModel</a>
+</li>
+<li>ContextsIds
+: <a class="el" href="struct_c_module_playground_hud_model.html#acd23d3f1126ee90385f0183992844c4a">CModulePlaygroundHudModel</a>
 </li>
 <li>Control
 : <a class="el" href="struct_c_ml_script_event.html#a9bbfc12003b31931f8937e2397861ac2">CMlScriptEvent</a>
@@ -638,13 +671,17 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 : <a class="el" href="struct_c_ml_frame.html#a51b41d7e6f5385f4b09f07c42d4a5c52">CMlFrame</a>
 </li>
 <li>Cooldown
-: <a class="el" href="struct_c_sm_action.html#a446d543f04ffdb199640cee158ea4c7b">CSmAction</a>
+: <a class="el" href="struct_c_action_interface.html#addffac003023f3766aa477f77df198eb">CActionInterface</a>
+, <a class="el" href="struct_c_sm_action.html#a446d543f04ffdb199640cee158ea4c7b">CSmAction</a>
 </li>
 <li>Cooldown_IsReady()
 : <a class="el" href="struct_c_sm_action.html#a016880205c3b2005369c71a8a6850863">CSmAction</a>
 </li>
 <li>Cooldown_Start()
 : <a class="el" href="struct_c_sm_action.html#a79bd48c3df7804cd1d3dc92eebab0da4">CSmAction</a>
+</li>
+<li>CooldownStartTime
+: <a class="el" href="struct_c_action_interface.html#a1dd9d56ca2acd09e7ff713d2eb1d45cf">CActionInterface</a>
 </li>
 <li>CoopCheckpointCurController
 : <a class="el" href="struct_c_tm_ml_player.html#abce4cfc007d4155d62e4f72e0723b270">CTmMlPlayer</a>
@@ -698,12 +735,16 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 <li>CopyServerLinkToClipBoard()
 : <a class="el" href="struct_c_ml_script_ingame.html#ac7fd3683936ece2a9a340a9bc2c6ef23">CMlScriptIngame</a>
 </li>
+<li>CopyVoxels()
+: <a class="el" href="struct_c_editor_mesh.html#a59e3f35eff6e4de735b6365b267a3f77">CEditorMesh</a>
+</li>
 <li>Corkscrew
 : <a class="el" href="struct_c_tm_ml_player.html#a477970c1f9ef2d9a294bff1ea2edf227abe7916e2179dd039ff57f64187558768">CTmMlPlayer</a>
 , <a class="el" href="struct_c_tm_mode_event.html#ac9740bcb1c7d12ee789cb98aba09d9faa203f39153ebadb69bd82489969cb2575">CTmModeEvent</a>
 </li>
 <li>Count
-: <a class="el" href="struct_c_task_result___natural_leader_board_info_list.html#a659aa42e3db898ce3e6b7a43f643a09e">CTaskResult_NaturalLeaderBoardInfoList</a>
+: <a class="el" href="struct_c_editor_mesh.html#a0639a4d88c4adb38dd7d3a32965e7ed2a9646f9186f7510619fd24739c90dcded">CEditorMesh</a>
+, <a class="el" href="struct_c_task_result___natural_leader_board_info_list.html#a659aa42e3db898ce3e6b7a43f643a09e">CTaskResult_NaturalLeaderBoardInfoList</a>
 , <a class="el" href="struct_c_task_result___real_leader_board_info_list.html#a40d4ba384fc6d3d22e8c8c9b55e5019e">CTaskResult_RealLeaderBoardInfoList</a>
 </li>
 <li>Countdown
@@ -721,9 +762,8 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 <li>CountryFlagUrl
 : <a class="el" href="struct_c_user.html#a1529db151c3e889c0e820bbd7dbb80bf">CUser</a>
 </li>
-<li>Create
-: <a class="el" href="struct_c_presence_mgr.html#a52668e753cbfd20300e724634f2f5acba48e6993f384263655460865c2e321124">CPresenceMgr</a>
-, <a class="el" href="struct_c_xml_manager.html#a2a983b193da015ef0c7e2d5597b79e99">CXmlManager</a>
+<li>Create()
+: <a class="el" href="struct_c_parsing_manager.html#a35e80a69a015c84dfaebe4e2bb439c00">CParsingManager</a>
 </li>
 <li>CreateBotPlayer()
 : <a class="el" href="struct_c_sm_mode.html#a4f9a113367fbf022f10804a800c66701">CSmMode</a>
@@ -732,16 +772,16 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 : <a class="el" href="struct_c_map_info.html#aae84ebbbb33a259d3c919b5789e03ef0">CMapInfo</a>
 </li>
 <li>CreateGet()
-: <a class="el" href="struct_c_http_manager.html#a2dd784250d9e2027fc49eb07d3e18940">CHttpManager</a>
+: <a class="el" href="struct_c_http_manager.html#a7987a5904142513920e8afe7e3d740c2">CHttpManager</a>
 </li>
 <li>CreateMusic()
 : <a class="el" href="struct_c_audio_manager.html#ab292a8285ddf155c523cec597cf40528">CAudioManager</a>
 </li>
 <li>CreatePost()
-: <a class="el" href="struct_c_http_manager.html#a4ac0b5e57abd363e2c11aa71879da565">CHttpManager</a>
+: <a class="el" href="struct_c_http_manager.html#ac11e219d952b6df51a9701a55c70f161">CHttpManager</a>
 </li>
 <li>CreateServer()
-: <a class="el" href="struct_c_title_flow.html#a2a672a787edeef7debab968d123e10ee">CTitleFlow</a>
+: <a class="el" href="struct_c_title_control.html#ad6337f8ce4775e4f6677eba92318e81d">CTitleControl</a>
 </li>
 <li>CreateSound()
 : <a class="el" href="struct_c_audio_manager.html#a69f6d45178e548e7fded8b3da55d9c79">CAudioManager</a>
@@ -763,15 +803,12 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 </li>
 <li>CubicIn
 : <a class="el" href="struct_c_anim_manager.html#a166e6c79ac8754c37a72cf73f3acfc56ab78b3319eeecf76d5ff36d6c12f6e828">CAnimManager</a>
-, <a class="el" href="struct_c_mania_app.html#a0520db6298ac4610253bc18fb36ab282abd3a55e36e09e4043fb077efbabb44d1">CManiaApp</a>
 </li>
 <li>CubicInOut
 : <a class="el" href="struct_c_anim_manager.html#a166e6c79ac8754c37a72cf73f3acfc56aa2a7b350d504f67e76caa8cf6ad22b2a">CAnimManager</a>
-, <a class="el" href="struct_c_mania_app.html#a0520db6298ac4610253bc18fb36ab282ab8800bfef9d8f4097273183b0e5a516b">CManiaApp</a>
 </li>
 <li>CubicOut
 : <a class="el" href="struct_c_anim_manager.html#a166e6c79ac8754c37a72cf73f3acfc56a966bb1c833c401fe7c9ba5db7f3aaef3">CAnimManager</a>
-, <a class="el" href="struct_c_mania_app.html#a0520db6298ac4610253bc18fb36ab282acf4a6ef35ceaed4b9efb10e7cd80ae16">CManiaApp</a>
 </li>
 <li>CurAmmo
 : <a class="el" href="struct_c_sm_player.html#a675b66abf87713119a1d0e9562586a09">CSmPlayer</a>
@@ -932,9 +969,6 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 <li>CurWeapon
 : <a class="el" href="struct_c_sm_player.html#a514127a0284a44c84d55f8b122cc9a43">CSmPlayer</a>
 </li>
-<li>Custom
-: <a class="el" href="struct_c_campaign.html#a97ffa673db21000db7d3461d81caf0fba42611ac41304a6cc9ccab79e974e2074">CCampaign</a>
-</li>
 <li>Custom1
 : <a class="el" href="struct_c_ml_script_ingame.html#a03f99561065dc005e6eeb89489e1d302a4456789c0aec2eff1cb20f0992192e22">CMlScriptIngame</a>
 , <a class="el" href="struct_c_u_i_config.html#adbe295669674a531f7a99442f36ae8cfa7b2811ee649f48f816f810cc1e7bc389">CUIConfig</a>
@@ -950,6 +984,18 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 <li>Custom4
 : <a class="el" href="struct_c_ml_script_ingame.html#a03f99561065dc005e6eeb89489e1d302a78adcbf22ae0a58fea1c512189440957">CMlScriptIngame</a>
 , <a class="el" href="struct_c_u_i_config.html#adbe295669674a531f7a99442f36ae8cfa9b346e96e4ccda344359d4687cb30de6">CUIConfig</a>
+</li>
+<li>Custom_EnableAvatars
+: <a class="el" href="struct_c_user_v2_profile.html#aa82a542587a2b3fac5f6866ecc00e25a">CUserV2Profile</a>
+</li>
+<li>Custom_EnableChat
+: <a class="el" href="struct_c_user_v2_profile.html#a121bfa212a64d437c06c725ac3f55024">CUserV2Profile</a>
+</li>
+<li>Custom_EnableUnlimitedHorns
+: <a class="el" href="struct_c_user_v2_profile.html#a321f0ca78a038b0fdacb9fbe54138487">CUserV2Profile</a>
+</li>
+<li>Custom_PlayerModels
+: <a class="el" href="struct_c_user_v2_profile.html#a335ffee73c53f84b57e4041eeb2d68b6">CUserV2Profile</a>
 </li>
 <li>CustomEditAnchorData
 : <a class="el" href="struct_c_map_type.html#a13d498b02d3df519abd87490353ea363">CMapType</a>
@@ -987,10 +1033,10 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 : <a class="el" href="struct_c_module_playground_scores_table.html#a821f9be011b31e0bc3c89aab4899be53a40c65906c7b8287180655959f0d53cc3">CModulePlaygroundScoresTable</a>
 </li>
 <li>CustomResultData
-: <a class="el" href="struct_c_title_flow.html#a703fdb909e357a87460ee4420862bedd">CTitleFlow</a>
+: <a class="el" href="struct_c_title_control.html#a9649bebe46565eeea56760a9353b60f4">CTitleControl</a>
 </li>
 <li>CustomResultType
-: <a class="el" href="struct_c_title_flow.html#aaf17295fd08ecf14a01396638b80fb70">CTitleFlow</a>
+: <a class="el" href="struct_c_title_control.html#ac1362aa68131d6c257e35998c67525ef">CTitleControl</a>
 </li>
 <li>CustomSelection
 : <a class="el" href="struct_c_map_editor_plugin.html#a588b4a11b38fdde8d041e9c055d098bfa7ded83efcbe0467480f90880b492fa3d">CMapEditorPlugin</a>
@@ -1019,6 +1065,9 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 </li>
 <li>CutScene
 : <a class="el" href="struct_c_u_i_layer.html#a67edc88dc1458b9a0d9645f4d3b9021da16dbc2112f9d8920988918461928900b">CUILayer</a>
+</li>
+<li>CutVoxels()
+: <a class="el" href="struct_c_editor_mesh.html#a7d3689981e6d4afcb9f84a962b71a349">CEditorMesh</a>
 </li>
 <li>Cylindrical
 : <a class="el" href="struct_c_editor_mesh.html#a7547cc34ad474355f44babec40d2c8b3a98f980b3eba83ee202628ff8dc11d7e2">CEditorMesh</a>

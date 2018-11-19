@@ -8,6 +8,7 @@ var struct_c_http_manager =
     [ "Destroy", "struct_c_http_manager.html#ac684634a02c187302e20d748a342db98", null ],
     [ "IsValidUrl", "struct_c_http_manager.html#a902d8cc9f8dbffe29bec2fe016fb5a13", null ],
     [ "AutomaticHeaders_Timezone", "struct_c_http_manager.html#a0ef46bc2c718a656b2926688e72efcd6", null ],
+    [ "PendingEvents", "struct_c_http_manager.html#a4fe66a19260ffc93d2f73df93275f55c", null ],
     [ "Requests", "struct_c_http_manager.html#a821894c490c4a5247ea8480fd10f7f74", null ],
     [ "SlotsAvailable", "struct_c_http_manager.html#a61680c48bff62240ae1448dc76523775", null ]
 ];

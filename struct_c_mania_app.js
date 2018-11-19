@@ -1,57 +1,8 @@
 var struct_c_mania_app =
 [
-    [ "EAnimManagerEasing", "struct_c_mania_app.html#a0520db6298ac4610253bc18fb36ab282", [
-      [ "Linear", "struct_c_mania_app.html#a0520db6298ac4610253bc18fb36ab282a75eca9beee21dae6aad22a467cafe4df", null ],
-      [ "QuadIn", "struct_c_mania_app.html#a0520db6298ac4610253bc18fb36ab282a2660eb3173eb76ed3c78a8b4e5be8705", null ],
-      [ "QuadOut", "struct_c_mania_app.html#a0520db6298ac4610253bc18fb36ab282ae0247e5dfb51d714df9c46a486e02e8d", null ],
-      [ "QuadInOut", "struct_c_mania_app.html#a0520db6298ac4610253bc18fb36ab282acc20bcd243f7b314128e0deec219deff", null ],
-      [ "CubicIn", "struct_c_mania_app.html#a0520db6298ac4610253bc18fb36ab282abd3a55e36e09e4043fb077efbabb44d1", null ],
-      [ "CubicOut", "struct_c_mania_app.html#a0520db6298ac4610253bc18fb36ab282acf4a6ef35ceaed4b9efb10e7cd80ae16", null ],
-      [ "CubicInOut", "struct_c_mania_app.html#a0520db6298ac4610253bc18fb36ab282ab8800bfef9d8f4097273183b0e5a516b", null ],
-      [ "QuartIn", "struct_c_mania_app.html#a0520db6298ac4610253bc18fb36ab282a711ce5305d7e05ebfbaccc8c88accb82", null ],
-      [ "QuartOut", "struct_c_mania_app.html#a0520db6298ac4610253bc18fb36ab282ac5dd301a4a281c3d2097e3c359bf542e", null ],
-      [ "QuartInOut", "struct_c_mania_app.html#a0520db6298ac4610253bc18fb36ab282a0f1d53d584903440b5b9e853f797b5b8", null ],
-      [ "QuintIn", "struct_c_mania_app.html#a0520db6298ac4610253bc18fb36ab282aecb3bb87247431e86c3e6fac09cbc602", null ],
-      [ "QuintOut", "struct_c_mania_app.html#a0520db6298ac4610253bc18fb36ab282aa9c3e74e9835f0d9f899b81e50c87409", null ],
-      [ "QuintInOut", "struct_c_mania_app.html#a0520db6298ac4610253bc18fb36ab282a193133726c06118f453c26220c46e205", null ],
-      [ "SineIn", "struct_c_mania_app.html#a0520db6298ac4610253bc18fb36ab282a613d03b3c3168a488756176956203083", null ],
-      [ "SineOut", "struct_c_mania_app.html#a0520db6298ac4610253bc18fb36ab282aa36bbf318f7d0feec77b3088be8f46b5", null ],
-      [ "SineInOut", "struct_c_mania_app.html#a0520db6298ac4610253bc18fb36ab282a90f3a6fe082bf332cf0314fde583a1e8", null ],
-      [ "ExpIn", "struct_c_mania_app.html#a0520db6298ac4610253bc18fb36ab282afbe742d73f98d9711e50b1989d24fbd9", null ],
-      [ "ExpOut", "struct_c_mania_app.html#a0520db6298ac4610253bc18fb36ab282ae4a09b82cd2243993bbdc53c0efa1cec", null ],
-      [ "ExpInOut", "struct_c_mania_app.html#a0520db6298ac4610253bc18fb36ab282a87e78f475927ce750c2887cb48790afa", null ],
-      [ "CircIn", "struct_c_mania_app.html#a0520db6298ac4610253bc18fb36ab282a8c98f8cfc3677e6a009f2ecf9c04e9d8", null ],
-      [ "CircOut", "struct_c_mania_app.html#a0520db6298ac4610253bc18fb36ab282ad18ca95d65204e59402c2b34969644e1", null ],
-      [ "CircInOut", "struct_c_mania_app.html#a0520db6298ac4610253bc18fb36ab282a4711f42345ddc109f98aab03173d5f21", null ],
-      [ "BackIn", "struct_c_mania_app.html#a0520db6298ac4610253bc18fb36ab282a20f9b83cca0779942ee50b35d2671271", null ],
-      [ "BackOut", "struct_c_mania_app.html#a0520db6298ac4610253bc18fb36ab282a744c6cdf179174788d78a23b9bc03dee", null ],
-      [ "BackInOut", "struct_c_mania_app.html#a0520db6298ac4610253bc18fb36ab282a59b74f66d79170eaf7ba04b8e124b637", null ],
-      [ "ElasticIn", "struct_c_mania_app.html#a0520db6298ac4610253bc18fb36ab282a0c95b6b7997912d3bb12d8a6e5371704", null ],
-      [ "ElasticOut", "struct_c_mania_app.html#a0520db6298ac4610253bc18fb36ab282a81be428cbaf438104b15708f0f715dc4", null ],
-      [ "ElasticInOut", "struct_c_mania_app.html#a0520db6298ac4610253bc18fb36ab282a502aa02e456d6aeaf8989bd309431bdb", null ],
-      [ "ElasticIn2", "struct_c_mania_app.html#a0520db6298ac4610253bc18fb36ab282a88766986faeba7d20cb3d8f3af847285", null ],
-      [ "ElasticOut2", "struct_c_mania_app.html#a0520db6298ac4610253bc18fb36ab282a3f2ac49e1f14b892d92d6e348f20a88c", null ],
-      [ "ElasticInOut2", "struct_c_mania_app.html#a0520db6298ac4610253bc18fb36ab282a981e53b8abac96b9ad73a14a5b082700", null ],
-      [ "BounceIn", "struct_c_mania_app.html#a0520db6298ac4610253bc18fb36ab282aecb34e5c841efa7b021ba16739b4077c", null ],
-      [ "BounceOut", "struct_c_mania_app.html#a0520db6298ac4610253bc18fb36ab282ab791b2b91477c3a62bb1cc5086e2e2d2", null ],
-      [ "BounceInOut", "struct_c_mania_app.html#a0520db6298ac4610253bc18fb36ab282aacc968b41dc9ca1115a57b236d9a8779", null ]
-    ] ],
     [ "ELinkType", "struct_c_mania_app.html#a4f785cb281aef2f121c90ad751222a02", [
       [ "ExternalBrowser", "struct_c_mania_app.html#a4f785cb281aef2f121c90ad751222a02a47ebfc865daf324df63712f8de85e09f", null ],
       [ "ManialinkBrowser", "struct_c_mania_app.html#a4f785cb281aef2f121c90ad751222a02a9ad4dcaf39199db4b94aee935068f58e", null ]
-    ] ],
-    [ "ESystemPlatform", "struct_c_mania_app.html#af69e1cd1fee4c6ad8023db6644638dd9", [
-      [ "None", "struct_c_mania_app.html#af69e1cd1fee4c6ad8023db6644638dd9aa66470db1e647b7523cf743ee706a1a2", null ],
-      [ "Steam", "struct_c_mania_app.html#af69e1cd1fee4c6ad8023db6644638dd9a267e0893691309b9ee7e6a9f009bc9cc", null ],
-      [ "UPlay", "struct_c_mania_app.html#af69e1cd1fee4c6ad8023db6644638dd9a651c437b3b43fd700ab38c971abe8654", null ],
-      [ "PS4", "struct_c_mania_app.html#af69e1cd1fee4c6ad8023db6644638dd9aa0ca7ca707ddb824b80eaa213a443731", null ],
-      [ "XBoxOne", "struct_c_mania_app.html#af69e1cd1fee4c6ad8023db6644638dd9a9dadb89c1b0e1aa31f420ef0c330f8fb", null ]
-    ] ],
-    [ "ESystemSkuIdentifier", "struct_c_mania_app.html#a414b40a732e17f23787d9461136dc189", [
-      [ "Unknown", "struct_c_mania_app.html#a414b40a732e17f23787d9461136dc189a404b0e0443d8c942548af1c28770bcc7", null ],
-      [ "EU", "struct_c_mania_app.html#a414b40a732e17f23787d9461136dc189ac31ebd8886bf378968ee1940c55a5680", null ],
-      [ "US", "struct_c_mania_app.html#a414b40a732e17f23787d9461136dc189aac593a6e2baf865f90be1798a4c6429f", null ],
-      [ "JP", "struct_c_mania_app.html#a414b40a732e17f23787d9461136dc189a0d9914769051db2ebc75c4b2952b6f04", null ]
     ] ],
     [ "Dbg_DumpDeclareForVariables", "struct_c_mania_app.html#a40070306176f129819401999f3c17e20", null ],
     [ "Dialog_Message", "struct_c_mania_app.html#a1aef18f02e67b8f683d0c80f5131ddff", null ],
@@ -73,12 +24,10 @@ var struct_c_mania_app =
     [ "ManiaAppBaseUrl", "struct_c_mania_app.html#a738bcfe7289b14b17d3ea37a73b59d52", null ],
     [ "ManiaAppUrl", "struct_c_mania_app.html#afb3753acd45ed1d95440a32cfa12b0ee", null ],
     [ "Now", "struct_c_mania_app.html#a43ebcce2866b78eed9bebc74f1adc1a6", null ],
-    [ "PresenceMgr", "struct_c_mania_app.html#a0a75c9defcfad61feaa2242fcd4fb711", null ],
-    [ "PrivilegeMgr", "struct_c_mania_app.html#aef20522ad74482719716ca61d7f4e40a", null ],
     [ "ScoreMgr", "struct_c_mania_app.html#a3a4940b5a0a492225b596a1055fd8858", null ],
     [ "System", "struct_c_mania_app.html#a934031eb35ccedea57086256516dbba9", null ],
     [ "UILayers", "struct_c_mania_app.html#a6bc2155fa7b0e807d1d7a3d6e8d74ff2", null ],
     [ "UserMgr", "struct_c_mania_app.html#a985b8b1da29846d4a9336c5e8eb0a8ad", null ],
     [ "Video", "struct_c_mania_app.html#aed0cd94adc509be91a2a09b95be19577", null ],
-    [ "Xml", "struct_c_mania_app.html#a4a85db3aedebe8b18001b75064b8546d", null ]
+    [ "Xml", "struct_c_mania_app.html#a24cea1771ac8430de28b1eb41fe00aaf", null ]
 ];

@@ -64,6 +64,8 @@ var struct_c_ml_script_ingame =
     [ "Map", "struct_c_ml_script_ingame.html#a0763ed093b35d42f7a649a3bd1db4f6f", null ],
     [ "ParentApp", "struct_c_ml_script_ingame.html#a82196456a9985dd363f456e5a3a27df1", null ],
     [ "Playground", "struct_c_ml_script_ingame.html#aac12864de3cd6767495ac0ca72e25bd6", null ],
+    [ "SplitScreenCount", "struct_c_ml_script_ingame.html#a1e714c07529b31a3a87c13f2e2394bf2", null ],
+    [ "SplitScreenNum", "struct_c_ml_script_ingame.html#a3ad1c6c0765b2f01e4ba4694b77a6549", null ],
     [ "Teams", "struct_c_ml_script_ingame.html#a242ad1b6eaedbdcaac2d9911ff2bc6d0", null ],
     [ "UI", "struct_c_ml_script_ingame.html#a507c1765dc7de5952ae02c3bcc1dd8b5", null ],
     [ "UseClans", "struct_c_ml_script_ingame.html#a524c0a591c24f11390b2da81101c0307", null ],

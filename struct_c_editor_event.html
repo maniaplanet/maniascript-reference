@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">ManiaScript Reference
-   &#160;<span id="projectnumber">2018-07</span>
+   &#160;<span id="projectnumber">2018-11</span>
    </div>
   </td>
  </tr>
@@ -102,8 +102,9 @@ Inheritance diagram for CEditorEvent:</div>
  <div class="center">
   <img src="struct_c_editor_event.png" usemap="#CEditorEvent_map" alt=""/>
   <map id="CEditorEvent_map" name="CEditorEvent_map">
-<area href="struct_c_mania_app_event.html" alt="CManiaAppEvent" shape="rect" coords="0,56,111,80"/>
-<area href="struct_c_nod.html" alt="CNod" shape="rect" coords="0,0,111,24"/>
+<area href="struct_c_mania_app_event.html" alt="CManiaAppEvent" shape="rect" coords="0,112,113,136"/>
+<area href="struct_c_base_const_event.html" alt="CBaseConstEvent" shape="rect" coords="0,56,113,80"/>
+<area href="struct_c_nod.html" alt="CNod" shape="rect" coords="0,0,113,24"/>
 </map>
  </div></div>
 <table class="memberdecls">
@@ -115,9 +116,23 @@ Public Types</h2></td></tr>
 <a class="el" href="struct_c_editor_event.html#a991b45df4bb1de4750259553e55ab9b6a2d71313b9dfe071da8dcc412ad2addcd">MenuNavigation</a>, 
 <a class="el" href="struct_c_editor_event.html#a991b45df4bb1de4750259553e55ab9b6adebf5a43f61e9180a6348933fe88543f">FileChanged</a>, 
 <br />
-&#160;&#160;<a class="el" href="struct_c_editor_event.html#a991b45df4bb1de4750259553e55ab9b6a2c8fe22e1e221bead98d559ced3af2e1">OnUndo</a>, 
+&#160;&#160;<a class="el" href="struct_c_editor_event.html#a991b45df4bb1de4750259553e55ab9b6a252b9f36ca9faf0fa654bc64dbd1b2fe">Exit</a>, 
+<a class="el" href="struct_c_editor_event.html#a991b45df4bb1de4750259553e55ab9b6ac0ed7ab3ed524cc124dfec81251e182f">FileSave</a>, 
+<a class="el" href="struct_c_editor_event.html#a991b45df4bb1de4750259553e55ab9b6a2c8fe22e1e221bead98d559ced3af2e1">OnUndo</a>, 
 <a class="el" href="struct_c_editor_event.html#a991b45df4bb1de4750259553e55ab9b6a3a9bd775073c9a2877c1b735000bcc26">OnRedo</a>, 
-<a class="el" href="struct_c_editor_event.html#a991b45df4bb1de4750259553e55ab9b6a1aae44e44dc8ccf385240c76ffce08e0">OnSwitchedBack</a>
+<br />
+&#160;&#160;<a class="el" href="struct_c_editor_event.html#a991b45df4bb1de4750259553e55ab9b6a1aae44e44dc8ccf385240c76ffce08e0">OnSwitchedBack</a>, 
+<a class="el" href="struct_c_editor_event.html#a991b45df4bb1de4750259553e55ab9b6a2c9e562cc6dc2087f5260cd60daca670">CameraButtonOn</a>, 
+<a class="el" href="struct_c_editor_event.html#a991b45df4bb1de4750259553e55ab9b6a8a70addc4bf156469aa894a1968b8835">CameraButtonOff</a>, 
+<a class="el" href="struct_c_editor_event.html#a991b45df4bb1de4750259553e55ab9b6a2da5059b48605952f32134efb7d9dc0f">VoxelUpdateMaterial</a>, 
+<br />
+&#160;&#160;<a class="el" href="struct_c_editor_event.html#a991b45df4bb1de4750259553e55ab9b6a3803ef7fd9534f15ad532952dbc8758e">OpenUVEditor</a>, 
+<a class="el" href="struct_c_editor_event.html#a991b45df4bb1de4750259553e55ab9b6a4f3803d6c051d40c04704bc81a90c0cc">CloseUVEditor</a>, 
+<a class="el" href="struct_c_editor_event.html#a991b45df4bb1de4750259553e55ab9b6ab2b73ffe49080065d57e794a8e7df3a9">EnableUndo</a>, 
+<a class="el" href="struct_c_editor_event.html#a991b45df4bb1de4750259553e55ab9b6ad91b4292b80a076e0be8ebbb76ebea76">DisableUndo</a>, 
+<br />
+&#160;&#160;<a class="el" href="struct_c_editor_event.html#a991b45df4bb1de4750259553e55ab9b6a4d447306ff0695f369fa490e8e3557db">EnableRedo</a>, 
+<a class="el" href="struct_c_editor_event.html#a991b45df4bb1de4750259553e55ab9b6add34adcbabddac43d64c2e71a06be604">DisableRedo</a>
 <br />
  }</td></tr>
 <tr class="separator:a991b45df4bb1de4750259553e55ab9b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -141,7 +156,10 @@ Public Types</h2></td></tr>
 <br />
 &#160;&#160;<a class="el" href="struct_c_mania_app_event.html#a11e3f587759eee4fe3c87d9584a4d7a6ad2c97d2211ec600317df4d16ffd2ff5a">AppMenu</a>, 
 <a class="el" href="struct_c_mania_app_event.html#a11e3f587759eee4fe3c87d9584a4d7a6a155f51d1a58459366a67e265c9f68a1c">Action1</a>, 
-<a class="el" href="struct_c_mania_app_event.html#a11e3f587759eee4fe3c87d9584a4d7a6ac6f254ec02d04c64471e91cad12c8e07">Action2</a>
+<a class="el" href="struct_c_mania_app_event.html#a11e3f587759eee4fe3c87d9584a4d7a6ac6f254ec02d04c64471e91cad12c8e07">Action2</a>, 
+<a class="el" href="struct_c_mania_app_event.html#a11e3f587759eee4fe3c87d9584a4d7a6ada6d941cd9ebdd55ac29ca152fffdac4">ScrollUp</a>, 
+<br />
+&#160;&#160;<a class="el" href="struct_c_mania_app_event.html#a11e3f587759eee4fe3c87d9584a4d7a6a64ec65ef91a0f67657b8cfe0222c5462">ScrollDown</a>
 <br />
  }</td></tr>
 <tr class="separator:a11e3f587759eee4fe3c87d9584a4d7a6 inherit pub_types_struct_c_mania_app_event"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -171,11 +189,16 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a58e02a369cd9cb983cf898c9cb8a34d1 inherit pub_attribs_struct_c_mania_app_event"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1e27bbe6f30875ddc63fca4668693a71 inherit pub_attribs_struct_c_mania_app_event"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_text.html">Text</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_mania_app_event.html#a1e27bbe6f30875ddc63fca4668693a71">KeyName</a></td></tr>
 <tr class="separator:a1e27bbe6f30875ddc63fca4668693a71 inherit pub_attribs_struct_c_mania_app_event"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_attribs_struct_c_base_const_event"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_struct_c_base_const_event')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="struct_c_base_const_event.html">CBaseConstEvent</a></td></tr>
+<tr class="memitem:a4bc1e96d742a128d291131fa60fbcd90 inherit pub_attribs_struct_c_base_const_event"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_base_const_event.html#a4bc1e96d742a128d291131fa60fbcd90">HasBeenProcessed</a></td></tr>
+<tr class="separator:a4bc1e96d742a128d291131fa60fbcd90 inherit pub_attribs_struct_c_base_const_event"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_struct_c_nod"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_struct_c_nod')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="struct_c_nod.html">CNod</a></td></tr>
 <tr class="memitem:a4e8985f12f3e272263bfb85ef29196e4 inherit pub_attribs_struct_c_nod"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_ident.html">Ident</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_nod.html#a4e8985f12f3e272263bfb85ef29196e4">Id</a></td></tr>
 <tr class="separator:a4e8985f12f3e272263bfb85ef29196e4 inherit pub_attribs_struct_c_nod"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Enumeration Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Supported declare modes : Local An event </p>
+</div><h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="a991b45df4bb1de4750259553e55ab9b6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a991b45df4bb1de4750259553e55ab9b6">&#9670;&nbsp;</a></span>Type</h2>
 
@@ -192,9 +215,20 @@ Public Attributes</h2></td></tr>
 <tr><td class="fieldname"><a id="a991b45df4bb1de4750259553e55ab9b6ab0c88eb695c1ab19c12d7dc89c4b9661"></a>KeyPress&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a991b45df4bb1de4750259553e55ab9b6a2d71313b9dfe071da8dcc412ad2addcd"></a>MenuNavigation&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a991b45df4bb1de4750259553e55ab9b6adebf5a43f61e9180a6348933fe88543f"></a>FileChanged&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a991b45df4bb1de4750259553e55ab9b6a252b9f36ca9faf0fa654bc64dbd1b2fe"></a>Exit&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a991b45df4bb1de4750259553e55ab9b6ac0ed7ab3ed524cc124dfec81251e182f"></a>FileSave&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a991b45df4bb1de4750259553e55ab9b6a2c8fe22e1e221bead98d559ced3af2e1"></a>OnUndo&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a991b45df4bb1de4750259553e55ab9b6a3a9bd775073c9a2877c1b735000bcc26"></a>OnRedo&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a991b45df4bb1de4750259553e55ab9b6a1aae44e44dc8ccf385240c76ffce08e0"></a>OnSwitchedBack&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a991b45df4bb1de4750259553e55ab9b6a2c9e562cc6dc2087f5260cd60daca670"></a>CameraButtonOn&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a991b45df4bb1de4750259553e55ab9b6a8a70addc4bf156469aa894a1968b8835"></a>CameraButtonOff&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a991b45df4bb1de4750259553e55ab9b6a2da5059b48605952f32134efb7d9dc0f"></a>VoxelUpdateMaterial&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a991b45df4bb1de4750259553e55ab9b6a3803ef7fd9534f15ad532952dbc8758e"></a>OpenUVEditor&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a991b45df4bb1de4750259553e55ab9b6a4f3803d6c051d40c04704bc81a90c0cc"></a>CloseUVEditor&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a991b45df4bb1de4750259553e55ab9b6ab2b73ffe49080065d57e794a8e7df3a9"></a>EnableUndo&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a991b45df4bb1de4750259553e55ab9b6ad91b4292b80a076e0be8ebbb76ebea76"></a>DisableUndo&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a991b45df4bb1de4750259553e55ab9b6a4d447306ff0695f369fa490e8e3557db"></a>EnableRedo&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a991b45df4bb1de4750259553e55ab9b6add34adcbabddac43d64c2e71a06be604"></a>DisableRedo&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>

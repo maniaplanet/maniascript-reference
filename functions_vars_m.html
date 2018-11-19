@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">ManiaScript Reference
-   &#160;<span id="projectnumber">2018-07</span>
+   &#160;<span id="projectnumber">2018-11</span>
    </div>
   </td>
  </tr>
@@ -98,14 +98,8 @@ $(document).ready(function(){initNavTree('functions_vars_m.html','');});
 <li>MainFrame
 : <a class="el" href="struct_c_ml_page.html#a0a07d682d09e754f95094c666d4afa15">CMlPage</a>
 </li>
-<li>MainUser
-: <a class="el" href="struct_c_user_v2_manager.html#ae9452571a02bf842bd259cd2a8e71acb">CUserV2Manager</a>
-</li>
-<li>MainUserLogged
-: <a class="el" href="struct_c_user_v2_manager.html#acb9a0e9e706b09e0a8e87641c87824a5">CUserV2Manager</a>
-</li>
-<li>MainUserPad
-: <a class="el" href="struct_c_user_v2_manager.html#a0751621d8caf2c155566a866ec967b9f">CUserV2Manager</a>
+<li>MainUserProfile
+: <a class="el" href="struct_c_user_v2_manager.html#aebc85123af0d736dc7fd22b4ee3f5582">CUserV2Manager</a>
 </li>
 <li>Maker_EditedTitles
 : <a class="el" href="struct_c_mania_app_station.html#ac8b5f5d8398a2ea752fa249c0e0b105a">CManiaAppStation</a>
@@ -146,9 +140,6 @@ $(document).ready(function(){initNavTree('functions_vars_m.html','');});
 <li>MapCheckpointPos
 : <a class="el" href="struct_c_tm_ml_script_ingame.html#abe648958c5091592b54a42ca980e2d8a">CTmMlScriptIngame</a>
 , <a class="el" href="struct_c_tm_mode.html#a0cfd4b0fb0d34174ae818b1148499ce0">CTmMode</a>
-</li>
-<li>MapEditorMode
-: <a class="el" href="struct_c_user_v2_profile.html#a06e11fe636a53746d44232337fb738f0">CUserV2Profile</a>
 </li>
 <li>MapFinishLinePos
 : <a class="el" href="struct_c_tm_ml_script_ingame.html#ad39253045da27da2bea70da32d11fae3">CTmMlScriptIngame</a>
@@ -211,10 +202,10 @@ $(document).ready(function(){initNavTree('functions_vars_m.html','');});
 , <a class="el" href="struct_c_server_plugin.html#ab9acf1736ebbf8b7889b40a19baf89b6">CServerPlugin</a>
 </li>
 <li>MapName
-: <a class="el" href="struct_c_game_player_map_record_script.html#a49c2050d2087634461fa9f6b079b30d7">CGamePlayerMapRecordScript</a>
-, <a class="el" href="struct_c_map.html#aaf42952015853314409f0654d7a3c2f5">CMap</a>
+: <a class="el" href="struct_c_map.html#aaf42952015853314409f0654d7a3c2f5">CMap</a>
 , <a class="el" href="struct_c_map_editor_plugin.html#aef8a2626dc7b35f2315b2c344f323b55">CMapEditorPlugin</a>
 , <a class="el" href="struct_c_mode.html#a5832edcf13c2f7aba7388c9622d3b720">CMode</a>
+, <a class="el" href="struct_c_task_result___map_record.html#a791ba1945bf91f63dcc29cb904119b8a">CTaskResult_MapRecord</a>
 </li>
 <li>MapNbLaps
 : <a class="el" href="struct_c_tm_ml_script_ingame.html#ace00d1b785ea9af1a0309d6e61c6cd68">CTmMlScriptIngame</a>
@@ -227,7 +218,7 @@ $(document).ready(function(){initNavTree('functions_vars_m.html','');});
 : <a class="el" href="struct_c_ml_minimap.html#a7f05d7a1744527fa90f0a71dafb9797e">CMlMinimap</a>
 </li>
 <li>MapRecordList
-: <a class="el" href="struct_c_web_services_task_result___map_record_list_script.html#aeec5038e79bd8161e6fd93e470598ae2">CWebServicesTaskResult_MapRecordListScript</a>
+: <a class="el" href="struct_c_task_result___map_record_list.html#abdeb2d6145830ed6935526ba47708152">CTaskResult_MapRecordList</a>
 </li>
 <li>MapStartLinePos
 : <a class="el" href="struct_c_tm_ml_script_ingame.html#ab932da9483be44500a4d3838c0e6ebc5">CTmMlScriptIngame</a>
@@ -242,9 +233,9 @@ $(document).ready(function(){initNavTree('functions_vars_m.html','');});
 , <a class="el" href="struct_c_map_info.html#a5489a717fa5c3ebe9cf8e265a4720461">CMapInfo</a>
 </li>
 <li>MapUid
-: <a class="el" href="struct_c_game_player_map_record_script.html#aa750c806607fcb095aad874d0562ce4c">CGamePlayerMapRecordScript</a>
-, <a class="el" href="struct_c_map_info.html#acf282f1a82e2baac7f5b043329b4ec65">CMapInfo</a>
+: <a class="el" href="struct_c_map_info.html#acf282f1a82e2baac7f5b043329b4ec65">CMapInfo</a>
 , <a class="el" href="struct_c_replay_info.html#ac2a70fd55ca4de763b4343eb07c39216">CReplayInfo</a>
+, <a class="el" href="struct_c_task_result___map_record.html#a26987b96af9750258a8fc5bdd6fd23a7">CTaskResult_MapRecord</a>
 </li>
 <li>MapUnloadRequested
 : <a class="el" href="struct_c_server_plugin.html#a961e1f7a920dabbb759d3ff5d1f37e3c">CServerPlugin</a>
@@ -359,11 +350,15 @@ $(document).ready(function(){initNavTree('functions_vars_m.html','');});
 <li>ModeCallbackType
 : <a class="el" href="struct_c_server_plugin_event.html#a96f5b330a1fa61e8d227a83acb5cfb64">CServerPluginEvent</a>
 </li>
+<li>ModelDisplayName
+: <a class="el" href="struct_c_vehicle_settings.html#a27931d5474e21e1325bef7090c7c813a">CVehicleSettings</a>
+</li>
 <li>ModelId
 : <a class="el" href="struct_c_sm_object.html#acb08d6577383f87f50e2147f99de1830">CSmObject</a>
 </li>
 <li>ModelName
 : <a class="el" href="struct_c_input_pad.html#ab9cd0fcd71c1feaff86ceb4b8df21d67">CInputPad</a>
+, <a class="el" href="struct_c_vehicle_settings.html#a17df5b1b062990c9d79145c7edced60f">CVehicleSettings</a>
 </li>
 <li>ModeName
 : <a class="el" href="struct_c_server_info.html#a1d402b56721431cd32bce4fc533625da">CServerInfo</a>
@@ -377,8 +372,17 @@ $(document).ready(function(){initNavTree('functions_vars_m.html','');});
 <li>ModuleEditor
 : <a class="el" href="struct_c_any_editor_plugin.html#a931c0bf84415ecf9079c9f15c2e9b927">CAnyEditorPlugin</a>
 </li>
+<li>ModuleName
+: <a class="el" href="struct_s_hud_module.html#a9c2fe06e539717c0df22eeed16c0df18">SHudModule</a>
+</li>
+<li>Modules
+: <a class="el" href="struct_c_module_playground_hud.html#ae4c659456064149d31d4f11816cdbaa5">CModulePlaygroundHud</a>
+</li>
 <li>ModuleType
 : <a class="el" href="struct_c_u_i_config_event.html#a2d3987b4ac42e7191e1bef8ea0fa2250">CUIConfigEvent</a>
+</li>
+<li>MouseKineticScrollVel
+: <a class="el" href="struct_c_input_manager.html#a4e9f52745bc8b74a7fbd4107cebc635a">CInputManager</a>
 </li>
 <li>MouseLeftButton
 : <a class="el" href="struct_c_input_manager.html#ac7be890ae0e221b4a34b46898d5e7ab1">CInputManager</a>
@@ -402,7 +406,7 @@ $(document).ready(function(){initNavTree('functions_vars_m.html','');});
 : <a class="el" href="struct_c_ml_script.html#aff8e3d0040a9f2f1e2bee75f564d9209">CMlScript</a>
 </li>
 <li>MultiAsyncLevel
-: <a class="el" href="struct_c_game_player_map_record_script.html#aa4bf3aa357bd1de6d1135cee04a2e4ea">CGamePlayerMapRecordScript</a>
+: <a class="el" href="struct_c_task_result___map_record.html#a58d015b38835567f864813c4b3f5ec95">CTaskResult_MapRecord</a>
 </li>
 <li>Music
 : <a class="el" href="struct_c_ml_media_player.html#a6f3a279d620394044fba9a58eac2d8aa">CMlMediaPlayer</a>

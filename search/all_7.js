@@ -1,10 +1,11 @@
 var searchData=
 [
-  ['hack1vertex',['Hack1Vertex',['../struct_c_image.html#a5b05fbaf9bec64dc97451d12c91d72eaa1fe103783dba46ec2c96173997b700e2',1,'CImage']]],
   ['hackcamhmddisabled',['HackCamHmdDisabled',['../struct_c_user.html#a35bda14e2047bdf5d7976acae79c8e8f',1,'CUser']]],
-  ['halfbinary',['HalfBinary',['../struct_c_image.html#a47ac4db4cba66671baeb168615eb003ca1039551184f045fa0ad001542e6e555d',1,'CImage']]],
   ['happy',['Happy',['../struct_c_u_i_config.html#af108c0db11d574205ccadaa5e1e71e1dae9fc799888540825a4b1f5a6db6d3b69',1,'CUIConfig']]],
   ['hasbeenactivated',['HasBeenActivated',['../struct_c_notifications_consumer_notification.html#a57081dad99001b14c78ddfa6f8603db8',1,'CNotificationsConsumerNotification']]],
+  ['hasbeendiscarded',['HasBeenDiscarded',['../struct_c_base_event.html#a9932269931dd0369c282ae22eefd06c3',1,'CBaseEvent']]],
+  ['hasbeenpassed',['HasBeenPassed',['../struct_c_base_event.html#a2d3433e8438935027fa996a1e82d2681',1,'CBaseEvent']]],
+  ['hasbeenprocessed',['HasBeenProcessed',['../struct_c_base_const_event.html#a4bc1e96d742a128d291131fa60fbcd90',1,'CBaseConstEvent']]],
   ['hasbeenread',['HasBeenRead',['../struct_c_notifications_consumer_notification.html#a95769a5dff64747adb013a9c6d86093e',1,'CNotificationsConsumerNotification']]],
   ['hasbuddies',['HasBuddies',['../struct_c_server_info.html#aad4ce4c50db937fd47485facda585199',1,'CServerInfo']]],
   ['hascheckpoint',['HasCheckpoint',['../struct_c_macroblock_model.html#ac864bb0fce6791e8694e7ff4f9fa9a57',1,'CMacroblockModel']]],
@@ -16,7 +17,6 @@ var searchData=
   ['hasfinished',['HasFinished',['../struct_c_module_menu_file_browser.html#aa45031c8c366f89971c5a1ce7b32fe97',1,'CModuleMenuFileBrowser']]],
   ['hasmultilap',['HasMultilap',['../struct_c_macroblock_model.html#a58018f7c1f873ac583c94938542cd0ea',1,'CMacroblockModel']]],
   ['hasnoplayercollision',['HasNoPlayerCollision',['../struct_c_sm_action.html#ad34c325573fc5a65830a3cabb349c69e',1,'CSmAction']]],
-  ['hasprivilege',['HasPrivilege',['../struct_c_task_result___check_targeted_privilege.html#a4e317d11f956c5d0fa132b8541199fd2',1,'CTaskResult_CheckTargetedPrivilege']]],
   ['hasshield',['HasShield',['../struct_c_sm_player.html#a82961b801f3e206f15131f93db889963',1,'CSmPlayer']]],
   ['hasstart',['HasStart',['../struct_c_macroblock_model.html#aceebc605bb79c0cf4a55505bc4102470',1,'CMacroblockModel']]],
   ['hassucceeded',['HasSucceeded',['../struct_c_task_result.html#a8be2910c13ee628ebb587c3514769b2a',1,'CTaskResult']]],
@@ -25,6 +25,7 @@ var searchData=
   ['help',['Help',['../struct_c_map_editor_plugin.html#adfa33f61cbe30b17a1d0bf2ddddafdf9',1,'CMapEditorPlugin']]],
   ['help_5fclose',['Help_Close',['../struct_c_editor_main_plugin.html#ae532e971c42f8f0b4aff6c77391f544c',1,'CEditorMainPlugin']]],
   ['help_5fopen',['Help_Open',['../struct_c_editor_main_plugin.html#a318a020877af00f0877e40c334348938',1,'CEditorMainPlugin']]],
+  ['hextorgb',['HexToRgb',['../namespace_color_lib.html#a718b5c29a8a60431d2d88c107a6c86ff',1,'ColorLib']]],
   ['hidden',['Hidden',['../struct_c_tm_mode.html#a87cacebe33a75308051c0471368c8d05a1ad37df8d7adac5b3f22f50d27afb4ee',1,'CTmMode']]],
   ['hide',['Hide',['../struct_c_module_playground.html#ad1c20ebb9ca141306601d54872bcb873',1,'CModulePlayground::Hide()'],['../struct_c_module_playground.html#a0a90477b98aeb55cbcf769c3c0e95c09',1,'CModulePlayground::Hide(CUIConfig UIConfig)'],['../struct_c_module_menu_component.html#a8715baa1ef46b3f180fae7ee65c4b388',1,'CModuleMenuComponent::Hide()'],['../struct_c_ml_control.html#ae6408b276bbf15f1788e064bc027ba6c',1,'CMlControl::Hide()']]],
   ['hideblockhelpers',['HideBlockHelpers',['../struct_c_map_editor_plugin.html#a72b51d9f92a021f0cf72942a0b7ee87a',1,'CMapEditorPlugin']]],
@@ -38,14 +39,16 @@ var searchData=
   ['hmd',['HMD',['../struct_c_user.html#a97cbb6ae146f13dbce300a19a55160f6ab3241626f9a6c6c1cc52c35db8dbb288',1,'CUser']]],
   ['holdloadingscreen',['HoldLoadingScreen',['../struct_c_map_editor_plugin.html#a71c83f4e2b5857f9e27815702e904c4a',1,'CMapEditorPlugin::HoldLoadingScreen()'],['../struct_c_u_i_config_mgr.html#a21dbd2b527ef5a54b72154a74de67c8d',1,'CUIConfigMgr::HoldLoadingScreen()']]],
   ['holdmapunloadrequest',['HoldMapUnloadRequest',['../struct_c_server_plugin.html#aa7a3f2ca1ac609423ae04c0ea7689759',1,'CServerPlugin']]],
-  ['horizontal',['Horizontal',['../struct_c_title_flow.html#a75be516bfa0ebc76defca1e7e28b0710ab20288acd15eaaf24df366bd85832efc',1,'CTitleFlow']]],
+  ['horizontal',['Horizontal',['../struct_c_title_control.html#a22c3b06c960430651f4876f9fc47d573a5855808cda402c3296b4301a68eafe1b',1,'CTitleControl']]],
   ['horizontalalign',['HorizontalAlign',['../struct_c_ml_control.html#a8f5f036aee721040b297cdac2959ab68',1,'CMlControl']]],
   ['horn',['Horn',['../struct_c_tm_race_client_event.html#ad282d53d2c86b1efad861e10a1c28cfdaa8472497714ffc2f236e940cc83e07d3',1,'CTmRaceClientEvent']]],
+  ['horndisplayname',['HornDisplayName',['../struct_c_user.html#a26a7ff03ae764506793fa5a179ce42a2',1,'CUser']]],
   ['hpf_5fcutoffratio',['HPF_CutoffRatio',['../struct_c_audio_source_music.html#aa49c49b5b4d3754d187828fad466f31d',1,'CAudioSourceMusic']]],
   ['hpf_5fq',['HPF_Q',['../struct_c_audio_source_music.html#ab4937016a4f08313814dea5425781e86',1,'CAudioSourceMusic']]],
+  ['hsvtorgb',['HsvToRgb',['../namespace_color_lib.html#ace566f437e3688e3a495fae0f9969c9a',1,'ColorLib']]],
   ['http',['Http',['../struct_c_ml_script.html#a956488fee6f61a2b6f8ded5cdc59cebc',1,'CMlScript::Http()'],['../struct_c_mania_app.html#a87be0e963157b8112d73f1462e104e35',1,'CManiaApp::Http()'],['../struct_c_server_plugin.html#acddb20e41d02f9cd881113e07682514c',1,'CServerPlugin::Http()'],['../struct_c_mode.html#acee254016b4567376d77a66402f4f02d',1,'CMode::Http()']]],
   ['hud',['Hud',['../struct_c_editor_module.html#a2f7873156c745148df4f05fc2b57c8c1a623aae8fa335b1f6be2f138f43580172',1,'CEditorModule::Hud()'],['../struct_c_mode.html#afec7ff710fad50c7b649c3b683ce5de9',1,'CMode::Hud()'],['../struct_c_u_i_config_event.html#a62066118dcfb3d3f20ce4388dce7409cac98f7dc6af15df241b142abf10a36aaf',1,'CUIConfigEvent::Hud()']]],
   ['hud3dfontfilename',['Hud3dFontFileName',['../struct_c_pack_creator_title_info.html#a4cbc6ebd6a48fcc95e7ff0b915448363',1,'CPackCreatorTitleInfo']]],
   ['hud_5fload',['Hud_Load',['../struct_c_mode.html#a842acd59c68e595b4e1700581fe36aec',1,'CMode']]],
-  ['human',['Human',['../struct_c_user.html#a5dc2b1553ee25ca986cb6e201edf2e04a620833cd418cdb906019b817da7d0d79',1,'CUser::Human()'],['../struct_c_image.html#a8dac3185e8baa8e9adb11d58638ce2d5abb8c85e36c7ce16cea78607aaa76c259',1,'CImage::Human()']]]
+  ['huddefaultmodulescriptname',['HudDefaultModuleScriptName',['../struct_c_pack_creator_title_info.html#a07b2626b79c6a9242be6083bbd0709c4',1,'CPackCreatorTitleInfo']]]
 ];

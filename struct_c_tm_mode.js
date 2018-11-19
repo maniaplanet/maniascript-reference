@@ -29,6 +29,8 @@ var struct_c_tm_mode =
     ] ],
     [ "Cheats_Reset", "struct_c_tm_mode.html#af74f038fcddf1bf7a34028cb1c8872e3", null ],
     [ "Discard", "struct_c_tm_mode.html#afd8d824a16069245527ca08461a6c22c", null ],
+    [ "GetPlayer", "struct_c_tm_mode.html#a044b249783384cfee667d53482d71f52", null ],
+    [ "GetPlayer", "struct_c_tm_mode.html#aeb0b2c984b76d759d33e393e7668508d", null ],
     [ "Ladder_ComputeRank", "struct_c_tm_mode.html#a4d3aa87552be8370bfbd1debdc90ca26", null ],
     [ "PassOn", "struct_c_tm_mode.html#a37aec35d690a45e4a87abe5260fbc324", null ],
     [ "RaceGhost_Add", "struct_c_tm_mode.html#ad36747af707c0454584ac4053deebc50", null ],

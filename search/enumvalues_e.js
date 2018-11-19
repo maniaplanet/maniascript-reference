@@ -1,10 +1,8 @@
 var searchData=
 [
-  ['off',['Off',['../struct_c_image.html#a04e090e1918e14cdd0c17a495aa4feb6a3043ba53798f2e26e24217f39ee92783',1,'CImage']]],
   ['official',['Official',['../struct_c_u_i_config.html#a199222523d2efeb91fcca1948927da8ca603a104b450ccd21d9183cc82f23a550',1,'CUIConfig']]],
   ['offzone',['OffZone',['../struct_c_map_editor_plugin.html#a588b4a11b38fdde8d041e9c055d098bfadb6c5539f577053378b66c083d10d0ee',1,'CMapEditorPlugin']]],
   ['ok',['Ok',['../struct_c_ml_browser.html#af6082ac9bae1f71a5c6214a4733f39fba01929997f2ff032e4f784846e50c9f5e',1,'CMlBrowser']]],
-  ['on',['On',['../struct_c_image.html#a04e090e1918e14cdd0c17a495aa4feb6ace5968720e535bbdfb7f360108ddc53c',1,'CImage']]],
   ['onactioncustomevent',['OnActionCustomEvent',['../struct_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3a270e75e6b3999e5eef28d93a1054f6c0',1,'CSmModeEvent']]],
   ['onactionevent',['OnActionEvent',['../struct_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3a3108ed9b6f372060d7c8782a4945a40a',1,'CSmModeEvent']]],
   ['onactivechange',['OnActiveChange',['../struct_c_sm_action_event.html#adea0bc4e3b9a4b25c0dcebd93fe73c22a3dc682af60c9a3eea4aa37a2e88dc86b',1,'CSmActionEvent']]],
@@ -19,8 +17,9 @@ var searchData=
   ['onhitplayer',['OnHitPlayer',['../struct_c_sm_action_event.html#adea0bc4e3b9a4b25c0dcebd93fe73c22af5c6c81c382d0e6df9c1991eab0d985c',1,'CSmActionEvent']]],
   ['onhitshield',['OnHitShield',['../struct_c_sm_action_event.html#adea0bc4e3b9a4b25c0dcebd93fe73c22a3ed512739fcb2b8717b992b5be19901b',1,'CSmActionEvent']]],
   ['onhitturret',['OnHitTurret',['../struct_c_sm_action_event.html#adea0bc4e3b9a4b25c0dcebd93fe73c22a88afb0f73b5d803a9a052baf91bc8ec3',1,'CSmActionEvent']]],
+  ['onhitvehicle',['OnHitVehicle',['../struct_c_sm_action_event.html#adea0bc4e3b9a4b25c0dcebd93fe73c22ae989daa0fad8e8bfc9f4408836e86acb',1,'CSmActionEvent']]],
   ['onlayercustomevent',['OnLayerCustomEvent',['../struct_c_u_i_config_event.html#a97bff10bb47adfa5e380999fe2c5bf9bacb02c7b1112a901367a5cadd683955fa',1,'CUIConfigEvent']]],
-  ['only',['Only',['../struct_c_campaign.html#af3f7273695043889cf2174868667ea6aad2decf8f8efb66778273fae7bd5e2562',1,'CCampaign']]],
+  ['onlytextures',['OnlyTextures',['../struct_c_user_v2_profile.html#a4ef99fdd1d71d688033211be4da79f7ca0a6484c998f6e04f982db5417c3ea2f2',1,'CUserV2Profile']]],
   ['onmodulecustomevent',['OnModuleCustomEvent',['../struct_c_u_i_config_event.html#a97bff10bb47adfa5e380999fe2c5bf9baf1084374af583537d58f8b3893ab0101',1,'CUIConfigEvent']]],
   ['onmodulehiderequest',['OnModuleHideRequest',['../struct_c_u_i_config_event.html#a97bff10bb47adfa5e380999fe2c5bf9bab5b0248f5694f81411a0116ca9eb09ba',1,'CUIConfigEvent']]],
   ['onmoduleinventorydrop',['OnModuleInventoryDrop',['../struct_c_u_i_config_event.html#a97bff10bb47adfa5e380999fe2c5bf9ba87f2fe485f81ec07b4f5f83352b956f7',1,'CUIConfigEvent']]],
@@ -39,6 +38,8 @@ var searchData=
   ['onplayerthrowsobject',['OnPlayerThrowsObject',['../struct_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3af1f92a1930ac1916feda3b56c68073a6',1,'CSmModeEvent']]],
   ['onplayertouchesobject',['OnPlayerTouchesObject',['../struct_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3a7f997a628c1d476933d3132ed35fe85b',1,'CSmModeEvent']]],
   ['onplayertriggerssector',['OnPlayerTriggersSector',['../struct_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3ae8fe48535fe0545c804e43659ea76f6f',1,'CSmModeEvent']]],
+  ['onplayertriggerswaypoint',['OnPlayerTriggersWaypoint',['../struct_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3aab8c7ce9e24288211b1dfd73baebc59d',1,'CSmModeEvent']]],
+  ['onprojectiledestroyed',['OnProjectileDestroyed',['../struct_c_sm_action_event.html#adea0bc4e3b9a4b25c0dcebd93fe73c22a5ca27ddd3b01930cedb1b991a405e696',1,'CSmActionEvent']]],
   ['onprojectileend',['OnProjectileEnd',['../struct_c_sm_action_event.html#adea0bc4e3b9a4b25c0dcebd93fe73c22a109f961eaf67a41f96c18cdc1ad89ae3',1,'CSmActionEvent']]],
   ['onredo',['OnRedo',['../struct_c_editor_event.html#a991b45df4bb1de4750259553e55ab9b6a3a9bd775073c9a2877c1b735000bcc26',1,'CEditorEvent']]],
   ['onshieldend',['OnShieldEnd',['../struct_c_sm_action_event.html#adea0bc4e3b9a4b25c0dcebd93fe73c22a191b88b134b37eea98953ed1d2cb98f3',1,'CSmActionEvent']]],
@@ -46,8 +47,13 @@ var searchData=
   ['onshotdeny',['OnShotDeny',['../struct_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3a0dbda9c1526f3cbb8b3a9b713559cc61',1,'CSmModeEvent']]],
   ['onswitchedback',['OnSwitchedBack',['../struct_c_editor_event.html#a991b45df4bb1de4750259553e55ab9b6a1aae44e44dc8ccf385240c76ffce08e0',1,'CEditorEvent']]],
   ['onundo',['OnUndo',['../struct_c_editor_event.html#a991b45df4bb1de4750259553e55ab9b6a2c8fe22e1e221bead98d559ced3af2e1',1,'CEditorEvent']]],
-  ['opposeddironly',['OpposedDirOnly',['../struct_c_block_model.html#a2de12b9b0e82af76502d2ee6c415ce3da2a59f59174e85c5f0f93883b37fadf62',1,'CBlockModel::OpposedDirOnly()'],['../struct_c_block_model_variant.html#a2f17d9e626f87f9d04386ffc4b3512a5a983d91a1943ea08b716e4935ad29792b',1,'CBlockModelVariant::OpposedDirOnly()'],['../struct_c_block_model_clip.html#ae4ef51ce3d3a18007b7313228f0a3d97a5a13537699b6e3015e912bc230cdf41d',1,'CBlockModelClip::OpposedDirOnly()']]],
+  ['onvehiclearmorempty',['OnVehicleArmorEmpty',['../struct_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3a50a7de8aa974e3d7280232586ae24688',1,'CSmModeEvent']]],
+  ['onvehiclecollision',['OnVehicleCollision',['../struct_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3a1a8900e6c7dd8f1bd2e8fd512d40725b',1,'CSmModeEvent']]],
+  ['onvehiclelanding',['OnVehicleLanding',['../struct_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3aa20549c68366e87be461237d0c76b3db',1,'CSmModeEvent']]],
+  ['onvehiclevsvehiclecollision',['OnVehicleVsVehicleCollision',['../struct_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3a0d70fa1f18ce94f6b1f9de78b93fb04a',1,'CSmModeEvent']]],
+  ['openuveditor',['OpenUVEditor',['../struct_c_editor_event.html#a991b45df4bb1de4750259553e55ab9b6a3803ef7fd9534f15ad532952dbc8758e',1,'CEditorEvent']]],
   ['oppositebots',['OppositeBots',['../struct_c_sm_player_driver.html#ab1c6d70786ad39e3d5c25a22b39d0b84a13a25d34e2ab51fbbc449b409d5562f5',1,'CSmPlayerDriver']]],
   ['oppositeplayers',['OppositePlayers',['../struct_c_sm_player_driver.html#ab1c6d70786ad39e3d5c25a22b39d0b84a394a02281d45c7a7310a8b804f37ecca',1,'CSmPlayerDriver']]],
-  ['outro',['Outro',['../struct_c_u_i_config.html#a2bb50fe7f240513e0506421ea7cc829eae1c4c071cff18236588f81c4c7b85938',1,'CUIConfig']]]
+  ['outro',['Outro',['../struct_c_u_i_config.html#a2bb50fe7f240513e0506421ea7cc829eae1c4c071cff18236588f81c4c7b85938',1,'CUIConfig']]],
+  ['owner',['Owner',['../struct_c_mode_vehicle_manager.html#ac0a7d6209b172e2d2c91d2c68b32be4da045c9c517cb561e5a4eddc3240b64f95',1,'CModeVehicleManager']]]
 ];

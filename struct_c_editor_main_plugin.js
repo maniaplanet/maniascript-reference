@@ -11,6 +11,7 @@ var struct_c_editor_main_plugin =
       [ "UndoRedo", "struct_c_editor_main_plugin.html#a6a0c20ff6f9e06f4a052d1346b8f3b0ea279517d34eb7694a2bcdbbefbc900007", null ]
     ] ],
     [ "Binding_IsActive", "struct_c_editor_main_plugin.html#a16e36e0a0953f9abc2ed284fd1ead046", null ],
+    [ "Binding_IsActive", "struct_c_editor_main_plugin.html#a45a24c1ee96cceb2762b0f68044c265d", null ],
     [ "Context_IsActive", "struct_c_editor_main_plugin.html#a939d1b7bc18f17a6efcfa2639ad31e37", null ],
     [ "Context_SetActive", "struct_c_editor_main_plugin.html#ad214aeb3c53487e7d78bc3e01fc94c50", null ],
     [ "GetPluginHandle", "struct_c_editor_main_plugin.html#a9f1f7cb14516485283d875e4927ef473", null ],

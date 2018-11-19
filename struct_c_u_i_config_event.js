@@ -8,7 +8,11 @@ var struct_c_u_i_config_event =
       [ "ScoresTable", "struct_c_u_i_config_event.html#a62066118dcfb3d3f20ce4388dce7409ca4fc2c420051e1e0427c9d14c1f0e1a8d", null ],
       [ "Equipment", "struct_c_u_i_config_event.html#a62066118dcfb3d3f20ce4388dce7409cac59cc4f30588358d8a00929b2e2a428b", null ],
       [ "MenuBase", "struct_c_u_i_config_event.html#a62066118dcfb3d3f20ce4388dce7409ca77f1bf5951287e1711e99c8fa23c8dac", null ],
-      [ "MenuPage", "struct_c_u_i_config_event.html#a62066118dcfb3d3f20ce4388dce7409ca968239d76f9a332570bb5370bc5cef8c", null ]
+      [ "MenuPage", "struct_c_u_i_config_event.html#a62066118dcfb3d3f20ce4388dce7409ca968239d76f9a332570bb5370bc5cef8c", null ],
+      [ "Chrono", "struct_c_u_i_config_event.html#a62066118dcfb3d3f20ce4388dce7409ca3018827a7ebb44237cf95467e0116800", null ],
+      [ "SpeedMeter", "struct_c_u_i_config_event.html#a62066118dcfb3d3f20ce4388dce7409ca5554aad0138b9e817d2f049158869e89", null ],
+      [ "PlayerState", "struct_c_u_i_config_event.html#a62066118dcfb3d3f20ce4388dce7409cabdb5877eca1ad6028864c6d84a5173ac", null ],
+      [ "TeamState", "struct_c_u_i_config_event.html#a62066118dcfb3d3f20ce4388dce7409caf2ca225b0b796c624d4823e8d7ef0c24", null ]
     ] ],
     [ "EType", "struct_c_u_i_config_event.html#a97bff10bb47adfa5e380999fe2c5bf9b", [
       [ "Unknown", "struct_c_u_i_config_event.html#a97bff10bb47adfa5e380999fe2c5bf9bae7db3fe61e7b8ac1902e0295b2271e9a", null ],

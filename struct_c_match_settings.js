@@ -10,6 +10,6 @@ var struct_c_match_settings =
     [ "ScriptModeName_Set", "struct_c_match_settings.html#a4c03413a238502750f08eeef25fa656a", null ],
     [ "FileName", "struct_c_match_settings.html#a5dc9bae8651fcb060a86738d7d1beead", null ],
     [ "Name", "struct_c_match_settings.html#af72826f6635e1ec61d169e93dc48eaa5", null ],
-    [ "Playlist", "struct_c_match_settings.html#ad61224e024432e94a96c963760294675", null ],
+    [ "Playlist", "struct_c_match_settings.html#af2fcab09371df6bf12494c7220b353a9", null ],
     [ "ScriptModeName", "struct_c_match_settings.html#ad783d31e4d1b5ca4ff063d652ccb5727", null ]
 ];

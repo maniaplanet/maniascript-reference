@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">ManiaScript Reference
-   &#160;<span id="projectnumber">2018-07</span>
+   &#160;<span id="projectnumber">2018-11</span>
    </div>
   </td>
  </tr>
@@ -102,7 +102,8 @@ Inheritance diagram for CMlScriptEvent:</div>
  <div class="center">
   <img src="struct_c_ml_script_event.png" usemap="#CMlScriptEvent_map" alt=""/>
   <map id="CMlScriptEvent_map" name="CMlScriptEvent_map">
-<area href="struct_c_nod.html" alt="CNod" shape="rect" coords="0,0,100,24"/>
+<area href="struct_c_base_const_event.html" alt="CBaseConstEvent" shape="rect" coords="0,56,113,80"/>
+<area href="struct_c_nod.html" alt="CNod" shape="rect" coords="0,0,113,24"/>
 </map>
  </div></div>
 <table class="memberdecls">
@@ -133,7 +134,10 @@ Public Types</h2></td></tr>
 <br />
 &#160;&#160;<a class="el" href="struct_c_ml_script_event.html#a37c233ecfe65713310c257e0a53d54e6a945e83bc0a4b0fbc58c57a250bd96a15">AppMenu</a>, 
 <a class="el" href="struct_c_ml_script_event.html#a37c233ecfe65713310c257e0a53d54e6a5f4dc39d9e233d1e4ca19439522114b2">Action1</a>, 
-<a class="el" href="struct_c_ml_script_event.html#a37c233ecfe65713310c257e0a53d54e6aeaca0650f80a6df725bb98a245812719">Action2</a>
+<a class="el" href="struct_c_ml_script_event.html#a37c233ecfe65713310c257e0a53d54e6aeaca0650f80a6df725bb98a245812719">Action2</a>, 
+<a class="el" href="struct_c_ml_script_event.html#a37c233ecfe65713310c257e0a53d54e6ab445d833c0295c32f92b5d87154ad6e5">ScrollUp</a>, 
+<br />
+&#160;&#160;<a class="el" href="struct_c_ml_script_event.html#a37c233ecfe65713310c257e0a53d54e6a36319dfc29f5b2436da8435edbafaaec">ScrollDown</a>
 <br />
  }</td></tr>
 <tr class="separator:a37c233ecfe65713310c257e0a53d54e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -160,12 +164,15 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a1549f22f6db7c9721a4a39b2bcfd0689"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4e7c951454075a55262434581aa68a9f"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_text.html">Text</a> []&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_ml_script_event.html#a4e7c951454075a55262434581aa68a9f">CustomEventData</a></td></tr>
 <tr class="separator:a4e7c951454075a55262434581aa68a9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_attribs_struct_c_base_const_event"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_struct_c_base_const_event')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="struct_c_base_const_event.html">CBaseConstEvent</a></td></tr>
+<tr class="memitem:a4bc1e96d742a128d291131fa60fbcd90 inherit pub_attribs_struct_c_base_const_event"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_base_const_event.html#a4bc1e96d742a128d291131fa60fbcd90">HasBeenProcessed</a></td></tr>
+<tr class="separator:a4bc1e96d742a128d291131fa60fbcd90 inherit pub_attribs_struct_c_base_const_event"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_struct_c_nod"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_struct_c_nod')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="struct_c_nod.html">CNod</a></td></tr>
 <tr class="memitem:a4e8985f12f3e272263bfb85ef29196e4 inherit pub_attribs_struct_c_nod"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_ident.html">Ident</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_nod.html#a4e8985f12f3e272263bfb85ef29196e4">Id</a></td></tr>
 <tr class="separator:a4e8985f12f3e272263bfb85ef29196e4 inherit pub_attribs_struct_c_nod"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Events for Manialink page scripts. </p>
+<div class="textblock"><p>Supported declare modes : Local Events for Manialink page scripts. </p>
 </div><h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="a37c233ecfe65713310c257e0a53d54e6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a37c233ecfe65713310c257e0a53d54e6">&#9670;&nbsp;</a></span>EMenuNavAction</h2>
@@ -190,6 +197,8 @@ Public Attributes</h2></td></tr>
 <tr><td class="fieldname"><a id="a37c233ecfe65713310c257e0a53d54e6a945e83bc0a4b0fbc58c57a250bd96a15"></a>AppMenu&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a37c233ecfe65713310c257e0a53d54e6a5f4dc39d9e233d1e4ca19439522114b2"></a>Action1&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a37c233ecfe65713310c257e0a53d54e6aeaca0650f80a6df725bb98a245812719"></a>Action2&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a37c233ecfe65713310c257e0a53d54e6ab445d833c0295c32f92b5d87154ad6e5"></a>ScrollUp&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a37c233ecfe65713310c257e0a53d54e6a36319dfc29f5b2436da8435edbafaaec"></a>ScrollDown&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>

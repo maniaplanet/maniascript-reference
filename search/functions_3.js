@@ -8,8 +8,9 @@ var searchData=
   ['demotoken_5fgetandusetoken',['DemoToken_GetAndUseToken',['../struct_c_mode.html#a599514b9c44858b0d9cb242d362b84d7',1,'CMode']]],
   ['demotoken_5fstartusingtoken',['DemoToken_StartUsingToken',['../struct_c_mode.html#a4ee915f483a4ccb3f9d4b04faec38d66',1,'CMode']]],
   ['demotoken_5fstopusingtoken',['DemoToken_StopUsingToken',['../struct_c_mode.html#aa4e450af9ac9927b3acec6f5ecd1efc5',1,'CMode']]],
-  ['destroy',['Destroy',['../struct_c_xml_manager.html#a7350490f5f37e3851c49ead64f2e87c9',1,'CXmlManager::Destroy()'],['../struct_c_http_manager.html#ac684634a02c187302e20d748a342db98',1,'CHttpManager::Destroy()']]],
+  ['destroy',['Destroy',['../struct_c_parsing_manager.html#acab30065dce40bfe7cab6071465ebbd7',1,'CParsingManager::Destroy()'],['../struct_c_http_manager.html#ac684634a02c187302e20d748a342db98',1,'CHttpManager::Destroy()']]],
   ['destroyallbotplayers',['DestroyAllBotPlayers',['../struct_c_sm_mode.html#a94a3acd15be6d472ca8691a6c5b618a0',1,'CSmMode']]],
+  ['destroyallvehicles',['DestroyAllVehicles',['../struct_c_mode_vehicle_manager.html#a54d8de2699eb59512dd30c7f4500ac3a',1,'CModeVehicleManager']]],
   ['destroybotplayer',['DestroyBotPlayer',['../struct_c_sm_mode.html#aced08659c1ea2edd4971eed61856fb09',1,'CSmMode']]],
   ['destroymusic',['DestroyMusic',['../struct_c_audio_manager.html#acb0526314945e1177667bd87d6b24a85',1,'CAudioManager']]],
   ['destroysound',['DestroySound',['../struct_c_audio_manager.html#a7ea4dc3a23842125c79c7e7e08e5a045',1,'CAudioManager']]],
@@ -17,7 +18,7 @@ var searchData=
   ['dialog_5fimportfiles',['Dialog_ImportFiles',['../struct_c_title_edition.html#aece3a146b0eba4765375e51eb94a7595',1,'CTitleEdition']]],
   ['dialog_5fmessage',['Dialog_Message',['../struct_c_mania_app.html#a1aef18f02e67b8f683d0c80f5131ddff',1,'CManiaApp']]],
   ['discard',['Discard',['../struct_c_sm_mode.html#adb16d3ef069eb96c1d7a7be93d195bd1',1,'CSmMode::Discard()'],['../struct_c_tm_mode.html#afd8d824a16069245527ca08461a6c22c',1,'CTmMode::Discard()'],['../struct_c_mode.html#a87699adba53fdd686297d7e55fa88149',1,'CMode::Discard()']]],
-  ['discoverlocalservers',['DiscoverLocalServers',['../struct_c_title_flow.html#a3fc658ac7331b69ab9997602963025d0',1,'CTitleFlow']]],
+  ['discoverlocalservers',['DiscoverLocalServers',['../struct_c_title_control.html#a8cd49215abbba58b2176cd7ba8b34742',1,'CTitleControl']]],
   ['display_5fatlasselectionsget',['Display_AtlasSelectionsGet',['../struct_c_editor_mesh.html#a0dd55f31e7f9f6cdb0e2515f823a6a3f',1,'CEditorMesh']]],
   ['display_5fatlasselectionsset',['Display_AtlasSelectionsSet',['../struct_c_editor_mesh.html#ae154758fa83afd5b516db4cfd169b8d7',1,'CEditorMesh']]],
   ['display_5fclearhighlighting',['Display_ClearHighlighting',['../struct_c_editor_mesh.html#a43f79695f2d29efb2e983d1358a5b52e',1,'CEditorMesh']]],
@@ -27,6 +28,6 @@ var searchData=
   ['display_5fhighlightset',['Display_HighlightSet',['../struct_c_editor_mesh.html#ac5c72ad0d2d8a13902b05d6a6f02ad86',1,'CEditorMesh']]],
   ['display_5fshowmap',['Display_ShowMap',['../struct_c_editor_mesh.html#ac5ccbd84d5371a3b5f52679737818a94',1,'CEditorMesh']]],
   ['displaydefaultsetobjectivesdialog',['DisplayDefaultSetObjectivesDialog',['../struct_c_map_editor_plugin.html#ac75abd900993ef261b1e40f7186ab3a4',1,'CMapEditorPlugin']]],
-  ['distance',['Distance',['../namespace_math_lib.html#a9c2fba2c358f21d2558c32922869bd18',1,'MathLib']]],
+  ['distance',['Distance',['../namespace_math_lib.html#a38fa98d0ab0f93c0d20927487b2315f4',1,'MathLib::Distance(Real Argument1, Real Argument2)'],['../namespace_math_lib.html#a972866ad51ee9fd0d9661b2366f7730b',1,'MathLib::Distance(Vec2 Argument1, Vec2 Argument2)'],['../namespace_math_lib.html#a9c2fba2c358f21d2558c32922869bd18',1,'MathLib::Distance(Vec3 Argument1, Vec3 Argument2)']]],
   ['dotproduct',['DotProduct',['../namespace_math_lib.html#a96301ebe4d434ea704c5cb4671a0c49a',1,'MathLib']]]
 ];

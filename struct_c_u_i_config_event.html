@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">ManiaScript Reference
-   &#160;<span id="projectnumber">2018-07</span>
+   &#160;<span id="projectnumber">2018-11</span>
    </div>
   </td>
  </tr>
@@ -102,7 +102,9 @@ Inheritance diagram for CUIConfigEvent:</div>
  <div class="center">
   <img src="struct_c_u_i_config_event.png" usemap="#CUIConfigEvent_map" alt=""/>
   <map id="CUIConfigEvent_map" name="CUIConfigEvent_map">
-<area href="struct_c_nod.html" alt="CNod" shape="rect" coords="0,0,101,24"/>
+<area href="struct_c_base_event.html" alt="CBaseEvent" shape="rect" coords="0,112,113,136"/>
+<area href="struct_c_base_const_event.html" alt="CBaseConstEvent" shape="rect" coords="0,56,113,80"/>
+<area href="struct_c_nod.html" alt="CNod" shape="rect" coords="0,0,113,24"/>
 </map>
  </div></div>
 <table class="memberdecls">
@@ -130,7 +132,12 @@ Public Types</h2></td></tr>
 &#160;&#160;<a class="el" href="struct_c_u_i_config_event.html#a62066118dcfb3d3f20ce4388dce7409ca4fc2c420051e1e0427c9d14c1f0e1a8d">ScoresTable</a>, 
 <a class="el" href="struct_c_u_i_config_event.html#a62066118dcfb3d3f20ce4388dce7409cac59cc4f30588358d8a00929b2e2a428b">Equipment</a>, 
 <a class="el" href="struct_c_u_i_config_event.html#a62066118dcfb3d3f20ce4388dce7409ca77f1bf5951287e1711e99c8fa23c8dac">MenuBase</a>, 
-<a class="el" href="struct_c_u_i_config_event.html#a62066118dcfb3d3f20ce4388dce7409ca968239d76f9a332570bb5370bc5cef8c">MenuPage</a>
+<a class="el" href="struct_c_u_i_config_event.html#a62066118dcfb3d3f20ce4388dce7409ca968239d76f9a332570bb5370bc5cef8c">MenuPage</a>, 
+<br />
+&#160;&#160;<a class="el" href="struct_c_u_i_config_event.html#a62066118dcfb3d3f20ce4388dce7409ca3018827a7ebb44237cf95467e0116800">Chrono</a>, 
+<a class="el" href="struct_c_u_i_config_event.html#a62066118dcfb3d3f20ce4388dce7409ca5554aad0138b9e817d2f049158869e89">SpeedMeter</a>, 
+<a class="el" href="struct_c_u_i_config_event.html#a62066118dcfb3d3f20ce4388dce7409cabdb5877eca1ad6028864c6d84a5173ac">PlayerState</a>, 
+<a class="el" href="struct_c_u_i_config_event.html#a62066118dcfb3d3f20ce4388dce7409caf2ca225b0b796c624d4823e8d7ef0c24">TeamState</a>
 <br />
  }</td></tr>
 <tr class="separator:a62066118dcfb3d3f20ce4388dce7409c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -157,12 +164,20 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a3a4c9c05b532746a0a3924d7c866100c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4a759acc7306dcfb3bfb0200508d2e39"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_u_i_config_event.html#a4a759acc7306dcfb3bfb0200508d2e39">Quantity</a></td></tr>
 <tr class="separator:a4a759acc7306dcfb3bfb0200508d2e39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_attribs_struct_c_base_event"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_struct_c_base_event')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="struct_c_base_event.html">CBaseEvent</a></td></tr>
+<tr class="memitem:a2d3433e8438935027fa996a1e82d2681 inherit pub_attribs_struct_c_base_event"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_base_event.html#a2d3433e8438935027fa996a1e82d2681">HasBeenPassed</a></td></tr>
+<tr class="separator:a2d3433e8438935027fa996a1e82d2681 inherit pub_attribs_struct_c_base_event"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9932269931dd0369c282ae22eefd06c3 inherit pub_attribs_struct_c_base_event"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_base_event.html#a9932269931dd0369c282ae22eefd06c3">HasBeenDiscarded</a></td></tr>
+<tr class="separator:a9932269931dd0369c282ae22eefd06c3 inherit pub_attribs_struct_c_base_event"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_attribs_struct_c_base_const_event"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_struct_c_base_const_event')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="struct_c_base_const_event.html">CBaseConstEvent</a></td></tr>
+<tr class="memitem:a4bc1e96d742a128d291131fa60fbcd90 inherit pub_attribs_struct_c_base_const_event"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_base_const_event.html#a4bc1e96d742a128d291131fa60fbcd90">HasBeenProcessed</a></td></tr>
+<tr class="separator:a4bc1e96d742a128d291131fa60fbcd90 inherit pub_attribs_struct_c_base_const_event"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_struct_c_nod"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_struct_c_nod')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="struct_c_nod.html">CNod</a></td></tr>
 <tr class="memitem:a4e8985f12f3e272263bfb85ef29196e4 inherit pub_attribs_struct_c_nod"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_ident.html">Ident</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_nod.html#a4e8985f12f3e272263bfb85ef29196e4">Id</a></td></tr>
 <tr class="separator:a4e8985f12f3e272263bfb85ef29196e4 inherit pub_attribs_struct_c_nod"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>UIConfig Event </p>
+<div class="textblock"><p>Supported declare modes : Local UIConfig Event </p>
 </div><h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="a62066118dcfb3d3f20ce4388dce7409c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a62066118dcfb3d3f20ce4388dce7409c">&#9670;&nbsp;</a></span>EModuleType</h2>
@@ -184,6 +199,10 @@ Public Attributes</h2></td></tr>
 <tr><td class="fieldname"><a id="a62066118dcfb3d3f20ce4388dce7409cac59cc4f30588358d8a00929b2e2a428b"></a>Equipment&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a62066118dcfb3d3f20ce4388dce7409ca77f1bf5951287e1711e99c8fa23c8dac"></a>MenuBase&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a62066118dcfb3d3f20ce4388dce7409ca968239d76f9a332570bb5370bc5cef8c"></a>MenuPage&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a62066118dcfb3d3f20ce4388dce7409ca3018827a7ebb44237cf95467e0116800"></a>Chrono&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a62066118dcfb3d3f20ce4388dce7409ca5554aad0138b9e817d2f049158869e89"></a>SpeedMeter&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a62066118dcfb3d3f20ce4388dce7409cabdb5877eca1ad6028864c6d84a5173ac"></a>PlayerState&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a62066118dcfb3d3f20ce4388dce7409caf2ca225b0b796c624d4823e8d7ef0c24"></a>TeamState&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>

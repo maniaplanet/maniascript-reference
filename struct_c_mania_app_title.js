@@ -22,7 +22,7 @@ var struct_c_mania_app_title =
     [ "MatchSettingsManager", "struct_c_mania_app_title.html#a2c6ff6dca7e54f06bd8b742dd433f970", null ],
     [ "Notifications", "struct_c_mania_app_title.html#a335d4118c316f734c39760de071abeac", null ],
     [ "PendingEvents", "struct_c_mania_app_title.html#a891837344ac36383ac300b4ecd296910", null ],
-    [ "TitleControl", "struct_c_mania_app_title.html#a7704ca880021e31743173feeb0c35557", null ],
+    [ "TitleControl", "struct_c_mania_app_title.html#ad1d62ce86bcff24b0e3a97076f1cf481", null ],
     [ "TitleEdition", "struct_c_mania_app_title.html#ac9799d9e4935c0c9455184afbd9a3e08", null ],
-    [ "TitleFlow", "struct_c_mania_app_title.html#a0d24ad10b46a61b38a93021d49ed23c3", null ]
+    [ "TitleFlow", "struct_c_mania_app_title.html#a472144877b09daa646bb44a4544b29f5", null ]
 ];

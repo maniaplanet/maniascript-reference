@@ -11,7 +11,9 @@ var struct_c_ml_script_event =
       [ "PageDown", "struct_c_ml_script_event.html#a37c233ecfe65713310c257e0a53d54e6ad6610cfbb694c838151e4e73efd85d0d", null ],
       [ "AppMenu", "struct_c_ml_script_event.html#a37c233ecfe65713310c257e0a53d54e6a945e83bc0a4b0fbc58c57a250bd96a15", null ],
       [ "Action1", "struct_c_ml_script_event.html#a37c233ecfe65713310c257e0a53d54e6a5f4dc39d9e233d1e4ca19439522114b2", null ],
-      [ "Action2", "struct_c_ml_script_event.html#a37c233ecfe65713310c257e0a53d54e6aeaca0650f80a6df725bb98a245812719", null ]
+      [ "Action2", "struct_c_ml_script_event.html#a37c233ecfe65713310c257e0a53d54e6aeaca0650f80a6df725bb98a245812719", null ],
+      [ "ScrollUp", "struct_c_ml_script_event.html#a37c233ecfe65713310c257e0a53d54e6ab445d833c0295c32f92b5d87154ad6e5", null ],
+      [ "ScrollDown", "struct_c_ml_script_event.html#a37c233ecfe65713310c257e0a53d54e6a36319dfc29f5b2436da8435edbafaaec", null ]
     ] ],
     [ "Type", "struct_c_ml_script_event.html#a373153e5a9f88cb53098172eba503d04", [
       [ "KeyPress", "struct_c_ml_script_event.html#a373153e5a9f88cb53098172eba503d04a62d4a13e8448a3a2386b57be369b6e07", null ],

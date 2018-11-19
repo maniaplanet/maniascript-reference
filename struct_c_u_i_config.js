@@ -19,6 +19,12 @@ var struct_c_u_i_config =
       [ "WhenVisible", "struct_c_u_i_config.html#a7b438c9e68ed142b7cbeb20126289fb7afd0ed24f00fece4ed254dac03e67d706", null ],
       [ "WhenInMiddleOfScreen", "struct_c_u_i_config.html#a7b438c9e68ed142b7cbeb20126289fb7a7a34e190ad7e96dc87306f76726d2ad4", null ]
     ] ],
+    [ "EMessageDisplay", "struct_c_u_i_config.html#aeca36d227222274a17ec48dbc0f06c4d", [
+      [ "Chat", "struct_c_u_i_config.html#aeca36d227222274a17ec48dbc0f06c4da7173c1c3844738af668f2c0ce0fa6b66", null ],
+      [ "Small", "struct_c_u_i_config.html#aeca36d227222274a17ec48dbc0f06c4dac9ad19991febb99f13b62957bc1d4dc9", null ],
+      [ "Status", "struct_c_u_i_config.html#aeca36d227222274a17ec48dbc0f06c4daefc0237946b87d7c864605bc8fedffe7", null ],
+      [ "Big", "struct_c_u_i_config.html#aeca36d227222274a17ec48dbc0f06c4da5a9cda91dde6a22f9d8799d9f00f9e87", null ]
+    ] ],
     [ "ENoticeLevel", "struct_c_u_i_config.html#aad2dd70b3a1d5d075eb966f31a020bbe", [
       [ "Default", "struct_c_u_i_config.html#a0f02c555590f68dfb30a60932c78a562a2e5673f9a7c6af62f71b7c838b227d85", null ],
       [ "PlayerInfo", "struct_c_u_i_config.html#aad2dd70b3a1d5d075eb966f31a020bbea5b3b5c8e99fc470d526be1937c9d6ff5", null ],
@@ -93,7 +99,11 @@ var struct_c_u_i_config =
       [ "ForcedVisible", "struct_c_u_i_config.html#ad379dff55a76d1ef08477b7fd891393ba5ba3f95c88779eab1ec3e9a1b8c3f253", null ]
     ] ],
     [ "ClearLayerManialinkAction", "struct_c_u_i_config.html#a53f3c173e77834f21c682cf14f9b8d5d", null ],
+    [ "ClearMessages", "struct_c_u_i_config.html#a3e5d32e9b80c33b6182138b5e807987d", null ],
     [ "GetLayerManialinkAction", "struct_c_u_i_config.html#a02c571d26b1909197e907270aca96e25", null ],
+    [ "QueueMessage", "struct_c_u_i_config.html#a21bc114a5c947126e8f89744fab9f13a", null ],
+    [ "QueueMessage", "struct_c_u_i_config.html#af1eead2eac465a2b8fe7865d77be8ffe", null ],
+    [ "QueueMessage", "struct_c_u_i_config.html#abf24c5d0724b25042492983b08aa9a95", null ],
     [ "SendChat", "struct_c_u_i_config.html#a60f29bff16160930fc8c284c14d0da2d", null ],
     [ "SendNotice", "struct_c_u_i_config.html#ac5fd902c740c26bf05a54666d536a61e", null ],
     [ "AlliesLabelsMaxCount", "struct_c_u_i_config.html#a328ef2f782349177dc14230365ffa27c", null ],

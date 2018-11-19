@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['textlib',['TextLib',['../namespace_text_lib.html',1,'']]],
-  ['timelib',['TimeLib',['../namespace_time_lib.html',1,'']]]
+  ['mapunits',['MapUnits',['../namespace_map_units.html',1,'']]],
+  ['mathlib',['MathLib',['../namespace_math_lib.html',1,'']]]
 ];

@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">ManiaScript Reference
-   &#160;<span id="projectnumber">2018-07</span>
+   &#160;<span id="projectnumber">2018-11</span>
    </div>
   </td>
  </tr>
@@ -102,7 +102,9 @@ Inheritance diagram for CSmModeEvent:</div>
  <div class="center">
   <img src="struct_c_sm_mode_event.png" usemap="#CSmModeEvent_map" alt=""/>
   <map id="CSmModeEvent_map" name="CSmModeEvent_map">
-<area href="struct_c_nod.html" alt="CNod" shape="rect" coords="0,0,102,24"/>
+<area href="struct_c_base_event.html" alt="CBaseEvent" shape="rect" coords="0,112,113,136"/>
+<area href="struct_c_base_const_event.html" alt="CBaseConstEvent" shape="rect" coords="0,56,113,80"/>
+<area href="struct_c_nod.html" alt="CNod" shape="rect" coords="0,0,113,24"/>
 </map>
  </div></div>
 <table class="memberdecls">
@@ -127,10 +129,16 @@ Public Types</h2></td></tr>
 &#160;&#160;<a class="el" href="struct_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3a270e75e6b3999e5eef28d93a1054f6c0">OnActionCustomEvent</a>, 
 <a class="el" href="struct_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3a3108ed9b6f372060d7c8782a4945a40a">OnActionEvent</a>, 
 <a class="el" href="struct_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3a7f997a628c1d476933d3132ed35fe85b">OnPlayerTouchesObject</a>, 
-<a class="el" href="struct_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3ae8fe48535fe0545c804e43659ea76f6f">OnPlayerTriggersSector</a>, 
+<a class="el" href="struct_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3af1f92a1930ac1916feda3b56c68073a6">OnPlayerThrowsObject</a>, 
 <br />
-&#160;&#160;<a class="el" href="struct_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3af1f92a1930ac1916feda3b56c68073a6">OnPlayerThrowsObject</a>, 
-<a class="el" href="struct_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3a5c37d0cb5e71fc41985e9f75c32227ca">OnPlayerRequestActionChange</a>
+&#160;&#160;<a class="el" href="struct_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3ae8fe48535fe0545c804e43659ea76f6f">OnPlayerTriggersSector</a>, 
+<a class="el" href="struct_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3aab8c7ce9e24288211b1dfd73baebc59d">OnPlayerTriggersWaypoint</a>, 
+<a class="el" href="struct_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3a5c37d0cb5e71fc41985e9f75c32227ca">OnPlayerRequestActionChange</a>, 
+<a class="el" href="struct_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3a50a7de8aa974e3d7280232586ae24688">OnVehicleArmorEmpty</a>, 
+<br />
+&#160;&#160;<a class="el" href="struct_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3a1a8900e6c7dd8f1bd2e8fd512d40725b">OnVehicleCollision</a>, 
+<a class="el" href="struct_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3a0d70fa1f18ce94f6b1f9de78b93fb04a">OnVehicleVsVehicleCollision</a>, 
+<a class="el" href="struct_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3aa20549c68366e87be461237d0c76b3db">OnVehicleLanding</a>
 <br />
  }</td></tr>
 <tr class="separator:af6cdee97f33db715807437de6358c2d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -148,32 +156,20 @@ Public Types</h2></td></tr>
  }</td></tr>
 <tr class="separator:ae3ca5df8099d630379fbd6f8d6697717"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a64c617aa1d78e9f5c58b194031224082"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082">EActionInput</a> { <br />
-&#160;&#160;<a class="el" href="struct_c_sm_mode_event.html#a51a10321bb584ff0e9e0f4fac0427a2fa06d0b128ecf94d41b14f599027644bbf">Weapon</a>, 
-<a class="el" href="struct_c_sm_mode_event.html#a51a10321bb584ff0e9e0f4fac0427a2fa9ee523898dd999b4b8846785656fe31f">Movement</a>, 
-<a class="el" href="struct_c_sm_mode_event.html#a51a10321bb584ff0e9e0f4fac0427a2fa374ebecff158ad2ffd715603a8d9b536">Activable1</a>, 
-<a class="el" href="struct_c_sm_mode_event.html#a51a10321bb584ff0e9e0f4fac0427a2fa21c6a076b760a1ee038cb3b2bcdd4a9a">Activable2</a>, 
+&#160;&#160;<a class="el" href="struct_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082abfc2ef3c9032eb1bfe5356634044b4d6">Weapon</a>, 
+<a class="el" href="struct_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082a187d5c4d5d2176353e263b7b10507012">Movement</a>, 
+<a class="el" href="struct_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082a3d2a70a2df8968e4873337958480924b">Activable1</a>, 
+<a class="el" href="struct_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082a13a861e65fb6ac14476d4c786a17ee53">Activable2</a>, 
 <br />
-&#160;&#160;<a class="el" href="struct_c_sm_mode_event.html#a51a10321bb584ff0e9e0f4fac0427a2fa367f0e380646fd49c1ef16a3efab3d00">Activable3</a>, 
-<a class="el" href="struct_c_sm_mode_event.html#a51a10321bb584ff0e9e0f4fac0427a2fa266ba59965657c09322c6171ec8f903b">Activable4</a>, 
+&#160;&#160;<a class="el" href="struct_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082a9cdcb6e6da6f5a2ef22e5406f6305d5d">Activable3</a>, 
+<a class="el" href="struct_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082a3bef74e53802a89a1fcbb7d032a8384d">Activable4</a>, 
 <a class="el" href="struct_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082aff46a3596249e4b7399023ef7d2dd2e0">Consumable1</a>, 
 <a class="el" href="struct_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082ab50770d16f451c440ba7eed82ffca27e">Consumable2</a>, 
 <br />
-&#160;&#160;<a class="el" href="struct_c_sm_mode_event.html#a51a10321bb584ff0e9e0f4fac0427a2fa73aeaf56d99b97d5cc2911e55ea38b6a">None</a>
+&#160;&#160;<a class="el" href="struct_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082ac6a9e09e943b671a080395250f274184">None</a>
 <br />
  }</td></tr>
 <tr class="separator:a64c617aa1d78e9f5c58b194031224082"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a51a10321bb584ff0e9e0f4fac0427a2f"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_sm_mode_event.html#a51a10321bb584ff0e9e0f4fac0427a2f">EActionSlots</a> { <br />
-&#160;&#160;<a class="el" href="struct_c_sm_mode_event.html#a51a10321bb584ff0e9e0f4fac0427a2fa06d0b128ecf94d41b14f599027644bbf">Weapon</a>, 
-<a class="el" href="struct_c_sm_mode_event.html#a51a10321bb584ff0e9e0f4fac0427a2fa9ee523898dd999b4b8846785656fe31f">Movement</a>, 
-<a class="el" href="struct_c_sm_mode_event.html#a51a10321bb584ff0e9e0f4fac0427a2fa374ebecff158ad2ffd715603a8d9b536">Activable1</a>, 
-<a class="el" href="struct_c_sm_mode_event.html#a51a10321bb584ff0e9e0f4fac0427a2fa21c6a076b760a1ee038cb3b2bcdd4a9a">Activable2</a>, 
-<br />
-&#160;&#160;<a class="el" href="struct_c_sm_mode_event.html#a51a10321bb584ff0e9e0f4fac0427a2fa367f0e380646fd49c1ef16a3efab3d00">Activable3</a>, 
-<a class="el" href="struct_c_sm_mode_event.html#a51a10321bb584ff0e9e0f4fac0427a2fa266ba59965657c09322c6171ec8f903b">Activable4</a>, 
-<a class="el" href="struct_c_sm_mode_event.html#a51a10321bb584ff0e9e0f4fac0427a2fa73aeaf56d99b97d5cc2911e55ea38b6a">None</a>
-<br />
- }</td></tr>
-<tr class="separator:a51a10321bb584ff0e9e0f4fac0427a2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -183,22 +179,16 @@ Public Attributes</h2></td></tr>
 <tr class="separator:aca78ec3b6e6888b747acdf02d087967d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a02f308ac3063edcff777156ce6003b1e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_sm_mode_event.html#a02f308ac3063edcff777156ce6003b1e">Damage</a></td></tr>
 <tr class="separator:a02f308ac3063edcff777156ce6003b1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a60d11e1fa1d741d0a9db8e3866d36230"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_c_sm_object.html">CSmObject</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_sm_mode_event.html#a60d11e1fa1d741d0a9db8e3866d36230">VictimObject</a></td></tr>
-<tr class="separator:a60d11e1fa1d741d0a9db8e3866d36230"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae1fe1b90331fb46e7b28f528b68051fb"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_sm_mode_event.html#ae1fe1b90331fb46e7b28f528b68051fb">VictimShield</a></td></tr>
 <tr class="separator:ae1fe1b90331fb46e7b28f528b68051fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad6810aa1153cb7ca37488db36a658bb9"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_c_mode_turret.html">CModeTurret</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_sm_mode_event.html#ad6810aa1153cb7ca37488db36a658bb9">VictimTurret</a></td></tr>
-<tr class="separator:ad6810aa1153cb7ca37488db36a658bb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b5b3eada23f329b52f8f1152349ba11"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_c_entity.html">CEntity</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_sm_mode_event.html#a5b5b3eada23f329b52f8f1152349ba11">VictimEntity</a></td></tr>
+<tr class="separator:a5b5b3eada23f329b52f8f1152349ba11"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a38db3df0caad6db30ea2d82ee0d5e466"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_sm_mode_event.html#a38db3df0caad6db30ea2d82ee0d5e466">ShooterPoints</a></td></tr>
 <tr class="separator:a38db3df0caad6db30ea2d82ee0d5e466"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a34512970446ef7d7e00c78bfa2c963c8"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_c_sm_player.html">CSmPlayer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_sm_mode_event.html#a34512970446ef7d7e00c78bfa2c963c8">Shooter</a></td></tr>
-<tr class="separator:a34512970446ef7d7e00c78bfa2c963c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c8629502400f029c96c15a0fe695526"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_c_mode_turret.html">CModeTurret</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_sm_mode_event.html#a0c8629502400f029c96c15a0fe695526">ShooterTurret</a></td></tr>
-<tr class="separator:a0c8629502400f029c96c15a0fe695526"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa51a6c98f5ca6fd8f6706d42fa309a6f"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_c_entity.html">CEntity</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_sm_mode_event.html#aa51a6c98f5ca6fd8f6706d42fa309a6f">ShooterEntity</a></td></tr>
+<tr class="separator:aa51a6c98f5ca6fd8f6706d42fa309a6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1e5a73692167332943468f3715285a91"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_sm_mode_event.html#a1e5a73692167332943468f3715285a91">ShooterClan</a></td></tr>
 <tr class="separator:a1e5a73692167332943468f3715285a91"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7e83f7e720f53dc001d71c8efb8bf334"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_c_sm_player.html">CSmPlayer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_sm_mode_event.html#a7e83f7e720f53dc001d71c8efb8bf334">Victim</a></td></tr>
-<tr class="separator:a7e83f7e720f53dc001d71c8efb8bf334"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a001d81a08db9e6ce16b073b6793894ab"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_real.html">Real</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_sm_mode_event.html#a001d81a08db9e6ce16b073b6793894ab">Height</a></td></tr>
 <tr class="separator:a001d81a08db9e6ce16b073b6793894ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af8d5328c5d7175d34d8ebf01d8051230"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_real.html">Real</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_sm_mode_event.html#af8d5328c5d7175d34d8ebf01d8051230">MissDist</a></td></tr>
@@ -233,8 +223,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a43e5306d9f3374e42998b612cab5c717"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8df9478241e639e34bb4c1efd8e697af"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_c_sm_object.html">CSmObject</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_sm_mode_event.html#a8df9478241e639e34bb4c1efd8e697af">Object</a></td></tr>
 <tr class="separator:a8df9478241e639e34bb4c1efd8e697af"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abf132c09f108519c3d99c98eb467514f"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_c_sm_map_sector.html">CSmMapSector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_sm_mode_event.html#abf132c09f108519c3d99c98eb467514f">Sector</a></td></tr>
-<tr class="separator:abf132c09f108519c3d99c98eb467514f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1225b486891375a7cdc42177e2468e5"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_sm_mode_event.html#ad1225b486891375a7cdc42177e2468e5">WaypointTime</a></td></tr>
+<tr class="separator:ad1225b486891375a7cdc42177e2468e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7aa54d6e01a4d438931b60dd478abc10"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_c_sm_block_pole.html">CSmBlockPole</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_sm_mode_event.html#a7aa54d6e01a4d438931b60dd478abc10">BlockPole</a></td></tr>
 <tr class="separator:a7aa54d6e01a4d438931b60dd478abc10"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a50c917a5f8ccc862cc0cdbf4c72b82a1"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_c_sm_map_landmark.html">CSmMapLandmark</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_sm_mode_event.html#a50c917a5f8ccc862cc0cdbf4c72b82a1">Landmark</a></td></tr>
@@ -263,12 +253,20 @@ Public Attributes</h2></td></tr>
 <tr class="separator:af167393c0e34d686ee2ba93df6fa96ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afa430e090433e159e58fee315c3603c5"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_sm_mode_event.html#afa430e090433e159e58fee315c3603c5">ActionChange</a></td></tr>
 <tr class="separator:afa430e090433e159e58fee315c3603c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_attribs_struct_c_base_event"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_struct_c_base_event')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="struct_c_base_event.html">CBaseEvent</a></td></tr>
+<tr class="memitem:a2d3433e8438935027fa996a1e82d2681 inherit pub_attribs_struct_c_base_event"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_base_event.html#a2d3433e8438935027fa996a1e82d2681">HasBeenPassed</a></td></tr>
+<tr class="separator:a2d3433e8438935027fa996a1e82d2681 inherit pub_attribs_struct_c_base_event"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9932269931dd0369c282ae22eefd06c3 inherit pub_attribs_struct_c_base_event"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_base_event.html#a9932269931dd0369c282ae22eefd06c3">HasBeenDiscarded</a></td></tr>
+<tr class="separator:a9932269931dd0369c282ae22eefd06c3 inherit pub_attribs_struct_c_base_event"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_attribs_struct_c_base_const_event"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_struct_c_base_const_event')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="struct_c_base_const_event.html">CBaseConstEvent</a></td></tr>
+<tr class="memitem:a4bc1e96d742a128d291131fa60fbcd90 inherit pub_attribs_struct_c_base_const_event"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_base_const_event.html#a4bc1e96d742a128d291131fa60fbcd90">HasBeenProcessed</a></td></tr>
+<tr class="separator:a4bc1e96d742a128d291131fa60fbcd90 inherit pub_attribs_struct_c_base_const_event"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_struct_c_nod"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_struct_c_nod')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="struct_c_nod.html">CNod</a></td></tr>
 <tr class="memitem:a4e8985f12f3e272263bfb85ef29196e4 inherit pub_attribs_struct_c_nod"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_ident.html">Ident</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_nod.html#a4e8985f12f3e272263bfb85ef29196e4">Id</a></td></tr>
 <tr class="separator:a4e8985f12f3e272263bfb85ef29196e4 inherit pub_attribs_struct_c_nod"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Event recieved by ShootMania gamemodes. </p>
+<div class="textblock"><p>Supported declare modes : Local Event recieved by ShootMania gamemodes. </p>
 </div><h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="a64c617aa1d78e9f5c58b194031224082"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a64c617aa1d78e9f5c58b194031224082">&#9670;&nbsp;</a></span>EActionInput</h2>
@@ -282,15 +280,15 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a51a10321bb584ff0e9e0f4fac0427a2fa06d0b128ecf94d41b14f599027644bbf"></a>Weapon&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a51a10321bb584ff0e9e0f4fac0427a2fa9ee523898dd999b4b8846785656fe31f"></a>Movement&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a51a10321bb584ff0e9e0f4fac0427a2fa374ebecff158ad2ffd715603a8d9b536"></a>Activable1&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a51a10321bb584ff0e9e0f4fac0427a2fa21c6a076b760a1ee038cb3b2bcdd4a9a"></a>Activable2&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a51a10321bb584ff0e9e0f4fac0427a2fa367f0e380646fd49c1ef16a3efab3d00"></a>Activable3&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a51a10321bb584ff0e9e0f4fac0427a2fa266ba59965657c09322c6171ec8f903b"></a>Activable4&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a64c617aa1d78e9f5c58b194031224082abfc2ef3c9032eb1bfe5356634044b4d6"></a>Weapon&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a64c617aa1d78e9f5c58b194031224082a187d5c4d5d2176353e263b7b10507012"></a>Movement&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a64c617aa1d78e9f5c58b194031224082a3d2a70a2df8968e4873337958480924b"></a>Activable1&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a64c617aa1d78e9f5c58b194031224082a13a861e65fb6ac14476d4c786a17ee53"></a>Activable2&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a64c617aa1d78e9f5c58b194031224082a9cdcb6e6da6f5a2ef22e5406f6305d5d"></a>Activable3&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a64c617aa1d78e9f5c58b194031224082a3bef74e53802a89a1fcbb7d032a8384d"></a>Activable4&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a64c617aa1d78e9f5c58b194031224082aff46a3596249e4b7399023ef7d2dd2e0"></a>Consumable1&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a64c617aa1d78e9f5c58b194031224082ab50770d16f451c440ba7eed82ffca27e"></a>Consumable2&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a51a10321bb584ff0e9e0f4fac0427a2fa73aeaf56d99b97d5cc2911e55ea38b6a"></a>None&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a64c617aa1d78e9f5c58b194031224082ac6a9e09e943b671a080395250f274184"></a>None&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -315,29 +313,6 @@ Public Attributes</h2></td></tr>
 <tr><td class="fieldname"><a id="ae3ca5df8099d630379fbd6f8d6697717a4eb62a268f6d63eac8faa131f5395c31"></a>Slot_F&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ae3ca5df8099d630379fbd6f8d6697717a45d93e59d6fb6bce1205b7aa0b6df738"></a>Slot_G&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ae3ca5df8099d630379fbd6f8d6697717acf658f446a05333ec04025f73eb1c024"></a>Slot_H&#160;</td><td class="fielddoc"></td></tr>
-</table>
-
-</div>
-</div>
-<a id="a51a10321bb584ff0e9e0f4fac0427a2f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a51a10321bb584ff0e9e0f4fac0427a2f">&#9670;&nbsp;</a></span>EActionSlots</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="struct_c_sm_mode_event.html#a51a10321bb584ff0e9e0f4fac0427a2f">CSmModeEvent::EActionSlots</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a51a10321bb584ff0e9e0f4fac0427a2fa06d0b128ecf94d41b14f599027644bbf"></a>Weapon&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a51a10321bb584ff0e9e0f4fac0427a2fa9ee523898dd999b4b8846785656fe31f"></a>Movement&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a51a10321bb584ff0e9e0f4fac0427a2fa374ebecff158ad2ffd715603a8d9b536"></a>Activable1&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a51a10321bb584ff0e9e0f4fac0427a2fa21c6a076b760a1ee038cb3b2bcdd4a9a"></a>Activable2&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a51a10321bb584ff0e9e0f4fac0427a2fa367f0e380646fd49c1ef16a3efab3d00"></a>Activable3&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a51a10321bb584ff0e9e0f4fac0427a2fa266ba59965657c09322c6171ec8f903b"></a>Activable4&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a51a10321bb584ff0e9e0f4fac0427a2fa73aeaf56d99b97d5cc2911e55ea38b6a"></a>None&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -369,9 +344,14 @@ Public Attributes</h2></td></tr>
 <tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3a270e75e6b3999e5eef28d93a1054f6c0"></a>OnActionCustomEvent&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3a3108ed9b6f372060d7c8782a4945a40a"></a>OnActionEvent&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3a7f997a628c1d476933d3132ed35fe85b"></a>OnPlayerTouchesObject&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3ae8fe48535fe0545c804e43659ea76f6f"></a>OnPlayerTriggersSector&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3af1f92a1930ac1916feda3b56c68073a6"></a>OnPlayerThrowsObject&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3ae8fe48535fe0545c804e43659ea76f6f"></a>OnPlayerTriggersSector&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3aab8c7ce9e24288211b1dfd73baebc59d"></a>OnPlayerTriggersWaypoint&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3a5c37d0cb5e71fc41985e9f75c32227ca"></a>OnPlayerRequestActionChange&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3a50a7de8aa974e3d7280232586ae24688"></a>OnVehicleArmorEmpty&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3a1a8900e6c7dd8f1bd2e8fd512d40725b"></a>OnVehicleCollision&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3a0d70fa1f18ce94f6b1f9de78b93fb04a"></a>OnVehicleVsVehicleCollision&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="af6cdee97f33db715807437de6358c2d3aa20549c68366e87be461237d0c76b3db"></a>OnVehicleLanding&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -699,34 +679,6 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="abf132c09f108519c3d99c98eb467514f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abf132c09f108519c3d99c98eb467514f">&#9670;&nbsp;</a></span>Sector</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="struct_c_sm_map_sector.html">CSmMapSector</a> CSmModeEvent::Sector</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a34512970446ef7d7e00c78bfa2c963c8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a34512970446ef7d7e00c78bfa2c963c8">&#9670;&nbsp;</a></span>Shooter</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="struct_c_sm_player.html">CSmPlayer</a> CSmModeEvent::Shooter</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a42d04e854da8020c32bfd2526fb35915"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a42d04e854da8020c32bfd2526fb35915">&#9670;&nbsp;</a></span>ShooterActionId</h2>
 
@@ -769,6 +721,20 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="aa51a6c98f5ca6fd8f6706d42fa309a6f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa51a6c98f5ca6fd8f6706d42fa309a6f">&#9670;&nbsp;</a></span>ShooterEntity</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="struct_c_entity.html">CEntity</a> CSmModeEvent::ShooterEntity</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a38db3df0caad6db30ea2d82ee0d5e466"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a38db3df0caad6db30ea2d82ee0d5e466">&#9670;&nbsp;</a></span>ShooterPoints</h2>
 
@@ -777,20 +743,6 @@ Public Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="class_integer.html">Integer</a> CSmModeEvent::ShooterPoints</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a0c8629502400f029c96c15a0fe695526"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0c8629502400f029c96c15a0fe695526">&#9670;&nbsp;</a></span>ShooterTurret</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="struct_c_mode_turret.html">CModeTurret</a> CSmModeEvent::ShooterTurret</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -853,20 +805,6 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a7e83f7e720f53dc001d71c8efb8bf334"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7e83f7e720f53dc001d71c8efb8bf334">&#9670;&nbsp;</a></span>Victim</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="struct_c_sm_player.html">CSmPlayer</a> CSmModeEvent::Victim</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="af2ccdd0fb2ef9ee5bc0d7de7a6f5801d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af2ccdd0fb2ef9ee5bc0d7de7a6f5801d">&#9670;&nbsp;</a></span>VictimActionId</h2>
 
@@ -895,14 +833,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a60d11e1fa1d741d0a9db8e3866d36230"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a60d11e1fa1d741d0a9db8e3866d36230">&#9670;&nbsp;</a></span>VictimObject</h2>
+<a id="a5b5b3eada23f329b52f8f1152349ba11"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b5b3eada23f329b52f8f1152349ba11">&#9670;&nbsp;</a></span>VictimEntity</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="struct_c_sm_object.html">CSmObject</a> CSmModeEvent::VictimObject</td>
+          <td class="memname">const <a class="el" href="struct_c_entity.html">CEntity</a> CSmModeEvent::VictimEntity</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -917,20 +855,6 @@ Public Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">const <a class="el" href="class_integer.html">Integer</a> CSmModeEvent::VictimShield</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ad6810aa1153cb7ca37488db36a658bb9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad6810aa1153cb7ca37488db36a658bb9">&#9670;&nbsp;</a></span>VictimTurret</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="struct_c_mode_turret.html">CModeTurret</a> CSmModeEvent::VictimTurret</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -959,6 +883,20 @@ Public Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">const <a class="el" href="class_integer.html">Integer</a> CSmModeEvent::VictimWeaponNum</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad1225b486891375a7cdc42177e2468e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1225b486891375a7cdc42177e2468e5">&#9670;&nbsp;</a></span>WaypointTime</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="class_integer.html">Integer</a> CSmModeEvent::WaypointTime</td>
         </tr>
       </table>
 </div><div class="memdoc">

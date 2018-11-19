@@ -133,7 +133,7 @@ var struct_c_tm_ml_player =
     [ "Position", "struct_c_tm_ml_player.html#a4ca1e858e0f7fc2e2e3ad263f504c6e0", null ],
     [ "RaceStartTime", "struct_c_tm_ml_player.html#a1bece17602b2ee4096b9e9f85717008b", null ],
     [ "RaceState", "struct_c_tm_ml_player.html#a44f6d6f0f776a7d50943e9f98ee86193", null ],
-    [ "Score", "struct_c_tm_ml_player.html#afa19d853e7212f98e2ae21b96749518d", null ],
+    [ "Score", "struct_c_tm_ml_player.html#a4446c0594856d1fc27b4e53536ec111c", null ],
     [ "SkiddingDistance", "struct_c_tm_ml_player.html#a5ebd68b122b53d1ed8e1c77e715356ca", null ],
     [ "SkiddingDuration", "struct_c_tm_ml_player.html#ae4b28f8d0cfddf82eaddb127a29215fd", null ],
     [ "SmashNeedHelp", "struct_c_tm_ml_player.html#a61409338947ff9d6300b0fa45b1d6e96", null ],

@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['gamemodes',['GameModes',['../struct_c_task_result___game_mode_list.html#ad02711fa231f77c0b0aba9365f740d30',1,'CTaskResult_GameModeList']]],
+  ['gamemodes',['GameModes',['../struct_c_task_result___game_mode_list.html#ac942b5598db3768784c2e74407ae4c6a',1,'CTaskResult_GameModeList']]],
   ['gameplay',['Gameplay',['../struct_c_sm_mode.html#abb2ce17cabfd5266af621cf411671611',1,'CSmMode']]],
   ['gameplayversion',['GameplayVersion',['../struct_c_sm_mode.html#ad4146751b755e5960531c2f84309eba1',1,'CSmMode']]],
   ['gametime',['GameTime',['../struct_c_ml_script_ingame.html#a3020a2294847820887a0679ad8c0bb45',1,'CMlScriptIngame::GameTime()'],['../struct_c_playground_client.html#a9cf9c1d00ec4ab11764afcbfb59f73f6',1,'CPlaygroundClient::GameTime()']]],
@@ -13,7 +13,7 @@ var searchData=
   ['getclasschildren_5fresult',['GetClassChildren_Result',['../struct_c_ml_page.html#a24e37748f927d902ce8ffb087b71fc1b',1,'CMlPage']]],
   ['getcost',['GetCost',['../struct_c_pack_creator_recipient.html#ae4cbdd0d906c1c6b80f72e3ded902c28',1,'CPackCreatorRecipient']]],
   ['getlinearhue',['GetLinearHue',['../struct_c_sm_player.html#af68b1071913a7b6ad9c0c5e1c9f7c52e',1,'CSmPlayer']]],
-  ['getserverinfo_5fresult',['GetServerInfo_Result',['../struct_c_title_flow.html#ac54e1a7ea4239b5b9a69325d119d3e49',1,'CTitleFlow']]],
+  ['getserverinfo_5fresult',['GetServerInfo_Result',['../struct_c_title_control.html#a7042a68fb4e755d3ad61801619280461',1,'CTitleControl']]],
   ['ghost',['Ghost',['../struct_c_task_result___ghost.html#a3e8646f1c9c51554d443353fb2199435',1,'CTaskResult_Ghost']]],
   ['ghostalpha',['GhostAlpha',['../struct_c_station.html#ab5183f732649ccbfd173e2285249b7a3',1,'CStation']]],
   ['ghosts',['Ghosts',['../struct_c_data_file_mgr.html#a9ed40ed84da923fc56a29639e3cc5d83',1,'CDataFileMgr::Ghosts()'],['../struct_c_task_result___ghost_list.html#a8fae2507eec7ba68ec4467296a1b1b17',1,'CTaskResult_GhostList::Ghosts()']]],

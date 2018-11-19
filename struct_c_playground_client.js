@@ -16,6 +16,7 @@ var struct_c_playground_client =
     [ "LocalUser", "struct_c_playground_client.html#ad3e3c769189103a0d2fa2d0e9a724bbb", null ],
     [ "Map", "struct_c_playground_client.html#a3394944e456a991d2e323c19a71c7a93", null ],
     [ "ServerInfo", "struct_c_playground_client.html#a97d4a02eb08a764ea56fb147e28e9707", null ],
+    [ "SettingsPlayerModelId", "struct_c_playground_client.html#a29a28783757a5be372fd545ccf2df440", null ],
     [ "Teams", "struct_c_playground_client.html#a21e8c731e871258a926f86c514ef55ae", null ],
     [ "UI", "struct_c_playground_client.html#a50bde07490784f5960761064246fe233", null ],
     [ "UseClans", "struct_c_playground_client.html#a0174c04b168633f42a7fc77900fc8e4f", null ],

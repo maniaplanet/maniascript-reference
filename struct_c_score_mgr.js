@@ -17,7 +17,7 @@ var struct_c_score_mgr =
     [ "Campaign_GetBuddyMapRecordsComparison", "struct_c_score_mgr.html#a2cc151078316c0838dcf237701fc33b3", null ],
     [ "Campaign_GetMultiAsyncLevel", "struct_c_score_mgr.html#a048b1b35321376746c575e0a69900e04", null ],
     [ "Campaign_GetMultiAsyncLevelCount", "struct_c_score_mgr.html#a763b193725765a0d660e3f450cc93adc", null ],
-    [ "Campaign_GetOpponentRecords", "struct_c_score_mgr.html#ae08e5c00587480af24242e7605db4690", null ],
+    [ "Campaign_GetOpponentRecords", "struct_c_score_mgr.html#a82e113891ad6b5dfe69e584907a468e0", null ],
     [ "Campaign_GetSkillPoints", "struct_c_score_mgr.html#ac150bfb6384e2f19ed722fc301b7aef4", null ],
     [ "Campaign_IsBuddiesMapRecordDirty", "struct_c_score_mgr.html#ade84cd7c9648aff27d768ddde453beef", null ],
     [ "CampaignLeaderBoard_GetPlayerCount", "struct_c_score_mgr.html#a1aff9a4efa21dac3d47175f12a4dd7da", null ],

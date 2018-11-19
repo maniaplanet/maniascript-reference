@@ -20,7 +20,6 @@ var struct_c_ml_control =
     [ "HasClass", "struct_c_ml_control.html#a55069f6469a1b15dab46c0f58cb857b5", null ],
     [ "Hide", "struct_c_ml_control.html#ae6408b276bbf15f1788e064bc027ba6c", null ],
     [ "Show", "struct_c_ml_control.html#aea64c7ddd788f85ca8e7120e3fc48976", null ],
-    [ "Unload", "struct_c_ml_control.html#a2c0046642225c7723d23ef636a6b1ec1", null ],
     [ "AbsolutePosition_V3", "struct_c_ml_control.html#a079761b284cfb2b4f195bb176cc2a1c2", null ],
     [ "AbsoluteRotation", "struct_c_ml_control.html#ae30b442a3025125efaa2e63635369d3a", null ],
     [ "AbsoluteScale", "struct_c_ml_control.html#aef90e8fd1bc743e432bed8219f8848eb", null ],

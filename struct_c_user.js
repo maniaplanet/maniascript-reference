@@ -28,19 +28,8 @@ var struct_c_user =
       [ "Gold", "struct_c_user.html#a3b77452e28a8c3e1f37abc42df8c1459aaa3814db5d4b0ea9234986ee68f62436", null ],
       [ "Nadeo", "struct_c_user.html#a3b77452e28a8c3e1f37abc42df8c1459a5b1f7a4c1780717d6b64b59d402824ac", null ]
     ] ],
-    [ "PlayerType", "struct_c_user.html#a5dc2b1553ee25ca986cb6e201edf2e04", [
-      [ "Human", "struct_c_user.html#a5dc2b1553ee25ca986cb6e201edf2e04a620833cd418cdb906019b817da7d0d79", null ],
-      [ "Fake", "struct_c_user.html#a5dc2b1553ee25ca986cb6e201edf2e04a5abacd4e934e423f44219f616ef9a0b6", null ],
-      [ "Net", "struct_c_user.html#a5dc2b1553ee25ca986cb6e201edf2e04a963eb8e185cc9deb3e742ef11632ce8f", null ],
-      [ "Replay", "struct_c_user.html#a5dc2b1553ee25ca986cb6e201edf2e04ad18bb85a11043d15f4177aff48167598", null ]
-    ] ],
-    [ "SpectatorMode", "struct_c_user.html#a808d88a644d409f420ec6239ebeccd4e", [
-      [ "Void", "struct_c_user.html#a808d88a644d409f420ec6239ebeccd4ea377168dd83540827de0cb38a6830137d", null ],
-      [ "Watcher", "struct_c_user.html#a808d88a644d409f420ec6239ebeccd4ea30c0821fbaf2b2303015158010ff5a17", null ],
-      [ "LocalWatcher", "struct_c_user.html#a808d88a644d409f420ec6239ebeccd4eae56936f69bec95ec157114800a5b9c92", null ],
-      [ "Target", "struct_c_user.html#a808d88a644d409f420ec6239ebeccd4ead16a5cebd0843c7bb6dcc9e2fae82a82", null ]
-    ] ],
     [ "AlliesConnected", "struct_c_user.html#a6e9eb66b658494c7f87d823ebdfb8d9a", null ],
+    [ "AvatarDisplayName", "struct_c_user.html#abbf3b9a5f6c1a04db2699341326f44f1", null ],
     [ "AvatarUrl", "struct_c_user.html#ad7dd30a4d93567717306a4b80d59e0a8", null ],
     [ "BroadcastTVLogin", "struct_c_user.html#ae0ca71a65eabae726d5c33f07ad83ca2", null ],
     [ "ClubLink", "struct_c_user.html#af9715aa01eaf27d180c4d1c75b436667", null ],
@@ -50,6 +39,7 @@ var struct_c_user =
     [ "Echelon", "struct_c_user.html#ab12e4da7efcca846c8a34f4535bb7cff", null ],
     [ "FameStars", "struct_c_user.html#a33ce9b43506ed3e03dfe38523761920e", null ],
     [ "HackCamHmdDisabled", "struct_c_user.html#a35bda14e2047bdf5d7976acae79c8e8f", null ],
+    [ "HornDisplayName", "struct_c_user.html#a26a7ff03ae764506793fa5a179ce42a2", null ],
     [ "IsBeginner", "struct_c_user.html#ae91a765696b21b5aadc9850199e3bb5f", null ],
     [ "IsConnectedToMasterServer", "struct_c_user.html#a3a1e61fc1f778cfb90ac5ec363c9e613", null ],
     [ "IsFakeUser", "struct_c_user.html#ad2c86735ac7d5caeefb4ac7ee0e7462d", null ],

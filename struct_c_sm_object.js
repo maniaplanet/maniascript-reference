@@ -6,7 +6,7 @@ var struct_c_sm_object =
       [ "InWorld", "struct_c_sm_object.html#a71c8ee21fddb4a7c94b3d826f91c2f71a5ce8b71ab60d64fe6f757aaac1831663", null ],
       [ "Unspawned", "struct_c_sm_object.html#a71c8ee21fddb4a7c94b3d826f91c2f71a74b07042878fbf08370dde7a0404318b", null ]
     ] ],
-    [ "SetAnchor", "struct_c_sm_object.html#aa0596320bb218aa44289184ef6538e48", null ],
+    [ "SetAnchor", "struct_c_sm_object.html#af71c0b3ebd91c4e1c55ccc2d433e749a", null ],
     [ "SetPlayer", "struct_c_sm_object.html#a73f47afbf8b49df6dbcd37ab7ba20656", null ],
     [ "SetPosition", "struct_c_sm_object.html#a2c1adea6518de2b33e6bdd02d0c35234", null ],
     [ "SetPositionAndVel", "struct_c_sm_object.html#a769962a0c6a9631745bbf2ff39e60a40", null ],
@@ -18,5 +18,6 @@ var struct_c_sm_object =
     [ "Position", "struct_c_sm_object.html#a50831220266bf71fb3f3e9fdc09ec186", null ],
     [ "Status", "struct_c_sm_object.html#a719aad0d292d03f3995bf9c435743526", null ],
     [ "Throwable", "struct_c_sm_object.html#ad65075b66b042c1adcb45da6a0ed6c8f", null ],
+    [ "ThrowLatestPlayerId", "struct_c_sm_object.html#a1a93c17c298e85855ee0c3790453bb90", null ],
     [ "Vel", "struct_c_sm_object.html#a10dffd593729ed709efcb46a78bcc4f5", null ]
 ];

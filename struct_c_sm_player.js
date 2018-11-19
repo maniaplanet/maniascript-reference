@@ -66,9 +66,11 @@ var struct_c_sm_player =
     [ "Stamina", "struct_c_sm_player.html#af93e6a28d41242cb59fa1c2f4e5cea56", null ],
     [ "StaminaGain", "struct_c_sm_player.html#a92559b6c1da3193cb7f38141d40c753f", null ],
     [ "StaminaMax", "struct_c_sm_player.html#ae5c716e229cb962797567656ba358e23", null ],
+    [ "StaminaMaxValue", "struct_c_sm_player.html#a9f5beca308542de452bf20997a9ecb82", null ],
     [ "StaminaPower", "struct_c_sm_player.html#ae6dd26ef847434777c2faae343ea9921", null ],
     [ "StartTime", "struct_c_sm_player.html#aaec7ab68cfc93136144a96900e86aef0", null ],
     [ "ThrowSpeed", "struct_c_sm_player.html#af42a832a8d9ca0a1cd4e56ab3baa8b73", null ],
     [ "UseAlternateWeaponVisual", "struct_c_sm_player.html#a045ea8677c53a87c239e8299e8157846", null ],
+    [ "Vehicle", "struct_c_sm_player.html#ad8486df43a73263c6bd67a76b6cb3432", null ],
     [ "Velocity", "struct_c_sm_player.html#a063d771af9b015f89e2f18fa65505051", null ]
 ];

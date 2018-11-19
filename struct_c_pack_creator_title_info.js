@@ -7,6 +7,7 @@ var struct_c_pack_creator_title_info =
     [ "DownloadUrl", "struct_c_pack_creator_title_info.html#aa179aa00bfc73d8463f7d1e86edd2235", null ],
     [ "ForcedPlayerModel", "struct_c_pack_creator_title_info.html#ad9c7bd329ff04c1da36def65a9e21a57", null ],
     [ "Hud3dFontFileName", "struct_c_pack_creator_title_info.html#a4cbc6ebd6a48fcc95e7ff0b915448363", null ],
+    [ "HudDefaultModuleScriptName", "struct_c_pack_creator_title_info.html#a07b2626b79c6a9242be6083bbd0709c4", null ],
     [ "InfoUrl", "struct_c_pack_creator_title_info.html#a2b1382dc024b9f3d6913f50a283c5249", null ],
     [ "MakerTitleId", "struct_c_pack_creator_title_info.html#a31438e758ff4f0c3b1994fca6a2f296f", null ],
     [ "Menus_BgReplayFileName", "struct_c_pack_creator_title_info.html#a5a2fb789149a460e28cbab73addbf62a", null ],

@@ -1,15 +1,15 @@
 var struct_c_sm_mode_event =
 [
     [ "EActionInput", "struct_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082", [
-      [ "Weapon", "struct_c_sm_mode_event.html#a51a10321bb584ff0e9e0f4fac0427a2fa06d0b128ecf94d41b14f599027644bbf", null ],
-      [ "Movement", "struct_c_sm_mode_event.html#a51a10321bb584ff0e9e0f4fac0427a2fa9ee523898dd999b4b8846785656fe31f", null ],
-      [ "Activable1", "struct_c_sm_mode_event.html#a51a10321bb584ff0e9e0f4fac0427a2fa374ebecff158ad2ffd715603a8d9b536", null ],
-      [ "Activable2", "struct_c_sm_mode_event.html#a51a10321bb584ff0e9e0f4fac0427a2fa21c6a076b760a1ee038cb3b2bcdd4a9a", null ],
-      [ "Activable3", "struct_c_sm_mode_event.html#a51a10321bb584ff0e9e0f4fac0427a2fa367f0e380646fd49c1ef16a3efab3d00", null ],
-      [ "Activable4", "struct_c_sm_mode_event.html#a51a10321bb584ff0e9e0f4fac0427a2fa266ba59965657c09322c6171ec8f903b", null ],
+      [ "Weapon", "struct_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082abfc2ef3c9032eb1bfe5356634044b4d6", null ],
+      [ "Movement", "struct_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082a187d5c4d5d2176353e263b7b10507012", null ],
+      [ "Activable1", "struct_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082a3d2a70a2df8968e4873337958480924b", null ],
+      [ "Activable2", "struct_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082a13a861e65fb6ac14476d4c786a17ee53", null ],
+      [ "Activable3", "struct_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082a9cdcb6e6da6f5a2ef22e5406f6305d5d", null ],
+      [ "Activable4", "struct_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082a3bef74e53802a89a1fcbb7d032a8384d", null ],
       [ "Consumable1", "struct_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082aff46a3596249e4b7399023ef7d2dd2e0", null ],
       [ "Consumable2", "struct_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082ab50770d16f451c440ba7eed82ffca27e", null ],
-      [ "None", "struct_c_sm_mode_event.html#a51a10321bb584ff0e9e0f4fac0427a2fa73aeaf56d99b97d5cc2911e55ea38b6a", null ]
+      [ "None", "struct_c_sm_mode_event.html#a64c617aa1d78e9f5c58b194031224082ac6a9e09e943b671a080395250f274184", null ]
     ] ],
     [ "EActionSlot", "struct_c_sm_mode_event.html#ae3ca5df8099d630379fbd6f8d6697717", [
       [ "Slot_A", "struct_c_sm_mode_event.html#ae3ca5df8099d630379fbd6f8d6697717a1e45feb31ff94d5c6350195cbf16b007", null ],
@@ -20,15 +20,6 @@ var struct_c_sm_mode_event =
       [ "Slot_F", "struct_c_sm_mode_event.html#ae3ca5df8099d630379fbd6f8d6697717a4eb62a268f6d63eac8faa131f5395c31", null ],
       [ "Slot_G", "struct_c_sm_mode_event.html#ae3ca5df8099d630379fbd6f8d6697717a45d93e59d6fb6bce1205b7aa0b6df738", null ],
       [ "Slot_H", "struct_c_sm_mode_event.html#ae3ca5df8099d630379fbd6f8d6697717acf658f446a05333ec04025f73eb1c024", null ]
-    ] ],
-    [ "EActionSlots", "struct_c_sm_mode_event.html#a51a10321bb584ff0e9e0f4fac0427a2f", [
-      [ "Weapon", "struct_c_sm_mode_event.html#a51a10321bb584ff0e9e0f4fac0427a2fa06d0b128ecf94d41b14f599027644bbf", null ],
-      [ "Movement", "struct_c_sm_mode_event.html#a51a10321bb584ff0e9e0f4fac0427a2fa9ee523898dd999b4b8846785656fe31f", null ],
-      [ "Activable1", "struct_c_sm_mode_event.html#a51a10321bb584ff0e9e0f4fac0427a2fa374ebecff158ad2ffd715603a8d9b536", null ],
-      [ "Activable2", "struct_c_sm_mode_event.html#a51a10321bb584ff0e9e0f4fac0427a2fa21c6a076b760a1ee038cb3b2bcdd4a9a", null ],
-      [ "Activable3", "struct_c_sm_mode_event.html#a51a10321bb584ff0e9e0f4fac0427a2fa367f0e380646fd49c1ef16a3efab3d00", null ],
-      [ "Activable4", "struct_c_sm_mode_event.html#a51a10321bb584ff0e9e0f4fac0427a2fa266ba59965657c09322c6171ec8f903b", null ],
-      [ "None", "struct_c_sm_mode_event.html#a51a10321bb584ff0e9e0f4fac0427a2fa73aeaf56d99b97d5cc2911e55ea38b6a", null ]
     ] ],
     [ "EType", "struct_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3", [
       [ "Unknown", "struct_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3a643f4aaf0fed16d3c096af36037d5455", null ],
@@ -46,9 +37,14 @@ var struct_c_sm_mode_event =
       [ "OnActionCustomEvent", "struct_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3a270e75e6b3999e5eef28d93a1054f6c0", null ],
       [ "OnActionEvent", "struct_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3a3108ed9b6f372060d7c8782a4945a40a", null ],
       [ "OnPlayerTouchesObject", "struct_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3a7f997a628c1d476933d3132ed35fe85b", null ],
-      [ "OnPlayerTriggersSector", "struct_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3ae8fe48535fe0545c804e43659ea76f6f", null ],
       [ "OnPlayerThrowsObject", "struct_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3af1f92a1930ac1916feda3b56c68073a6", null ],
-      [ "OnPlayerRequestActionChange", "struct_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3a5c37d0cb5e71fc41985e9f75c32227ca", null ]
+      [ "OnPlayerTriggersSector", "struct_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3ae8fe48535fe0545c804e43659ea76f6f", null ],
+      [ "OnPlayerTriggersWaypoint", "struct_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3aab8c7ce9e24288211b1dfd73baebc59d", null ],
+      [ "OnPlayerRequestActionChange", "struct_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3a5c37d0cb5e71fc41985e9f75c32227ca", null ],
+      [ "OnVehicleArmorEmpty", "struct_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3a50a7de8aa974e3d7280232586ae24688", null ],
+      [ "OnVehicleCollision", "struct_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3a1a8900e6c7dd8f1bd2e8fd512d40725b", null ],
+      [ "OnVehicleVsVehicleCollision", "struct_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3a0d70fa1f18ce94f6b1f9de78b93fb04a", null ],
+      [ "OnVehicleLanding", "struct_c_sm_mode_event.html#af6cdee97f33db715807437de6358c2d3aa20549c68366e87be461237d0c76b3db", null ]
     ] ],
     [ "Action_Slot", "struct_c_sm_mode_event.html#a87489e078094319e1e557df2639337c7", null ],
     [ "ActionChange", "struct_c_sm_mode_event.html#afa430e090433e159e58fee315c3603c5", null ],
@@ -73,24 +69,21 @@ var struct_c_sm_mode_event =
     [ "PlayerLastPosition", "struct_c_sm_mode_event.html#a4aa92637d7ccc25cfcd2f55108d8a30c", null ],
     [ "PlayerWasInLadderMatch", "struct_c_sm_mode_event.html#a5e354c99417d3beb17200e5638aad6cc", null ],
     [ "PlayerWasSpawned", "struct_c_sm_mode_event.html#a9bd1c1cd3be4adde7d6ae5fe7bba8600", null ],
-    [ "Sector", "struct_c_sm_mode_event.html#abf132c09f108519c3d99c98eb467514f", null ],
-    [ "Shooter", "struct_c_sm_mode_event.html#a34512970446ef7d7e00c78bfa2c963c8", null ],
     [ "ShooterActionId", "struct_c_sm_mode_event.html#a42d04e854da8020c32bfd2526fb35915", null ],
     [ "ShooterActionSlot", "struct_c_sm_mode_event.html#a98e3435c2e55a9c97ef9bf44964e884f", null ],
     [ "ShooterClan", "struct_c_sm_mode_event.html#a1e5a73692167332943468f3715285a91", null ],
+    [ "ShooterEntity", "struct_c_sm_mode_event.html#aa51a6c98f5ca6fd8f6706d42fa309a6f", null ],
     [ "ShooterPoints", "struct_c_sm_mode_event.html#a38db3df0caad6db30ea2d82ee0d5e466", null ],
-    [ "ShooterTurret", "struct_c_sm_mode_event.html#a0c8629502400f029c96c15a0fe695526", null ],
     [ "ShooterUsedAction", "struct_c_sm_mode_event.html#a720587ff34e1b0d69d6242591123d1aa", null ],
     [ "ShooterWeaponNum", "struct_c_sm_mode_event.html#ab1335cb863309179dbe18df3083d14b2", null ],
     [ "Type", "struct_c_sm_mode_event.html#aad5aceb874d3a0bba3c47d1bda6452aa", null ],
     [ "User", "struct_c_sm_mode_event.html#a16dc9d832ea5e363afa5187dbc51ff53", null ],
-    [ "Victim", "struct_c_sm_mode_event.html#a7e83f7e720f53dc001d71c8efb8bf334", null ],
     [ "VictimActionId", "struct_c_sm_mode_event.html#af2ccdd0fb2ef9ee5bc0d7de7a6f5801d", null ],
     [ "VictimActionSlot", "struct_c_sm_mode_event.html#acb91dded40c001b9efb8f760c571e25c", null ],
-    [ "VictimObject", "struct_c_sm_mode_event.html#a60d11e1fa1d741d0a9db8e3866d36230", null ],
+    [ "VictimEntity", "struct_c_sm_mode_event.html#a5b5b3eada23f329b52f8f1152349ba11", null ],
     [ "VictimShield", "struct_c_sm_mode_event.html#ae1fe1b90331fb46e7b28f528b68051fb", null ],
-    [ "VictimTurret", "struct_c_sm_mode_event.html#ad6810aa1153cb7ca37488db36a658bb9", null ],
     [ "VictimUsedAction", "struct_c_sm_mode_event.html#a5a509451b98a5055863349eda8e84afa", null ],
     [ "VictimWeaponNum", "struct_c_sm_mode_event.html#affa08f306de88d0001181bd287061f09", null ],
+    [ "WaypointTime", "struct_c_sm_mode_event.html#ad1225b486891375a7cdc42177e2468e5", null ],
     [ "WeaponNum", "struct_c_sm_mode_event.html#aeada34601591162dd676b6a4e48b9307", null ]
 ];

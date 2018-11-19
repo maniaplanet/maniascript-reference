@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">ManiaScript Reference
-   &#160;<span id="projectnumber">2018-07</span>
+   &#160;<span id="projectnumber">2018-11</span>
    </div>
   </td>
  </tr>
@@ -102,7 +102,8 @@ Inheritance diagram for CSmPlayer:</div>
  <div class="center">
   <img src="struct_c_sm_player.png" usemap="#CSmPlayer_map" alt=""/>
   <map id="CSmPlayer_map" name="CSmPlayer_map">
-<area href="struct_c_player.html" alt="CPlayer" shape="rect" coords="0,56,75,80"/>
+<area href="struct_c_player.html" alt="CPlayer" shape="rect" coords="0,112,75,136"/>
+<area href="struct_c_entity.html" alt="CEntity" shape="rect" coords="0,56,75,80"/>
 <area href="struct_c_nod.html" alt="CNod" shape="rect" coords="0,0,75,24"/>
 </map>
  </div></div>
@@ -151,6 +152,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:adbd32566a6863c187e3e66398483a39e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af93e6a28d41242cb59fa1c2f4e5cea56"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_sm_player.html#af93e6a28d41242cb59fa1c2f4e5cea56">Stamina</a></td></tr>
 <tr class="separator:af93e6a28d41242cb59fa1c2f4e5cea56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f5beca308542de452bf20997a9ecb82"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_sm_player.html#a9f5beca308542de452bf20997a9ecb82">StaminaMaxValue</a></td></tr>
+<tr class="separator:a9f5beca308542de452bf20997a9ecb82"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae5c716e229cb962797567656ba358e23"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_real.html">Real</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_sm_player.html#ae5c716e229cb962797567656ba358e23">StaminaMax</a></td></tr>
 <tr class="separator:ae5c716e229cb962797567656ba358e23"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a92559b6c1da3193cb7f38141d40c753f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_real.html">Real</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_sm_player.html#a92559b6c1da3193cb7f38141d40c753f">StaminaGain</a></td></tr>
@@ -243,6 +246,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:ab2318090a580d2f8951cbda860e724aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a48f4ef35b3d7da4414a8e3ebef9a9fa1"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_c_sm_object.html">CSmObject</a> []&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_sm_player.html#a48f4ef35b3d7da4414a8e3ebef9a9fa1">Objects</a></td></tr>
 <tr class="separator:a48f4ef35b3d7da4414a8e3ebef9a9fa1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8486df43a73263c6bd67a76b6cb3432"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_c_mode_vehicle.html">CModeVehicle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_sm_player.html#ad8486df43a73263c6bd67a76b6cb3432">Vehicle</a></td></tr>
+<tr class="separator:ad8486df43a73263c6bd67a76b6cb3432"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a57a53b6474be54bb4f3e4c58bd34014b"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_sm_player.html#a57a53b6474be54bb4f3e4c58bd34014b">IsFakePlayer</a></td></tr>
 <tr class="separator:a57a53b6474be54bb4f3e4c58bd34014b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad65d3a738efd7e4edd386c2906d87f69"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_sm_player.html#ad65d3a738efd7e4edd386c2906d87f69">IsBot</a></td></tr>
@@ -1146,6 +1151,20 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a9f5beca308542de452bf20997a9ecb82"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f5beca308542de452bf20997a9ecb82">&#9670;&nbsp;</a></span>StaminaMaxValue</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="class_integer.html">Integer</a> CSmPlayer::StaminaMaxValue</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ae6dd26ef847434777c2faae343ea9921"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae6dd26ef847434777c2faae343ea9921">&#9670;&nbsp;</a></span>StaminaPower</h2>
 
@@ -1198,6 +1217,20 @@ Public Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="class_boolean.html">Boolean</a> CSmPlayer::UseAlternateWeaponVisual</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad8486df43a73263c6bd67a76b6cb3432"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad8486df43a73263c6bd67a76b6cb3432">&#9670;&nbsp;</a></span>Vehicle</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="struct_c_mode_vehicle.html">CModeVehicle</a> CSmPlayer::Vehicle</td>
         </tr>
       </table>
 </div><div class="memdoc">

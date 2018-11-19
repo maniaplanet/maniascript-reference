@@ -1,16 +1,5 @@
 var struct_c_tm_player =
 [
-    [ "ETmJumpMode", "struct_c_tm_player.html#a4f5198300527b3f0d1bd5d7841343f54", [
-      [ "Disabled", "struct_c_tm_player.html#a4f5198300527b3f0d1bd5d7841343f54a9ac8f56918c6a2620493ddad8bc3a860", null ],
-      [ "Simple", "struct_c_tm_player.html#a4f5198300527b3f0d1bd5d7841343f54ad5d127ceb0466742d60ab663848f667f", null ],
-      [ "Double", "struct_c_tm_player.html#a4f5198300527b3f0d1bd5d7841343f54a0a98116731b4f11ca4d6ec59c2881e9e", null ],
-      [ "Infinite", "struct_c_tm_player.html#a4f5198300527b3f0d1bd5d7841343f54a47a8fc3ca2df6ca851cb396149558b37", null ]
-    ] ],
-    [ "ETmRacePlayerCoopMode", "struct_c_tm_player.html#ae1a8f8db4e054b72801041c9a645d1ea", [
-      [ "None", "struct_c_tm_player.html#ae1a8f8db4e054b72801041c9a645d1eaac1e55ffe23218e83089bb39a619d298f", null ],
-      [ "Symbiosys", "struct_c_tm_player.html#ae1a8f8db4e054b72801041c9a645d1eaa730da4978953bdaf44ebab4f9034c7e2", null ],
-      [ "Checkpoint", "struct_c_tm_player.html#ae1a8f8db4e054b72801041c9a645d1eaac20e50f4e63d3fed3c5f2993c0c92be0", null ]
-    ] ],
     [ "AccelCoef", "struct_c_tm_player.html#afe28477ae880a57f5d620b3a94ff4c98", null ],
     [ "AimDirection", "struct_c_tm_player.html#a113937a949def7bd3caa27805a9c4009", null ],
     [ "AimPitch", "struct_c_tm_player.html#a41bdd0d785b22dc06633e3308bdce7bc", null ],

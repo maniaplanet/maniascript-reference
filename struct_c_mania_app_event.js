@@ -11,7 +11,9 @@ var struct_c_mania_app_event =
       [ "PageDown", "struct_c_mania_app_event.html#a11e3f587759eee4fe3c87d9584a4d7a6a8fe6f966ebf633b87f1b1cc133325187", null ],
       [ "AppMenu", "struct_c_mania_app_event.html#a11e3f587759eee4fe3c87d9584a4d7a6ad2c97d2211ec600317df4d16ffd2ff5a", null ],
       [ "Action1", "struct_c_mania_app_event.html#a11e3f587759eee4fe3c87d9584a4d7a6a155f51d1a58459366a67e265c9f68a1c", null ],
-      [ "Action2", "struct_c_mania_app_event.html#a11e3f587759eee4fe3c87d9584a4d7a6ac6f254ec02d04c64471e91cad12c8e07", null ]
+      [ "Action2", "struct_c_mania_app_event.html#a11e3f587759eee4fe3c87d9584a4d7a6ac6f254ec02d04c64471e91cad12c8e07", null ],
+      [ "ScrollUp", "struct_c_mania_app_event.html#a11e3f587759eee4fe3c87d9584a4d7a6ada6d941cd9ebdd55ac29ca152fffdac4", null ],
+      [ "ScrollDown", "struct_c_mania_app_event.html#a11e3f587759eee4fe3c87d9584a4d7a6a64ec65ef91a0f67657b8cfe0222c5462", null ]
     ] ],
     [ "EType", "struct_c_mania_app_event.html#a1196187d0374940a7a3a92767d774ac0", [
       [ "LayerCustomEvent", "struct_c_mania_app_event.html#a1196187d0374940a7a3a92767d774ac0a4464c91851ab39a875b421a4cc3d9feb", null ],

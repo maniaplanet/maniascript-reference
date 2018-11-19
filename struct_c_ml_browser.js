@@ -1,10 +1,5 @@
 var struct_c_ml_browser =
 [
-    [ "EBuddyAction", "struct_c_ml_browser.html#a34f0fb6c647a3828a358f5e6d49c27b5", [
-      [ "Add", "struct_c_ml_browser.html#a34f0fb6c647a3828a358f5e6d49c27b5ae9e8fc5d8b46c7520a1794405911ced6", null ],
-      [ "Invite", "struct_c_ml_browser.html#a34f0fb6c647a3828a358f5e6d49c27b5a8b9cf3fda67bccfcdbee719e31d29915", null ],
-      [ "Remove", "struct_c_ml_browser.html#a34f0fb6c647a3828a358f5e6d49c27b5aa4b6616192a743410a5287657052c40a", null ]
-    ] ],
     [ "EBuddyResult", "struct_c_ml_browser.html#af6082ac9bae1f71a5c6214a4733f39fb", [
       [ "Ok", "struct_c_ml_browser.html#af6082ac9bae1f71a5c6214a4733f39fba01929997f2ff032e4f784846e50c9f5e", null ],
       [ "Error", "struct_c_ml_browser.html#af6082ac9bae1f71a5c6214a4733f39fba0743d482850a7f1b074ae520073cb6e8", null ],

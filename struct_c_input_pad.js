@@ -29,6 +29,7 @@ var struct_c_input_pad =
     ] ],
     [ "EPadType", "struct_c_input_pad.html#a12137c30f421d5227891bc716acf938f", [
       [ "Keyboard", "struct_c_input_pad.html#a12137c30f421d5227891bc716acf938facdd0e7d8b7425f750565e95454395422", null ],
+      [ "Mouse", "struct_c_input_pad.html#a12137c30f421d5227891bc716acf938faf4e664bdd27de9c7bbc1ff22abd92110", null ],
       [ "Generic", "struct_c_input_pad.html#a12137c30f421d5227891bc716acf938fa174bf84e5db1712e750760f7b3ebaed8", null ],
       [ "XBox", "struct_c_input_pad.html#a12137c30f421d5227891bc716acf938fa117c46971ae186a7424402c5ca9f85d0", null ],
       [ "PlayStation", "struct_c_input_pad.html#a12137c30f421d5227891bc716acf938facf4db7722f3d31782c0e233e2334cfd4", null ],

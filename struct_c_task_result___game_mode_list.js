@@ -1,4 +1,4 @@
 var struct_c_task_result___game_mode_list =
 [
-    [ "GameModes", "struct_c_task_result___game_mode_list.html#ad02711fa231f77c0b0aba9365f740d30", null ]
+    [ "GameModes", "struct_c_task_result___game_mode_list.html#ac942b5598db3768784c2e74407ae4c6a", null ]
 ];

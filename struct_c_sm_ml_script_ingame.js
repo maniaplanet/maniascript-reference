@@ -15,5 +15,6 @@ var struct_c_sm_ml_script_ingame =
     [ "MapLandmarks_PlayerSpawn", "struct_c_sm_ml_script_ingame.html#ae224381aac5e933535dbb7c831a6c646", null ],
     [ "MapLandmarks_Sector", "struct_c_sm_ml_script_ingame.html#a513168e2b9d697132e5b3469d3631f51", null ],
     [ "Players", "struct_c_sm_ml_script_ingame.html#a577754ab6f26862d7d381c3008489de4", null ],
-    [ "Scores", "struct_c_sm_ml_script_ingame.html#a007251cf91975cf914631c4ec81d2bb7", null ]
+    [ "Scores", "struct_c_sm_ml_script_ingame.html#a007251cf91975cf914631c4ec81d2bb7", null ],
+    [ "Vehicles", "struct_c_sm_ml_script_ingame.html#a8d5a3e606fae39278e6a63206bd6a934", null ]
 ];

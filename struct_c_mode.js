@@ -1,25 +1,12 @@
 var struct_c_mode =
 [
     [ "EMedal", "struct_c_mode.html#a12abdad45d08121730235428ef376be3", [
-      [ "None", "struct_c_mode.html#a959b035a61a67e0d7afdd42dae4b766ea72bf62a877a1b9623d2f18480713a8b9", null ],
+      [ "None", "struct_c_mode.html#a12abdad45d08121730235428ef376be3acb197e2a05e3c42e6033abfe939f45f0", null ],
       [ "Finished", "struct_c_mode.html#a12abdad45d08121730235428ef376be3a33dfaf80aec656e87ad5a6b3a1ba0774", null ],
       [ "Bronze", "struct_c_mode.html#a12abdad45d08121730235428ef376be3a145f9e604b3251811db2394568e3bcdf", null ],
       [ "Silver", "struct_c_mode.html#a12abdad45d08121730235428ef376be3a997fcc47b4c0ff61ae74d05cf8963517", null ],
       [ "Gold", "struct_c_mode.html#a12abdad45d08121730235428ef376be3ad6ea21ad4a3c2400988c1e45ef2f755d", null ],
       [ "Author", "struct_c_mode.html#a12abdad45d08121730235428ef376be3a1a810996771c327d22fd02b2ce918cb4", null ]
-    ] ],
-    [ "ESystemPlatform", "struct_c_mode.html#a959b035a61a67e0d7afdd42dae4b766e", [
-      [ "None", "struct_c_mode.html#a959b035a61a67e0d7afdd42dae4b766ea72bf62a877a1b9623d2f18480713a8b9", null ],
-      [ "Steam", "struct_c_mode.html#a959b035a61a67e0d7afdd42dae4b766eac4394f0d1428ad7f460aca142ed57c67", null ],
-      [ "UPlay", "struct_c_mode.html#a959b035a61a67e0d7afdd42dae4b766ea14e4047e6079e87438accba57934169a", null ],
-      [ "PS4", "struct_c_mode.html#a959b035a61a67e0d7afdd42dae4b766ea6a39e2ab78611d947ad528726d2048d9", null ],
-      [ "XBoxOne", "struct_c_mode.html#a959b035a61a67e0d7afdd42dae4b766ea8e2624e5f76fee9ddaf85f8c00a041b9", null ]
-    ] ],
-    [ "ESystemSkuIdentifier", "struct_c_mode.html#a1e9f0dbff3037da91d2875d0a2c17521", [
-      [ "Unknown", "struct_c_mode.html#a1e9f0dbff3037da91d2875d0a2c17521ac18c7d4cb8f718120693e71acaa43412", null ],
-      [ "EU", "struct_c_mode.html#a1e9f0dbff3037da91d2875d0a2c17521a975e104e40cb019695f2cb8c45529d8f", null ],
-      [ "US", "struct_c_mode.html#a1e9f0dbff3037da91d2875d0a2c17521a94232916f99cd241fcb571c0966df1da", null ],
-      [ "JP", "struct_c_mode.html#a1e9f0dbff3037da91d2875d0a2c17521ae0b6eafb7e5402f73cc54b6f73777685", null ]
     ] ],
     [ "ActionList_Add", "struct_c_mode.html#a28df9784fbdfef9f9bd622d8246322c1", null ],
     [ "ActionList_Begin", "struct_c_mode.html#a73962294d19fb2f317c377604c8b0bf3", null ],
@@ -63,6 +50,7 @@ var struct_c_mode =
     [ "Users_RequestSwitchToSpectator", "struct_c_mode.html#a0f300396238d5eb6af8691f5273fd63c", null ],
     [ "Users_SetNbFakeUsers", "struct_c_mode.html#a8f51f77c9272f4fac1b092e15f9fd463", null ],
     [ "AchievementsManager", "struct_c_mode.html#acba49a03bdc6fb729bbd4ff912cc400e", null ],
+    [ "ActionsManager", "struct_c_mode.html#a43ba94797eb05e683e124046b58cedfb", null ],
     [ "ClientManiaAppUrl", "struct_c_mode.html#a34193b3a0e1a7828506a429ae014acdc", null ],
     [ "DataFileMgr", "struct_c_mode.html#a4d4b632b150ca61ed5ecbfc682316395", null ],
     [ "ForcedClubLinkUrl1", "struct_c_mode.html#a8e6986fa2e025d96f4a40763df92f1f7", null ],
@@ -97,6 +85,7 @@ var struct_c_mode =
     [ "UIManager", "struct_c_mode.html#ae22d9ed212df8698a620a497bc2f2472", null ],
     [ "UseMinimap", "struct_c_mode.html#a4052832ad12153cd2a3ec6ee566fb780", null ],
     [ "Users", "struct_c_mode.html#ab79eb99c094f6948b1fe1739dcbcf8a1", null ],
-    [ "Xml", "struct_c_mode.html#a747b6065e1a1342ccd62ed3efa1a889d", null ],
+    [ "VehiclesManager", "struct_c_mode.html#a0791e90374f0c11247293178a257228c", null ],
+    [ "Xml", "struct_c_mode.html#ac1e83a69ff13829571edf0e98b9c68d3", null ],
     [ "XmlRpc", "struct_c_mode.html#aea23de98cf483431ce99716feaa316c9", null ]
 ];

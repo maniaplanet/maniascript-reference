@@ -38,5 +38,6 @@ var struct_c_anim_manager =
     ] ],
     [ "Add", "struct_c_anim_manager.html#a335ee3f004173e83d72010d8a7169df8", null ],
     [ "Add", "struct_c_anim_manager.html#a94631e405ac2661e5710a7183cd6b207", null ],
-    [ "AddChain", "struct_c_anim_manager.html#af776348ff04372f258a6bee5b2e24890", null ]
+    [ "AddChain", "struct_c_anim_manager.html#af776348ff04372f258a6bee5b2e24890", null ],
+    [ "Flush", "struct_c_anim_manager.html#a5130cb42d33e0fe42684bdaafe9c861e", null ]
 ];

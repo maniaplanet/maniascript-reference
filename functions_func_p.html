@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">ManiaScript Reference
-   &#160;<span id="projectnumber">2018-07</span>
+   &#160;<span id="projectnumber">2018-11</span>
    </div>
   </td>
  </tr>
@@ -92,6 +92,12 @@ $(document).ready(function(){initNavTree('functions_func_p.html','');});
 <li>Pack_DownloadOrUpdate()
 : <a class="el" href="struct_c_data_file_mgr.html#a7cddbc5bfedd329fd8b5e44e9ba24936">CDataFileMgr</a>
 </li>
+<li>Parse_Destroy()
+: <a class="el" href="struct_c_parsing_manager.html#a7ec7f7ddd4983b56fc13e6396adaac4f">CParsingManager</a>
+</li>
+<li>Parse_Xml()
+: <a class="el" href="struct_c_parsing_manager.html#adf8acb06ab31ff3c13bd3a5f2a3fb428">CParsingManager</a>
+</li>
 <li>Part_ClearAnchor()
 : <a class="el" href="struct_c_editor_mesh.html#a64ccbbebf7a35f22ee5f7e2ad0116982">CEditorMesh</a>
 </li>
@@ -118,8 +124,8 @@ $(document).ready(function(){initNavTree('functions_func_p.html','');});
 <li>Pause()
 : <a class="el" href="struct_c_video.html#a2977bc750d632fe582cd25218db6b8ec">CVideo</a>
 </li>
-<li>PersistentSave()
-: <a class="el" href="struct_c_user_v2.html#a04c89c7395890459f49ad12a9894ae81">CUserV2</a>
+<li>PickInfo_GetAnchorId()
+: <a class="el" href="struct_c_editor_mesh.html#abde19e8e0b863451b24271cc1b41d0da">CEditorMesh</a>
 </li>
 <li>PickInfo_GetEdgeLength()
 : <a class="el" href="struct_c_editor_mesh.html#a93b4eedaafc888c790421dcef7be72d8">CEditorMesh</a>
@@ -169,7 +175,7 @@ $(document).ready(function(){initNavTree('functions_func_p.html','');});
 , <a class="el" href="struct_c_video.html#ae62ba2b8394864abdc5116473a99b42d">CVideo</a>
 </li>
 <li>PlayCampaign()
-: <a class="el" href="struct_c_title_flow.html#a9e11f08a5d57d2ecbebf35e95f82943c">CTitleFlow</a>
+: <a class="el" href="struct_c_title_control.html#a6e90295ed5c89e048fc9b774378e1bdf">CTitleControl</a>
 </li>
 <li>Playground_GetPlayerGhost()
 : <a class="el" href="struct_c_score_mgr.html#a9c238d0691d5a8fa4809cf3fdcc381a9">CScoreMgr</a>
@@ -194,22 +200,22 @@ $(document).ready(function(){initNavTree('functions_func_p.html','');});
 </li>
 <li>PlayMap()
 : <a class="el" href="struct_c_mania_app_title.html#ab65ec8de7797055590b966c22dd0e770">CManiaAppTitle</a>
-, <a class="el" href="struct_c_title_flow.html#a9b79cc7509b1b6c7b13fd78e451e8a9d">CTitleFlow</a>
+, <a class="el" href="struct_c_title_control.html#a54f137e40dec34b8b2017b9987127dfc">CTitleControl</a>
 </li>
 <li>PlayMapList()
-: <a class="el" href="struct_c_title_flow.html#a009fd23f9924a18cec7deaa2e52b9fd3">CTitleFlow</a>
+: <a class="el" href="struct_c_title_control.html#a6f582d6abc6d6b9cac1f019a9c69fd8b">CTitleControl</a>
 </li>
 <li>PlayMatchSettings()
-: <a class="el" href="struct_c_title_flow.html#abdcc6f3b0e228ce203b26fea89faad83">CTitleFlow</a>
+: <a class="el" href="struct_c_title_control.html#aabb464b2343267580e5ac78a9a84d2ba">CTitleControl</a>
 </li>
 <li>PlayMultiOnSameScreen()
-: <a class="el" href="struct_c_title_flow.html#aa5288feee22401b582941307e5d3ab28">CTitleFlow</a>
+: <a class="el" href="struct_c_title_control.html#ab976c60e4a53cc9b1366a02dc0bed366">CTitleControl</a>
 </li>
 <li>PlaySoundEvent()
-: <a class="el" href="struct_c_audio_manager.html#a7485a0dd3aa6286eb958e4096af5977d">CAudioManager</a>
+: <a class="el" href="struct_c_audio_manager.html#a7b25e8e0f41327f17bbff927f528ff7a">CAudioManager</a>
 </li>
 <li>PlaySplitScreen()
-: <a class="el" href="struct_c_title_flow.html#a7790b967ed8925c81eee5ceeb622cfaf">CTitleFlow</a>
+: <a class="el" href="struct_c_title_control.html#a35c05536f278e39c4e907c753e090523">CTitleControl</a>
 </li>
 <li>PlayUiSound()
 : <a class="el" href="struct_c_ml_script_ingame.html#a4bc528094b73e2d92bfc8e3fcb4ec415">CMlScriptIngame</a>
@@ -222,6 +228,9 @@ $(document).ready(function(){initNavTree('functions_func_p.html','');});
 </li>
 <li>Prefab_Import()
 : <a class="el" href="struct_c_editor_mesh.html#a322aaa7419c03b69f3f053746e8b81f8">CEditorMesh</a>
+</li>
+<li>Prefabs_Reload()
+: <a class="el" href="struct_c_editor_mesh.html#a61ff11a32e21ea18dabcca60874f0299">CEditorMesh</a>
 </li>
 <li>PreloadAll()
 : <a class="el" href="struct_c_ml_script.html#a319268f14d19ce9bbb48035429996950">CMlScript</a>
@@ -251,7 +260,7 @@ $(document).ready(function(){initNavTree('functions_func_p.html','');});
 : <a class="el" href="struct_c_sm_action.html#a355d19563c7fd78f2f8af93ffd9c06ca">CSmAction</a>
 </li>
 <li>PublishFile()
-: <a class="el" href="struct_c_title_flow.html#a24ccd7b7dc9cd2f7cf8a48eaf9c2ec07">CTitleFlow</a>
+: <a class="el" href="struct_c_title_control.html#a744c709b95e04ef723f4b2ce586999aa">CTitleControl</a>
 </li>
 </ul>
 </div><!-- contents -->

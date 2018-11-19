@@ -13,7 +13,5 @@ var struct_c_tm_ml_script_ingame =
     [ "NbLaps", "struct_c_tm_ml_script_ingame.html#ac56e1f4e902549bf1d03c415a06a7dc6", null ],
     [ "Players", "struct_c_tm_ml_script_ingame.html#a26a4da20427cffff0fd84b0aa4c3470f", null ],
     [ "RaceEvents", "struct_c_tm_ml_script_ingame.html#af538ce3a57fee85417b715bcea0c0c5f", null ],
-    [ "Scores", "struct_c_tm_ml_script_ingame.html#a9ec4581b94fda15f6f79ca46c03b3d0a", null ],
-    [ "SplitScreenCount", "struct_c_tm_ml_script_ingame.html#a22542db2294223f6cff28c430ef474c4", null ],
-    [ "SplitScreenNum", "struct_c_tm_ml_script_ingame.html#a566342f820a7f01dcbc07d5a9d9f8db2", null ]
+    [ "Scores", "struct_c_tm_ml_script_ingame.html#a9ec4581b94fda15f6f79ca46c03b3d0a", null ]
 ];

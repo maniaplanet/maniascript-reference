@@ -1,18 +1,5 @@
 var struct_c_ml_script =
 [
-    [ "ESystemPlatform", "struct_c_ml_script.html#ac37a84e07d2ca816d1770f55d4f52ebb", [
-      [ "None", "struct_c_ml_script.html#ac37a84e07d2ca816d1770f55d4f52ebba8089f019aaec228e66417749701394f4", null ],
-      [ "Steam", "struct_c_ml_script.html#ac37a84e07d2ca816d1770f55d4f52ebba1b0bdf2b97f7bff8d07218d784ae3ebc", null ],
-      [ "UPlay", "struct_c_ml_script.html#ac37a84e07d2ca816d1770f55d4f52ebba36cb294a342aea37ab0ab150f3ba594a", null ],
-      [ "PS4", "struct_c_ml_script.html#ac37a84e07d2ca816d1770f55d4f52ebbab03a35efd5948477b45b128fdb56650c", null ],
-      [ "XBoxOne", "struct_c_ml_script.html#ac37a84e07d2ca816d1770f55d4f52ebba57637831ce423d03d4c50417dd613787", null ]
-    ] ],
-    [ "ESystemSkuIdentifier", "struct_c_ml_script.html#a0e7deb75b86ebecb50028a6cdaf7915b", [
-      [ "Unknown", "struct_c_ml_script.html#a0e7deb75b86ebecb50028a6cdaf7915ba06bd73662bac45d65afe186f2c0f49e0", null ],
-      [ "EU", "struct_c_ml_script.html#a0e7deb75b86ebecb50028a6cdaf7915ba3bc011017a93e11d7c2e3fe1942c5645", null ],
-      [ "US", "struct_c_ml_script.html#a0e7deb75b86ebecb50028a6cdaf7915ba988df57b60b703575ba612eba4aa517c", null ],
-      [ "JP", "struct_c_ml_script.html#a0e7deb75b86ebecb50028a6cdaf7915bae4e5149c6bec90a3e7609eb7ef1cb726", null ]
-    ] ],
     [ "LinkType", "struct_c_ml_script.html#aed6dfd4a2b14d2308f90f63c43042fed", [
       [ "ExternalBrowser", "struct_c_ml_script.html#aed6dfd4a2b14d2308f90f63c43042feda4a616e2727145959887c4e838688e124", null ],
       [ "ManialinkBrowser", "struct_c_ml_script.html#aed6dfd4a2b14d2308f90f63c43042fedab202f4dac93cc3e691ae2b263c25b528", null ],
@@ -24,6 +11,7 @@ var struct_c_ml_script =
     [ "Dbg_DumpDeclareForVariables", "struct_c_ml_script.html#af6e2bbdec91af83ae39f977071a7570e", null ],
     [ "Dbg_SetProcessed", "struct_c_ml_script.html#abbc8dd6203cd36e11527ae8733942737", null ],
     [ "EnableMenuNavigation", "struct_c_ml_script.html#a8cbbf6ca8c690225f8c6ea2b126984a8", null ],
+    [ "EnableMenuNavigation", "struct_c_ml_script.html#aea533e1387af57af6430bf0573372662", null ],
     [ "IsKeyPressed", "struct_c_ml_script.html#a6cba1bc0f881365ed1477bff455e7fd4", null ],
     [ "OpenLink", "struct_c_ml_script.html#ab34aebbee0d8791556a7432ef9e1b89c", null ],
     [ "PreloadAll", "struct_c_ml_script.html#a319268f14d19ce9bbb48035429996950", null ],
@@ -55,13 +43,12 @@ var struct_c_ml_script =
     [ "MouseY", "struct_c_ml_script.html#aff8e3d0040a9f2f1e2bee75f564d9209", null ],
     [ "Now", "struct_c_ml_script.html#aa5a8a74ac2098fad07cc1f80d56f0ce3", null ],
     [ "Page", "struct_c_ml_script.html#a1460a9f7f2d93549012379fe5dd3c87a", null ],
+    [ "PageAlwaysUpdateScript", "struct_c_ml_script.html#a4ea6456115f9e242f1304b6ef8bc2502", null ],
     [ "PageIsVisible", "struct_c_ml_script.html#a456e195c95e5389b44d8857ae61daea0", null ],
     [ "PendingEvents", "struct_c_ml_script.html#aef03dfc4622a50a23382a654cc2cb200", null ],
     [ "Period", "struct_c_ml_script.html#af9a9b7fe2caad6b8163e920bcb3638e6", null ],
-    [ "PresenceMgr", "struct_c_ml_script.html#a4982b2ca14ddce0546bf42451c8ca028", null ],
-    [ "PrivilegeMgr", "struct_c_ml_script.html#a12ee5dc4e4f55382cf6888fe967292e2", null ],
     [ "ScoreMgr", "struct_c_ml_script.html#a11bac056dd5d625c9b809a205d7f0cfe", null ],
     [ "System", "struct_c_ml_script.html#a6144ecbbd5a864a8c6ed7238946bcac6", null ],
     [ "Video", "struct_c_ml_script.html#a7e1a14326c9c295b260cf92d0cb10222", null ],
-    [ "Xml", "struct_c_ml_script.html#add71e6084f1650c863883bf19ac86613", null ]
+    [ "Xml", "struct_c_ml_script.html#ab54cf805d34115a192059f3b921892f5", null ]
 ];

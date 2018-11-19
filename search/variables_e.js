@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['object',['Object',['../struct_c_sm_mode_event.html#a8df9478241e639e34bb4c1efd8e697af',1,'CSmModeEvent::Object()'],['../struct_c_sm_action_event.html#acfdb502f722551a8b9d6087c417d74da',1,'CSmActionEvent::Object()']]],
-  ['objectanchor',['ObjectAnchor',['../struct_c_sm_map_landmark.html#a9079a1cc014a25adb845029dd8b5e491',1,'CSmMapLandmark']]],
+  ['object',['Object',['../struct_c_sm_mode_event.html#a8df9478241e639e34bb4c1efd8e697af',1,'CSmModeEvent']]],
+  ['objectanchor',['ObjectAnchor',['../struct_c_map_landmark.html#ad9157eafb52fadce363af0ecb9cf9182',1,'CMapLandmark']]],
   ['objectivetextauthor',['ObjectiveTextAuthor',['../struct_c_map.html#acc951c3d0fa7ad06f4d712a50f96308a',1,'CMap']]],
   ['objectivetextbronze',['ObjectiveTextBronze',['../struct_c_map.html#a07c8f0911db9714c2e7f4f3643e0effd',1,'CMap']]],
   ['objectivetextgold',['ObjectiveTextGold',['../struct_c_map.html#a3c06bff43931966b94b795eb05c3797a',1,'CMap']]],
@@ -13,7 +13,8 @@ var searchData=
   ['offzonecenterlandmarkid',['OffZoneCenterLandmarkId',['../struct_c_sm_mode.html#a5c1401b5efc8b63fd3467b396801db85',1,'CSmMode']]],
   ['offzoneradius',['OffZoneRadius',['../struct_c_sm_mode.html#a246176fd69550dfa5a71f180d12a51bb',1,'CSmMode']]],
   ['offzoneradiusspeed',['OffZoneRadiusSpeed',['../struct_c_sm_mode.html#a1760d55dccec2924e00d7b2431a8599f',1,'CSmMode']]],
-  ['onlinepresences',['OnlinePresences',['../struct_c_task_result___get_online_presence.html#a181d47c917564de364124de0cd864483',1,'CTaskResult_GetOnlinePresence']]],
+  ['online_5fautosavereplay',['Online_AutoSaveReplay',['../struct_c_user_v2_profile.html#afaec292353fa7d63b38cbb0bec0f1272',1,'CUserV2Profile']]],
+  ['online_5fsaveroundreplaysseparately',['Online_SaveRoundReplaysSeparately',['../struct_c_user_v2_profile.html#a8b2ccc39b5a50921d613844fa8a2b67b',1,'CUserV2Profile']]],
   ['onlyscriptmetadatamodified',['OnlyScriptMetadataModified',['../struct_c_map_editor_plugin_event.html#aa75e5b978d27492fdee167d2826e2318',1,'CMapEditorPluginEvent']]],
   ['opacity',['Opacity',['../struct_c_ml_entry.html#af7e5bb5f397dce889840ecb93a047f5a',1,'CMlEntry::Opacity()'],['../struct_c_ml_text_edit.html#afe0b75da5cfa88b73fd56a3eb0031c78',1,'CMlTextEdit::Opacity()'],['../struct_c_ml_label.html#aa5e1896fd7ae84b4d418f04d686b87b5',1,'CMlLabel::Opacity()'],['../struct_c_ml_quad.html#a90a5d0381318c5073cfa23a9a6071aa9',1,'CMlQuad::Opacity()']]],
   ['opponentbestrecordcount',['OpponentBestRecordCount',['../struct_c_high_score_comparison_summary.html#a128952517d1648196824924afb0ff42a',1,'CHighScoreComparisonSummary']]],
@@ -33,7 +34,7 @@ var searchData=
   ['opposingteamlabelsshowgauges',['OpposingTeamLabelsShowGauges',['../struct_c_u_i_config.html#a771b7e8221bcd0e20569d8679ba24d51',1,'CUIConfig']]],
   ['opposingteamlabelsshownames',['OpposingTeamLabelsShowNames',['../struct_c_u_i_config.html#aef4c3391c644d8fbfaab1cfab64b608b',1,'CUIConfig']]],
   ['opposingteamlabelsvisibility',['OpposingTeamLabelsVisibility',['../struct_c_u_i_config.html#ac07cb67c9e741ad738d731921643e4af',1,'CUIConfig']]],
-  ['order',['Order',['../struct_c_anchor_data.html#a77083023d4354d4b3007841d5cd5ba9c',1,'CAnchorData::Order()'],['../struct_c_sm_map_landmark.html#afad93895304eee589d624ab0318842b5',1,'CSmMapLandmark::Order()'],['../struct_c_sm_landmark.html#a105b3d8d1dc2bf0e76d818cb72492345',1,'CSmLandmark::Order()']]],
+  ['order',['Order',['../struct_c_anchor_data.html#a77083023d4354d4b3007841d5cd5ba9c',1,'CAnchorData::Order()'],['../struct_c_map_landmark.html#a298042def645128a0d27d8e2eed6491f',1,'CMapLandmark::Order()'],['../struct_c_sm_landmark.html#a105b3d8d1dc2bf0e76d818cb72492345',1,'CSmLandmark::Order()']]],
   ['outanimation',['OutAnimation',['../struct_c_u_i_layer.html#a1408ef60ce20c2ca30c8e3fe81ef0b2c',1,'CUILayer']]],
   ['overlaychathideavatar',['OverlayChatHideAvatar',['../struct_c_u_i_config.html#a49f9779973a9dc724d423eba43adb204',1,'CUIConfig']]],
   ['overlaychatlinecount',['OverlayChatLineCount',['../struct_c_u_i_config.html#a9b5e9798078146c75f069c6b17e8d907',1,'CUIConfig']]],
@@ -60,5 +61,6 @@ var searchData=
   ['overlayhidespectatorinfos',['OverlayHideSpectatorInfos',['../struct_c_u_i_config.html#acedbc8d646e9c849a4c65f9e8c854e37',1,'CUIConfig']]],
   ['overlayhidespeedanddist',['OverlayHideSpeedAndDist',['../struct_c_u_i_config.html#aceb275ffb351bd2d517ac19b72da40d0',1,'CUIConfig']]],
   ['overlayscoresummary',['OverlayScoreSummary',['../struct_c_u_i_config.html#a887f9aab7ebdb6482ee560eed4daeee8',1,'CUIConfig']]],
-  ['owner',['Owner',['../struct_c_sm_action.html#a4e0ca93580946f85804bfd1256eb1ad5',1,'CSmAction::Owner()'],['../struct_c_sm_player_driver.html#ae86779662b112be1733de2f167892958',1,'CSmPlayerDriver::Owner()'],['../struct_c_mode_turret.html#a102140e9d04630d0a80be944d994278f',1,'CModeTurret::Owner()']]]
+  ['owner',['Owner',['../struct_c_sm_action.html#a190c5107d7cc3e8eabd435dce394d51d',1,'CSmAction::Owner()'],['../struct_c_sm_player_driver.html#ae86779662b112be1733de2f167892958',1,'CSmPlayerDriver::Owner()'],['../struct_c_mode_turret.html#a102140e9d04630d0a80be944d994278f',1,'CModeTurret::Owner()']]],
+  ['ownervehicle',['OwnerVehicle',['../struct_c_sm_action.html#a9e859a2ec7d944e6da720b9c416189b3',1,'CSmAction']]]
 ];

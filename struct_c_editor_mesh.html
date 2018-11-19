@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">ManiaScript Reference
-   &#160;<span id="projectnumber">2018-07</span>
+   &#160;<span id="projectnumber">2018-11</span>
    </div>
   </td>
  </tr>
@@ -103,9 +103,9 @@ Inheritance diagram for CEditorMesh:</div>
  <div class="center">
   <img src="struct_c_editor_mesh.png" usemap="#CEditorMesh_map" alt=""/>
   <map id="CEditorMesh_map" name="CEditorMesh_map">
-<area href="struct_c_editor_asset.html" alt="CEditorAsset" shape="rect" coords="0,112,123,136"/>
-<area href="struct_c_game_editor_parent.html" alt="CGameEditorParent" shape="rect" coords="0,56,123,80"/>
-<area href="struct_c_nod.html" alt="CNod" shape="rect" coords="0,0,123,24"/>
+<area href="struct_c_editor_asset.html" alt="CEditorAsset" shape="rect" coords="0,112,85,136"/>
+<area href="struct_c_editor_base.html" alt="CEditorBase" shape="rect" coords="0,56,85,80"/>
+<area href="struct_c_nod.html" alt="CNod" shape="rect" coords="0,0,85,24"/>
 </map>
  </div></div>
 <table class="memberdecls">
@@ -113,7 +113,7 @@ Inheritance diagram for CEditorMesh:</div>
 Public Types</h2></td></tr>
 <tr class="memitem:a6b44abc4e2e53a7c1d5f2b5c0b712846"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a6b44abc4e2e53a7c1d5f2b5c0b712846">EEdgesDisplay</a> { <a class="el" href="struct_c_editor_mesh.html#aa7d0bf1a42d523262b6c6a28d6484cada73fc01aeee6fa0650dc4d763b5d4d99b">Any</a>, 
 <a class="el" href="struct_c_editor_mesh.html#a6b44abc4e2e53a7c1d5f2b5c0b712846a709ac06284518ada4fed0f4e2e005dc4">Borders</a>, 
-<a class="el" href="struct_c_editor_mesh.html#a6714e5bf21b474ab2bdf740405c3dd3ba941bce807ffc936905d6561d5d43a260">None</a>
+<a class="el" href="struct_c_editor_mesh.html#abc85e532d322099837fe77712c2fd90ca941bce807ffc936905d6561d5d43a260">None</a>
  }</td></tr>
 <tr class="separator:a6b44abc4e2e53a7c1d5f2b5c0b712846"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa0f449d9a0a06a79d13bc56a997a4efc"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#aa0f449d9a0a06a79d13bc56a997a4efc">EEdgesConstraint</a> { <a class="el" href="struct_c_editor_mesh.html#aa7d0bf1a42d523262b6c6a28d6484cada73fc01aeee6fa0650dc4d763b5d4d99b">Any</a>, 
@@ -131,24 +131,34 @@ Public Types</h2></td></tr>
 &#160;&#160;<a class="el" href="struct_c_editor_mesh.html#a6714e5bf21b474ab2bdf740405c3dd3babded02af5327f2f4712e061b6b4391d6">Creation</a>, 
 <a class="el" href="struct_c_editor_mesh.html#a6714e5bf21b474ab2bdf740405c3dd3ba551c90af81f1be9314a2cf59d2ea2a68">Pick</a>, 
 <a class="el" href="struct_c_editor_mesh.html#a6714e5bf21b474ab2bdf740405c3dd3ba1124b43bdcdf1ecc3b31e1b7de1d563a">PickJoint</a>, 
+<a class="el" href="struct_c_editor_mesh.html#a6714e5bf21b474ab2bdf740405c3dd3ba7ff90cc15f852c096d25a33434b46f67">VoxelPickDrag_Base</a>, 
+<br />
+&#160;&#160;<a class="el" href="struct_c_editor_mesh.html#a6714e5bf21b474ab2bdf740405c3dd3ba55b5b4bf9b8907b0b45f299028a29b3b">VoxelPickDrag_Creation</a>, 
+<a class="el" href="struct_c_editor_mesh.html#a6714e5bf21b474ab2bdf740405c3dd3ba8defd98b9cfdaea4fdbe839c4db24b15">VoxelPickDrag_Delete</a>, 
+<a class="el" href="struct_c_editor_mesh.html#a6714e5bf21b474ab2bdf740405c3dd3ba2313ddfea7155f752d754d97e5edc2b1">VoxelPickDrag_Select</a>, 
+<a class="el" href="struct_c_editor_mesh.html#a6714e5bf21b474ab2bdf740405c3dd3ba369104e99e7ad183c1a82613d2e12ea7">VoxelPickDrag_Pick</a>, 
+<br />
+&#160;&#160;<a class="el" href="struct_c_editor_mesh.html#a6714e5bf21b474ab2bdf740405c3dd3babe952dc85b2801e56286f1906e776006">VoxelPickDrag_SelectTranslation</a>, 
+<a class="el" href="struct_c_editor_mesh.html#a6714e5bf21b474ab2bdf740405c3dd3ba97865e314ffc429102f83e968dffb2ac">VoxelPickDrag_SelectRotation</a>, 
+<a class="el" href="struct_c_editor_mesh.html#a6714e5bf21b474ab2bdf740405c3dd3ba9095c2afdc9d3a92fed863379649203d">VoxelPickDrag_Paste</a>, 
 <a class="el" href="struct_c_editor_mesh.html#a6714e5bf21b474ab2bdf740405c3dd3ba3996551ed5b437d5520ecda0494ad482">Selection</a>, 
 <br />
-&#160;&#160;<a class="el" href="struct_c_editor_mesh.html#a6714e5bf21b474ab2bdf740405c3dd3ba9fd266b01af30139a03951bac5dafc08">Translation</a>, 
+&#160;&#160;<a class="el" href="struct_c_editor_mesh.html#abc85e532d322099837fe77712c2fd90ca85de7e3a647c807c2f499fbbcf026bea">Translation</a>, 
 <a class="el" href="struct_c_editor_mesh.html#a6714e5bf21b474ab2bdf740405c3dd3ba4a974a510873ddb82119c4b48445e2ad">PickTranslation</a>, 
-<a class="el" href="struct_c_editor_mesh.html#a6714e5bf21b474ab2bdf740405c3dd3ba30dcdf571cb62b70c50c76610507cd50">Rotation</a>, 
+<a class="el" href="struct_c_editor_mesh.html#abc85e532d322099837fe77712c2fd90cacad583085de4e8ef3e400222e367c3d2">Rotation</a>, 
 <a class="el" href="struct_c_editor_mesh.html#a6714e5bf21b474ab2bdf740405c3dd3ba720a3dc2c2d5893ce3d378c8a7f495ad">PickRotation</a>, 
 <br />
-&#160;&#160;<a class="el" href="struct_c_editor_mesh.html#a6714e5bf21b474ab2bdf740405c3dd3baae94da64de4ffcb8a46892ee636fff91">Scale</a>, 
+&#160;&#160;<a class="el" href="struct_c_editor_mesh.html#abc85e532d322099837fe77712c2fd90caae94da64de4ffcb8a46892ee636fff91">Scale</a>, 
 <a class="el" href="struct_c_editor_mesh.html#a7547cc34ad474355f44babec40d2c8b3a5696bd5fd989b8f8af87a4d5d1120b59">Curve2D</a>, 
 <a class="el" href="struct_c_editor_mesh.html#a6714e5bf21b474ab2bdf740405c3dd3ba5dcb299091e9c6ffdf0abbdf3a070358">Merge</a>, 
 <a class="el" href="struct_c_editor_mesh.html#a6714e5bf21b474ab2bdf740405c3dd3ba1c44e1991f0881944ad80fedfc36a98f">Split</a>, 
 <br />
-&#160;&#160;<a class="el" href="struct_c_editor_mesh.html#a6714e5bf21b474ab2bdf740405c3dd3ba8a701ed6c1a098696f8cdd4f3ff226f1">Mirror</a>, 
+&#160;&#160;<a class="el" href="struct_c_editor_mesh.html#abc85e532d322099837fe77712c2fd90ca9234c42508d9afc4eccf9eb51d9f0350">Mirror</a>, 
 <a class="el" href="struct_c_editor_mesh.html#a6714e5bf21b474ab2bdf740405c3dd3ba9a3313e370f28d27554c8afd574fc970">Paste</a>, 
 <a class="el" href="struct_c_editor_mesh.html#a6714e5bf21b474ab2bdf740405c3dd3ba2612ce030d8b60c35b56290ec4320b24">PasteMaterial</a>, 
 <a class="el" href="struct_c_editor_mesh.html#a6714e5bf21b474ab2bdf740405c3dd3bab64a4403996f6f07fc91be88c59d4881">BlocTransformation</a>, 
 <br />
-&#160;&#160;<a class="el" href="struct_c_editor_mesh.html#a6714e5bf21b474ab2bdf740405c3dd3ba941bce807ffc936905d6561d5d43a260">None</a>
+&#160;&#160;<a class="el" href="struct_c_editor_mesh.html#abc85e532d322099837fe77712c2fd90ca941bce807ffc936905d6561d5d43a260">None</a>
 <br />
  }</td></tr>
 <tr class="separator:a6714e5bf21b474ab2bdf740405c3dd3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -182,13 +192,112 @@ Public Types</h2></td></tr>
 <br />
  }</td></tr>
 <tr class="separator:a7547cc34ad474355f44babec40d2c8b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc85e532d322099837fe77712c2fd90c"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#abc85e532d322099837fe77712c2fd90c">ELayerType</a> { <br />
+&#160;&#160;<a class="el" href="struct_c_editor_mesh.html#abc85e532d322099837fe77712c2fd90ca557405d2374a17503039db12f5e89665">AddGeometry</a>, 
+<a class="el" href="struct_c_editor_mesh.html#abc85e532d322099837fe77712c2fd90ca11285964733400d2dce2749dd722a6d5">SubdivideSmooth</a>, 
+<a class="el" href="struct_c_editor_mesh.html#abc85e532d322099837fe77712c2fd90ca85de7e3a647c807c2f499fbbcf026bea">Translation</a>, 
+<a class="el" href="struct_c_editor_mesh.html#abc85e532d322099837fe77712c2fd90cacad583085de4e8ef3e400222e367c3d2">Rotation</a>, 
+<br />
+&#160;&#160;<a class="el" href="struct_c_editor_mesh.html#abc85e532d322099837fe77712c2fd90caae94da64de4ffcb8a46892ee636fff91">Scale</a>, 
+<a class="el" href="struct_c_editor_mesh.html#abc85e532d322099837fe77712c2fd90ca9234c42508d9afc4eccf9eb51d9f0350">Mirror</a>, 
+<a class="el" href="struct_c_editor_mesh.html#abc85e532d322099837fe77712c2fd90ca055f3c1beb1ae00f78ef1f2492e4fb57">MoveToGround</a>, 
+<a class="el" href="struct_c_editor_mesh.html#abc85e532d322099837fe77712c2fd90ca6af170c34e3643e21aca07e3788a89cc">Extrude</a>, 
+<br />
+&#160;&#160;<a class="el" href="struct_c_editor_mesh.html#abc85e532d322099837fe77712c2fd90ca38fd534fc3ebfcf9e906684a1633687c">Subdivide</a>, 
+<a class="el" href="struct_c_editor_mesh.html#abc85e532d322099837fe77712c2fd90ca5e66f93cec93375eb8274414b67692ef">Chaos</a>, 
+<a class="el" href="struct_c_editor_mesh.html#abc85e532d322099837fe77712c2fd90ca449782317e3ba87061e65296cdad6ac3">Smooth</a>, 
+<a class="el" href="struct_c_editor_mesh.html#abc85e532d322099837fe77712c2fd90cac124d6ce4544f0339a8ca379741b48f4">BorderTransition</a>, 
+<br />
+&#160;&#160;<a class="el" href="struct_c_editor_mesh.html#abc85e532d322099837fe77712c2fd90ca9bf12402c77a65e3a8fd173bcbada653">BlocTransfo</a>, 
+<a class="el" href="struct_c_editor_mesh.html#abc85e532d322099837fe77712c2fd90caeadbf05742f3d474d508fa1d9af96a05">Voxels</a>, 
+<a class="el" href="struct_c_editor_mesh.html#abc85e532d322099837fe77712c2fd90caa631df9aca32e716dbdded7c9745398a">TriggerShape</a>, 
+<a class="el" href="struct_c_editor_mesh.html#abc85e532d322099837fe77712c2fd90ca1059a05ec31c45a08da50c99af66e003">RespawnPos</a>, 
+<br />
+&#160;&#160;<a class="el" href="struct_c_editor_mesh.html#abc85e532d322099837fe77712c2fd90ca076cc7df9f79f9b7c49c96b9cc361b1a">Sector</a>, 
+<a class="el" href="struct_c_editor_mesh.html#abc85e532d322099837fe77712c2fd90ca941bce807ffc936905d6561d5d43a260">None</a>
+<br />
+ }</td></tr>
+<tr class="separator:abc85e532d322099837fe77712c2fd90c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0639a4d88c4adb38dd7d3a32965e7ed2"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a0639a4d88c4adb38dd7d3a32965e7ed2">ETitleCoreType</a> { <a class="el" href="struct_c_editor_mesh.html#a0639a4d88c4adb38dd7d3a32965e7ed2aacf6bf6ff8e987fd4b705ac8e09a6175">TrackMania</a>, 
+<a class="el" href="struct_c_editor_mesh.html#a0639a4d88c4adb38dd7d3a32965e7ed2a17eef46e58ad39444e2690d97caa80b6">ShootMania</a>, 
+<a class="el" href="struct_c_editor_mesh.html#a0639a4d88c4adb38dd7d3a32965e7ed2a9646f9186f7510619fd24739c90dcded">Count</a>
+ }</td></tr>
+<tr class="separator:a0639a4d88c4adb38dd7d3a32965e7ed2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a8a1a99b5dd5f2533f23903cdf25d1859"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a8a1a99b5dd5f2533f23903cdf25d1859">EditionBox_SetScale</a> (<a class="el" href="class_real.html">Real</a> <a class="el" href="struct_c_editor_mesh.html#a3cb3bf0a0eb267c713ddf66c1e07adee">Scale</a>)</td></tr>
+<tr class="memitem:a8978929cb21419e6bd61b10f544367e6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a8978929cb21419e6bd61b10f544367e6">Layers_GetCount</a> ()</td></tr>
+<tr class="separator:a8978929cb21419e6bd61b10f544367e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a846d3b20a7d928652f4d14f20ca6d1f0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ident.html">Ident</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a846d3b20a7d928652f4d14f20ca6d1f0">Layers_GetLayerIdFromIndex</a> (<a class="el" href="class_integer.html">Integer</a> LayerIndex)</td></tr>
+<tr class="separator:a846d3b20a7d928652f4d14f20ca6d1f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af00cd05386ada58d194fb48227a50c8c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_text.html">Text</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#af00cd05386ada58d194fb48227a50c8c">Layers_GetLayerNameFromIndex</a> (<a class="el" href="class_integer.html">Integer</a> LayerIndex)</td></tr>
+<tr class="separator:af00cd05386ada58d194fb48227a50c8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12145adb8c92e66c8da48fdbeaf706f4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_c_editor_mesh.html#abc85e532d322099837fe77712c2fd90c">ELayerType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a12145adb8c92e66c8da48fdbeaf706f4">Layers_GetLayerTypeFromIndex</a> (<a class="el" href="class_integer.html">Integer</a> LayerIndex)</td></tr>
+<tr class="separator:a12145adb8c92e66c8da48fdbeaf706f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc40be385a5899699faf5c37e63d2739"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#acc40be385a5899699faf5c37e63d2739">Layers_GetLayerVisibleFromIndex</a> (<a class="el" href="class_integer.html">Integer</a> LayerIndex)</td></tr>
+<tr class="separator:acc40be385a5899699faf5c37e63d2739"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3acabc9250c98c47af55b7fa6a489c44"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a3acabc9250c98c47af55b7fa6a489c44">Layers_SetLayerVisibleFromIndex</a> (<a class="el" href="class_integer.html">Integer</a> LayerIndex, <a class="el" href="class_boolean.html">Boolean</a> LayerVisibility)</td></tr>
+<tr class="separator:a3acabc9250c98c47af55b7fa6a489c44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e8f45fa3f08e1217a6e04218f05c8b0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a8e8f45fa3f08e1217a6e04218f05c8b0">Layers_AddLayer</a> (<a class="el" href="struct_c_editor_mesh.html#abc85e532d322099837fe77712c2fd90c">ELayerType</a> LayerType)</td></tr>
+<tr class="separator:a8e8f45fa3f08e1217a6e04218f05c8b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1bb7da180f0520ac65be51041773bb76"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ident.html">Ident</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a1bb7da180f0520ac65be51041773bb76">Layers_GetLayerIdSelected</a> ()</td></tr>
+<tr class="separator:a1bb7da180f0520ac65be51041773bb76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2c3cdf1f65a9eb4fe228f7e00142677"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#af2c3cdf1f65a9eb4fe228f7e00142677">Layers_SetLayerIdSelected</a> (<a class="el" href="class_ident.html">Ident</a> LayerId)</td></tr>
+<tr class="separator:af2c3cdf1f65a9eb4fe228f7e00142677"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2215e4ead16ffc9ce7dce1163f328481"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_c_editor_mesh.html#abc85e532d322099837fe77712c2fd90c">ELayerType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a2215e4ead16ffc9ce7dce1163f328481">Layers_GetLayerSelectedType</a> ()</td></tr>
+<tr class="separator:a2215e4ead16ffc9ce7dce1163f328481"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a997dc84723af57b5473593605419f9c6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a997dc84723af57b5473593605419f9c6">Layers_GetLayerSelectedIndex</a> ()</td></tr>
+<tr class="separator:a997dc84723af57b5473593605419f9c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af14ee9356576e43eeab46930f4d5d9f4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_c_editor_mesh.html#abc85e532d322099837fe77712c2fd90c">ELayerType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#af14ee9356576e43eeab46930f4d5d9f4">Layers_GetEditedLayerType</a> ()</td></tr>
+<tr class="separator:af14ee9356576e43eeab46930f4d5d9f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e6421807ab5e9a0c34ed4354aa682e7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_text.html">Text</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a8e6421807ab5e9a0c34ed4354aa682e7">Layers_GetLayerSelectedName</a> ()</td></tr>
+<tr class="separator:a8e6421807ab5e9a0c34ed4354aa682e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac93bb1627f2ad7c6505e5a931dc166ae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#ac93bb1627f2ad7c6505e5a931dc166ae">Layers_EditMask</a> (<a class="el" href="class_integer.html">Integer</a> LayerIndex)</td></tr>
+<tr class="separator:ac93bb1627f2ad7c6505e5a931dc166ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2d4ffba7ed2351afc4c52bf5acb9bf7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#af2d4ffba7ed2351afc4c52bf5acb9bf7">Layers_EditMaskValidate</a> (<a class="el" href="class_integer.html">Integer</a> LayerIndex)</td></tr>
+<tr class="separator:af2d4ffba7ed2351afc4c52bf5acb9bf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b9eb0974f3607357752c8ad467833da"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a1b9eb0974f3607357752c8ad467833da">Layers_MoveSelectedLayerUp</a> ()</td></tr>
+<tr class="separator:a1b9eb0974f3607357752c8ad467833da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7d4b37df1a5a47178cb5a027441803b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#af7d4b37df1a5a47178cb5a027441803b">Layers_MoveSelectedLayerDown</a> ()</td></tr>
+<tr class="separator:af7d4b37df1a5a47178cb5a027441803b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98828c64c9b514ad244acc789d53aef0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a98828c64c9b514ad244acc789d53aef0">Layers_EditSelectedLayer</a> ()</td></tr>
+<tr class="separator:a98828c64c9b514ad244acc789d53aef0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03df6def0b6a2cc2a3e33b2b3dbaba2a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a03df6def0b6a2cc2a3e33b2b3dbaba2a">Layers_CloseEditSelectedLayer</a> ()</td></tr>
+<tr class="separator:a03df6def0b6a2cc2a3e33b2b3dbaba2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47f072c24d50d2d7618d7b79d22a3e60"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a47f072c24d50d2d7618d7b79d22a3e60">Layers_DeleteSelectedLayer</a> ()</td></tr>
+<tr class="separator:a47f072c24d50d2d7618d7b79d22a3e60"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa5c96c4c343bbaf6822fce5627053ca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#aaa5c96c4c343bbaf6822fce5627053ca">Transitions_GetCount</a> ()</td></tr>
+<tr class="separator:aaa5c96c4c343bbaf6822fce5627053ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad203963bd097c179ffbfbcdf0ad6c41b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#ad203963bd097c179ffbfbcdf0ad6c41b">Transitions_AddTransition</a> (<a class="el" href="class_text.html">Text</a> TransitionName, <a class="el" href="class_integer.html">Integer</a> TransitionPosition, <a class="el" href="class_real.html">Real</a> TransitionSize)</td></tr>
+<tr class="separator:ad203963bd097c179ffbfbcdf0ad6c41b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f5e19a80600265ae621fd1166ffccef"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a0f5e19a80600265ae621fd1166ffccef">Transitions_DeleteCurrentTransition</a> ()</td></tr>
+<tr class="separator:a0f5e19a80600265ae621fd1166ffccef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a902700b61168bc5eab023b86902583ce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a902700b61168bc5eab023b86902583ce">Transitions_GetTransitionSelectedIndex</a> ()</td></tr>
+<tr class="separator:a902700b61168bc5eab023b86902583ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f61cbab8d32480f6bebba4e9f7352e9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a1f61cbab8d32480f6bebba4e9f7352e9">Transitions_SetTransitionSelectedIndex</a> (<a class="el" href="class_integer.html">Integer</a> TransitionIndex)</td></tr>
+<tr class="separator:a1f61cbab8d32480f6bebba4e9f7352e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7490ec995f1c399f228347ea80a09baa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a7490ec995f1c399f228347ea80a09baa">Transitions_GetTransitionCurrentPage</a> ()</td></tr>
+<tr class="separator:a7490ec995f1c399f228347ea80a09baa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8f139cb5e5e34d631ebfec32fd59462"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#ab8f139cb5e5e34d631ebfec32fd59462">Transitions_SetTransitionCurrentPage</a> (<a class="el" href="class_integer.html">Integer</a> TransitionCurrentPage)</td></tr>
+<tr class="separator:ab8f139cb5e5e34d631ebfec32fd59462"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5ef968aaf828db78b6c34080ccccbf1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_text.html">Text</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#aa5ef968aaf828db78b6c34080ccccbf1">Transitions_GetTransitionNameFromIndex</a> (<a class="el" href="class_integer.html">Integer</a> TransitionIndex)</td></tr>
+<tr class="separator:aa5ef968aaf828db78b6c34080ccccbf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa06ec1382e3c007efc4f14304140d95d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#aa06ec1382e3c007efc4f14304140d95d">Transitions_SetTransitionNameFromIndex</a> (<a class="el" href="class_integer.html">Integer</a> TransitionIndex, <a class="el" href="class_real.html">Real</a> TransitionName)</td></tr>
+<tr class="separator:aa06ec1382e3c007efc4f14304140d95d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf3f1aa98acd7f28970dce62f6a34123"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#aaf3f1aa98acd7f28970dce62f6a34123">Transitions_GetTransitionVisibilityFromIndex</a> (<a class="el" href="class_integer.html">Integer</a> TransitionIndex)</td></tr>
+<tr class="separator:aaf3f1aa98acd7f28970dce62f6a34123"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa094b7a41c3fd492d6d9ff39feb20a5f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#aa094b7a41c3fd492d6d9ff39feb20a5f">Transitions_SetTransitionVisibilityFromIndex</a> (<a class="el" href="class_integer.html">Integer</a> TransitionIndex, <a class="el" href="class_boolean.html">Boolean</a> TransitionVisibility)</td></tr>
+<tr class="separator:aa094b7a41c3fd492d6d9ff39feb20a5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af61f303da1606286b672360eaafd3991"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_real.html">Real</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#af61f303da1606286b672360eaafd3991">Transitions_GetTransitionSizeFromIndex</a> (<a class="el" href="class_integer.html">Integer</a> TransitionIndex)</td></tr>
+<tr class="separator:af61f303da1606286b672360eaafd3991"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8e7f7acc9ab7a3b43a4178002995f9b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#ab8e7f7acc9ab7a3b43a4178002995f9b">Transitions_SetTransitionSizeFromIndex</a> (<a class="el" href="class_integer.html">Integer</a> TransitionIndex, <a class="el" href="class_real.html">Real</a> TransitionSize)</td></tr>
+<tr class="separator:ab8e7f7acc9ab7a3b43a4178002995f9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e300e083ce7e3ad593bcbc4abeb00ab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a1e300e083ce7e3ad593bcbc4abeb00ab">Transitions_GetTransitionPositionFromIndex</a> (<a class="el" href="class_integer.html">Integer</a> TransitionIndex)</td></tr>
+<tr class="separator:a1e300e083ce7e3ad593bcbc4abeb00ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5bb4f8987cf9b0143838c72f2a8454f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#ae5bb4f8987cf9b0143838c72f2a8454f">Transitions_SetTransitionPositionFromIndex</a> (<a class="el" href="class_integer.html">Integer</a> TransitionIndex, <a class="el" href="class_integer.html">Integer</a> TransitionPosition)</td></tr>
+<tr class="separator:ae5bb4f8987cf9b0143838c72f2a8454f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a1a99b5dd5f2533f23903cdf25d1859"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a8a1a99b5dd5f2533f23903cdf25d1859">EditionBox_SetScale</a> (<a class="el" href="class_real.html">Real</a> <a class="el" href="struct_c_editor_mesh.html#af1e2456bc2d2907c6ac9fedc11fd1d92">Scale</a>)</td></tr>
 <tr class="separator:a8a1a99b5dd5f2533f23903cdf25d1859"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2657fc293630fe29c9517d4c03efd2f7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a2657fc293630fe29c9517d4c03efd2f7">EditionBox_OrientPlane</a> (<a class="el" href="class_ident.html">Ident</a> SetHandle)</td></tr>
-<tr class="separator:a2657fc293630fe29c9517d4c03efd2f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7e34f261c8827bd83b0f37e2326eefa3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a7e34f261c8827bd83b0f37e2326eefa3">EditedMesh_Clear</a> ()</td></tr>
 <tr class="separator:a7e34f261c8827bd83b0f37e2326eefa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7107580a72854b2a9a23ac0c0ac357c7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a7107580a72854b2a9a23ac0c0ac357c7">EditedMesh_Simplify</a> ()</td></tr>
@@ -209,6 +318,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a584e0a3949faf617889525e61b6fbacd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aed37a571f19ef75f20e384d242107652"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_vec3.html">Vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#aed37a571f19ef75f20e384d242107652">PickInfo_GetPosition</a> ()</td></tr>
 <tr class="separator:aed37a571f19ef75f20e384d242107652"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abde19e8e0b863451b24271cc1b41d0da"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ident.html">Ident</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#abde19e8e0b863451b24271cc1b41d0da">PickInfo_GetAnchorId</a> ()</td></tr>
+<tr class="separator:abde19e8e0b863451b24271cc1b41d0da"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a93b4eedaafc888c790421dcef7be72d8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_real.html">Real</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a93b4eedaafc888c790421dcef7be72d8">PickInfo_GetEdgeLength</a> ()</td></tr>
 <tr class="separator:a93b4eedaafc888c790421dcef7be72d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aca01c32814dee1fdf2752f8f91219b32"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_vec3.html">Vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#aca01c32814dee1fdf2752f8f91219b32">PickInfo_GetNextVertexPosition</a> ()</td></tr>
@@ -223,6 +334,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a7486cba23a270a22a1c9650e85b4083d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a64ccbbebf7a35f22ee5f7e2ad0116982"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a64ccbbebf7a35f22ee5f7e2ad0116982">Part_ClearAnchor</a> ()</td></tr>
 <tr class="separator:a64ccbbebf7a35f22ee5f7e2ad0116982"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7889ca9bf335e029136f9bc509eee1ff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a7889ca9bf335e029136f9bc509eee1ff">Joint_Add</a> (<a class="el" href="class_vec3.html">Vec3</a> Position)</td></tr>
+<tr class="separator:a7889ca9bf335e029136f9bc509eee1ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52ef8f4492fad6bd46232d819c6305e9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a52ef8f4492fad6bd46232d819c6305e9">Joint_Link</a> (<a class="el" href="class_ident.html">Ident</a> IdChild, <a class="el" href="class_ident.html">Ident</a> IdParent)</td></tr>
+<tr class="separator:a52ef8f4492fad6bd46232d819c6305e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a401ffba652ed206cf14d0f3658ba30b8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a401ffba652ed206cf14d0f3658ba30b8">Anchor_Remove</a> (<a class="el" href="class_ident.html">Ident</a> <a class="el" href="struct_c_nod.html#a4e8985f12f3e272263bfb85ef29196e4">Id</a>)</td></tr>
+<tr class="separator:a401ffba652ed206cf14d0f3658ba30b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a457d782a5019ee3ee11b756e9e02ecb1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_ident.html">Ident</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a457d782a5019ee3ee11b756e9e02ecb1">Material_GetMaterialIdSelected</a> ()</td></tr>
 <tr class="separator:a457d782a5019ee3ee11b756e9e02ecb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab6095ef72450e83e38724037f0fcb983"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#ab6095ef72450e83e38724037f0fcb983">Material_SetMaterialIdSelected</a> (<a class="el" href="class_ident.html">Ident</a> MaterialEditorId)</td></tr>
@@ -257,6 +374,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a9e8d39d84ef7de0795bb8d9c15a879e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa7cd9be98d4209f600dc3a8fea9e87a2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#aa7cd9be98d4209f600dc3a8fea9e87a2">Material_UVEditor_Close</a> ()</td></tr>
 <tr class="separator:aa7cd9be98d4209f600dc3a8fea9e87a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a251e16ba7acb437ada36764273676e5a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a251e16ba7acb437ada36764273676e5a">Material_UVEditor_IsRunning</a> ()</td></tr>
+<tr class="separator:a251e16ba7acb437ada36764273676e5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a05191ed310164605d102d6d550a8bcaa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a05191ed310164605d102d6d550a8bcaa">Material_UVEditor_SetMode</a> (<a class="el" href="struct_c_editor_mesh.html#a32f7be3374781bba3693ba52266931c0">EUVEditorMode</a> Mode)</td></tr>
 <tr class="separator:a05191ed310164605d102d6d550a8bcaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a830577409f566958c263846017df2635"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_c_editor_mesh.html#a32f7be3374781bba3693ba52266931c0">EUVEditorMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a830577409f566958c263846017df2635">Material_UVEditor_GetMode</a> ()</td></tr>
@@ -269,64 +388,86 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a99ae5a0a9f378dc2efecdae9ad748bf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a91fe7a59f189e07fc0fa57c722d1223d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a91fe7a59f189e07fc0fa57c722d1223d">Material_PasteMaterial</a> (<a class="el" href="class_ident.html">Ident</a> SetHandle)</td></tr>
 <tr class="separator:a91fe7a59f189e07fc0fa57c722d1223d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a94180238a83c284dd14c9c2aae7b03c0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a94180238a83c284dd14c9c2aae7b03c0">Interaction_Abort</a> ()</td></tr>
-<tr class="separator:a94180238a83c284dd14c9c2aae7b03c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae5ace7e7763df7f5091d6f89460b0fb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#aae5ace7e7763df7f5091d6f89460b0fb">Interaction_Close</a> ()</td></tr>
+<tr class="separator:aae5ace7e7763df7f5091d6f89460b0fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a74b98d5d370e52940febd993ee98bbed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a74b98d5d370e52940febd993ee98bbed">Interaction_SetPreview</a> (<a class="el" href="class_ident.html">Ident</a> SetToPreview)</td></tr>
 <tr class="separator:a74b98d5d370e52940febd993ee98bbed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a01932a846a9aeedd58a18262834ab1e0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a01932a846a9aeedd58a18262834ab1e0">Interaction_StartCreation</a> (<a class="el" href="class_ident.html">Ident</a> CreationSetHandle, <a class="el" href="struct_c_editor_mesh.html#aa7d0bf1a42d523262b6c6a28d6484cad">EElemType</a> ElemType, <a class="el" href="class_ident.html">Ident</a> SetToPickFromHandle)</td></tr>
-<tr class="separator:a01932a846a9aeedd58a18262834ab1e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63e37d8e06901b3e4d166d09e487c539"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a63e37d8e06901b3e4d166d09e487c539">Interaction_StartCreation</a> (<a class="el" href="class_ident.html">Ident</a> CreationSetHandle, <a class="el" href="struct_c_editor_mesh.html#aa7d0bf1a42d523262b6c6a28d6484cad">EElemType</a> ElemType, <a class="el" href="class_ident.html">Ident</a> SetToPickFromHandle)</td></tr>
+<tr class="separator:a63e37d8e06901b3e4d166d09e487c539"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a81c39a84430d332d710b74e1ae25c04c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a81c39a84430d332d710b74e1ae25c04c">Interaction_Creation_GetElems</a> (<a class="el" href="class_ident.html">Ident</a> ResultSetHandle)</td></tr>
 <tr class="separator:a81c39a84430d332d710b74e1ae25c04c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af8d0cb385f45e58a5b3fd536f442c0e0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#af8d0cb385f45e58a5b3fd536f442c0e0">Interaction_CloseCreation</a> ()</td></tr>
-<tr class="separator:af8d0cb385f45e58a5b3fd536f442c0e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4558eca6e0e80f3620938ba092611b12"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a4558eca6e0e80f3620938ba092611b12">Interaction_Creation_ClearParams</a> ()</td></tr>
 <tr class="separator:a4558eca6e0e80f3620938ba092611b12"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aefb110a0917c6be883d9cc9e83010c28"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#aefb110a0917c6be883d9cc9e83010c28">Interaction_Creation_SetEdgesConstraint</a> (<a class="el" href="struct_c_editor_mesh.html#aa0f449d9a0a06a79d13bc56a997a4efc">EEdgesConstraint</a> EdgesConstraint)</td></tr>
 <tr class="separator:aefb110a0917c6be883d9cc9e83010c28"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8f766594b90fe38322864c709b1a0b86"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a8f766594b90fe38322864c709b1a0b86">Interaction_Creation_SetAutoMerge</a> (<a class="el" href="class_boolean.html">Boolean</a> AutoMerge)</td></tr>
 <tr class="separator:a8f766594b90fe38322864c709b1a0b86"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a057a7345d4ad63663a71999da1c50eed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a057a7345d4ad63663a71999da1c50eed">Interaction_StartPaste</a> ()</td></tr>
-<tr class="separator:a057a7345d4ad63663a71999da1c50eed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8786c031b3bbf2c9da03bd89f47b2cdd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a8786c031b3bbf2c9da03bd89f47b2cdd">Interaction_StartBlocTransformation</a> (<a class="el" href="class_ident.html">Ident</a> TransformationSetHandle)</td></tr>
-<tr class="separator:a8786c031b3bbf2c9da03bd89f47b2cdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a62d04967fb10e5706b6349d8134936c3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a62d04967fb10e5706b6349d8134936c3">Interaction_StartCurve2D</a> (<a class="el" href="class_ident.html">Ident</a> BordersSetHandle)</td></tr>
-<tr class="separator:a62d04967fb10e5706b6349d8134936c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7264fefd85f5716937bd108b10de929"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#ac7264fefd85f5716937bd108b10de929">Interaction_StartPaste</a> ()</td></tr>
+<tr class="separator:ac7264fefd85f5716937bd108b10de929"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97c2f551c588ec8fe1f35746a45f7086"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a97c2f551c588ec8fe1f35746a45f7086">Interaction_StartBlocTransformation</a> (<a class="el" href="class_ident.html">Ident</a> TransformationSetHandle)</td></tr>
+<tr class="separator:a97c2f551c588ec8fe1f35746a45f7086"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adce1fc1bfed6b8740f851df09bbf4c3c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#adce1fc1bfed6b8740f851df09bbf4c3c">Interaction_StartCurve2D</a> (<a class="el" href="class_ident.html">Ident</a> BordersSetHandle)</td></tr>
+<tr class="separator:adce1fc1bfed6b8740f851df09bbf4c3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3fbb65ff01f2f5259916f6831c1df104"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a3fbb65ff01f2f5259916f6831c1df104">Interaction_CloseCurve2D</a> (<a class="el" href="class_boolean.html">Boolean</a> CanDoCurve2D)</td></tr>
 <tr class="separator:a3fbb65ff01f2f5259916f6831c1df104"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:addf22b3d9676dcab3398e657b06af214"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#addf22b3d9676dcab3398e657b06af214">Interaction_StartPick</a> (<a class="el" href="struct_c_editor_mesh.html#aa7d0bf1a42d523262b6c6a28d6484cad">EElemType</a> ElemType, <a class="el" href="class_ident.html">Ident</a> SetToPickFrom)</td></tr>
-<tr class="separator:addf22b3d9676dcab3398e657b06af214"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aca6ea826bbeffa5c743f0fe203e03226"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#aca6ea826bbeffa5c743f0fe203e03226">Interaction_StartPickJoint</a> ()</td></tr>
-<tr class="separator:aca6ea826bbeffa5c743f0fe203e03226"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2acd5d0de673b65b631ea83eee046e73"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a2acd5d0de673b65b631ea83eee046e73">Interaction_StartMerge</a> (<a class="el" href="class_ident.html">Ident</a> MergeSetHandle)</td></tr>
-<tr class="separator:a2acd5d0de673b65b631ea83eee046e73"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3aa06816baec8fe48c5e59c49af8d79d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a3aa06816baec8fe48c5e59c49af8d79d">Interaction_StartMirror</a> (<a class="el" href="class_ident.html">Ident</a> SetHandle)</td></tr>
-<tr class="separator:a3aa06816baec8fe48c5e59c49af8d79d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35aac8291aea97fa9c5edc97cffe08ed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a35aac8291aea97fa9c5edc97cffe08ed">Interaction_StartPick</a> (<a class="el" href="struct_c_editor_mesh.html#aa7d0bf1a42d523262b6c6a28d6484cad">EElemType</a> ElemType, <a class="el" href="class_ident.html">Ident</a> SetToPickFrom)</td></tr>
+<tr class="separator:a35aac8291aea97fa9c5edc97cffe08ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9678cdba90db5b3eec594509ad0253a4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a9678cdba90db5b3eec594509ad0253a4">Interaction_StartPickJoint</a> ()</td></tr>
+<tr class="separator:a9678cdba90db5b3eec594509ad0253a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a482b8b48b5933de9d1a5fd875a298d89"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a482b8b48b5933de9d1a5fd875a298d89">Interaction_StartVoxelPickDrag_Base</a> (<a class="el" href="struct_c_editor_mesh.html#aa7d0bf1a42d523262b6c6a28d6484cad">EElemType</a> ElemType)</td></tr>
+<tr class="separator:a482b8b48b5933de9d1a5fd875a298d89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a656ebacc35ac3b6b4bcf95dac62d724c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a656ebacc35ac3b6b4bcf95dac62d724c">Interaction_StartVoxelPickDrag_Creation</a> ()</td></tr>
+<tr class="separator:a656ebacc35ac3b6b4bcf95dac62d724c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c3d04d511b00235c1d7d7ff4cf697ec"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a3c3d04d511b00235c1d7d7ff4cf697ec">Interaction_StartVoxelPickDrag_Delete</a> ()</td></tr>
+<tr class="separator:a3c3d04d511b00235c1d7d7ff4cf697ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a631e715a13e7553977c78d9770ab9022"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a631e715a13e7553977c78d9770ab9022">Interaction_StartVoxelPickDrag_Select</a> (<a class="el" href="class_ident.html">Ident</a> SelectionSetHandle)</td></tr>
+<tr class="separator:a631e715a13e7553977c78d9770ab9022"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe0035535a7dd412e1e04f90badb8ed1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#afe0035535a7dd412e1e04f90badb8ed1">Interaction_CloseVoxelPickDrag_Select</a> ()</td></tr>
+<tr class="separator:afe0035535a7dd412e1e04f90badb8ed1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5acabdd9d65c91992924795011fe0a34"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a5acabdd9d65c91992924795011fe0a34">Interaction_StartVoxelPickDrag_Pick</a> ()</td></tr>
+<tr class="separator:a5acabdd9d65c91992924795011fe0a34"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97853cd2b048747c012045f3d84b2164"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a97853cd2b048747c012045f3d84b2164">Interaction_CloseVoxelPickDrag_Pick</a> ()</td></tr>
+<tr class="separator:a97853cd2b048747c012045f3d84b2164"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36156ef9ba3067d9ff8d39c6af8252e3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a36156ef9ba3067d9ff8d39c6af8252e3">Interaction_StartVoxelPickDrag_SelectTranslation</a> ()</td></tr>
+<tr class="separator:a36156ef9ba3067d9ff8d39c6af8252e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7686e5958d552f21cf90f94b67ea22c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#ae7686e5958d552f21cf90f94b67ea22c">Interaction_StartVoxelPickDrag_SelectRotation</a> ()</td></tr>
+<tr class="separator:ae7686e5958d552f21cf90f94b67ea22c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a997fa404c0299d8d1836f09564303dad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a997fa404c0299d8d1836f09564303dad">Interaction_StartVoxelPickDrag_Paste</a> ()</td></tr>
+<tr class="separator:a997fa404c0299d8d1836f09564303dad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d3689981e6d4afcb9f84a962b71a349"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a7d3689981e6d4afcb9f84a962b71a349">CutVoxels</a> ()</td></tr>
+<tr class="separator:a7d3689981e6d4afcb9f84a962b71a349"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59e3f35eff6e4de735b6365b267a3f77"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a59e3f35eff6e4de735b6365b267a3f77">CopyVoxels</a> ()</td></tr>
+<tr class="separator:a59e3f35eff6e4de735b6365b267a3f77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ccedf379a56bf1f5cb1f0f21710c80c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a1ccedf379a56bf1f5cb1f0f21710c80c">Interaction_StartMerge</a> (<a class="el" href="class_ident.html">Ident</a> MergeSetHandle)</td></tr>
+<tr class="separator:a1ccedf379a56bf1f5cb1f0f21710c80c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96b19fc379225426c421facc3c7b4f9e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a96b19fc379225426c421facc3c7b4f9e">Interaction_StartMirror</a> (<a class="el" href="class_ident.html">Ident</a> SetHandle)</td></tr>
+<tr class="separator:a96b19fc379225426c421facc3c7b4f9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3829aecc2f4488e9130b282c3d0f9e7c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a3829aecc2f4488e9130b282c3d0f9e7c">Interaction_Selection_ClearParams</a> ()</td></tr>
 <tr class="separator:a3829aecc2f4488e9130b282c3d0f9e7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4335b3b92270ef0a7fcdbfd87391e7c8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a4335b3b92270ef0a7fcdbfd87391e7c8">Interaction_Selection_SetUseParts</a> (<a class="el" href="class_boolean.html">Boolean</a> UseParts)</td></tr>
 <tr class="separator:a4335b3b92270ef0a7fcdbfd87391e7c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa109c09b24a64030da2a321aa120625e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#aa109c09b24a64030da2a321aa120625e">Interaction_Selection_SetCanEnterLeaf</a> (<a class="el" href="class_boolean.html">Boolean</a> CanEnterLeaf)</td></tr>
 <tr class="separator:aa109c09b24a64030da2a321aa120625e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3bb8390c6d68d298f9262c3398dbfcf6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a3bb8390c6d68d298f9262c3398dbfcf6">Interaction_StartSelection</a> (<a class="el" href="class_ident.html">Ident</a> SelectionSetHandle, <a class="el" href="struct_c_editor_mesh.html#aa7d0bf1a42d523262b6c6a28d6484cad">EElemType</a> ElemType, <a class="el" href="class_ident.html">Ident</a> SelectionSetToPickFrom)</td></tr>
-<tr class="separator:a3bb8390c6d68d298f9262c3398dbfcf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a222ea5b9590d8c85efca5469552b83c9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a222ea5b9590d8c85efca5469552b83c9">Interaction_StartSelection</a> (<a class="el" href="class_ident.html">Ident</a> SelectionSetHandle, <a class="el" href="struct_c_editor_mesh.html#aa7d0bf1a42d523262b6c6a28d6484cad">EElemType</a> ElemType, <a class="el" href="class_ident.html">Ident</a> SelectionSetToPickFrom, <a class="el" href="class_boolean.html">Boolean</a> IsFromALayer)</td></tr>
+<tr class="separator:a222ea5b9590d8c85efca5469552b83c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3f976437067406170a5bf513823b28c9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a3f976437067406170a5bf513823b28c9">Interaction_CloseSelection</a> ()</td></tr>
 <tr class="separator:a3f976437067406170a5bf513823b28c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a363151966f2750e855193aed1ab90a3a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a363151966f2750e855193aed1ab90a3a">Interaction_StartTranslation</a> (<a class="el" href="class_ident.html">Ident</a> TranslationSetHandle)</td></tr>
-<tr class="separator:a363151966f2750e855193aed1ab90a3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a46ac9923638cb3b9565e8d68be12f098"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a46ac9923638cb3b9565e8d68be12f098">Interaction_StartPickTranslation</a> (<a class="el" href="class_ident.html">Ident</a> TranslationSetHandle)</td></tr>
-<tr class="separator:a46ac9923638cb3b9565e8d68be12f098"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a57de4655ba894ac6483b4d30184a0afb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a57de4655ba894ac6483b4d30184a0afb">Interaction_StartRotation</a> (<a class="el" href="class_ident.html">Ident</a> RotationSetHandle)</td></tr>
-<tr class="separator:a57de4655ba894ac6483b4d30184a0afb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af63a5daabaeaaf8a65b14eff83ab9928"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#af63a5daabaeaaf8a65b14eff83ab9928">Interaction_StartPickRotation</a> (<a class="el" href="class_ident.html">Ident</a> RotationSetHandle)</td></tr>
-<tr class="separator:af63a5daabaeaaf8a65b14eff83ab9928"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b6d0ec37e5367ba20c14e858d4c65f0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a9b6d0ec37e5367ba20c14e858d4c65f0">Interaction_StartTranslation</a> (<a class="el" href="class_ident.html">Ident</a> TranslationSetHandle)</td></tr>
+<tr class="separator:a9b6d0ec37e5367ba20c14e858d4c65f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a917360526ead624da53854721e016c5e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a917360526ead624da53854721e016c5e">Interaction_StartPickTranslation</a> (<a class="el" href="class_ident.html">Ident</a> TranslationSetHandle)</td></tr>
+<tr class="separator:a917360526ead624da53854721e016c5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c3a773928f7665a66bb5020274f3438"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a0c3a773928f7665a66bb5020274f3438">Interaction_StartRotation</a> (<a class="el" href="class_ident.html">Ident</a> RotationSetHandle)</td></tr>
+<tr class="separator:a0c3a773928f7665a66bb5020274f3438"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aecb4c98bd25913b1a7b0878e13f8e691"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#aecb4c98bd25913b1a7b0878e13f8e691">Interaction_StartPickRotation</a> (<a class="el" href="class_ident.html">Ident</a> RotationSetHandle)</td></tr>
+<tr class="separator:aecb4c98bd25913b1a7b0878e13f8e691"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5775144f43a5dba96f9d46a5f55c52c3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a5775144f43a5dba96f9d46a5f55c52c3">Interaction_Rotation_SetStep</a> (<a class="el" href="class_integer.html">Integer</a> <a class="el" href="struct_c_editor_mesh.html#a740ebf97f0600f9f29eb2869d69c9d13">RotationStep</a>)</td></tr>
 <tr class="separator:a5775144f43a5dba96f9d46a5f55c52c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a864743bdacdf2213bffcdd58be0e521c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a864743bdacdf2213bffcdd58be0e521c">Interaction_StartPickScale</a> (<a class="el" href="class_ident.html">Ident</a> ScalingSetHandle)</td></tr>
-<tr class="separator:a864743bdacdf2213bffcdd58be0e521c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a780c6cd5bf1c89fd6fff05f360a0f478"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a780c6cd5bf1c89fd6fff05f360a0f478">Interaction_StartPickScale</a> (<a class="el" href="class_ident.html">Ident</a> ScalingSetHandle)</td></tr>
+<tr class="separator:a780c6cd5bf1c89fd6fff05f360a0f478"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aac7b5eb177c8730c83db471ed6f1efee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#aac7b5eb177c8730c83db471ed6f1efee">Interaction_Scale_SetStep</a> (<a class="el" href="class_real.html">Real</a> <a class="el" href="struct_c_editor_mesh.html#a5c2fa5ad9de292860379adfedb7fa340">ScalingStep</a>)</td></tr>
 <tr class="separator:aac7b5eb177c8730c83db471ed6f1efee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abaa574c4091688a2b849f0148be1effa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#abaa574c4091688a2b849f0148be1effa">Interaction_StartSplit</a> ()</td></tr>
-<tr class="separator:abaa574c4091688a2b849f0148be1effa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0aabd1d6a8f9abf8f5fdd0bd937cb7e8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a0aabd1d6a8f9abf8f5fdd0bd937cb7e8">Interaction_StartSplit</a> ()</td></tr>
+<tr class="separator:a0aabd1d6a8f9abf8f5fdd0bd937cb7e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac5c72ad0d2d8a13902b05d6a6f02ad86"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#ac5c72ad0d2d8a13902b05d6a6f02ad86">Display_HighlightSet</a> (<a class="el" href="class_ident.html">Ident</a> SetHandle)</td></tr>
 <tr class="separator:ac5c72ad0d2d8a13902b05d6a6f02ad86"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a43f79695f2d29efb2e983d1358a5b52e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a43f79695f2d29efb2e983d1358a5b52e">Display_ClearHighlighting</a> ()</td></tr>
@@ -379,8 +520,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab4817a511dd0aa597ec69f28ff8fcba9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa2b916c46a5451f2a25b6cd700f36560"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#aa2b916c46a5451f2a25b6cd700f36560">ExtendSelectedSet</a> (<a class="el" href="class_ident.html">Ident</a> SetHandle)</td></tr>
 <tr class="separator:aa2b916c46a5451f2a25b6cd700f36560"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac5cdd5868f429bb255a969ffbd454a8a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#ac5cdd5868f429bb255a969ffbd454a8a">GetBordersSet</a> (<a class="el" href="class_ident.html">Ident</a> SetHandle, <a class="el" href="class_ident.html">Ident</a> SetBordersHandle)</td></tr>
-<tr class="separator:ac5cdd5868f429bb255a969ffbd454a8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7934a58459e890e029f254a570973ac8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a7934a58459e890e029f254a570973ac8">GetBordersSet</a> (<a class="el" href="class_ident.html">Ident</a> SetHandle, <a class="el" href="class_ident.html">Ident</a> SetBordersHandle)</td></tr>
+<tr class="separator:a7934a58459e890e029f254a570973ac8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaafb4202e37a0b673d4e924eb8a735b3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#aaafb4202e37a0b673d4e924eb8a735b3">GetBordersVertexs</a> (<a class="el" href="class_ident.html">Ident</a> SetHandle, <a class="el" href="class_ident.html">Ident</a> SetVertexHandle)</td></tr>
 <tr class="separator:aaafb4202e37a0b673d4e924eb8a735b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaad04b502a925b6ab8d678e995017122"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#aaad04b502a925b6ab8d678e995017122">SelectionSet_SelectAll</a> ()</td></tr>
@@ -401,20 +542,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab78ee853480ec66b657c78f6c60dfb9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a76d6259f382ce0346e512055884386d4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a76d6259f382ce0346e512055884386d4">Preview_Clear</a> ()</td></tr>
 <tr class="separator:a76d6259f382ce0346e512055884386d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a18d3adf8680d9d5d604afce15b4f5764"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a18d3adf8680d9d5d604afce15b4f5764">BlocTransformation_Start</a> (<a class="el" href="class_ident.html">Ident</a> SetHandle)</td></tr>
-<tr class="separator:a18d3adf8680d9d5d604afce15b4f5764"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a16e25abaab29d9a9243cac072431021a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a16e25abaab29d9a9243cac072431021a">BlocTransformation_Translate</a> (<a class="el" href="class_vec3.html">Vec3</a> <a class="el" href="struct_c_editor_mesh.html#a6714e5bf21b474ab2bdf740405c3dd3ba9fd266b01af30139a03951bac5dafc08">Translation</a>)</td></tr>
-<tr class="separator:a16e25abaab29d9a9243cac072431021a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af4c748cb35b495575d1499c339653298"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#af4c748cb35b495575d1499c339653298">BlocTransformation_Twist</a> (<a class="el" href="class_real.html">Real</a> Angle)</td></tr>
-<tr class="separator:af4c748cb35b495575d1499c339653298"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aedd9a168efb9eaed3bcd510cb7bc26a4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#aedd9a168efb9eaed3bcd510cb7bc26a4">BlocTransformation_Bend</a> (<a class="el" href="class_integer.html">Integer</a> Axis, <a class="el" href="class_real.html">Real</a> Radius, <a class="el" href="class_real.html">Real</a> Angle, <a class="el" href="class_boolean.html">Boolean</a> Direction)</td></tr>
-<tr class="separator:aedd9a168efb9eaed3bcd510cb7bc26a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a222422481d3b258bfa787cbde457465b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a222422481d3b258bfa787cbde457465b">BlocTransformation_Abort</a> ()</td></tr>
-<tr class="separator:a222422481d3b258bfa787cbde457465b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aca09c983df23ce1969e073682cde510b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#aca09c983df23ce1969e073682cde510b">BlocTransformation_Close</a> ()</td></tr>
-<tr class="separator:aca09c983df23ce1969e073682cde510b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab9cec8793d9461c2736c08c33b6d27a6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#ab9cec8793d9461c2736c08c33b6d27a6">VoxelSpace_Init</a> (<a class="el" href="class_integer.html">Integer</a> <a class="el" href="struct_c_editor_mesh.html#a038802bbd69c0676bb1bd221fa67f8e4">Size</a>, <a class="el" href="class_boolean.html">Boolean</a> UseColors)</td></tr>
-<tr class="separator:ab9cec8793d9461c2736c08c33b6d27a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea3a5ec8fe108a3b0f7045dd41fae937"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#aea3a5ec8fe108a3b0f7045dd41fae937">VoxelSpace_Init</a> (<a class="el" href="class_integer.html">Integer</a> <a class="el" href="struct_c_editor_mesh.html#a038802bbd69c0676bb1bd221fa67f8e4">Size</a>, <a class="el" href="class_real.html">Real</a> <a class="el" href="struct_c_editor_mesh.html#a3a649104622c9dc76ec5ef980f395740">Step</a>)</td></tr>
+<tr class="separator:aea3a5ec8fe108a3b0f7045dd41fae937"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afe66b04201ce36706a19011d2a85d015"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#afe66b04201ce36706a19011d2a85d015">VoxelSpace_Destroy</a> ()</td></tr>
 <tr class="separator:afe66b04201ce36706a19011d2a85d015"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae959655f069dd7c8ef016457599f7ff2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#ae959655f069dd7c8ef016457599f7ff2">VoxelSpace_Get</a> (<a class="el" href="class_int3.html">Int3</a> Pos)</td></tr>
@@ -427,6 +556,18 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a64f64b8753907fe6ab70be114d9c50f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afb12f9e309f8cd89045428aeb758ac97"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#afb12f9e309f8cd89045428aeb758ac97">VoxelSpace_Unset</a> (<a class="el" href="class_int3.html">Int3</a> Pos)</td></tr>
 <tr class="separator:afb12f9e309f8cd89045428aeb758ac97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac43f56e2688d4c6decb9b4ad94ed5dcf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_int3.html">Int3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#ac43f56e2688d4c6decb9b4ad94ed5dcf">VoxelSpace_GetFromFace</a> (<a class="el" href="class_ident.html">Ident</a> <a class="el" href="struct_c_editor_mesh.html#a7a24e33e150b38317f0d82339aa61112">SelectionSet</a>)</td></tr>
+<tr class="separator:ac43f56e2688d4c6decb9b4ad94ed5dcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9fb3b5031686a7ef75776db8126bcfba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a9fb3b5031686a7ef75776db8126bcfba">VoxelSpace_GetVoxelsCount</a> ()</td></tr>
+<tr class="separator:a9fb3b5031686a7ef75776db8126bcfba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a802724198a3bba954f2f6a5df40f7a6c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a802724198a3bba954f2f6a5df40f7a6c">VoxelSpace_SelectAll</a> ()</td></tr>
+<tr class="separator:a802724198a3bba954f2f6a5df40f7a6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1866351d1651881c874bba50a0e34dd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#ad1866351d1651881c874bba50a0e34dd">VoxelSpace_DeleteOneVoxel</a> ()</td></tr>
+<tr class="separator:ad1866351d1651881c874bba50a0e34dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38bda4e975fdc8b93f0e820e2cd0f9b6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a38bda4e975fdc8b93f0e820e2cd0f9b6">VoxelSpace_DeleteSelection</a> ()</td></tr>
+<tr class="separator:a38bda4e975fdc8b93f0e820e2cd0f9b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8cd3c2ea8f628a594b45bc0e1f12761e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a8cd3c2ea8f628a594b45bc0e1f12761e">VoxelSpace_ApplyMaterialToVoxel</a> ()</td></tr>
+<tr class="separator:a8cd3c2ea8f628a594b45bc0e1f12761e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab77800e70a07ac3ce205580f6f141cb2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#ab77800e70a07ac3ce205580f6f141cb2">VoxelSpace_GenerateMesh</a> ()</td></tr>
 <tr class="separator:ab77800e70a07ac3ce205580f6f141cb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a66a7ae2a7d7b88c21dfba55aa965f8bb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a66a7ae2a7d7b88c21dfba55aa965f8bb">SetOfElements_ProjectOnPlane</a> (<a class="el" href="class_ident.html">Ident</a> SetHandle)</td></tr>
@@ -485,6 +626,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a24d565d444dd37978f65221525559ce0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac8ad470adf85b3f3a962c74e53042b7c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#ac8ad470adf85b3f3a962c74e53042b7c">SetOfFaces_ChangeOrientation</a> (<a class="el" href="class_ident.html">Ident</a> FacesSetHandle)</td></tr>
 <tr class="separator:ac8ad470adf85b3f3a962c74e53042b7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61ff11a32e21ea18dabcca60874f0299"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a61ff11a32e21ea18dabcca60874f0299">Prefabs_Reload</a> ()</td></tr>
+<tr class="separator:a61ff11a32e21ea18dabcca60874f0299"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a20700e2a68bdb90c77ba82ae12b9245e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a20700e2a68bdb90c77ba82ae12b9245e">Prefab_Export</a> ()</td></tr>
 <tr class="separator:a20700e2a68bdb90c77ba82ae12b9245e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a322aaa7419c03b69f3f053746e8b81f8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a322aaa7419c03b69f3f053746e8b81f8">Prefab_Import</a> (<a class="el" href="class_integer.html">Integer</a> PrefabIndex)</td></tr>
@@ -499,12 +642,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a03039e4cdf02f3411ec38d32636c0603"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7523e3e8555035379b66ec52cc3f4ebc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a7523e3e8555035379b66ec52cc3f4ebc">Copy</a> ()</td></tr>
 <tr class="separator:a7523e3e8555035379b66ec52cc3f4ebc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae71f5ddb199a1445bb799dd3e3280712"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#ae71f5ddb199a1445bb799dd3e3280712">SetBaseUndoState</a> ()</td></tr>
-<tr class="separator:ae71f5ddb199a1445bb799dd3e3280712"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2a5d6d7d6ee3e302654ff99b22f329b5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a2a5d6d7d6ee3e302654ff99b22f329b5">AddUndoState</a> ()</td></tr>
 <tr class="separator:a2a5d6d7d6ee3e302654ff99b22f329b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac87351602340a92ac2c0f5d621711eb2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#ac87351602340a92ac2c0f5d621711eb2">AutoSave</a> (<a class="el" href="class_text.html">Text</a> FileName)</td></tr>
 <tr class="separator:ac87351602340a92ac2c0f5d621711eb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f257d4c0cfeec88bc70c5da3a89a4ae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_c_editor_mesh.html#a0639a4d88c4adb38dd7d3a32965e7ed2">ETitleCoreType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a1f257d4c0cfeec88bc70c5da3a89a4ae">GetTitleCoreType</a> ()</td></tr>
+<tr class="separator:a1f257d4c0cfeec88bc70c5da3a89a4ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -512,8 +655,52 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a8f64593d10be0357ce084e18b7963cbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8b235c77fc6ba85da3a3d3201107886d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a8b235c77fc6ba85da3a3d3201107886d">IsCreateMaterial</a></td></tr>
 <tr class="separator:a8b235c77fc6ba85da3a3d3201107886d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1cbefe5949ca15649365e76fe5f7c238"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a1cbefe5949ca15649365e76fe5f7c238">UseOptims</a></td></tr>
+<tr class="separator:a1cbefe5949ca15649365e76fe5f7c238"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aecd4270461825cb588a77812aaae31e1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#aecd4270461825cb588a77812aaae31e1">IsEditingLayer</a></td></tr>
+<tr class="separator:aecd4270461825cb588a77812aaae31e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32c8d56827d21ed00a54dcec1d1e9ed1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a32c8d56827d21ed00a54dcec1d1e9ed1">SubdivideSmooth_NbSteps</a></td></tr>
+<tr class="separator:a32c8d56827d21ed00a54dcec1d1e9ed1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d1f35f85292d47dadc2b18e6a19ffe7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_real.html">Real</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a7d1f35f85292d47dadc2b18e6a19ffe7">LayerValueAxisX</a></td></tr>
+<tr class="separator:a7d1f35f85292d47dadc2b18e6a19ffe7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa542d44ee79be7415cabe789208f81b5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_real.html">Real</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#aa542d44ee79be7415cabe789208f81b5">LayerValueAxisY</a></td></tr>
+<tr class="separator:aa542d44ee79be7415cabe789208f81b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d4e96b95a08d464c155b2c223ef8b45"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_real.html">Real</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a9d4e96b95a08d464c155b2c223ef8b45">LayerValueAxisZ</a></td></tr>
+<tr class="separator:a9d4e96b95a08d464c155b2c223ef8b45"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17f7f5dcac325130e56861a193443b44"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a17f7f5dcac325130e56861a193443b44">LayerIndep</a></td></tr>
+<tr class="separator:a17f7f5dcac325130e56861a193443b44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f7c8b7d4fc4f8b314c3a7b863cc17c8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_real.html">Real</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a6f7c8b7d4fc4f8b314c3a7b863cc17c8">LayerValueParam1</a></td></tr>
+<tr class="separator:a6f7c8b7d4fc4f8b314c3a7b863cc17c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3946c98d1bed40fa4bfff40e0b3a21b7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_real.html">Real</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a3946c98d1bed40fa4bfff40e0b3a21b7">LayerValueParam2</a></td></tr>
+<tr class="separator:a3946c98d1bed40fa4bfff40e0b3a21b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb5cfd49fa7c3921d104042960d0ca9a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#adb5cfd49fa7c3921d104042960d0ca9a">LayerIndexAxisX</a></td></tr>
+<tr class="separator:adb5cfd49fa7c3921d104042960d0ca9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5423e4ea76552b4da0c92c3c41e3a433"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a5423e4ea76552b4da0c92c3c41e3a433">LayerIndexAxisY</a></td></tr>
+<tr class="separator:a5423e4ea76552b4da0c92c3c41e3a433"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a712b366291bbc6680835c3f127d6e34f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a712b366291bbc6680835c3f127d6e34f">LayerIndexAxisZ</a></td></tr>
+<tr class="separator:a712b366291bbc6680835c3f127d6e34f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a0da9dc3eaae5a3148c21a26a1a998d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a3a0da9dc3eaae5a3148c21a26a1a998d">Layer_IsVisible</a></td></tr>
+<tr class="separator:a3a0da9dc3eaae5a3148c21a26a1a998d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55b123722da08ae7663ff12df61e910a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a55b123722da08ae7663ff12df61e910a">Layer_IsCollidable</a></td></tr>
+<tr class="separator:a55b123722da08ae7663ff12df61e910a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf7cd5fd3b3a510b9d4c419713fb4f23"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_text.html">Text</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#aaf7cd5fd3b3a510b9d4c419713fb4f23">LayerName</a></td></tr>
+<tr class="separator:aaf7cd5fd3b3a510b9d4c419713fb4f23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ee9b8cc24fadd71a9670619893cad6b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a6ee9b8cc24fadd71a9670619893cad6b">LayerVisible</a></td></tr>
+<tr class="separator:a6ee9b8cc24fadd71a9670619893cad6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a694ea28bb9af5a6ee3dfe0b2fc3c7407"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a694ea28bb9af5a6ee3dfe0b2fc3c7407">AddTransitionInProgress</a></td></tr>
+<tr class="separator:a694ea28bb9af5a6ee3dfe0b2fc3c7407"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7147030221c7e43bbccd51a650694006"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_text.html">Text</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a7147030221c7e43bbccd51a650694006">NewTransitionName</a></td></tr>
+<tr class="separator:a7147030221c7e43bbccd51a650694006"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8677a8133da4da482e4e9fcfbe7078d8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a8677a8133da4da482e4e9fcfbe7078d8">NewTransitionPosition</a></td></tr>
+<tr class="separator:a8677a8133da4da482e4e9fcfbe7078d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af241402cb9c9bee856ccde70479075ae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_real.html">Real</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#af241402cb9c9bee856ccde70479075ae">NewTransitionSize</a></td></tr>
+<tr class="separator:af241402cb9c9bee856ccde70479075ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c14d6b08fb76e51cc7bd5e4c6344092"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a4c14d6b08fb76e51cc7bd5e4c6344092">RotateAxis</a></td></tr>
+<tr class="separator:a4c14d6b08fb76e51cc7bd5e4c6344092"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af71c0595fbb06b7c28492f325f94d4d0"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#af71c0595fbb06b7c28492f325f94d4d0">Tmp_UseParts</a></td></tr>
 <tr class="separator:af71c0595fbb06b7c28492f325f94d4d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8cf872fb79f411044b7c2ed05d0660cc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a8cf872fb79f411044b7c2ed05d0660cc">CameraEatingInputsScript</a></td></tr>
+<tr class="separator:a8cf872fb79f411044b7c2ed05d0660cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a22da10d1ffe96b0d05ccc0af69eea1ca"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a22da10d1ffe96b0d05ccc0af69eea1ca">VertexCount</a></td></tr>
 <tr class="separator:a22da10d1ffe96b0d05ccc0af69eea1ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a55ed983fde91bfec640d0a49ffc9895b"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a55ed983fde91bfec640d0a49ffc9895b">EdgeCount</a></td></tr>
@@ -522,8 +709,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:ac64b74934ee4fa99d65e2e24d6aa4136"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aef36c5992be46b28bdbaa8d8b5e82a8e"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#aef36c5992be46b28bdbaa8d8b5e82a8e">EditionBox_IsPlaneOriented</a></td></tr>
 <tr class="separator:aef36c5992be46b28bdbaa8d8b5e82a8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3cb3bf0a0eb267c713ddf66c1e07adee"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_real.html">Real</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a3cb3bf0a0eb267c713ddf66c1e07adee">Scale</a></td></tr>
-<tr class="separator:a3cb3bf0a0eb267c713ddf66c1e07adee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1e2456bc2d2907c6ac9fedc11fd1d92"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_real.html">Real</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#af1e2456bc2d2907c6ac9fedc11fd1d92">Scale</a></td></tr>
+<tr class="separator:af1e2456bc2d2907c6ac9fedc11fd1d92"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3a649104622c9dc76ec5ef980f395740"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_real.html">Real</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a3a649104622c9dc76ec5ef980f395740">Step</a></td></tr>
 <tr class="separator:a3a649104622c9dc76ec5ef980f395740"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a038802bbd69c0676bb1bd221fa67f8e4"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_real.html">Real</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a038802bbd69c0676bb1bd221fa67f8e4">Size</a></td></tr>
@@ -566,10 +753,20 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a48c5b2cf47bd4e9b52ebf4742dc8225f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7a24e33e150b38317f0d82339aa61112"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_ident.html">Ident</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a7a24e33e150b38317f0d82339aa61112">SelectionSet</a></td></tr>
 <tr class="separator:a7a24e33e150b38317f0d82339aa61112"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2d2583038336f578105d4858e3e49b7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#ab2d2583038336f578105d4858e3e49b7">ActivateVoxelMode</a></td></tr>
+<tr class="separator:ab2d2583038336f578105d4858e3e49b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac080a3e8abf7cff2cd25c71827dcd656"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_vec3.html">Vec3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#ac080a3e8abf7cff2cd25c71827dcd656">VoxelSpaceCenter</a></td></tr>
+<tr class="separator:ac080a3e8abf7cff2cd25c71827dcd656"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a155d4e7579cdd4f406b9516547f4a7c0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_real.html">Real</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a155d4e7579cdd4f406b9516547f4a7c0">VoxelSpaceStep</a></td></tr>
+<tr class="separator:a155d4e7579cdd4f406b9516547f4a7c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2243841f8278632f798cf2190a678419"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_text.html">Text</a> []&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a2243841f8278632f798cf2190a678419">PrefabNames</a></td></tr>
 <tr class="separator:a2243841f8278632f798cf2190a678419"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae4acc438b5bfd104473d6881ee27ce26"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#ae4acc438b5bfd104473d6881ee27ce26">PrefabNamesUpdateId</a></td></tr>
 <tr class="separator:ae4acc438b5bfd104473d6881ee27ce26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fa53c244e0863b2fd85a29cb9fe5939"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a6fa53c244e0863b2fd85a29cb9fe5939">PrefabListCurrentPage</a></td></tr>
+<tr class="separator:a6fa53c244e0863b2fd85a29cb9fe5939"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e691fb48a5923ae227c34b15442313f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a0e691fb48a5923ae227c34b15442313f">Prefab_TotalNb</a></td></tr>
+<tr class="separator:a0e691fb48a5923ae227c34b15442313f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0bbbdbfff8cc6871b27d97728c338cab"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_c_editor_event.html">CEditorEvent</a> []&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a0bbbdbfff8cc6871b27d97728c338cab">PendingEvents</a></td></tr>
 <tr class="separator:a0bbbdbfff8cc6871b27d97728c338cab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a418ce6f5a2a49b2cff0606431aff742f"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_mesh.html#a418ce6f5a2a49b2cff0606431aff742f">IsExperimental</a></td></tr>
@@ -614,7 +811,7 @@ Public Attributes</h2></td></tr>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aa7d0bf1a42d523262b6c6a28d6484cada73fc01aeee6fa0650dc4d763b5d4d99b"></a>Any&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a6b44abc4e2e53a7c1d5f2b5c0b712846a709ac06284518ada4fed0f4e2e005dc4"></a>Borders&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a6714e5bf21b474ab2bdf740405c3dd3ba941bce807ffc936905d6561d5d43a260"></a>None&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abc85e532d322099837fe77712c2fd90ca941bce807ffc936905d6561d5d43a260"></a>None&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -673,20 +870,62 @@ Public Attributes</h2></td></tr>
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a6714e5bf21b474ab2bdf740405c3dd3babded02af5327f2f4712e061b6b4391d6"></a>Creation&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a6714e5bf21b474ab2bdf740405c3dd3ba551c90af81f1be9314a2cf59d2ea2a68"></a>Pick&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a6714e5bf21b474ab2bdf740405c3dd3ba1124b43bdcdf1ecc3b31e1b7de1d563a"></a>PickJoint&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6714e5bf21b474ab2bdf740405c3dd3ba7ff90cc15f852c096d25a33434b46f67"></a>VoxelPickDrag_Base&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6714e5bf21b474ab2bdf740405c3dd3ba55b5b4bf9b8907b0b45f299028a29b3b"></a>VoxelPickDrag_Creation&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6714e5bf21b474ab2bdf740405c3dd3ba8defd98b9cfdaea4fdbe839c4db24b15"></a>VoxelPickDrag_Delete&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6714e5bf21b474ab2bdf740405c3dd3ba2313ddfea7155f752d754d97e5edc2b1"></a>VoxelPickDrag_Select&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6714e5bf21b474ab2bdf740405c3dd3ba369104e99e7ad183c1a82613d2e12ea7"></a>VoxelPickDrag_Pick&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6714e5bf21b474ab2bdf740405c3dd3babe952dc85b2801e56286f1906e776006"></a>VoxelPickDrag_SelectTranslation&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6714e5bf21b474ab2bdf740405c3dd3ba97865e314ffc429102f83e968dffb2ac"></a>VoxelPickDrag_SelectRotation&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a6714e5bf21b474ab2bdf740405c3dd3ba9095c2afdc9d3a92fed863379649203d"></a>VoxelPickDrag_Paste&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a6714e5bf21b474ab2bdf740405c3dd3ba3996551ed5b437d5520ecda0494ad482"></a>Selection&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a6714e5bf21b474ab2bdf740405c3dd3ba9fd266b01af30139a03951bac5dafc08"></a>Translation&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abc85e532d322099837fe77712c2fd90ca85de7e3a647c807c2f499fbbcf026bea"></a>Translation&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a6714e5bf21b474ab2bdf740405c3dd3ba4a974a510873ddb82119c4b48445e2ad"></a>PickTranslation&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a6714e5bf21b474ab2bdf740405c3dd3ba30dcdf571cb62b70c50c76610507cd50"></a>Rotation&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abc85e532d322099837fe77712c2fd90cacad583085de4e8ef3e400222e367c3d2"></a>Rotation&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a6714e5bf21b474ab2bdf740405c3dd3ba720a3dc2c2d5893ce3d378c8a7f495ad"></a>PickRotation&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a6714e5bf21b474ab2bdf740405c3dd3baae94da64de4ffcb8a46892ee636fff91"></a>Scale&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abc85e532d322099837fe77712c2fd90caae94da64de4ffcb8a46892ee636fff91"></a>Scale&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a7547cc34ad474355f44babec40d2c8b3a5696bd5fd989b8f8af87a4d5d1120b59"></a>Curve2D&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a6714e5bf21b474ab2bdf740405c3dd3ba5dcb299091e9c6ffdf0abbdf3a070358"></a>Merge&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a6714e5bf21b474ab2bdf740405c3dd3ba1c44e1991f0881944ad80fedfc36a98f"></a>Split&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a6714e5bf21b474ab2bdf740405c3dd3ba8a701ed6c1a098696f8cdd4f3ff226f1"></a>Mirror&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abc85e532d322099837fe77712c2fd90ca9234c42508d9afc4eccf9eb51d9f0350"></a>Mirror&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a6714e5bf21b474ab2bdf740405c3dd3ba9a3313e370f28d27554c8afd574fc970"></a>Paste&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a6714e5bf21b474ab2bdf740405c3dd3ba2612ce030d8b60c35b56290ec4320b24"></a>PasteMaterial&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a6714e5bf21b474ab2bdf740405c3dd3bab64a4403996f6f07fc91be88c59d4881"></a>BlocTransformation&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a6714e5bf21b474ab2bdf740405c3dd3ba941bce807ffc936905d6561d5d43a260"></a>None&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abc85e532d322099837fe77712c2fd90ca941bce807ffc936905d6561d5d43a260"></a>None&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="abc85e532d322099837fe77712c2fd90c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc85e532d322099837fe77712c2fd90c">&#9670;&nbsp;</a></span>ELayerType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="struct_c_editor_mesh.html#abc85e532d322099837fe77712c2fd90c">CEditorMesh::ELayerType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="abc85e532d322099837fe77712c2fd90ca557405d2374a17503039db12f5e89665"></a>AddGeometry&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abc85e532d322099837fe77712c2fd90ca11285964733400d2dce2749dd722a6d5"></a>SubdivideSmooth&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abc85e532d322099837fe77712c2fd90ca85de7e3a647c807c2f499fbbcf026bea"></a>Translation&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abc85e532d322099837fe77712c2fd90cacad583085de4e8ef3e400222e367c3d2"></a>Rotation&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abc85e532d322099837fe77712c2fd90caae94da64de4ffcb8a46892ee636fff91"></a>Scale&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abc85e532d322099837fe77712c2fd90ca9234c42508d9afc4eccf9eb51d9f0350"></a>Mirror&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abc85e532d322099837fe77712c2fd90ca055f3c1beb1ae00f78ef1f2492e4fb57"></a>MoveToGround&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abc85e532d322099837fe77712c2fd90ca6af170c34e3643e21aca07e3788a89cc"></a>Extrude&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abc85e532d322099837fe77712c2fd90ca38fd534fc3ebfcf9e906684a1633687c"></a>Subdivide&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abc85e532d322099837fe77712c2fd90ca5e66f93cec93375eb8274414b67692ef"></a>Chaos&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abc85e532d322099837fe77712c2fd90ca449782317e3ba87061e65296cdad6ac3"></a>Smooth&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abc85e532d322099837fe77712c2fd90cac124d6ce4544f0339a8ca379741b48f4"></a>BorderTransition&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abc85e532d322099837fe77712c2fd90ca9bf12402c77a65e3a8fd173bcbada653"></a>BlocTransfo&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abc85e532d322099837fe77712c2fd90caeadbf05742f3d474d508fa1d9af96a05"></a>Voxels&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abc85e532d322099837fe77712c2fd90caa631df9aca32e716dbdded7c9745398a"></a>TriggerShape&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abc85e532d322099837fe77712c2fd90ca1059a05ec31c45a08da50c99af66e003"></a>RespawnPos&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abc85e532d322099837fe77712c2fd90ca076cc7df9f79f9b7c49c96b9cc361b1a"></a>Sector&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abc85e532d322099837fe77712c2fd90ca941bce807ffc936905d6561d5d43a260"></a>None&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -723,6 +962,25 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a6ae6a7b70b975c60a6dfd3e98a0ad8cfaa0415a1ee76ba09bc1d0f47231db7b49"></a>Lightmap&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="a0639a4d88c4adb38dd7d3a32965e7ed2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0639a4d88c4adb38dd7d3a32965e7ed2">&#9670;&nbsp;</a></span>ETitleCoreType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="struct_c_editor_mesh.html#a0639a4d88c4adb38dd7d3a32965e7ed2">CEditorMesh::ETitleCoreType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a0639a4d88c4adb38dd7d3a32965e7ed2aacf6bf6ff8e987fd4b705ac8e09a6175"></a>TrackMania&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0639a4d88c4adb38dd7d3a32965e7ed2a17eef46e58ad39444e2690d97caa80b6"></a>ShootMania&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0639a4d88c4adb38dd7d3a32965e7ed2a9646f9186f7510619fd24739c90dcded"></a>Count&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -780,6 +1038,24 @@ Public Attributes</h2></td></tr>
           <td class="memname"><a class="el" href="class_void.html">Void</a> CEditorMesh::AddUndoState </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a401ffba652ed206cf14d0f3658ba30b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a401ffba652ed206cf14d0f3658ba30b8">&#9670;&nbsp;</a></span>Anchor_Remove()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_void.html">Void</a> CEditorMesh::Anchor_Remove </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_ident.html">Ident</a>&#160;</td>
+          <td class="paramname"><em>Id</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -932,134 +1208,6 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a222422481d3b258bfa787cbde457465b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a222422481d3b258bfa787cbde457465b">&#9670;&nbsp;</a></span>BlocTransformation_Abort()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_void.html">Void</a> CEditorMesh::BlocTransformation_Abort </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aedd9a168efb9eaed3bcd510cb7bc26a4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aedd9a168efb9eaed3bcd510cb7bc26a4">&#9670;&nbsp;</a></span>BlocTransformation_Bend()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_void.html">Void</a> CEditorMesh::BlocTransformation_Bend </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_integer.html">Integer</a>&#160;</td>
-          <td class="paramname"><em>Axis</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_real.html">Real</a>&#160;</td>
-          <td class="paramname"><em>Radius</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_real.html">Real</a>&#160;</td>
-          <td class="paramname"><em>Angle</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_boolean.html">Boolean</a>&#160;</td>
-          <td class="paramname"><em>Direction</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aca09c983df23ce1969e073682cde510b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aca09c983df23ce1969e073682cde510b">&#9670;&nbsp;</a></span>BlocTransformation_Close()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_void.html">Void</a> CEditorMesh::BlocTransformation_Close </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a18d3adf8680d9d5d604afce15b4f5764"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a18d3adf8680d9d5d604afce15b4f5764">&#9670;&nbsp;</a></span>BlocTransformation_Start()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_boolean.html">Boolean</a> CEditorMesh::BlocTransformation_Start </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_ident.html">Ident</a>&#160;</td>
-          <td class="paramname"><em>SetHandle</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a16e25abaab29d9a9243cac072431021a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a16e25abaab29d9a9243cac072431021a">&#9670;&nbsp;</a></span>BlocTransformation_Translate()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_void.html">Void</a> CEditorMesh::BlocTransformation_Translate </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_vec3.html">Vec3</a>&#160;</td>
-          <td class="paramname"><em>Translation</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="af4c748cb35b495575d1499c339653298"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af4c748cb35b495575d1499c339653298">&#9670;&nbsp;</a></span>BlocTransformation_Twist()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_void.html">Void</a> CEditorMesh::BlocTransformation_Twist </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_real.html">Real</a>&#160;</td>
-          <td class="paramname"><em>Angle</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a7523e3e8555035379b66ec52cc3f4ebc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7523e3e8555035379b66ec52cc3f4ebc">&#9670;&nbsp;</a></span>Copy()</h2>
 
@@ -1068,6 +1216,23 @@ Public Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="class_void.html">Void</a> CEditorMesh::Copy </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a59e3f35eff6e4de735b6365b267a3f77"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59e3f35eff6e4de735b6365b267a3f77">&#9670;&nbsp;</a></span>CopyVoxels()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_void.html">Void</a> CEditorMesh::CopyVoxels </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -1119,6 +1284,23 @@ Public Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="class_void.html">Void</a> CEditorMesh::Cut </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7d3689981e6d4afcb9f84a962b71a349"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d3689981e6d4afcb9f84a962b71a349">&#9670;&nbsp;</a></span>CutVoxels()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_void.html">Void</a> CEditorMesh::CutVoxels </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -1319,24 +1501,6 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a2657fc293630fe29c9517d4c03efd2f7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2657fc293630fe29c9517d4c03efd2f7">&#9670;&nbsp;</a></span>EditionBox_OrientPlane()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_void.html">Void</a> CEditorMesh::EditionBox_OrientPlane </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_ident.html">Ident</a>&#160;</td>
-          <td class="paramname"><em>SetHandle</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a8a1a99b5dd5f2533f23903cdf25d1859"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8a1a99b5dd5f2533f23903cdf25d1859">&#9670;&nbsp;</a></span>EditionBox_SetScale()</h2>
 
@@ -1373,14 +1537,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ac5cdd5868f429bb255a969ffbd454a8a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac5cdd5868f429bb255a969ffbd454a8a">&#9670;&nbsp;</a></span>GetBordersSet()</h2>
+<a id="a7934a58459e890e029f254a570973ac8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7934a58459e890e029f254a570973ac8">&#9670;&nbsp;</a></span>GetBordersSet()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_void.html">Void</a> CEditorMesh::GetBordersSet </td>
+          <td class="memname"><a class="el" href="class_boolean.html">Boolean</a> CEditorMesh::GetBordersSet </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_ident.html">Ident</a>&#160;</td>
           <td class="paramname"><em>SetHandle</em>, </td>
@@ -1429,6 +1593,23 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a1f257d4c0cfeec88bc70c5da3a89a4ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f257d4c0cfeec88bc70c5da3a89a4ae">&#9670;&nbsp;</a></span>GetTitleCoreType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_c_editor_mesh.html#a0639a4d88c4adb38dd7d3a32965e7ed2">ETitleCoreType</a> CEditorMesh::GetTitleCoreType </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ab85afc670ea1ae24e6a51b825dc85f3c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab85afc670ea1ae24e6a51b825dc85f3c">&#9670;&nbsp;</a></span>GridSnap_SetActive()</h2>
 
@@ -1447,31 +1628,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a94180238a83c284dd14c9c2aae7b03c0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a94180238a83c284dd14c9c2aae7b03c0">&#9670;&nbsp;</a></span>Interaction_Abort()</h2>
+<a id="aae5ace7e7763df7f5091d6f89460b0fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae5ace7e7763df7f5091d6f89460b0fb">&#9670;&nbsp;</a></span>Interaction_Close()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_void.html">Void</a> CEditorMesh::Interaction_Abort </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="af8d0cb385f45e58a5b3fd536f442c0e0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af8d0cb385f45e58a5b3fd536f442c0e0">&#9670;&nbsp;</a></span>Interaction_CloseCreation()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_void.html">Void</a> CEditorMesh::Interaction_CloseCreation </td>
+          <td class="memname"><a class="el" href="class_void.html">Void</a> CEditorMesh::Interaction_Close </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -1507,6 +1671,40 @@ Public Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="class_void.html">Void</a> CEditorMesh::Interaction_CloseSelection </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a97853cd2b048747c012045f3d84b2164"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a97853cd2b048747c012045f3d84b2164">&#9670;&nbsp;</a></span>Interaction_CloseVoxelPickDrag_Pick()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_void.html">Void</a> CEditorMesh::Interaction_CloseVoxelPickDrag_Pick </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afe0035535a7dd412e1e04f90badb8ed1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe0035535a7dd412e1e04f90badb8ed1">&#9670;&nbsp;</a></span>Interaction_CloseVoxelPickDrag_Select()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_void.html">Void</a> CEditorMesh::Interaction_CloseVoxelPickDrag_Select </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -1694,14 +1892,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a8786c031b3bbf2c9da03bd89f47b2cdd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8786c031b3bbf2c9da03bd89f47b2cdd">&#9670;&nbsp;</a></span>Interaction_StartBlocTransformation()</h2>
+<a id="a97c2f551c588ec8fe1f35746a45f7086"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a97c2f551c588ec8fe1f35746a45f7086">&#9670;&nbsp;</a></span>Interaction_StartBlocTransformation()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_void.html">Void</a> CEditorMesh::Interaction_StartBlocTransformation </td>
+          <td class="memname"><a class="el" href="class_boolean.html">Boolean</a> CEditorMesh::Interaction_StartBlocTransformation </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_ident.html">Ident</a>&#160;</td>
           <td class="paramname"><em>TransformationSetHandle</em></td><td>)</td>
@@ -1712,14 +1910,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a01932a846a9aeedd58a18262834ab1e0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a01932a846a9aeedd58a18262834ab1e0">&#9670;&nbsp;</a></span>Interaction_StartCreation()</h2>
+<a id="a63e37d8e06901b3e4d166d09e487c539"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63e37d8e06901b3e4d166d09e487c539">&#9670;&nbsp;</a></span>Interaction_StartCreation()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_void.html">Void</a> CEditorMesh::Interaction_StartCreation </td>
+          <td class="memname"><a class="el" href="class_boolean.html">Boolean</a> CEditorMesh::Interaction_StartCreation </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_ident.html">Ident</a>&#160;</td>
           <td class="paramname"><em>CreationSetHandle</em>, </td>
@@ -1746,14 +1944,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a62d04967fb10e5706b6349d8134936c3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a62d04967fb10e5706b6349d8134936c3">&#9670;&nbsp;</a></span>Interaction_StartCurve2D()</h2>
+<a id="adce1fc1bfed6b8740f851df09bbf4c3c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adce1fc1bfed6b8740f851df09bbf4c3c">&#9670;&nbsp;</a></span>Interaction_StartCurve2D()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_void.html">Void</a> CEditorMesh::Interaction_StartCurve2D </td>
+          <td class="memname"><a class="el" href="class_boolean.html">Boolean</a> CEditorMesh::Interaction_StartCurve2D </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_ident.html">Ident</a>&#160;</td>
           <td class="paramname"><em>BordersSetHandle</em></td><td>)</td>
@@ -1764,14 +1962,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a2acd5d0de673b65b631ea83eee046e73"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2acd5d0de673b65b631ea83eee046e73">&#9670;&nbsp;</a></span>Interaction_StartMerge()</h2>
+<a id="a1ccedf379a56bf1f5cb1f0f21710c80c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ccedf379a56bf1f5cb1f0f21710c80c">&#9670;&nbsp;</a></span>Interaction_StartMerge()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_void.html">Void</a> CEditorMesh::Interaction_StartMerge </td>
+          <td class="memname"><a class="el" href="class_boolean.html">Boolean</a> CEditorMesh::Interaction_StartMerge </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_ident.html">Ident</a>&#160;</td>
           <td class="paramname"><em>MergeSetHandle</em></td><td>)</td>
@@ -1782,14 +1980,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a3aa06816baec8fe48c5e59c49af8d79d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3aa06816baec8fe48c5e59c49af8d79d">&#9670;&nbsp;</a></span>Interaction_StartMirror()</h2>
+<a id="a96b19fc379225426c421facc3c7b4f9e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a96b19fc379225426c421facc3c7b4f9e">&#9670;&nbsp;</a></span>Interaction_StartMirror()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_void.html">Void</a> CEditorMesh::Interaction_StartMirror </td>
+          <td class="memname"><a class="el" href="class_boolean.html">Boolean</a> CEditorMesh::Interaction_StartMirror </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_ident.html">Ident</a>&#160;</td>
           <td class="paramname"><em>SetHandle</em></td><td>)</td>
@@ -1800,14 +1998,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a057a7345d4ad63663a71999da1c50eed"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a057a7345d4ad63663a71999da1c50eed">&#9670;&nbsp;</a></span>Interaction_StartPaste()</h2>
+<a id="ac7264fefd85f5716937bd108b10de929"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7264fefd85f5716937bd108b10de929">&#9670;&nbsp;</a></span>Interaction_StartPaste()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_void.html">Void</a> CEditorMesh::Interaction_StartPaste </td>
+          <td class="memname"><a class="el" href="class_boolean.html">Boolean</a> CEditorMesh::Interaction_StartPaste </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -1817,14 +2015,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="addf22b3d9676dcab3398e657b06af214"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#addf22b3d9676dcab3398e657b06af214">&#9670;&nbsp;</a></span>Interaction_StartPick()</h2>
+<a id="a35aac8291aea97fa9c5edc97cffe08ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a35aac8291aea97fa9c5edc97cffe08ed">&#9670;&nbsp;</a></span>Interaction_StartPick()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_void.html">Void</a> CEditorMesh::Interaction_StartPick </td>
+          <td class="memname"><a class="el" href="class_boolean.html">Boolean</a> CEditorMesh::Interaction_StartPick </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="struct_c_editor_mesh.html#aa7d0bf1a42d523262b6c6a28d6484cad">EElemType</a>&#160;</td>
           <td class="paramname"><em>ElemType</em>, </td>
@@ -1845,14 +2043,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="aca6ea826bbeffa5c743f0fe203e03226"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aca6ea826bbeffa5c743f0fe203e03226">&#9670;&nbsp;</a></span>Interaction_StartPickJoint()</h2>
+<a id="a9678cdba90db5b3eec594509ad0253a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9678cdba90db5b3eec594509ad0253a4">&#9670;&nbsp;</a></span>Interaction_StartPickJoint()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_void.html">Void</a> CEditorMesh::Interaction_StartPickJoint </td>
+          <td class="memname"><a class="el" href="class_boolean.html">Boolean</a> CEditorMesh::Interaction_StartPickJoint </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -1862,14 +2060,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="af63a5daabaeaaf8a65b14eff83ab9928"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af63a5daabaeaaf8a65b14eff83ab9928">&#9670;&nbsp;</a></span>Interaction_StartPickRotation()</h2>
+<a id="aecb4c98bd25913b1a7b0878e13f8e691"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aecb4c98bd25913b1a7b0878e13f8e691">&#9670;&nbsp;</a></span>Interaction_StartPickRotation()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_void.html">Void</a> CEditorMesh::Interaction_StartPickRotation </td>
+          <td class="memname"><a class="el" href="class_boolean.html">Boolean</a> CEditorMesh::Interaction_StartPickRotation </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_ident.html">Ident</a>&#160;</td>
           <td class="paramname"><em>RotationSetHandle</em></td><td>)</td>
@@ -1880,14 +2078,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a864743bdacdf2213bffcdd58be0e521c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a864743bdacdf2213bffcdd58be0e521c">&#9670;&nbsp;</a></span>Interaction_StartPickScale()</h2>
+<a id="a780c6cd5bf1c89fd6fff05f360a0f478"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a780c6cd5bf1c89fd6fff05f360a0f478">&#9670;&nbsp;</a></span>Interaction_StartPickScale()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_void.html">Void</a> CEditorMesh::Interaction_StartPickScale </td>
+          <td class="memname"><a class="el" href="class_boolean.html">Boolean</a> CEditorMesh::Interaction_StartPickScale </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_ident.html">Ident</a>&#160;</td>
           <td class="paramname"><em>ScalingSetHandle</em></td><td>)</td>
@@ -1898,14 +2096,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a46ac9923638cb3b9565e8d68be12f098"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a46ac9923638cb3b9565e8d68be12f098">&#9670;&nbsp;</a></span>Interaction_StartPickTranslation()</h2>
+<a id="a917360526ead624da53854721e016c5e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a917360526ead624da53854721e016c5e">&#9670;&nbsp;</a></span>Interaction_StartPickTranslation()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_void.html">Void</a> CEditorMesh::Interaction_StartPickTranslation </td>
+          <td class="memname"><a class="el" href="class_boolean.html">Boolean</a> CEditorMesh::Interaction_StartPickTranslation </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_ident.html">Ident</a>&#160;</td>
           <td class="paramname"><em>TranslationSetHandle</em></td><td>)</td>
@@ -1916,14 +2114,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a57de4655ba894ac6483b4d30184a0afb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a57de4655ba894ac6483b4d30184a0afb">&#9670;&nbsp;</a></span>Interaction_StartRotation()</h2>
+<a id="a0c3a773928f7665a66bb5020274f3438"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c3a773928f7665a66bb5020274f3438">&#9670;&nbsp;</a></span>Interaction_StartRotation()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_void.html">Void</a> CEditorMesh::Interaction_StartRotation </td>
+          <td class="memname"><a class="el" href="class_boolean.html">Boolean</a> CEditorMesh::Interaction_StartRotation </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_ident.html">Ident</a>&#160;</td>
           <td class="paramname"><em>RotationSetHandle</em></td><td>)</td>
@@ -1934,14 +2132,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a3bb8390c6d68d298f9262c3398dbfcf6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3bb8390c6d68d298f9262c3398dbfcf6">&#9670;&nbsp;</a></span>Interaction_StartSelection()</h2>
+<a id="a222ea5b9590d8c85efca5469552b83c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a222ea5b9590d8c85efca5469552b83c9">&#9670;&nbsp;</a></span>Interaction_StartSelection()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_void.html">Void</a> CEditorMesh::Interaction_StartSelection </td>
+          <td class="memname"><a class="el" href="class_boolean.html">Boolean</a> CEditorMesh::Interaction_StartSelection </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_ident.html">Ident</a>&#160;</td>
           <td class="paramname"><em>SelectionSetHandle</em>, </td>
@@ -1956,7 +2154,13 @@ Public Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="class_ident.html">Ident</a>&#160;</td>
-          <td class="paramname"><em>SelectionSetToPickFrom</em>&#160;</td>
+          <td class="paramname"><em>SelectionSetToPickFrom</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_boolean.html">Boolean</a>&#160;</td>
+          <td class="paramname"><em>IsFromALayer</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1968,14 +2172,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="abaa574c4091688a2b849f0148be1effa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abaa574c4091688a2b849f0148be1effa">&#9670;&nbsp;</a></span>Interaction_StartSplit()</h2>
+<a id="a0aabd1d6a8f9abf8f5fdd0bd937cb7e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0aabd1d6a8f9abf8f5fdd0bd937cb7e8">&#9670;&nbsp;</a></span>Interaction_StartSplit()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_void.html">Void</a> CEditorMesh::Interaction_StartSplit </td>
+          <td class="memname"><a class="el" href="class_boolean.html">Boolean</a> CEditorMesh::Interaction_StartSplit </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -1985,18 +2189,561 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a363151966f2750e855193aed1ab90a3a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a363151966f2750e855193aed1ab90a3a">&#9670;&nbsp;</a></span>Interaction_StartTranslation()</h2>
+<a id="a9b6d0ec37e5367ba20c14e858d4c65f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b6d0ec37e5367ba20c14e858d4c65f0">&#9670;&nbsp;</a></span>Interaction_StartTranslation()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_void.html">Void</a> CEditorMesh::Interaction_StartTranslation </td>
+          <td class="memname"><a class="el" href="class_boolean.html">Boolean</a> CEditorMesh::Interaction_StartTranslation </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_ident.html">Ident</a>&#160;</td>
           <td class="paramname"><em>TranslationSetHandle</em></td><td>)</td>
           <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a482b8b48b5933de9d1a5fd875a298d89"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a482b8b48b5933de9d1a5fd875a298d89">&#9670;&nbsp;</a></span>Interaction_StartVoxelPickDrag_Base()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_boolean.html">Boolean</a> CEditorMesh::Interaction_StartVoxelPickDrag_Base </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_c_editor_mesh.html#aa7d0bf1a42d523262b6c6a28d6484cad">EElemType</a>&#160;</td>
+          <td class="paramname"><em>ElemType</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a656ebacc35ac3b6b4bcf95dac62d724c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a656ebacc35ac3b6b4bcf95dac62d724c">&#9670;&nbsp;</a></span>Interaction_StartVoxelPickDrag_Creation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_boolean.html">Boolean</a> CEditorMesh::Interaction_StartVoxelPickDrag_Creation </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3c3d04d511b00235c1d7d7ff4cf697ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c3d04d511b00235c1d7d7ff4cf697ec">&#9670;&nbsp;</a></span>Interaction_StartVoxelPickDrag_Delete()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_boolean.html">Boolean</a> CEditorMesh::Interaction_StartVoxelPickDrag_Delete </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a997fa404c0299d8d1836f09564303dad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a997fa404c0299d8d1836f09564303dad">&#9670;&nbsp;</a></span>Interaction_StartVoxelPickDrag_Paste()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_boolean.html">Boolean</a> CEditorMesh::Interaction_StartVoxelPickDrag_Paste </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5acabdd9d65c91992924795011fe0a34"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5acabdd9d65c91992924795011fe0a34">&#9670;&nbsp;</a></span>Interaction_StartVoxelPickDrag_Pick()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_boolean.html">Boolean</a> CEditorMesh::Interaction_StartVoxelPickDrag_Pick </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a631e715a13e7553977c78d9770ab9022"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a631e715a13e7553977c78d9770ab9022">&#9670;&nbsp;</a></span>Interaction_StartVoxelPickDrag_Select()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_boolean.html">Boolean</a> CEditorMesh::Interaction_StartVoxelPickDrag_Select </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_ident.html">Ident</a>&#160;</td>
+          <td class="paramname"><em>SelectionSetHandle</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae7686e5958d552f21cf90f94b67ea22c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7686e5958d552f21cf90f94b67ea22c">&#9670;&nbsp;</a></span>Interaction_StartVoxelPickDrag_SelectRotation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_boolean.html">Boolean</a> CEditorMesh::Interaction_StartVoxelPickDrag_SelectRotation </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a36156ef9ba3067d9ff8d39c6af8252e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36156ef9ba3067d9ff8d39c6af8252e3">&#9670;&nbsp;</a></span>Interaction_StartVoxelPickDrag_SelectTranslation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_boolean.html">Boolean</a> CEditorMesh::Interaction_StartVoxelPickDrag_SelectTranslation </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7889ca9bf335e029136f9bc509eee1ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7889ca9bf335e029136f9bc509eee1ff">&#9670;&nbsp;</a></span>Joint_Add()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_void.html">Void</a> CEditorMesh::Joint_Add </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_vec3.html">Vec3</a>&#160;</td>
+          <td class="paramname"><em>Position</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a52ef8f4492fad6bd46232d819c6305e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a52ef8f4492fad6bd46232d819c6305e9">&#9670;&nbsp;</a></span>Joint_Link()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_void.html">Void</a> CEditorMesh::Joint_Link </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_ident.html">Ident</a>&#160;</td>
+          <td class="paramname"><em>IdChild</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_ident.html">Ident</a>&#160;</td>
+          <td class="paramname"><em>IdParent</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8e8f45fa3f08e1217a6e04218f05c8b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e8f45fa3f08e1217a6e04218f05c8b0">&#9670;&nbsp;</a></span>Layers_AddLayer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_void.html">Void</a> CEditorMesh::Layers_AddLayer </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_c_editor_mesh.html#abc85e532d322099837fe77712c2fd90c">ELayerType</a>&#160;</td>
+          <td class="paramname"><em>LayerType</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a03df6def0b6a2cc2a3e33b2b3dbaba2a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a03df6def0b6a2cc2a3e33b2b3dbaba2a">&#9670;&nbsp;</a></span>Layers_CloseEditSelectedLayer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_void.html">Void</a> CEditorMesh::Layers_CloseEditSelectedLayer </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a47f072c24d50d2d7618d7b79d22a3e60"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47f072c24d50d2d7618d7b79d22a3e60">&#9670;&nbsp;</a></span>Layers_DeleteSelectedLayer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_void.html">Void</a> CEditorMesh::Layers_DeleteSelectedLayer </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac93bb1627f2ad7c6505e5a931dc166ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac93bb1627f2ad7c6505e5a931dc166ae">&#9670;&nbsp;</a></span>Layers_EditMask()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_void.html">Void</a> CEditorMesh::Layers_EditMask </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_integer.html">Integer</a>&#160;</td>
+          <td class="paramname"><em>LayerIndex</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af2d4ffba7ed2351afc4c52bf5acb9bf7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af2d4ffba7ed2351afc4c52bf5acb9bf7">&#9670;&nbsp;</a></span>Layers_EditMaskValidate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_void.html">Void</a> CEditorMesh::Layers_EditMaskValidate </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_integer.html">Integer</a>&#160;</td>
+          <td class="paramname"><em>LayerIndex</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a98828c64c9b514ad244acc789d53aef0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a98828c64c9b514ad244acc789d53aef0">&#9670;&nbsp;</a></span>Layers_EditSelectedLayer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_void.html">Void</a> CEditorMesh::Layers_EditSelectedLayer </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8978929cb21419e6bd61b10f544367e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8978929cb21419e6bd61b10f544367e6">&#9670;&nbsp;</a></span>Layers_GetCount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_integer.html">Integer</a> CEditorMesh::Layers_GetCount </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af14ee9356576e43eeab46930f4d5d9f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af14ee9356576e43eeab46930f4d5d9f4">&#9670;&nbsp;</a></span>Layers_GetEditedLayerType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_c_editor_mesh.html#abc85e532d322099837fe77712c2fd90c">ELayerType</a> CEditorMesh::Layers_GetEditedLayerType </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a846d3b20a7d928652f4d14f20ca6d1f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a846d3b20a7d928652f4d14f20ca6d1f0">&#9670;&nbsp;</a></span>Layers_GetLayerIdFromIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ident.html">Ident</a> CEditorMesh::Layers_GetLayerIdFromIndex </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_integer.html">Integer</a>&#160;</td>
+          <td class="paramname"><em>LayerIndex</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1bb7da180f0520ac65be51041773bb76"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1bb7da180f0520ac65be51041773bb76">&#9670;&nbsp;</a></span>Layers_GetLayerIdSelected()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ident.html">Ident</a> CEditorMesh::Layers_GetLayerIdSelected </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af00cd05386ada58d194fb48227a50c8c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af00cd05386ada58d194fb48227a50c8c">&#9670;&nbsp;</a></span>Layers_GetLayerNameFromIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_text.html">Text</a> CEditorMesh::Layers_GetLayerNameFromIndex </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_integer.html">Integer</a>&#160;</td>
+          <td class="paramname"><em>LayerIndex</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a997dc84723af57b5473593605419f9c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a997dc84723af57b5473593605419f9c6">&#9670;&nbsp;</a></span>Layers_GetLayerSelectedIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_integer.html">Integer</a> CEditorMesh::Layers_GetLayerSelectedIndex </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8e6421807ab5e9a0c34ed4354aa682e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e6421807ab5e9a0c34ed4354aa682e7">&#9670;&nbsp;</a></span>Layers_GetLayerSelectedName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_text.html">Text</a> CEditorMesh::Layers_GetLayerSelectedName </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2215e4ead16ffc9ce7dce1163f328481"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2215e4ead16ffc9ce7dce1163f328481">&#9670;&nbsp;</a></span>Layers_GetLayerSelectedType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_c_editor_mesh.html#abc85e532d322099837fe77712c2fd90c">ELayerType</a> CEditorMesh::Layers_GetLayerSelectedType </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a12145adb8c92e66c8da48fdbeaf706f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12145adb8c92e66c8da48fdbeaf706f4">&#9670;&nbsp;</a></span>Layers_GetLayerTypeFromIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_c_editor_mesh.html#abc85e532d322099837fe77712c2fd90c">ELayerType</a> CEditorMesh::Layers_GetLayerTypeFromIndex </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_integer.html">Integer</a>&#160;</td>
+          <td class="paramname"><em>LayerIndex</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acc40be385a5899699faf5c37e63d2739"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc40be385a5899699faf5c37e63d2739">&#9670;&nbsp;</a></span>Layers_GetLayerVisibleFromIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_boolean.html">Boolean</a> CEditorMesh::Layers_GetLayerVisibleFromIndex </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_integer.html">Integer</a>&#160;</td>
+          <td class="paramname"><em>LayerIndex</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af7d4b37df1a5a47178cb5a027441803b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7d4b37df1a5a47178cb5a027441803b">&#9670;&nbsp;</a></span>Layers_MoveSelectedLayerDown()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_void.html">Void</a> CEditorMesh::Layers_MoveSelectedLayerDown </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1b9eb0974f3607357752c8ad467833da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b9eb0974f3607357752c8ad467833da">&#9670;&nbsp;</a></span>Layers_MoveSelectedLayerUp()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_void.html">Void</a> CEditorMesh::Layers_MoveSelectedLayerUp </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af2c3cdf1f65a9eb4fe228f7e00142677"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af2c3cdf1f65a9eb4fe228f7e00142677">&#9670;&nbsp;</a></span>Layers_SetLayerIdSelected()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_void.html">Void</a> CEditorMesh::Layers_SetLayerIdSelected </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_ident.html">Ident</a>&#160;</td>
+          <td class="paramname"><em>LayerId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3acabc9250c98c47af55b7fa6a489c44"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3acabc9250c98c47af55b7fa6a489c44">&#9670;&nbsp;</a></span>Layers_SetLayerVisibleFromIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_void.html">Void</a> CEditorMesh::Layers_SetLayerVisibleFromIndex </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_integer.html">Integer</a>&#160;</td>
+          <td class="paramname"><em>LayerIndex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_boolean.html">Boolean</a>&#160;</td>
+          <td class="paramname"><em>LayerVisibility</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2320,6 +3067,23 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a251e16ba7acb437ada36764273676e5a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a251e16ba7acb437ada36764273676e5a">&#9670;&nbsp;</a></span>Material_UVEditor_IsRunning()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_boolean.html">Boolean</a> CEditorMesh::Material_UVEditor_IsRunning </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a9e8d39d84ef7de0795bb8d9c15a879e8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9e8d39d84ef7de0795bb8d9c15a879e8">&#9670;&nbsp;</a></span>Material_UVEditor_Open()</h2>
 
@@ -2560,6 +3324,23 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="abde19e8e0b863451b24271cc1b41d0da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abde19e8e0b863451b24271cc1b41d0da">&#9670;&nbsp;</a></span>PickInfo_GetAnchorId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ident.html">Ident</a> CEditorMesh::PickInfo_GetAnchorId </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a93b4eedaafc888c790421dcef7be72d8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a93b4eedaafc888c790421dcef7be72d8">&#9670;&nbsp;</a></span>PickInfo_GetEdgeLength()</h2>
 
@@ -2697,6 +3478,23 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a61ff11a32e21ea18dabcca60874f0299"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a61ff11a32e21ea18dabcca60874f0299">&#9670;&nbsp;</a></span>Prefabs_Reload()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_void.html">Void</a> CEditorMesh::Prefabs_Reload </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a76d6259f382ce0346e512055884386d4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a76d6259f382ce0346e512055884386d4">&#9670;&nbsp;</a></span>Preview_Clear()</h2>
 
@@ -2773,23 +3571,6 @@ Public Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="class_void.html">Void</a> CEditorMesh::SelectionSet_SelectAll </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae71f5ddb199a1445bb799dd3e3280712"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae71f5ddb199a1445bb799dd3e3280712">&#9670;&nbsp;</a></span>SetBaseUndoState()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_void.html">Void</a> CEditorMesh::SetBaseUndoState </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -3781,6 +4562,328 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ad203963bd097c179ffbfbcdf0ad6c41b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad203963bd097c179ffbfbcdf0ad6c41b">&#9670;&nbsp;</a></span>Transitions_AddTransition()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_void.html">Void</a> CEditorMesh::Transitions_AddTransition </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_text.html">Text</a>&#160;</td>
+          <td class="paramname"><em>TransitionName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_integer.html">Integer</a>&#160;</td>
+          <td class="paramname"><em>TransitionPosition</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_real.html">Real</a>&#160;</td>
+          <td class="paramname"><em>TransitionSize</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0f5e19a80600265ae621fd1166ffccef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f5e19a80600265ae621fd1166ffccef">&#9670;&nbsp;</a></span>Transitions_DeleteCurrentTransition()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_void.html">Void</a> CEditorMesh::Transitions_DeleteCurrentTransition </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aaa5c96c4c343bbaf6822fce5627053ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa5c96c4c343bbaf6822fce5627053ca">&#9670;&nbsp;</a></span>Transitions_GetCount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_integer.html">Integer</a> CEditorMesh::Transitions_GetCount </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7490ec995f1c399f228347ea80a09baa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7490ec995f1c399f228347ea80a09baa">&#9670;&nbsp;</a></span>Transitions_GetTransitionCurrentPage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_integer.html">Integer</a> CEditorMesh::Transitions_GetTransitionCurrentPage </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa5ef968aaf828db78b6c34080ccccbf1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5ef968aaf828db78b6c34080ccccbf1">&#9670;&nbsp;</a></span>Transitions_GetTransitionNameFromIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_text.html">Text</a> CEditorMesh::Transitions_GetTransitionNameFromIndex </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_integer.html">Integer</a>&#160;</td>
+          <td class="paramname"><em>TransitionIndex</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1e300e083ce7e3ad593bcbc4abeb00ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e300e083ce7e3ad593bcbc4abeb00ab">&#9670;&nbsp;</a></span>Transitions_GetTransitionPositionFromIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_integer.html">Integer</a> CEditorMesh::Transitions_GetTransitionPositionFromIndex </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_integer.html">Integer</a>&#160;</td>
+          <td class="paramname"><em>TransitionIndex</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a902700b61168bc5eab023b86902583ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a902700b61168bc5eab023b86902583ce">&#9670;&nbsp;</a></span>Transitions_GetTransitionSelectedIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_integer.html">Integer</a> CEditorMesh::Transitions_GetTransitionSelectedIndex </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af61f303da1606286b672360eaafd3991"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af61f303da1606286b672360eaafd3991">&#9670;&nbsp;</a></span>Transitions_GetTransitionSizeFromIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_real.html">Real</a> CEditorMesh::Transitions_GetTransitionSizeFromIndex </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_integer.html">Integer</a>&#160;</td>
+          <td class="paramname"><em>TransitionIndex</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aaf3f1aa98acd7f28970dce62f6a34123"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf3f1aa98acd7f28970dce62f6a34123">&#9670;&nbsp;</a></span>Transitions_GetTransitionVisibilityFromIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_boolean.html">Boolean</a> CEditorMesh::Transitions_GetTransitionVisibilityFromIndex </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_integer.html">Integer</a>&#160;</td>
+          <td class="paramname"><em>TransitionIndex</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab8f139cb5e5e34d631ebfec32fd59462"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab8f139cb5e5e34d631ebfec32fd59462">&#9670;&nbsp;</a></span>Transitions_SetTransitionCurrentPage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_void.html">Void</a> CEditorMesh::Transitions_SetTransitionCurrentPage </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_integer.html">Integer</a>&#160;</td>
+          <td class="paramname"><em>TransitionCurrentPage</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa06ec1382e3c007efc4f14304140d95d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa06ec1382e3c007efc4f14304140d95d">&#9670;&nbsp;</a></span>Transitions_SetTransitionNameFromIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_void.html">Void</a> CEditorMesh::Transitions_SetTransitionNameFromIndex </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_integer.html">Integer</a>&#160;</td>
+          <td class="paramname"><em>TransitionIndex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_real.html">Real</a>&#160;</td>
+          <td class="paramname"><em>TransitionName</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae5bb4f8987cf9b0143838c72f2a8454f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5bb4f8987cf9b0143838c72f2a8454f">&#9670;&nbsp;</a></span>Transitions_SetTransitionPositionFromIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_void.html">Void</a> CEditorMesh::Transitions_SetTransitionPositionFromIndex </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_integer.html">Integer</a>&#160;</td>
+          <td class="paramname"><em>TransitionIndex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_integer.html">Integer</a>&#160;</td>
+          <td class="paramname"><em>TransitionPosition</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1f61cbab8d32480f6bebba4e9f7352e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f61cbab8d32480f6bebba4e9f7352e9">&#9670;&nbsp;</a></span>Transitions_SetTransitionSelectedIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_void.html">Void</a> CEditorMesh::Transitions_SetTransitionSelectedIndex </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_integer.html">Integer</a>&#160;</td>
+          <td class="paramname"><em>TransitionIndex</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab8e7f7acc9ab7a3b43a4178002995f9b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab8e7f7acc9ab7a3b43a4178002995f9b">&#9670;&nbsp;</a></span>Transitions_SetTransitionSizeFromIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_void.html">Void</a> CEditorMesh::Transitions_SetTransitionSizeFromIndex </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_integer.html">Integer</a>&#160;</td>
+          <td class="paramname"><em>TransitionIndex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_real.html">Real</a>&#160;</td>
+          <td class="paramname"><em>TransitionSize</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa094b7a41c3fd492d6d9ff39feb20a5f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa094b7a41c3fd492d6d9ff39feb20a5f">&#9670;&nbsp;</a></span>Transitions_SetTransitionVisibilityFromIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_void.html">Void</a> CEditorMesh::Transitions_SetTransitionVisibilityFromIndex </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_integer.html">Integer</a>&#160;</td>
+          <td class="paramname"><em>TransitionIndex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_boolean.html">Boolean</a>&#160;</td>
+          <td class="paramname"><em>TransitionVisibility</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ad608177e9f512cc4179557fc42683eff"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad608177e9f512cc4179557fc42683eff">&#9670;&nbsp;</a></span>Undo()</h2>
 
@@ -3820,6 +4923,57 @@ Public Attributes</h2></td></tr>
           <td></td>
           <td>)</td>
           <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8cd3c2ea8f628a594b45bc0e1f12761e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8cd3c2ea8f628a594b45bc0e1f12761e">&#9670;&nbsp;</a></span>VoxelSpace_ApplyMaterialToVoxel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_void.html">Void</a> CEditorMesh::VoxelSpace_ApplyMaterialToVoxel </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad1866351d1651881c874bba50a0e34dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1866351d1651881c874bba50a0e34dd">&#9670;&nbsp;</a></span>VoxelSpace_DeleteOneVoxel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_void.html">Void</a> CEditorMesh::VoxelSpace_DeleteOneVoxel </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a38bda4e975fdc8b93f0e820e2cd0f9b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38bda4e975fdc8b93f0e820e2cd0f9b6">&#9670;&nbsp;</a></span>VoxelSpace_DeleteSelection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_void.html">Void</a> CEditorMesh::VoxelSpace_DeleteSelection </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -3878,8 +5032,43 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ab9cec8793d9461c2736c08c33b6d27a6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab9cec8793d9461c2736c08c33b6d27a6">&#9670;&nbsp;</a></span>VoxelSpace_Init()</h2>
+<a id="ac43f56e2688d4c6decb9b4ad94ed5dcf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac43f56e2688d4c6decb9b4ad94ed5dcf">&#9670;&nbsp;</a></span>VoxelSpace_GetFromFace()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_int3.html">Int3</a> CEditorMesh::VoxelSpace_GetFromFace </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_ident.html">Ident</a>&#160;</td>
+          <td class="paramname"><em>SelectionSet</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9fb3b5031686a7ef75776db8126bcfba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9fb3b5031686a7ef75776db8126bcfba">&#9670;&nbsp;</a></span>VoxelSpace_GetVoxelsCount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_integer.html">Integer</a> CEditorMesh::VoxelSpace_GetVoxelsCount </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aea3a5ec8fe108a3b0f7045dd41fae937"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea3a5ec8fe108a3b0f7045dd41fae937">&#9670;&nbsp;</a></span>VoxelSpace_Init()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3893,13 +5082,30 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="class_boolean.html">Boolean</a>&#160;</td>
-          <td class="paramname"><em>UseColors</em>&#160;</td>
+          <td class="paramtype"><a class="el" href="class_real.html">Real</a>&#160;</td>
+          <td class="paramname"><em>Step</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
           <td>)</td>
           <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a802724198a3bba954f2f6a5df40f7a6c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a802724198a3bba954f2f6a5df40f7a6c">&#9670;&nbsp;</a></span>VoxelSpace_SelectAll()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_void.html">Void</a> CEditorMesh::VoxelSpace_SelectAll </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -3989,6 +5195,48 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="ab2d2583038336f578105d4858e3e49b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab2d2583038336f578105d4858e3e49b7">&#9670;&nbsp;</a></span>ActivateVoxelMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_boolean.html">Boolean</a> CEditorMesh::ActivateVoxelMode</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a694ea28bb9af5a6ee3dfe0b2fc3c7407"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a694ea28bb9af5a6ee3dfe0b2fc3c7407">&#9670;&nbsp;</a></span>AddTransitionInProgress</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_boolean.html">Boolean</a> CEditorMesh::AddTransitionInProgress</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8cf872fb79f411044b7c2ed05d0660cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8cf872fb79f411044b7c2ed05d0660cc">&#9670;&nbsp;</a></span>CameraEatingInputsScript</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_boolean.html">Boolean</a> CEditorMesh::CameraEatingInputsScript</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="af9f9386c339bb0bf74112919384e6c77"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af9f9386c339bb0bf74112919384e6c77">&#9670;&nbsp;</a></span>CreationElemsCount</h2>
 
@@ -4199,6 +5447,20 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="aecd4270461825cb588a77812aaae31e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aecd4270461825cb588a77812aaae31e1">&#9670;&nbsp;</a></span>IsEditingLayer</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_boolean.html">Boolean</a> CEditorMesh::IsEditingLayer</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a418ce6f5a2a49b2cff0606431aff742f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a418ce6f5a2a49b2cff0606431aff742f">&#9670;&nbsp;</a></span>IsExperimental</h2>
 
@@ -4207,6 +5469,188 @@ Public Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">const <a class="el" href="class_boolean.html">Boolean</a> CEditorMesh::IsExperimental</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a55b123722da08ae7663ff12df61e910a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a55b123722da08ae7663ff12df61e910a">&#9670;&nbsp;</a></span>Layer_IsCollidable</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_boolean.html">Boolean</a> CEditorMesh::Layer_IsCollidable</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3a0da9dc3eaae5a3148c21a26a1a998d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a0da9dc3eaae5a3148c21a26a1a998d">&#9670;&nbsp;</a></span>Layer_IsVisible</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_boolean.html">Boolean</a> CEditorMesh::Layer_IsVisible</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a17f7f5dcac325130e56861a193443b44"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17f7f5dcac325130e56861a193443b44">&#9670;&nbsp;</a></span>LayerIndep</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_boolean.html">Boolean</a> CEditorMesh::LayerIndep</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adb5cfd49fa7c3921d104042960d0ca9a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb5cfd49fa7c3921d104042960d0ca9a">&#9670;&nbsp;</a></span>LayerIndexAxisX</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_boolean.html">Boolean</a> CEditorMesh::LayerIndexAxisX</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5423e4ea76552b4da0c92c3c41e3a433"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5423e4ea76552b4da0c92c3c41e3a433">&#9670;&nbsp;</a></span>LayerIndexAxisY</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_boolean.html">Boolean</a> CEditorMesh::LayerIndexAxisY</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a712b366291bbc6680835c3f127d6e34f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a712b366291bbc6680835c3f127d6e34f">&#9670;&nbsp;</a></span>LayerIndexAxisZ</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_boolean.html">Boolean</a> CEditorMesh::LayerIndexAxisZ</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aaf7cd5fd3b3a510b9d4c419713fb4f23"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf7cd5fd3b3a510b9d4c419713fb4f23">&#9670;&nbsp;</a></span>LayerName</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_text.html">Text</a> CEditorMesh::LayerName</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7d1f35f85292d47dadc2b18e6a19ffe7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d1f35f85292d47dadc2b18e6a19ffe7">&#9670;&nbsp;</a></span>LayerValueAxisX</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_real.html">Real</a> CEditorMesh::LayerValueAxisX</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa542d44ee79be7415cabe789208f81b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa542d44ee79be7415cabe789208f81b5">&#9670;&nbsp;</a></span>LayerValueAxisY</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_real.html">Real</a> CEditorMesh::LayerValueAxisY</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9d4e96b95a08d464c155b2c223ef8b45"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d4e96b95a08d464c155b2c223ef8b45">&#9670;&nbsp;</a></span>LayerValueAxisZ</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_real.html">Real</a> CEditorMesh::LayerValueAxisZ</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6f7c8b7d4fc4f8b314c3a7b863cc17c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f7c8b7d4fc4f8b314c3a7b863cc17c8">&#9670;&nbsp;</a></span>LayerValueParam1</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_real.html">Real</a> CEditorMesh::LayerValueParam1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3946c98d1bed40fa4bfff40e0b3a21b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3946c98d1bed40fa4bfff40e0b3a21b7">&#9670;&nbsp;</a></span>LayerValueParam2</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_real.html">Real</a> CEditorMesh::LayerValueParam2</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6ee9b8cc24fadd71a9670619893cad6b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ee9b8cc24fadd71a9670619893cad6b">&#9670;&nbsp;</a></span>LayerVisible</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_boolean.html">Boolean</a> CEditorMesh::LayerVisible</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -4269,6 +5713,48 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a7147030221c7e43bbccd51a650694006"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7147030221c7e43bbccd51a650694006">&#9670;&nbsp;</a></span>NewTransitionName</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_text.html">Text</a> CEditorMesh::NewTransitionName</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8677a8133da4da482e4e9fcfbe7078d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8677a8133da4da482e4e9fcfbe7078d8">&#9670;&nbsp;</a></span>NewTransitionPosition</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_integer.html">Integer</a> CEditorMesh::NewTransitionPosition</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af241402cb9c9bee856ccde70479075ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af241402cb9c9bee856ccde70479075ae">&#9670;&nbsp;</a></span>NewTransitionSize</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_real.html">Real</a> CEditorMesh::NewTransitionSize</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a0bbbdbfff8cc6871b27d97728c338cab"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0bbbdbfff8cc6871b27d97728c338cab">&#9670;&nbsp;</a></span>PendingEvents</h2>
 
@@ -4277,6 +5763,34 @@ Public Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">const <a class="el" href="struct_c_editor_event.html">CEditorEvent</a> [] CEditorMesh::PendingEvents</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0e691fb48a5923ae227c34b15442313f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e691fb48a5923ae227c34b15442313f">&#9670;&nbsp;</a></span>Prefab_TotalNb</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_integer.html">Integer</a> CEditorMesh::Prefab_TotalNb</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6fa53c244e0863b2fd85a29cb9fe5939"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6fa53c244e0863b2fd85a29cb9fe5939">&#9670;&nbsp;</a></span>PrefabListCurrentPage</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_integer.html">Integer</a> CEditorMesh::PrefabListCurrentPage</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -4311,6 +5825,20 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a4c14d6b08fb76e51cc7bd5e4c6344092"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c14d6b08fb76e51cc7bd5e4c6344092">&#9670;&nbsp;</a></span>RotateAxis</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_integer.html">Integer</a> CEditorMesh::RotateAxis</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a740ebf97f0600f9f29eb2869d69c9d13"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a740ebf97f0600f9f29eb2869d69c9d13">&#9670;&nbsp;</a></span>RotationStep</h2>
 
@@ -4339,14 +5867,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a3cb3bf0a0eb267c713ddf66c1e07adee"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3cb3bf0a0eb267c713ddf66c1e07adee">&#9670;&nbsp;</a></span>Scale</h2>
+<a id="af1e2456bc2d2907c6ac9fedc11fd1d92"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1e2456bc2d2907c6ac9fedc11fd1d92">&#9670;&nbsp;</a></span>Scale</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="class_real.html">Real</a> CEditorMesh::Scale</td>
+          <td class="memname">CEditorMesh::Scale</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -4423,6 +5951,20 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a32c8d56827d21ed00a54dcec1d1e9ed1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a32c8d56827d21ed00a54dcec1d1e9ed1">&#9670;&nbsp;</a></span>SubdivideSmooth_NbSteps</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_integer.html">Integer</a> CEditorMesh::SubdivideSmooth_NbSteps</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="af71c0595fbb06b7c28492f325f94d4d0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af71c0595fbb06b7c28492f325f94d4d0">&#9670;&nbsp;</a></span>Tmp_UseParts</h2>
 
@@ -4437,6 +5979,20 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a1cbefe5949ca15649365e76fe5f7c238"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1cbefe5949ca15649365e76fe5f7c238">&#9670;&nbsp;</a></span>UseOptims</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_boolean.html">Boolean</a> CEditorMesh::UseOptims</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a22da10d1ffe96b0d05ccc0af69eea1ca"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a22da10d1ffe96b0d05ccc0af69eea1ca">&#9670;&nbsp;</a></span>VertexCount</h2>
 
@@ -4445,6 +6001,34 @@ Public Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">const <a class="el" href="class_integer.html">Integer</a> CEditorMesh::VertexCount</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac080a3e8abf7cff2cd25c71827dcd656"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac080a3e8abf7cff2cd25c71827dcd656">&#9670;&nbsp;</a></span>VoxelSpaceCenter</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_vec3.html">Vec3</a> CEditorMesh::VoxelSpaceCenter</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a155d4e7579cdd4f406b9516547f4a7c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a155d4e7579cdd4f406b9516547f4a7c0">&#9670;&nbsp;</a></span>VoxelSpaceStep</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_real.html">Real</a> CEditorMesh::VoxelSpaceStep</td>
         </tr>
       </table>
 </div><div class="memdoc">

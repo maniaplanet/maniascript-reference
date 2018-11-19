@@ -10,6 +10,7 @@ var struct_c_ml_quad =
       [ "Fit", "struct_c_ml_quad.html#a66ce971ec6287e81c095e77c9e79474ead3546ceb48058182baa486607fee06f1", null ]
     ] ],
     [ "ChangeImageUrl", "struct_c_ml_quad.html#add8b0e55843334cea3f9d43b54f6b5a8", null ],
+    [ "RefreshImages", "struct_c_ml_quad.html#a58f012b5ef637575c5f3f99b05ff2adc", null ],
     [ "BgColor", "struct_c_ml_quad.html#abcd458a3c41a6baf770db90c1407c655", null ],
     [ "BgColorFocus", "struct_c_ml_quad.html#acdd0a91183c7fa0a98939d5068f8aa52", null ],
     [ "Blend", "struct_c_ml_quad.html#afbd953a80857de2077eaa70269811747", null ],
