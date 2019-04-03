@@ -8,6 +8,7 @@ var struct_c_map_info =
     [ "CollectionName", "struct_c_map_info.html#afa1488051418d1eedae44d4b6eaf4cc0", null ],
     [ "Comments", "struct_c_map_info.html#ae909b16e8d6a3f68ef6cfea071d93e76", null ],
     [ "CopperPrice", "struct_c_map_info.html#aa2eba22c725c2fade7ca491f7bb5c8c9", null ],
+    [ "CreatedWithPartyEditor", "struct_c_map_info.html#a678cbac771d5727d3628dfce4abeb7cc", null ],
     [ "CreatedWithSimpleEditor", "struct_c_map_info.html#aae84ebbbb33a259d3c919b5789e03ef0", null ],
     [ "FileName", "struct_c_map_info.html#afb0b94a24ab83b49252c93c1b3431a57", null ],
     [ "IsPlayable", "struct_c_map_info.html#a1591790f31ed881debaafba3504d7c12", null ],
@@ -20,6 +21,7 @@ var struct_c_map_info =
     [ "TMObjective_BronzeTime", "struct_c_map_info.html#a217a7e6714050f56a72bf4877fd0cbe8", null ],
     [ "TMObjective_GoldTime", "struct_c_map_info.html#a0fe770d42723d94cd0a46db911377ad2", null ],
     [ "TMObjective_IsLapRace", "struct_c_map_info.html#abf7241ad24770845e6fca464d867f2b8", null ],
+    [ "TMObjective_NbLaps", "struct_c_map_info.html#ac32eb81b5bc9d6f2fc23f4894f367b7d", null ],
     [ "TMObjective_SilverTime", "struct_c_map_info.html#aa9daab13aaf69c37662b82fbb992c02f", null ],
     [ "Unlocked", "struct_c_map_info.html#adf28a4cbd1f9cdf329d26a831726aabf", null ]
 ];

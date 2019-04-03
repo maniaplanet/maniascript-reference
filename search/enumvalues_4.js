@@ -41,5 +41,6 @@ var searchData=
   ['externalbrowser',['ExternalBrowser',['../struct_c_ml_script.html#aed6dfd4a2b14d2308f90f63c43042feda4a616e2727145959887c4e838688e124',1,'CMlScript::ExternalBrowser()'],['../struct_c_mania_app.html#a4f785cb281aef2f121c90ad751222a02a47ebfc865daf324df63712f8de85e09f',1,'CManiaApp::ExternalBrowser()']]],
   ['externalcustomevent',['ExternalCustomEvent',['../struct_c_mania_app_event.html#a1196187d0374940a7a3a92767d774ac0a958467244d811ff110a07f426a95a514',1,'CManiaAppEvent']]],
   ['externalfromid',['ExternalFromId',['../struct_c_ml_script.html#aed6dfd4a2b14d2308f90f63c43042feda3f5a4f9da6c40467bded9ed462ebc759',1,'CMlScript']]],
-  ['extrude',['Extrude',['../struct_c_editor_mesh.html#abc85e532d322099837fe77712c2fd90ca6af170c34e3643e21aca07e3788a89cc',1,'CEditorMesh']]]
+  ['extrude',['Extrude',['../struct_c_editor_mesh.html#abc85e532d322099837fe77712c2fd90ca6af170c34e3643e21aca07e3788a89cc',1,'CEditorMesh']]],
+  ['extrudetranslation',['ExtrudeTranslation',['../struct_c_editor_mesh.html#a6714e5bf21b474ab2bdf740405c3dd3bada9121a869f3c405bfbf343414aa173d',1,'CEditorMesh']]]
 ];

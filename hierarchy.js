@@ -38,6 +38,8 @@ var hierarchy =
         [ "CXmlRpcEvent", "struct_c_xml_rpc_event.html", null ]
       ] ],
       [ "CBlock", "struct_c_block.html", null ],
+      [ "CBlockClip", "struct_c_block_clip.html", null ],
+      [ "CBlockClipList", "struct_c_block_clip_list.html", null ],
       [ "CBlockModelVariant", "struct_c_block_model_variant.html", [
         [ "CBlockModelVariantAir", "struct_c_block_model_variant_air.html", null ],
         [ "CBlockModelVariantGround", "struct_c_block_model_variant_ground.html", null ]
@@ -81,6 +83,7 @@ var hierarchy =
       [ "CInputManager", "struct_c_input_manager.html", null ],
       [ "CInputPad", "struct_c_input_pad.html", null ],
       [ "CItemAnchor", "struct_c_item_anchor.html", null ],
+      [ "CMacroblockInstance", "struct_c_macroblock_instance.html", null ],
       [ "CManiaApp", "struct_c_mania_app.html", [
         [ "CAnyEditorPlugin", "struct_c_any_editor_plugin.html", [
           [ "CEditorMainPlugin", "struct_c_editor_main_plugin.html", null ]

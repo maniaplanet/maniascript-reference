@@ -63,7 +63,7 @@ var searchData=
   ['shootradius',['ShootRadius',['../struct_c_sm_player_driver.html#a909c3bc596e830a8903f15c158551f3a',1,'CSmPlayerDriver']]],
   ['showlinenumbers',['ShowLineNumbers',['../struct_c_ml_text_edit.html#abc9899ccf39700f84f78ab0fa1f42cc3',1,'CMlTextEdit']]],
   ['showplacementgrid',['ShowPlacementGrid',['../struct_c_map_editor_plugin.html#ac35cb71390d45d5e0ffb55d2f2440af6',1,'CMapEditorPlugin']]],
-  ['size',['Size',['../struct_c_ml_control.html#a1a16b562de0be3435e44a61896756a57',1,'CMlControl::Size()'],['../struct_c_map.html#a33cecc018e75619d5773b81e50176b01',1,'CMap::Size()'],['../struct_c_editor_mesh.html#a038802bbd69c0676bb1bd221fa67f8e4',1,'CEditorMesh::Size()'],['../struct_c_block_model_variant.html#a3cf0045218daa2d8361f55e13b18dea9',1,'CBlockModelVariant::Size()']]],
+  ['size',['Size',['../struct_c_ml_control.html#a1a16b562de0be3435e44a61896756a57',1,'CMlControl::Size()'],['../struct_c_map.html#a33cecc018e75619d5773b81e50176b01',1,'CMap::Size()'],['../struct_c_editor_mesh.html#a038802bbd69c0676bb1bd221fa67f8e4',1,'CEditorMesh::Size()'],['../struct_c_block_clip_list.html#a934b7fe640f81a67a380e295ce324144',1,'CBlockClipList::Size()'],['../struct_c_block_model_variant.html#a3cf0045218daa2d8361f55e13b18dea9',1,'CBlockModelVariant::Size()']]],
   ['skiddingdistance',['SkiddingDistance',['../struct_c_tm_ml_player.html#a5ebd68b122b53d1ed8e1c77e715356ca',1,'CTmMlPlayer']]],
   ['skiddingduration',['SkiddingDuration',['../struct_c_tm_ml_player.html#ae4b28f8d0cfddf82eaddb127a29215fd',1,'CTmMlPlayer']]],
   ['skillpoints',['SkillPoints',['../struct_c_task_result___map_record.html#a7c68639a6a42cdd15b6a3cbe131367bf',1,'CTaskResult_MapRecord']]],

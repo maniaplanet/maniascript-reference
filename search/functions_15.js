@@ -13,14 +13,8 @@ var searchData=
   ['voxelspace_5fapplymaterialtovoxel',['VoxelSpace_ApplyMaterialToVoxel',['../struct_c_editor_mesh.html#a8cd3c2ea8f628a594b45bc0e1f12761e',1,'CEditorMesh']]],
   ['voxelspace_5fdeleteonevoxel',['VoxelSpace_DeleteOneVoxel',['../struct_c_editor_mesh.html#ad1866351d1651881c874bba50a0e34dd',1,'CEditorMesh']]],
   ['voxelspace_5fdeleteselection',['VoxelSpace_DeleteSelection',['../struct_c_editor_mesh.html#a38bda4e975fdc8b93f0e820e2cd0f9b6',1,'CEditorMesh']]],
-  ['voxelspace_5fdestroy',['VoxelSpace_Destroy',['../struct_c_editor_mesh.html#afe66b04201ce36706a19011d2a85d015',1,'CEditorMesh']]],
   ['voxelspace_5fgeneratemesh',['VoxelSpace_GenerateMesh',['../struct_c_editor_mesh.html#ab77800e70a07ac3ce205580f6f141cb2',1,'CEditorMesh']]],
-  ['voxelspace_5fget',['VoxelSpace_Get',['../struct_c_editor_mesh.html#ae959655f069dd7c8ef016457599f7ff2',1,'CEditorMesh']]],
-  ['voxelspace_5fgetfromface',['VoxelSpace_GetFromFace',['../struct_c_editor_mesh.html#ac43f56e2688d4c6decb9b4ad94ed5dcf',1,'CEditorMesh']]],
   ['voxelspace_5fgetvoxelscount',['VoxelSpace_GetVoxelsCount',['../struct_c_editor_mesh.html#a9fb3b5031686a7ef75776db8126bcfba',1,'CEditorMesh']]],
-  ['voxelspace_5finit',['VoxelSpace_Init',['../struct_c_editor_mesh.html#aea3a5ec8fe108a3b0f7045dd41fae937',1,'CEditorMesh']]],
   ['voxelspace_5fselectall',['VoxelSpace_SelectAll',['../struct_c_editor_mesh.html#a802724198a3bba954f2f6a5df40f7a6c',1,'CEditorMesh']]],
-  ['voxelspace_5fset',['VoxelSpace_Set',['../struct_c_editor_mesh.html#a4a15ebea368b46c5d352a93c0e196701',1,'CEditorMesh::VoxelSpace_Set(Int3 Pos)'],['../struct_c_editor_mesh.html#a64f64b8753907fe6ab70be114d9c50f4',1,'CEditorMesh::VoxelSpace_Set(Int3 Pos, Vec3 Color)']]],
-  ['voxelspace_5fsetvec3',['VoxelSpace_SetVec3',['../struct_c_editor_mesh.html#ac78984ab80bc44ef2073a7390cf6a76b',1,'CEditorMesh']]],
-  ['voxelspace_5funset',['VoxelSpace_Unset',['../struct_c_editor_mesh.html#afb12f9e309f8cd89045428aeb758ac97',1,'CEditorMesh']]]
+  ['voxelspace_5fsetvec3',['VoxelSpace_SetVec3',['../struct_c_editor_mesh.html#ac78984ab80bc44ef2073a7390cf6a76b',1,'CEditorMesh']]]
 ];

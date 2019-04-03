@@ -37,5 +37,6 @@ var searchData=
   ['volume',['Volume',['../struct_c_ml_media_player.html#a7bf7ab8c548be06cc656dc1277b29bb0',1,'CMlMediaPlayer::Volume()'],['../struct_c_audio_source.html#a5cd2e74e13365f0055b4a378578e5be4',1,'CAudioSource::Volume()']]],
   ['volumedb',['VolumedB',['../struct_c_audio_source.html#a5b0a2a0dfa9e0c5220f23b1cf24024b5',1,'CAudioSource']]],
   ['voxelspacecenter',['VoxelSpaceCenter',['../struct_c_editor_mesh.html#ac080a3e8abf7cff2cd25c71827dcd656',1,'CEditorMesh']]],
+  ['voxelspaceisinteractive',['VoxelSpaceIsInteractive',['../struct_c_editor_mesh.html#aae1d4f66cf0e23d860821083c657956c',1,'CEditorMesh']]],
   ['voxelspacestep',['VoxelSpaceStep',['../struct_c_editor_mesh.html#a155d4e7579cdd4f406b9516547f4a7c0',1,'CEditorMesh']]]
 ];

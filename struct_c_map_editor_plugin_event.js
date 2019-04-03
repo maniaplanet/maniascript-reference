@@ -48,6 +48,7 @@ var struct_c_map_editor_plugin_event =
       [ "CursorChange", "struct_c_map_editor_plugin_event.html#a01feeb2cc5bc4ea76858c05d14354e3da772b6492f99c70b03068d672ee860b4c", null ],
       [ "MapModified", "struct_c_map_editor_plugin_event.html#a01feeb2cc5bc4ea76858c05d14354e3da6c227053074acfd143ffab16d5daba3d", null ],
       [ "EditorInput", "struct_c_map_editor_plugin_event.html#a01feeb2cc5bc4ea76858c05d14354e3da5c864248a1a5a9cde6fbebe3acd17eb3", null ],
+      [ "MapSavedOrSaveCancelled", "struct_c_map_editor_plugin_event.html#a01feeb2cc5bc4ea76858c05d14354e3da2c53dc5cd205bf1325266224ebd69b40", null ],
       [ "EditAnchor", "struct_c_map_editor_plugin_event.html#a01feeb2cc5bc4ea76858c05d14354e3da7a3b3e00d90441f13f6c803fd77da6c3", null ],
       [ "EditObjectives", "struct_c_map_editor_plugin_event.html#a01feeb2cc5bc4ea76858c05d14354e3daaab28478168c77d2788b3e23bb269839", null ],
       [ "StartValidation", "struct_c_map_editor_plugin_event.html#a01feeb2cc5bc4ea76858c05d14354e3da64f111605f4c618845e91085de073a16", null ],
@@ -58,6 +59,7 @@ var struct_c_map_editor_plugin_event =
     [ "IsFromKeyboard", "struct_c_map_editor_plugin_event.html#a90f6f7285bf3d1b7d2e72017cf57b95b", null ],
     [ "IsFromMouse", "struct_c_map_editor_plugin_event.html#a5a387505c54792a0021461849a114d46", null ],
     [ "IsFromPad", "struct_c_map_editor_plugin_event.html#a2a7b73e500469e5a4d45bb4964f657fd", null ],
+    [ "MapSavedOrSaveCancelled", "struct_c_map_editor_plugin_event.html#ae28aaace9a19048911119d50eac926cf", null ],
     [ "OnlyScriptMetadataModified", "struct_c_map_editor_plugin_event.html#aa75e5b978d27492fdee167d2826e2318", null ],
     [ "Type", "struct_c_map_editor_plugin_event.html#a0c071e94cffebceeecd21b37eadc31c2", null ]
 ];

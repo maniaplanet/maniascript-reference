@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">ManiaScript Reference
-   &#160;<span id="projectnumber">2018-11</span>
+   &#160;<span id="projectnumber">2019-04</span>
    </div>
   </td>
  </tr>
@@ -317,7 +317,6 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 : <a class="el" href="struct_c_audio_manager.html#a68189bafad245a73f063c39f871b1f7ea2f88ab20557007566179c8554b92bac4">CAudioManager</a>
 , <a class="el" href="struct_c_block_model.html#a38143764f437576c59c72aa948fa0daba3f671bf982a3f9a257a8b90f83b64de8">CBlockModel</a>
 , <a class="el" href="struct_c_ml_script_ingame.html#a03f99561065dc005e6eeb89489e1d302a9bf3165d739d67f87aec2d7918259a88">CMlScriptIngame</a>
-, <a class="el" href="struct_c_tm_ml_player.html#a716ace0fafb01a2f865de77bed8ae2aaa04717e6869c7bf35ca8b08ce1e32a5ae">CTmMlPlayer</a>
 , <a class="el" href="struct_c_u_i_config.html#adbe295669674a531f7a99442f36ae8cfa853b2aa1588ff9b8b43e757f0730208b">CUIConfig</a>
 </li>
 <li>CheckpointInLap
@@ -404,6 +403,9 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 <li>ClearAllDelayedSoundsEvents()
 : <a class="el" href="struct_c_audio_manager.html#a61431ceb42efd0a09b411c76f9889b35">CAudioManager</a>
 </li>
+<li>ClearClips()
+: <a class="el" href="struct_c_block_clip_list.html#a56b4637480453ee2c7175a21ceef7a82">CBlockClipList</a>
+</li>
 <li>ClearLayerManialinkAction()
 : <a class="el" href="struct_c_u_i_config.html#a53f3c173e77834f21c682cf14f9b8d5d">CUIConfig</a>
 </li>
@@ -453,8 +455,18 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 <li>Clip
 : <a class="el" href="struct_c_ml_quad.html#a66ce971ec6287e81c095e77c9e79474eaa2dbf59509c5ce0fee6bc2a92eb776d0">CMlQuad</a>
 </li>
+<li>ClipboardSet()
+: <a class="el" href="struct_c_system_platform.html#a60186c9bf2d1097ccc563c963ea8616b">CSystemPlatform</a>
+</li>
+<li>ClipId
+: <a class="el" href="struct_c_block_clip.html#a2c003a6ac7df295649a80ec955c525db">CBlockClip</a>
+</li>
+<li>ClipList
+: <a class="el" href="struct_c_macroblock_instance.html#a612ba5d3db3deaff2eb3f2885e9e42ff">CMacroblockInstance</a>
+</li>
 <li>Clips
-: <a class="el" href="struct_c_block_unit_model.html#a4885b379851b18f7051fed675b535dc0">CBlockUnitModel</a>
+: <a class="el" href="struct_c_block_clip_list.html#a9d5cd505834e7a54a3536067b38df8a2">CBlockClipList</a>
+, <a class="el" href="struct_c_block_unit_model.html#a4885b379851b18f7051fed675b535dc0">CBlockUnitModel</a>
 </li>
 <li>ClipWindowActive
 : <a class="el" href="struct_c_ml_frame.html#a57699f940f49cb6856015c703f734958">CMlFrame</a>
@@ -649,23 +661,8 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 : <a class="el" href="struct_c_ml_control.html#a6b8e9390651d3c17ceaa90df1494c4ab">CMlControl</a>
 , <a class="el" href="struct_c_ml_script_event.html#a58496661f26a67810d2d6ed105d4342d">CMlScriptEvent</a>
 </li>
-<li>ControllerCount
-: <a class="el" href="struct_c_tm_ml_player.html#ac4ad61e4415d127a62a3a76b917b2a50">CTmMlPlayer</a>
-</li>
 <li>ControllerId
 : <a class="el" href="struct_c_input_pad.html#a81cf328886c3e23f4317833c36045797">CInputPad</a>
-</li>
-<li>ControllerId0
-: <a class="el" href="struct_c_tm_ml_player.html#a9e272d2ed0255baaecd5aeaa1f5ae7ff">CTmMlPlayer</a>
-</li>
-<li>ControllerId1
-: <a class="el" href="struct_c_tm_ml_player.html#a757de33c01523521d41338d5c495cc1d">CTmMlPlayer</a>
-</li>
-<li>ControllerId2
-: <a class="el" href="struct_c_tm_ml_player.html#accfd276fea9a9dec4212b12f69476fe1">CTmMlPlayer</a>
-</li>
-<li>ControllerId3
-: <a class="el" href="struct_c_tm_ml_player.html#ae8e0e1b814dc158badae0c0bbc741654">CTmMlPlayer</a>
 </li>
 <li>Controls
 : <a class="el" href="struct_c_ml_frame.html#a51b41d7e6f5385f4b09f07c42d4a5c52">CMlFrame</a>
@@ -686,14 +683,13 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 <li>CoopCheckpointCurController
 : <a class="el" href="struct_c_tm_ml_player.html#abce4cfc007d4155d62e4f72e0723b270">CTmMlPlayer</a>
 </li>
-<li>CoopMode
-: <a class="el" href="struct_c_tm_ml_player.html#aa6a1cbeced4b313fdd1fbcd29d5f1b57">CTmMlPlayer</a>
-</li>
 <li>CoopSymbiosysPercentTotal
 : <a class="el" href="struct_c_tm_ml_player.html#a29adcece1e3e5ab6c48a52566171392b">CTmMlPlayer</a>
 </li>
 <li>Coord
 : <a class="el" href="struct_c_block.html#a1da00af61e7275b7b67e5c4987266868">CBlock</a>
+, <a class="el" href="struct_c_block_clip.html#a99087d2f54ad3ee66f4e84329892edb9">CBlockClip</a>
+, <a class="el" href="struct_c_macroblock_instance.html#a26878afb2cd2dd414bc537601da35a4c">CMacroblockInstance</a>
 </li>
 <li>CoordsMax
 : <a class="el" href="struct_c_ml_graph.html#ab1cb269faa0978ebf887154ae19daf3e">CMlGraph</a>
@@ -743,8 +739,7 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 , <a class="el" href="struct_c_tm_mode_event.html#ac9740bcb1c7d12ee789cb98aba09d9faa203f39153ebadb69bd82489969cb2575">CTmModeEvent</a>
 </li>
 <li>Count
-: <a class="el" href="struct_c_editor_mesh.html#a0639a4d88c4adb38dd7d3a32965e7ed2a9646f9186f7510619fd24739c90dcded">CEditorMesh</a>
-, <a class="el" href="struct_c_task_result___natural_leader_board_info_list.html#a659aa42e3db898ce3e6b7a43f643a09e">CTaskResult_NaturalLeaderBoardInfoList</a>
+: <a class="el" href="struct_c_task_result___natural_leader_board_info_list.html#a659aa42e3db898ce3e6b7a43f643a09e">CTaskResult_NaturalLeaderBoardInfoList</a>
 , <a class="el" href="struct_c_task_result___real_leader_board_info_list.html#a40d4ba384fc6d3d22e8c8c9b55e5019e">CTaskResult_RealLeaderBoardInfoList</a>
 </li>
 <li>Countdown
@@ -763,22 +758,40 @@ $(document).ready(function(){initNavTree('functions_c.html','');});
 : <a class="el" href="struct_c_user.html#a1529db151c3e889c0e820bbd7dbb80bf">CUser</a>
 </li>
 <li>Create()
-: <a class="el" href="struct_c_parsing_manager.html#a35e80a69a015c84dfaebe4e2bb439c00">CParsingManager</a>
+: <a class="el" href="struct_c_parsing_manager.html#a3bdadcb2b9a6f9b1ef61bcf763edcb9d">CParsingManager</a>
+</li>
+<li>CreateAndAddClip()
+: <a class="el" href="struct_c_block_clip_list.html#a0fcc3a0b3a3936ea6af66f94353542b0">CBlockClipList</a>
 </li>
 <li>CreateBotPlayer()
-: <a class="el" href="struct_c_sm_mode.html#a4f9a113367fbf022f10804a800c66701">CSmMode</a>
+: <a class="el" href="struct_c_sm_mode.html#a460d0bdcc0d449dcdd7959d191654949">CSmMode</a>
+</li>
+<li>CreatedWithPartyEditor
+: <a class="el" href="struct_c_map_info.html#a678cbac771d5727d3628dfce4abeb7cc">CMapInfo</a>
 </li>
 <li>CreatedWithSimpleEditor
 : <a class="el" href="struct_c_map_info.html#aae84ebbbb33a259d3c919b5789e03ef0">CMapInfo</a>
 </li>
+<li>CreateFixedClipList()
+: <a class="el" href="struct_c_map_editor_plugin.html#a2668750ba5efca1a8c1f3171ba7bc82e">CMapEditorPlugin</a>
+</li>
+<li>CreateFrameClipList()
+: <a class="el" href="struct_c_map_editor_plugin.html#a96ea13ff403d03181a9ba874cfaf532e">CMapEditorPlugin</a>
+</li>
 <li>CreateGet()
-: <a class="el" href="struct_c_http_manager.html#a7987a5904142513920e8afe7e3d740c2">CHttpManager</a>
+: <a class="el" href="struct_c_http_manager.html#a2dd784250d9e2027fc49eb07d3e18940">CHttpManager</a>
+</li>
+<li>CreateMacroblockInstance()
+: <a class="el" href="struct_c_map_editor_plugin.html#abed00a27365f5da1940c8e569e4c6124">CMapEditorPlugin</a>
 </li>
 <li>CreateMusic()
 : <a class="el" href="struct_c_audio_manager.html#ab292a8285ddf155c523cec597cf40528">CAudioManager</a>
 </li>
 <li>CreatePost()
-: <a class="el" href="struct_c_http_manager.html#ac11e219d952b6df51a9701a55c70f161">CHttpManager</a>
+: <a class="el" href="struct_c_http_manager.html#a4ac0b5e57abd363e2c11aa71879da565">CHttpManager</a>
+</li>
+<li>CreatePostFile()
+: <a class="el" href="struct_c_http_manager.html#adceaf508877f901c949693f1a7aba2c6">CHttpManager</a>
 </li>
 <li>CreateServer()
 : <a class="el" href="struct_c_title_control.html#ad6337f8ce4775e4f6677eba92318e81d">CTitleControl</a>

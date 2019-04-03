@@ -1,6 +1,9 @@
 var searchData=
 [
   ['machinestate',['MachineState',['../struct_c_sm_object.html#a79bbf6b1ec11c922b46ba073b9c66dad',1,'CSmObject']]],
+  ['macroblockinstancecliplists',['MacroblockInstanceClipLists',['../struct_c_map_editor_plugin.html#a87f4a71681e28f14d9639aee3d90db1c',1,'CMapEditorPlugin']]],
+  ['macroblockinstances',['MacroblockInstances',['../struct_c_map_editor_plugin.html#ac6de9496e6ae41ba0961f88cb273afe7',1,'CMapEditorPlugin']]],
+  ['macroblockmodel',['MacroblockModel',['../struct_c_macroblock_instance.html#ab1105aa2e02cc32527d81bdde282a6e0',1,'CMacroblockInstance']]],
   ['macroblockmodels',['MacroblockModels',['../struct_c_map_editor_plugin.html#a6a98ad9e5a73cf65e84272bfe96f3af4',1,'CMapEditorPlugin']]],
   ['mainframe',['MainFrame',['../struct_c_ml_page.html#a0a07d682d09e754f95094c666d4afa15',1,'CMlPage']]],
   ['mainuserprofile',['MainUserProfile',['../struct_c_user_v2_manager.html#aebc85123af0d736dc7fd22b4ee3f5582',1,'CUserV2Manager']]],
@@ -14,6 +17,7 @@ var searchData=
   ['map',['Map',['../struct_c_map_editor_plugin.html#a2036a5f7291aea6f04a62460e9338d8a',1,'CMapEditorPlugin::Map()'],['../struct_c_mania_app_playground_common.html#a6b1cdd1867f48059e0367efb1135d601',1,'CManiaAppPlaygroundCommon::Map()'],['../struct_c_mode.html#a40ea2f714f0fe21173a8e8f7676ebe8a',1,'CMode::Map()'],['../struct_c_ml_script_ingame.html#a0763ed093b35d42f7a649a3bd1db4f6f',1,'CMlScriptIngame::Map()'],['../struct_c_playground_client.html#a3394944e456a991d2e323c19a71c7a93',1,'CPlaygroundClient::Map()']]],
   ['mapbases',['MapBases',['../struct_c_sm_mode.html#a1a555c03ec82299c8a8506cabc460b98',1,'CSmMode::MapBases()'],['../struct_c_sm_ml_script_ingame.html#aa3424b1d5159771eda30b1b78a2c183f',1,'CSmMlScriptIngame::MapBases()']]],
   ['mapcheckpointpos',['MapCheckpointPos',['../struct_c_tm_ml_script_ingame.html#abe648958c5091592b54a42ca980e2d8a',1,'CTmMlScriptIngame::MapCheckpointPos()'],['../struct_c_tm_mode.html#a0cfd4b0fb0d34174ae818b1148499ce0',1,'CTmMode::MapCheckpointPos()']]],
+  ['mapfilename',['MapFileName',['../struct_c_map_editor_plugin.html#abc60e1958c0517e9927159a7f3f3c4a4',1,'CMapEditorPlugin']]],
   ['mapfinishlinepos',['MapFinishLinePos',['../struct_c_tm_ml_script_ingame.html#ad39253045da27da2bea70da32d11fae3',1,'CTmMlScriptIngame::MapFinishLinePos()'],['../struct_c_tm_mode.html#a8a08ad9a8e395df92946c1bf0e9c9eab',1,'CTmMode::MapFinishLinePos()']]],
   ['mapgroups',['MapGroups',['../struct_c_campaign.html#a9f310edebd5689f5a9727ff73908ee84',1,'CCampaign']]],
   ['mapinfo',['MapInfo',['../struct_c_server_plugin.html#a90607d7f8aaf2f29dddf61963323b58f',1,'CServerPlugin::MapInfo()'],['../struct_c_map.html#a344d1fd0dbf77b0b033cc9a5d5bc1963',1,'CMap::MapInfo()'],['../struct_c_high_score_comparison.html#a90d927c269d825cd07d2ea05567a5fc2',1,'CHighScoreComparison::MapInfo()']]],
@@ -34,6 +38,7 @@ var searchData=
   ['mapplayermodelname',['MapPlayerModelName',['../struct_c_mode.html#a26ab6f87b224ac44aff93ec041e1fe8b',1,'CMode']]],
   ['mapposition',['MapPosition',['../struct_c_ml_minimap.html#a7f05d7a1744527fa90f0a71dafb9797e',1,'CMlMinimap']]],
   ['maprecordlist',['MapRecordList',['../struct_c_task_result___map_record_list.html#abdeb2d6145830ed6935526ba47708152',1,'CTaskResult_MapRecordList']]],
+  ['mapsavedorsavecancelled',['MapSavedOrSaveCancelled',['../struct_c_map_editor_plugin_event.html#ae28aaace9a19048911119d50eac926cf',1,'CMapEditorPluginEvent']]],
   ['mapstartlinepos',['MapStartLinePos',['../struct_c_tm_ml_script_ingame.html#ab932da9483be44500a4d3838c0e6ebc5',1,'CTmMlScriptIngame::MapStartLinePos()'],['../struct_c_tm_mode.html#a7db620e609b3c13f3e9936d745e5a14a',1,'CTmMode::MapStartLinePos()']]],
   ['mapstyle',['MapStyle',['../struct_c_map.html#abcb1909a649ff5d07f41406b158ac249',1,'CMap::MapStyle()'],['../struct_c_map_info.html#afa4a4d042723c9bbdbf0a9f93ef5c861',1,'CMapInfo::MapStyle()']]],
   ['maptype',['MapType',['../struct_c_map.html#a071cb989a9e5d75907f5472d6ae1c3f0',1,'CMap::MapType()'],['../struct_c_map_info.html#a5489a717fa5c3ebe9cf8e265a4720461',1,'CMapInfo::MapType()']]],
@@ -50,7 +55,6 @@ var searchData=
   ['materialnames',['MaterialNames',['../struct_c_editor_mesh.html#ab1e59b5ec03b71b2dbcd3ad3704e28f9',1,'CEditorMesh']]],
   ['materialsupdateid',['MaterialsUpdateId',['../struct_c_editor_mesh.html#aba24658c13e16b156f02bdaea13fa56c',1,'CEditorMesh']]],
   ['max',['Max',['../struct_c_sm_map_gauge.html#a7e0f4f16d9fcb8e5caa0d333309ecff0',1,'CSmMapGauge::Max()'],['../struct_c_sm_gauge.html#acac22590814af9ac314f14f226d38564',1,'CSmGauge::Max()']]],
-  ['maxiaircontrol',['MaxiAirControl',['../struct_c_tm_ml_player.html#a97dca2751603958ac2f43c8300b23dec',1,'CTmMlPlayer']]],
   ['maxline',['MaxLine',['../struct_c_ml_entry.html#a775ebd5b6fc9444e1668a516493b1945',1,'CMlEntry::MaxLine()'],['../struct_c_ml_text_edit.html#aff381e2a9cc3ce91d74c48fe5494ee37',1,'CMlTextEdit::MaxLine()'],['../struct_c_ml_label.html#a418600a0d0c804862b9875222c32620e',1,'CMlLabel::MaxLine()']]],
   ['maxplayercount',['MaxPlayerCount',['../struct_c_server_info.html#ac24d409d7c586e183f115ddb0566c628',1,'CServerInfo']]],
   ['maxspectatorcount',['MaxSpectatorCount',['../struct_c_server_info.html#ad7ed2e4a14e82cf7bfcac1a160aaadd5',1,'CServerInfo']]],
@@ -59,7 +63,6 @@ var searchData=
   ['medalghost_5fshowsilver',['MedalGhost_ShowSilver',['../struct_c_tm_mode.html#a714d5ac1fe5b60c593e897a985371e9b',1,'CTmMode']]],
   ['mediatrackingameclips',['MediatrackIngameClips',['../struct_c_map_editor_plugin.html#a567adec5fff469aef04f0c9d1c28d3f5',1,'CMapEditorPlugin']]],
   ['mediatrackingameeditedclipindex',['MediatrackIngameEditedClipIndex',['../struct_c_map_editor_plugin.html#a62860929623ea373d90fb70e6e0469ea',1,'CMapEditorPlugin']]],
-  ['mediatrackingameisscriptclips',['MediatrackIngameIsScriptClips',['../struct_c_map_editor_plugin.html#a194d63dbe498c7f4855075656df74cd7',1,'CMapEditorPlugin']]],
   ['menu',['Menu',['../struct_c_input_pad.html#a219ba4142fe911c3646760175e4993f7',1,'CInputPad']]],
   ['menunavaction',['MenuNavAction',['../struct_c_mania_app_event.html#a8f1c91e6bc7d11f5ed6c9c3010d37d71',1,'CManiaAppEvent::MenuNavAction()'],['../struct_c_ml_script_event.html#a36fc0bce619bdca71a9571e8ad3cdf84',1,'CMlScriptEvent::MenuNavAction()']]],
   ['menus_5fbgreplayfilename',['Menus_BgReplayFileName',['../struct_c_pack_creator_title_info.html#a5a2fb789149a460e28cbab73addbf62a',1,'CPackCreatorTitleInfo']]],
@@ -93,5 +96,6 @@ var searchData=
   ['mousey',['MouseY',['../struct_c_ml_script.html#aff8e3d0040a9f2f1e2bee75f564d9209',1,'CMlScript']]],
   ['multiasynclevel',['MultiAsyncLevel',['../struct_c_task_result___map_record.html#a58d015b38835567f864813c4b3f5ec95',1,'CTaskResult_MapRecord']]],
   ['music',['Music',['../struct_c_ml_media_player.html#a6f3a279d620394044fba9a58eac2d8aa',1,'CMlMediaPlayer']]],
-  ['musicfolder',['MusicFolder',['../struct_c_pack_creator_title_info.html#a0b914e206c56eb2748abcc8c6a80b4a5',1,'CPackCreatorTitleInfo']]]
+  ['musicfolder',['MusicFolder',['../struct_c_pack_creator_title_info.html#a0b914e206c56eb2748abcc8c6a80b4a5',1,'CPackCreatorTitleInfo']]],
+  ['mustclearlastsavebuffer',['MustClearLastSaveBuffer',['../struct_c_editor_mesh.html#abe8e7649614449e9c4bd78da1f1c3917',1,'CEditorMesh']]]
 ];

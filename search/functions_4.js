@@ -43,7 +43,7 @@ var searchData=
   ['editedmesh_5fsimplify',['EditedMesh_Simplify',['../struct_c_editor_mesh.html#a7107580a72854b2a9a23ac0c0ac357c7',1,'CEditorMesh']]],
   ['editedplaygroundhud_5fsetpreviewcontext',['EditedPlaygroundHud_SetPreviewContext',['../struct_c_editor_module.html#ae67e3935d9f506cd634b0477443eab92',1,'CEditorModule']]],
   ['editghosts',['EditGhosts',['../struct_c_title_control.html#a6b73d53f3041b129bd44c3ead4598685',1,'CTitleControl']]],
-  ['editionbox_5fsetscale',['EditionBox_SetScale',['../struct_c_editor_mesh.html#a8a1a99b5dd5f2533f23903cdf25d1859',1,'CEditorMesh']]],
+  ['editionbox_5fsetstep',['EditionBox_SetStep',['../struct_c_editor_mesh.html#a5d215f62be5e251ed3c32950f0b6a4dc',1,'CEditorMesh']]],
   ['editmap',['EditMap',['../struct_c_title_control.html#a69d6e9d92efdc833ac82c3e0ceae9e4c',1,'CTitleControl']]],
   ['editmediatrackingame',['EditMediatrackIngame',['../struct_c_map_editor_plugin.html#a76b40240f9ddf66a3ed8c2e863c8d049',1,'CMapEditorPlugin']]],
   ['editnewmap',['EditNewMap',['../struct_c_title_control.html#a2da11626834cfa223d4f277f50e7fcf9',1,'CTitleControl::EditNewMap(Text Environment, Text Decoration, Text ModNameOrUrl, Text PlayerModel, Text MapType, Text EditorPluginScript, Text EditorPluginArgument)'],['../struct_c_title_control.html#a1d3c887ba074edd491926f5be3fc2556',1,'CTitleControl::EditNewMap(Text Environment, Text Decoration, Text ModNameOrUrl, Text PlayerModel, Text MapType, Boolean UseSimpleEditor, Text EditorPluginScript, Text EditorPluginArgument)']]],

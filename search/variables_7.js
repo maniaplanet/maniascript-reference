@@ -19,6 +19,7 @@ var searchData=
   ['hasstart',['HasStart',['../struct_c_macroblock_model.html#aceebc605bb79c0cf4a55505bc4102470',1,'CMacroblockModel']]],
   ['hassucceeded',['HasSucceeded',['../struct_c_task_result.html#a8be2910c13ee628ebb587c3514769b2a',1,'CTaskResult']]],
   ['height',['Height',['../struct_c_sm_mode_event.html#a001d81a08db9e6ce16b073b6793894ab',1,'CSmModeEvent']]],
+  ['hidealwayscursordirectionalarrow',['HideAlwaysCursorDirectionalArrow',['../struct_c_map_editor_plugin.html#a8919b3bcab10846a9a20c75f99022b31',1,'CMapEditorPlugin']]],
   ['hideblockhelpers',['HideBlockHelpers',['../struct_c_map_editor_plugin.html#a72b51d9f92a021f0cf72942a0b7ee87a',1,'CMapEditorPlugin']]],
   ['hideeditorinterface',['HideEditorInterface',['../struct_c_map_editor_plugin.html#a4a7226aa7020196a0d3a9206dea026cf',1,'CMapEditorPlugin']]],
   ['hideopponents',['HideOpponents',['../struct_c_tm_mode.html#aae6eb904f8bcfb1f63c1dd43174088dd',1,'CTmMode']]],

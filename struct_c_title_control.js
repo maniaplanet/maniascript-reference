@@ -56,6 +56,7 @@ var struct_c_title_control =
     [ "PlayMultiOnSameScreen", "struct_c_title_control.html#ae7951f8ef6e9de5b354ff76fa95cb492", null ],
     [ "PlaySplitScreen", "struct_c_title_control.html#a35c05536f278e39c4e907c753e090523", null ],
     [ "PlaySplitScreen", "struct_c_title_control.html#aa35df40c8a435c00ae7e8caf4a61fc2e", null ],
+    [ "ProcessManiaCodeXml", "struct_c_title_control.html#acc15667bedcb664094bb06200a14f6de", null ],
     [ "PublishFile", "struct_c_title_control.html#a744c709b95e04ef723f4b2ce586999aa", null ],
     [ "Quit", "struct_c_title_control.html#aae28f86e1b77b1b76a2baa3e3c4e5520", null ],
     [ "ViewReplay", "struct_c_title_control.html#a3ef9b99ddf6ab0dabf77b2c80d25400b", null ],

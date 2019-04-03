@@ -5,6 +5,7 @@ var struct_c_http_manager =
     [ "CreateGet", "struct_c_http_manager.html#a2dd784250d9e2027fc49eb07d3e18940", null ],
     [ "CreatePost", "struct_c_http_manager.html#a4ac0b5e57abd363e2c11aa71879da565", null ],
     [ "CreatePost", "struct_c_http_manager.html#ac11e219d952b6df51a9701a55c70f161", null ],
+    [ "CreatePostFile", "struct_c_http_manager.html#adceaf508877f901c949693f1a7aba2c6", null ],
     [ "Destroy", "struct_c_http_manager.html#ac684634a02c187302e20d748a342db98", null ],
     [ "IsValidUrl", "struct_c_http_manager.html#a902d8cc9f8dbffe29bec2fe016fb5a13", null ],
     [ "AutomaticHeaders_Timezone", "struct_c_http_manager.html#a0ef46bc2c718a656b2926688e72efcd6", null ],

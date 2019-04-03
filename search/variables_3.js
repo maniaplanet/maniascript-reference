@@ -19,7 +19,7 @@ var searchData=
   ['dialog_5faborted',['Dialog_Aborted',['../struct_c_title_edition.html#af773addd9aed272d00c828772f73ef65',1,'CTitleEdition']]],
   ['dialog_5fisfinished',['Dialog_IsFinished',['../struct_c_title_edition.html#a52a8a779c8eaef5b6d81e885a900c2b8',1,'CTitleEdition']]],
   ['dialog_5fsuccess',['Dialog_Success',['../struct_c_title_edition.html#a77ea63059339fc42065a5f63be95f29f',1,'CTitleEdition']]],
-  ['dir',['Dir',['../struct_c_mode_vehicle.html#aa4666960d2a47f0b0d311f424ec7fc81',1,'CModeVehicle']]],
+  ['dir',['Dir',['../struct_c_macroblock_instance.html#a9ebb06afdc3e53a11fb23d3d3fecf314',1,'CMacroblockInstance::Dir()'],['../struct_c_mode_vehicle.html#aa4666960d2a47f0b0d311f424ec7fc81',1,'CModeVehicle::Dir()'],['../struct_c_block_clip.html#a93da9192152fe79b0f03a9cadecd480d',1,'CBlockClip::Dir()']]],
   ['direction',['Direction',['../struct_c_block.html#a862728dcc69b7e16a340bbb01f6c911f',1,'CBlock::Direction()'],['../struct_c_sm_action_event.html#a9b9b25a4dc01baa57ff0efeac72080d8',1,'CSmActionEvent::Direction()']]],
   ['dirfront',['DirFront',['../struct_c_sm_landmark.html#a91b6fda563750f31b852c58d8b64dbd5',1,'CSmLandmark']]],
   ['disableautounderground',['DisableAutoUnderground',['../struct_c_ml_minimap.html#a5d123249e112f1acfac35cda95acef2b',1,'CMlMinimap']]],

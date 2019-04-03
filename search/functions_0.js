@@ -33,13 +33,7 @@ var searchData=
   ['anim_5fstop',['Anim_Stop',['../struct_c_sm_action.html#aed910cb1bcbd90d6f49318d59f487173',1,'CSmAction']]],
   ['asin',['Asin',['../namespace_math_lib.html#acdbca57896208c8b17afce00c1fe7911',1,'MathLib']]],
   ['atan2',['Atan2',['../namespace_math_lib.html#a4aab0176feec2947f129613deb109df5',1,'MathLib']]],
-  ['atlasselection_5fcreate',['AtlasSelection_Create',['../struct_c_editor_mesh.html#afbceabfcae43d742bfd5e35a5a7099f5',1,'CEditorMesh']]],
-  ['atlasselection_5fgetatlasselectionhandlefromset',['AtlasSelection_GetAtlasSelectionHandleFromSet',['../struct_c_editor_mesh.html#a625bd4ee3bf37fb3269f0b296d4e8a20',1,'CEditorMesh']]],
-  ['atlasselections_5faddatlasselectionfromset',['AtlasSelections_AddAtlasSelectionFromSet',['../struct_c_editor_mesh.html#a8960a8005ed5ee16b1aae417193d32ee',1,'CEditorMesh']]],
-  ['atlasselections_5fgetatlasselectionafterselection',['AtlasSelections_GetAtlasSelectionAfterSelection',['../struct_c_editor_mesh.html#ab78ee853480ec66b657c78f6c60dfb9f',1,'CEditorMesh']]],
-  ['atlasselections_5fsubatlasselection',['AtlasSelections_SubAtlasSelection',['../struct_c_editor_mesh.html#a0d14f71021f51916ad16663cac989824',1,'CEditorMesh']]],
-  ['atlasselections_5ftextureatlasselection',['AtlasSelections_TextureAtlasSelection',['../struct_c_editor_mesh.html#a75505d3a1ad00fb67de4f682efa77d22',1,'CEditorMesh']]],
   ['authentication_5fgettoken',['Authentication_GetToken',['../struct_c_mania_app_title.html#a3f66834465c370dd8bd0fce66d84a718',1,'CManiaAppTitle::Authentication_GetToken()'],['../struct_c_server_admin.html#a8d886f7b869ce06419a66d2ca0693173',1,'CServerAdmin::Authentication_GetToken()']]],
-  ['autosave',['AutoSave',['../struct_c_map_editor_plugin.html#a5b5f078d778759736a1d0601af4e77a3',1,'CMapEditorPlugin::AutoSave()'],['../struct_c_editor_mesh.html#ac87351602340a92ac2c0f5d621711eb2',1,'CEditorMesh::AutoSave()']]],
+  ['autosave',['AutoSave',['../struct_c_map_editor_plugin.html#a5b5f078d778759736a1d0601af4e77a3',1,'CMapEditorPlugin::AutoSave()'],['../struct_c_editor_mesh.html#ad3abf50d36f4e7470ac06513b8368ff9',1,'CEditorMesh::AutoSave()']]],
   ['autoteambalance',['AutoTeamBalance',['../struct_c_server_admin.html#ad8d2ecb41971f0e126137fc759478da9',1,'CServerAdmin::AutoTeamBalance()'],['../struct_c_mode.html#a901a6935241251fdff75498a029cf153',1,'CMode::AutoTeamBalance()']]]
 ];

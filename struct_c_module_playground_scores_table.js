@@ -35,9 +35,11 @@ var struct_c_module_playground_scores_table =
       [ "SMPoints", "struct_c_module_playground_scores_table.html#af61929e75cced81edd9f8efb38772310aa1620083f895317203583e68bafa913a", null ],
       [ "SMRoundPoints", "struct_c_module_playground_scores_table.html#af61929e75cced81edd9f8efb38772310a144ccf41c9c4255b85f9f8e23c685fbf", null ]
     ] ],
+    [ "ResetColor", "struct_c_module_playground_scores_table.html#abcee3355991351accd3adaf07416a018", null ],
     [ "ResetCustomColumns", "struct_c_module_playground_scores_table.html#ab9607392fa7b764fdaa9c304fa406393", null ],
     [ "ResetCustomColumns", "struct_c_module_playground_scores_table.html#a0fdea974f85edc0531ade31f2e11a5e7", null ],
     [ "Scores_Sort", "struct_c_module_playground_scores_table.html#a137d405f10d7b438fa2346d844167077", null ],
+    [ "SetColor", "struct_c_module_playground_scores_table.html#a93e88f777fa319099782b3062474324f", null ],
     [ "SetColumnValue", "struct_c_module_playground_scores_table.html#ac333c4821a86551ce5cb2d11580ee6b2", null ],
     [ "SetColumnValue", "struct_c_module_playground_scores_table.html#ae96b48131cde0e5904d98fdbcb8f6016", null ],
     [ "SetColumnValue", "struct_c_module_playground_scores_table.html#a8979aeeb58bea643e3fe9a209fdcad14", null ],

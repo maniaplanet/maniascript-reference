@@ -13,6 +13,7 @@ var struct_c_system_platform =
       [ "US", "struct_c_system_platform.html#a85072762ead4bd1f616ecccd7adf41e5acbdc2a851f9b0a79843673c5b4fd217f", null ],
       [ "JP", "struct_c_system_platform.html#a85072762ead4bd1f616ecccd7adf41e5a30fffc3c396b28cf069aa3ae2b907f03", null ]
     ] ],
+    [ "ClipboardSet", "struct_c_system_platform.html#a60186c9bf2d1097ccc563c963ea8616b", null ],
     [ "CurrentLocalDate", "struct_c_system_platform.html#a23d8a30f1e00b3dc0b21b5971301d269", null ],
     [ "CurrentLocalDateText", "struct_c_system_platform.html#a4745e3287b1258bc37d526846a34112c", null ],
     [ "CurrentTimezone", "struct_c_system_platform.html#a7259c69480f1403c255fad49eab12750", null ],

@@ -23,5 +23,6 @@ var struct_c_server_admin =
     [ "Authentication_ErrorCode", "struct_c_server_admin.html#a262475ca6717985548213009d12883cc", null ],
     [ "Authentication_GetTokenResponseReceived", "struct_c_server_admin.html#aca0a53a7bcd7753af6aeaa9837030227", null ],
     [ "Authentication_Token", "struct_c_server_admin.html#a24c9abdeba1a6ab7d3ced9f856cb1a01", null ],
+    [ "IsDisableChangeTeams", "struct_c_server_admin.html#a0b79c6c2896dc8644eb17c054fe03006", null ],
     [ "ServerInfo", "struct_c_server_admin.html#ab7411983c8ea521bb38dff66d7801628", null ]
 ];

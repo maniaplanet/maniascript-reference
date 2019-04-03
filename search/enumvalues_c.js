@@ -12,6 +12,7 @@ var searchData=
   ['maploaded',['MapLoaded',['../struct_c_server_plugin_event.html#a8c500907f6d8ee82888eb35cec35ac8da963da648cb21857af42d86503dd4aa0e',1,'CServerPluginEvent']]],
   ['mapmodified',['MapModified',['../struct_c_map_editor_plugin_event.html#a01feeb2cc5bc4ea76858c05d14354e3da6c227053074acfd143ffab16d5daba3d',1,'CMapEditorPluginEvent']]],
   ['maps',['Maps',['../struct_c_module_menu_file_browser.html#aca76bd62cbc800b6c36debb675eefa49afcd18b13c253b7ce540b21028c0b3302',1,'CModuleMenuFileBrowser']]],
+  ['mapsavedorsavecancelled',['MapSavedOrSaveCancelled',['../struct_c_map_editor_plugin_event.html#a01feeb2cc5bc4ea76858c05d14354e3da2c53dc5cd205bf1325266224ebd69b40',1,'CMapEditorPluginEvent']]],
   ['mapstyle',['MapStyle',['../struct_c_map_editor_plugin_event.html#a4c735d4b86e22b5eb6954ee00c8015f4abe9ed4f05f5ce5463bd0aea64a88827f',1,'CMapEditorPluginEvent']]],
   ['mapunloaded',['MapUnloaded',['../struct_c_server_plugin_event.html#a8c500907f6d8ee82888eb35cec35ac8da3ce79a51ddc300838c33ad028e490b03',1,'CServerPluginEvent']]],
   ['mapunloadrequested',['MapUnloadRequested',['../struct_c_server_plugin_event.html#a8c500907f6d8ee82888eb35cec35ac8dab731a5f462bc6fc363609850e75f4e3c',1,'CServerPluginEvent']]],

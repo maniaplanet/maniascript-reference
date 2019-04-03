@@ -127,6 +127,5 @@ var searchData=
   ['build_5fisgenerated',['Build_IsGenerated',['../struct_c_pack_creator.html#a17ee64b81aa3e2ff9ed26cea6c140444',1,'CPackCreator']]],
   ['bumps',['Bumps',['../struct_c_tm_ml_player.html#a401bed8af0fd51ee8a0b92afc09bfab8aea5b1469f6fad7b818db766ca245a44d',1,'CTmMlPlayer']]],
   ['button',['Button',['../struct_c_input_event.html#aa7d35d365f5e79a2501ee0f9f07e37dd',1,'CInputEvent']]],
-  ['buttonevents',['ButtonEvents',['../struct_c_input_pad.html#a4a3189f86d63ee8dbe7a76842d15b274',1,'CInputPad']]],
-  ['buttonsmashfrenzy',['ButtonSmashFrenzy',['../struct_c_tm_ml_player.html#ad2c2147574d7bddb8d6cb46b33e08b16',1,'CTmMlPlayer']]]
+  ['buttonevents',['ButtonEvents',['../struct_c_input_pad.html#a4a3189f86d63ee8dbe7a76842d15b274',1,'CInputPad']]]
 ];
