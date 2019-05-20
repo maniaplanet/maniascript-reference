@@ -44,9 +44,6 @@ var NAVTREE =
         [ "Enumerations", "functions_enum.html", null ],
         [ "Enumerator", "functions_eval.html", "functions_eval" ]
       ] ]
-    ] ],
-    [ "Files", "files.html", [
-      [ "File List", "files.html", "files_dup" ]
     ] ]
   ] ]
 ];
@@ -54,23 +51,23 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"functions_vars_n.html",
-"struct_c_base_const_event.html#a4bc1e96d742a128d291131fa60fbcd90",
-"struct_c_editor_mesh.html#a3946c98d1bed40fa4bfff40e0b3a21b7",
-"struct_c_editor_mesh.html#ae5864ca1fd0c91125a856db512395f5b",
-"struct_c_input_pad.html#aceae22fce8fd6c51d929c2a243946e41a782be0ca81ab5e2e61ad02d4c63e1e7b",
-"struct_c_map_editor_plugin.html#a55ed23d2c05c968552ecebf3d5be7741",
-"struct_c_map_info.html#a23adf16939b96a596fc09f20abcbf4c8",
-"struct_c_ml_quad.html#a66ce971ec6287e81c095e77c9e79474eaa2dbf59509c5ce0fee6bc2a92eb776d0",
-"struct_c_mode.html#ab880ca8eaaec656afdbfe47277d2de5e",
-"struct_c_natural_leader_board_info.html#af2f5c04ff372f005777217e6310a96c0",
-"struct_c_server_info.html#a95c0505dc416a5e58a2750467723722b",
-"struct_c_sm_mode.html#a237329255405f2a84967a1303fe63530",
-"struct_c_sm_player.html#aa3810453ccec13df1514913bc24b078a",
-"struct_c_title_control.html#a02bbfb711bce94bf41725ef7dad5b8a5",
-"struct_c_tm_mode.html#a0440710dc01ed0ebce964975ab2fc261a8f17240ab3438dbfeb4c36371e166e30",
-"struct_c_u_i_config.html#a0f02c555590f68dfb30a60932c78a562a2e5673f9a7c6af62f71b7c838b227d85",
-"struct_c_u_i_layer.html#a9ba7c68a8d9a89211a9cceedee25590da0be693c43f89aeaada59bd27476208ab"
+"struct_c_audio_manager.html#a68189bafad245a73f063c39f871b1f7ea7fe920a70a665e60f2097334e0767fd0",
+"struct_c_editor_event.html#a991b45df4bb1de4750259553e55ab9b6a4d447306ff0695f369fa490e8e3557db",
+"struct_c_editor_mesh.html#a997fa404c0299d8d1836f09564303dad",
+"struct_c_input_event.html#a126a2ddd3314aa59441a40ba7a8ac1b5a84d7da75614377ae0bd427b14f53c3b0",
+"struct_c_mania_app_title.html#ac9799d9e4935c0c9455184afbd9a3e08",
+"struct_c_map_editor_plugin.html#ada0ae2162612c9b27b3d5faee0a579af",
+"struct_c_ml_file_entry.html#a248a5b1dda07eab57583c5b75cf81015",
+"struct_c_ml_script_ingame.html#aac12864de3cd6767495ac0ca72e25bd6",
+"struct_c_module_playground_hud_model.html#a03f8c952d32724797230b30270fcd54e",
+"struct_c_real_leader_board_info.html#aa86961e3a15fc93114bd9b6bcb8a40ec",
+"struct_c_sm_block.html",
+"struct_c_sm_mode_event.html#ae3ca5df8099d630379fbd6f8d6697717a4eb62a268f6d63eac8faa131f5395c31",
+"struct_c_task_result.html#afe64aff9fb277ce73ce65724263078df",
+"struct_c_tm_ml_player.html#a477970c1f9ef2d9a294bff1ea2edf227a8c15d88abbb05e61add688faf9e83b19",
+"struct_c_tm_mode_event.html#ac9740bcb1c7d12ee789cb98aba09d9faa5b3996d9896325e9d339f7df749ee383",
+"struct_c_u_i_config.html#adbe295669674a531f7a99442f36ae8cfa42ed6bf886864f679acf305de77604f0",
+"struct_c_user_v2_profile.html#af63e6596de7f99e526e96c011267ae7aa9732eaae308320474118348590cbe6c7"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

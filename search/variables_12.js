@@ -89,6 +89,7 @@ var searchData=
   ['spectatorforcedtarget',['SpectatorForcedTarget',['../struct_c_u_i_config.html#a82be715996812d090f1ffff05c34625b',1,'CUIConfig']]],
   ['spectatorobservermode',['SpectatorObserverMode',['../struct_c_u_i_config.html#ae487c67ad6a4e0dcf406c427144350fa',1,'CUIConfig']]],
   ['spectators',['Spectators',['../struct_c_server_plugin.html#a7755ba8bcc727a4079397fa4cad48612',1,'CServerPlugin::Spectators()'],['../struct_c_sm_mode.html#a0fd7e36e3328caaa96b40011c93062d9',1,'CSmMode::Spectators()'],['../struct_c_tm_mode.html#a143692c7cc1ba2563021f09db65fbdfc',1,'CTmMode::Spectators()']]],
+  ['spectatortimeshift',['SpectatorTimeshift',['../struct_c_tm_ml_script_ingame.html#a85f7308fad1ff2beaa2718da574317e5',1,'CTmMlScriptIngame']]],
   ['speed',['Speed',['../struct_c_sm_player.html#a987d5af5780578887aa7bccab8c4caec',1,'CSmPlayer::Speed()'],['../struct_c_tm_ml_player.html#a66712ca155545ab7f9bd20f1094f4eed',1,'CTmMlPlayer::Speed()'],['../struct_c_tm_player.html#a76b1748c7472869b6d8fd19268263a9d',1,'CTmPlayer::Speed()'],['../struct_c_tm_mode_event.html#a1bcb189dc23a8d78d11b68a4af49c466',1,'CTmModeEvent::Speed()'],['../struct_c_sm_map_gauge.html#a66f5d339297b3f2d34c402317a2b3b44',1,'CSmMapGauge::Speed()'],['../struct_c_sm_gauge.html#ac7752d822a70e9369c99b0ab67fb5c59',1,'CSmGauge::Speed()']]],
   ['speedmeter',['SpeedMeter',['../struct_c_module_playground_hud.html#a6c8eea79919c3d9f5d44f6642608d4f7',1,'CModulePlaygroundHud']]],
   ['speedpower',['SpeedPower',['../struct_c_sm_player.html#aa285ce086cbe809bc45fed1edd2c1c5b',1,'CSmPlayer']]],

@@ -26,6 +26,7 @@ var searchData=
   ['scrollbumpright',['ScrollBumpRight',['../struct_c_ml_frame.html#a41446192b16ed6429c52c5ccf64d921f',1,'CMlFrame']]],
   ['scrollbumptop',['ScrollBumpTop',['../struct_c_ml_frame.html#aa482c6bc2f95c85f4981c33ca6c69ad7',1,'CMlFrame']]],
   ['scrolltocontrol',['ScrollToControl',['../struct_c_ml_page.html#a1a3b08f9a354a98a8fa1bba5c53bc8e4',1,'CMlPage']]],
+  ['selection_5finvert',['Selection_Invert',['../struct_c_editor_mesh.html#adfe8bb55cec00bab6914ca285a94063a',1,'CEditorMesh']]],
   ['selection_5fredo',['Selection_Redo',['../struct_c_editor_mesh.html#a2292ce880790404fefab103778d7316a',1,'CEditorMesh']]],
   ['selection_5fundo',['Selection_Undo',['../struct_c_editor_mesh.html#aa4d5a54b531f557c1c41daed6cc4902d',1,'CEditorMesh']]],
   ['selectionset_5fselectall',['SelectionSet_SelectAll',['../struct_c_editor_mesh.html#aaad04b502a925b6ab8d678e995017122',1,'CEditorMesh']]],

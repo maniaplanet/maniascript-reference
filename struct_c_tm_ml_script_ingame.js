@@ -13,5 +13,6 @@ var struct_c_tm_ml_script_ingame =
     [ "NbLaps", "struct_c_tm_ml_script_ingame.html#ac56e1f4e902549bf1d03c415a06a7dc6", null ],
     [ "Players", "struct_c_tm_ml_script_ingame.html#a26a4da20427cffff0fd84b0aa4c3470f", null ],
     [ "RaceEvents", "struct_c_tm_ml_script_ingame.html#af538ce3a57fee85417b715bcea0c0c5f", null ],
-    [ "Scores", "struct_c_tm_ml_script_ingame.html#a9ec4581b94fda15f6f79ca46c03b3d0a", null ]
+    [ "Scores", "struct_c_tm_ml_script_ingame.html#a9ec4581b94fda15f6f79ca46c03b3d0a", null ],
+    [ "SpectatorTimeshift", "struct_c_tm_ml_script_ingame.html#a85f7308fad1ff2beaa2718da574317e5", null ]
 ];

@@ -1,6 +1,11 @@
 var searchData=
 [
   ['hackcamhmddisabled',['HackCamHmdDisabled',['../struct_c_user.html#a35bda14e2047bdf5d7976acae79c8e8f',1,'CUser']]],
+  ['handicapfullgasduration',['HandicapFullGasDuration',['../struct_c_tm_ml_player.html#a508f1ac61130769a7f4e84beba0b1a36',1,'CTmMlPlayer']]],
+  ['handicapnobrakesduration',['HandicapNoBrakesDuration',['../struct_c_tm_ml_player.html#a9e25b20e090088ffa295c4f28f43bbbc',1,'CTmMlPlayer']]],
+  ['handicapnogasduration',['HandicapNoGasDuration',['../struct_c_tm_ml_player.html#a247979f41696b11bf2b431a33ef4b914',1,'CTmMlPlayer']]],
+  ['handicapnogripduration',['HandicapNoGripDuration',['../struct_c_tm_ml_player.html#aa3344ac8f67d6208d2bfe27581fa1b9a',1,'CTmMlPlayer']]],
+  ['handicapnosteeringduration',['HandicapNoSteeringDuration',['../struct_c_tm_ml_player.html#a2e1ef1e9538438ede0995098cffe7f84',1,'CTmMlPlayer']]],
   ['happy',['Happy',['../struct_c_u_i_config.html#af108c0db11d574205ccadaa5e1e71e1dae9fc799888540825a4b1f5a6db6d3b69',1,'CUIConfig']]],
   ['hasbeenactivated',['HasBeenActivated',['../struct_c_notifications_consumer_notification.html#a57081dad99001b14c78ddfa6f8603db8',1,'CNotificationsConsumerNotification']]],
   ['hasbeendiscarded',['HasBeenDiscarded',['../struct_c_base_event.html#a9932269931dd0369c282ae22eefd06c3',1,'CBaseEvent']]],
