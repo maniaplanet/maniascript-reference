@@ -14,6 +14,7 @@ var searchData=
   ['shudmodule',['SHudModule',['../struct_s_hud_module.html',1,'']]],
   ['skillpoints',['SkillPoints',['../struct_c_task_result___map_record.html#a7c68639a6a42cdd15b6a3cbe131367bf',1,'CTaskResult_MapRecord']]],
   ['skinname',['SkinName',['../struct_c_vehicle_settings.html#aa0d6303ef2f7427aef755beaee566070',1,'CVehicleSettings']]],
+  ['smoothstep',['SmoothStep',['../namespace_anim_lib.html#a75c08d703db002ee254ce9e5e537966f',1,'AnimLib']]],
   ['solo_5fhascampaign',['Solo_HasCampaign',['../struct_c_pack_creator_title_info.html#a939d0bfdc6e226063cf89f5fb6bd9b6d',1,'CPackCreatorTitleInfo']]],
   ['sortbymapname',['SortByMapName',['../struct_c_task_result___buddy_challenge_records_comparison.html#af7ebb287d418001131f93bc8c2c6d270',1,'CTaskResult_BuddyChallengeRecordsComparison']]],
   ['sortbyopponentcount',['SortByOpponentCount',['../struct_c_task_result___buddies_challenge_record.html#a1038c76ce09290199eb5e5a26af00df1',1,'CTaskResult_BuddiesChallengeRecord::SortByOpponentCount()'],['../struct_c_task_result___buddies_challenge_records_comparison.html#a4c0382ca8aae97a9294725d47ef65cf8',1,'CTaskResult_BuddiesChallengeRecordsComparison::SortByOpponentCount()']]],
@@ -31,10 +32,12 @@ var searchData=
   ['spectatortimeshift',['SpectatorTimeshift',['../struct_c_tm_ml_script_ingame.html#a85f7308fad1ff2beaa2718da574317e5',1,'CTmMlScriptIngame']]],
   ['speed',['Speed',['../struct_c_tm_player.html#a76b1748c7472869b6d8fd19268263a9d',1,'CTmPlayer']]],
   ['speedpower',['SpeedPower',['../struct_c_sm_player.html#aa285ce086cbe809bc45fed1edd2c1c5b',1,'CSmPlayer']]],
+  ['split',['Split',['../namespace_text_lib.html#afccf793afd7079bd2c9f9cfec6b29cc5',1,'TextLib']]],
   ['splitscreenassignlayer',['SplitScreenAssignLayer',['../struct_c_mania_app_playground_common.html#a67f186d6f08a851eda98e0ea76e2edc3',1,'CManiaAppPlaygroundCommon']]],
   ['staminagain',['StaminaGain',['../struct_c_sm_player.html#a92559b6c1da3193cb7f38141d40c753f',1,'CSmPlayer']]],
   ['staminamax',['StaminaMax',['../struct_c_sm_player.html#ae5c716e229cb962797567656ba358e23',1,'CSmPlayer']]],
   ['staminapower',['StaminaPower',['../struct_c_sm_player.html#ae6dd26ef847434777c2faae343ea9921',1,'CSmPlayer']]],
+  ['startswith',['StartsWith',['../namespace_text_lib.html#a9213f0081d0b66fb03dbb1f389418b19',1,'TextLib::StartsWith(Text _TextToFind, Text _TextToSearchIn)'],['../namespace_text_lib.html#aa6d3f06afcd0160f5cadba69756eea21',1,'TextLib::StartsWith(Text _TextToFind, Text _TextToSearchIn, Boolean _IsFormatSensitive, Boolean _IsCaseSensitive)']]],
   ['statdesc',['StatDesc',['../struct_c_achievements_stat.html#a028d5a0e4a08e57ff27089319241ca35',1,'CAchievementsStat']]],
   ['statdescriptions',['StatDescriptions',['../struct_c_achievements_manager.html#ad824ae2af8f98e714f11696b94f0911a',1,'CAchievementsManager']]],
   ['station_5fmanialinkurl',['Station_ManialinkUrl',['../struct_c_pack_creator_title_info.html#a04f64e47a990268fafb0f59dc8406499',1,'CPackCreatorTitleInfo']]],
@@ -42,5 +45,7 @@ var searchData=
   ['statuscode',['StatusCode',['../struct_c_http_request.html#a8ba4e2daf726dcf2853497facafd8d92',1,'CHttpRequest']]],
   ['stuntcurfigureepicgauge',['StuntCurFigureEpicGauge',['../struct_c_tm_ml_player.html#ade08303ea0cc46b295e90d08005ef385',1,'CTmMlPlayer']]],
   ['stuntcurfiguremastergauge',['StuntCurFigureMasterGauge',['../struct_c_tm_ml_player.html#a7f758a759bfb553fb2ece5a49a81983f',1,'CTmMlPlayer']]],
-  ['subfolders',['SubFolders',['../struct_c_task_result___map_list.html#af8189587c66b60d18cd045b1a16175a2',1,'CTaskResult_MapList::SubFolders()'],['../struct_c_task_result___replay_list.html#a5483d0f4f4e5da3287000f8870bbcafc',1,'CTaskResult_ReplayList::SubFolders()'],['../struct_c_task_result___file_list.html#a460ea6106e0e673381c5b60381370f0a',1,'CTaskResult_FileList::SubFolders()']]]
+  ['subfolders',['SubFolders',['../struct_c_task_result___map_list.html#af8189587c66b60d18cd045b1a16175a2',1,'CTaskResult_MapList::SubFolders()'],['../struct_c_task_result___replay_list.html#a5483d0f4f4e5da3287000f8870bbcafc',1,'CTaskResult_ReplayList::SubFolders()'],['../struct_c_task_result___file_list.html#a460ea6106e0e673381c5b60381370f0a',1,'CTaskResult_FileList::SubFolders()']]],
+  ['substring',['SubString',['../namespace_text_lib.html#a0925ebe0935728ddc77e195641467eb3',1,'TextLib']]],
+  ['subtext',['SubText',['../namespace_text_lib.html#afeae37b0a5f485d105753c4de183d1c1',1,'TextLib']]]
 ];

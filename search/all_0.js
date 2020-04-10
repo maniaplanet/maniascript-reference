@@ -13,6 +13,8 @@ var searchData=
   ['ammopower',['AmmoPower',['../struct_c_sm_player.html#a4286638c1d9cfa93cd6a53a783f5f4c7',1,'CSmPlayer']]],
   ['analogdeadzone',['AnalogDeadZone',['../struct_c_vehicle_settings.html#afe3de2f7f90c5fec9610f1c3cc9fa5c7',1,'CVehicleSettings']]],
   ['analogsensitivity',['AnalogSensitivity',['../struct_c_vehicle_settings.html#a337b9d4cd0a3e716533af6a0baac031a',1,'CVehicleSettings']]],
+  ['angle',['Angle',['../namespace_math_lib.html#ab1dd71351db053e2601feb682480ef97',1,'MathLib']]],
+  ['animlib',['AnimLib',['../namespace_anim_lib.html',1,'']]],
   ['armorpower',['ArmorPower',['../struct_c_sm_player.html#adbd32566a6863c187e3e66398483a39e',1,'CSmPlayer']]],
   ['audio_5fmastermusicvolume',['Audio_MasterMusicVolume',['../struct_c_user_v2_profile.html#a4fb8dfac4e0ec844a6d6506b37151948',1,'CUserV2Profile']]],
   ['audio_5fmastersoundvolume',['Audio_MasterSoundVolume',['../struct_c_user_v2_profile.html#a2204aec02c50fa509e86acf75f758ed2',1,'CUserV2Profile']]],

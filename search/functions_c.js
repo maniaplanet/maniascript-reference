@@ -1,23 +1,6 @@
 var searchData=
 [
-  ['scorestatus_5fgetlocalstatus',['ScoreStatus_GetLocalStatus',['../struct_c_score_mgr.html#a0a36bb464268cb360f0abab8112be303',1,'CScoreMgr']]],
-  ['scorestatus_5fgetmasterserverstatus',['ScoreStatus_GetMasterServerStatus',['../struct_c_score_mgr.html#ab21d1b195411f76b7af00c1718e9550d',1,'CScoreMgr']]],
-  ['sendcustomevent',['SendCustomEvent',['../struct_c_ml_script.html#a74a02238a6045e7eb0d884a3dc61368d',1,'CMlScript::SendCustomEvent()'],['../struct_c_mania_app_playground.html#aea020e3ef9336dbafbde4267ed1972c3',1,'CManiaAppPlayground::SendCustomEvent()']]],
-  ['setactivated',['SetActivated',['../struct_c_notifications_consumer_notification.html#ab9efe925900a92749cc232644bb4cbe0',1,'CNotificationsConsumerNotification']]],
-  ['setcolor',['SetColor',['../struct_c_input_pad.html#a7dd7a5e89debb5553402eb75be7869c7',1,'CInputPad']]],
-  ['setread',['SetRead',['../struct_c_notifications_consumer_notification.html#a57e13928c0e313bdf3df85fa4c9c0a1c',1,'CNotificationsConsumerNotification']]],
-  ['setspectatetarget',['SetSpectateTarget',['../struct_c_ml_script_ingame.html#a03ce109484037d5155754957764a0c39',1,'CMlScriptIngame']]],
-  ['settitlecampaign',['SetTitleCampaign',['../struct_c_title_edition.html#a28391c9a47a541b7877c5745d8e1e519',1,'CTitleEdition']]],
-  ['sortbymapname',['SortByMapName',['../struct_c_task_result___buddy_challenge_records_comparison.html#af7ebb287d418001131f93bc8c2c6d270',1,'CTaskResult_BuddyChallengeRecordsComparison']]],
-  ['sortbyopponentcount',['SortByOpponentCount',['../struct_c_task_result___buddies_challenge_record.html#a1038c76ce09290199eb5e5a26af00df1',1,'CTaskResult_BuddiesChallengeRecord::SortByOpponentCount()'],['../struct_c_task_result___buddies_challenge_records_comparison.html#a4c0382ca8aae97a9294725d47ef65cf8',1,'CTaskResult_BuddiesChallengeRecordsComparison::SortByOpponentCount()']]],
-  ['sortbyopponentdate',['SortByOpponentDate',['../struct_c_task_result___buddies_challenge_records_comparison.html#a0c7d0a29465dd4a453d70ca17d472be3',1,'CTaskResult_BuddiesChallengeRecordsComparison']]],
-  ['sortbyopponentdisplayname',['SortByOpponentDisplayName',['../struct_c_task_result___buddies_challenge_record.html#acbf179a13461f47ca3c4b8fc8ece7cfe',1,'CTaskResult_BuddiesChallengeRecord::SortByOpponentDisplayName()'],['../struct_c_task_result___buddies_challenge_records_comparison.html#aef727334f656d691d509377628c3874f',1,'CTaskResult_BuddiesChallengeRecordsComparison::SortByOpponentDisplayName()']]],
-  ['sortbyopponentlogin',['SortByOpponentLogin',['../struct_c_task_result___buddies_challenge_record.html#a47f924786fdef76ebf999ade25a8bf5f',1,'CTaskResult_BuddiesChallengeRecord::SortByOpponentLogin()'],['../struct_c_task_result___buddies_challenge_records_comparison.html#a110d323e0aa6914aaf27a3ccb9df44d3',1,'CTaskResult_BuddiesChallengeRecordsComparison::SortByOpponentLogin()']]],
-  ['sortbyopponentrecorddate',['SortByOpponentRecordDate',['../struct_c_task_result___buddies_challenge_record.html#a5f09bb91434a4d23c7906e9e8e57ca4b',1,'CTaskResult_BuddiesChallengeRecord']]],
-  ['sortbyopponentrecordtime',['SortByOpponentRecordTime',['../struct_c_task_result___buddies_challenge_record.html#aa7d409fee64b51c4cd24fb9c5d28774a',1,'CTaskResult_BuddiesChallengeRecord']]],
-  ['sortbyplayercount',['SortByPlayerCount',['../struct_c_task_result___buddies_challenge_records_comparison.html#adba4bc063793a1c1c3b5ae6b53984057',1,'CTaskResult_BuddiesChallengeRecordsComparison']]],
-  ['sortbyrecorddate',['SortByRecordDate',['../struct_c_task_result___buddy_challenge_records_comparison.html#a16c0fdbbae45b463ed9768d617e6b1e1',1,'CTaskResult_BuddyChallengeRecordsComparison']]],
-  ['sortbyrecordtime',['SortByRecordTime',['../struct_c_task_result___buddy_challenge_records_comparison.html#acfe662feb99d16f3e156b9093a9c47a8',1,'CTaskResult_BuddyChallengeRecordsComparison']]],
-  ['sortbyrecordtimediff',['SortByRecordTimeDiff',['../struct_c_task_result___buddy_challenge_records_comparison.html#ae53b4030385e16bfa0cb1c246c0a289f',1,'CTaskResult_BuddyChallengeRecordsComparison']]],
-  ['splitscreenassignlayer',['SplitScreenAssignLayer',['../struct_c_mania_app_playground_common.html#a67f186d6f08a851eda98e0ea76e2edc3',1,'CManiaAppPlaygroundCommon']]]
+  ['parse_5fxml',['Parse_Xml',['../struct_c_parsing_manager.html#a7cbfd3cd14e3d8de6d0089ad14f42e84',1,'CParsingManager::Parse_Xml(Text Contents)'],['../struct_c_parsing_manager.html#adf8acb06ab31ff3c13bd3a5f2a3fb428',1,'CParsingManager::Parse_Xml(Text Contents, Boolean GenerateText, Boolean GenerateTextRaw, Boolean GenerateTextResursive)']]],
+  ['playground_5fgetplayerghost',['Playground_GetPlayerGhost',['../struct_c_score_mgr.html#a9c238d0691d5a8fa4809cf3fdcc381a9',1,'CScoreMgr']]],
+  ['publishfile',['PublishFile',['../struct_c_title_control.html#a744c709b95e04ef723f4b2ce586999aa',1,'CTitleControl']]]
 ];

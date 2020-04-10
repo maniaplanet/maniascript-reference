@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['itemlist_5faddwithskin',['ItemList_AddWithSkin',['../struct_c_mode.html#a7b659b1de9866bb3cdf50dfe6da58c8a',1,'CMode']]]
+  ['hextorgb',['HexToRgb',['../namespace_color_lib.html#a718b5c29a8a60431d2d88c107a6c86ff',1,'ColorLib']]]
 ];

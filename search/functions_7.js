@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['joinserver',['JoinServer',['../struct_c_title_control.html#a9fb51e23945703fcb8db241f13278e8c',1,'CTitleControl']]]
+  ['itemlist_5faddwithskin',['ItemList_AddWithSkin',['../struct_c_mode.html#a7b659b1de9866bb3cdf50dfe6da58c8a',1,'CMode']]]
 ];
