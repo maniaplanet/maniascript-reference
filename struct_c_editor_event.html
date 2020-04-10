@@ -5,18 +5,10 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.14"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>ManiaScript Reference: CEditorEvent Struct Reference</title>
+<title>ManiaPlanet Maniascript Reference: CEditorEvent Struct Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<link href="navtree.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="resize.js"></script>
-<script type="text/javascript" src="navtreedata.js"></script>
-<script type="text/javascript" src="navtree.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-  $(document).ready(initResizable);
-/* @license-end */</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -28,10 +20,12 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="mp.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">ManiaScript Reference
-   &#160;<span id="projectnumber">2019-05</span>
+   <div id="projectname">ManiaPlanet Maniascript Reference
+   &#160;<span id="projectnumber">2019-11-19_18_50</span>
    </div>
+   <div id="projectbrief">A Maniascript Reference of the Maniaplanet</div>
   </td>
  </tr>
  </tbody>
@@ -54,23 +48,6 @@ $(function() {
 });
 /* @license-end */</script>
 <div id="main-nav"></div>
-</div><!-- top -->
-<div id="side-nav" class="ui-resizable side-nav-resizable">
-  <div id="nav-tree">
-    <div id="nav-tree-contents">
-      <div id="nav-sync" class="sync"></div>
-    </div>
-  </div>
-  <div id="splitbar" style="-moz-user-select:none;" 
-       class="ui-resizable-handle">
-  </div>
-</div>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-$(document).ready(function(){initNavTree('struct_c_editor_event.html','');});
-/* @license-end */
-</script>
-<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -85,6 +62,7 @@ $(document).ready(function(){initNavTree('struct_c_editor_event.html','');});
 </iframe>
 </div>
 
+</div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#pub-types">Public Types</a> &#124;
@@ -94,6 +72,8 @@ $(document).ready(function(){initNavTree('struct_c_editor_event.html','');});
 <div class="title">CEditorEvent Struct Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p><code>#include &lt;<a class="el" href="doc_8h_source.html">doc.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for CEditorEvent:</div>
 <div class="dyncontent">
@@ -108,154 +88,115 @@ Inheritance diagram for CEditorEvent:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a991b45df4bb1de4750259553e55ab9b6"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_event.html#a991b45df4bb1de4750259553e55ab9b6">Type</a> { <br />
-&#160;&#160;<a class="el" href="struct_c_editor_event.html#a991b45df4bb1de4750259553e55ab9b6aea7a07614fbd0e60f4ec035cdbac3b35">LayerCustomEvent</a>, 
-<a class="el" href="struct_c_editor_event.html#a991b45df4bb1de4750259553e55ab9b6ab0c88eb695c1ab19c12d7dc89c4b9661">KeyPress</a>, 
-<a class="el" href="struct_c_editor_event.html#a991b45df4bb1de4750259553e55ab9b6a2d71313b9dfe071da8dcc412ad2addcd">MenuNavigation</a>, 
-<a class="el" href="struct_c_editor_event.html#a991b45df4bb1de4750259553e55ab9b6adebf5a43f61e9180a6348933fe88543f">FileChanged</a>, 
+<tr class="memitem:a991b45df4bb1de4750259553e55ab9b6"><td class="memItemLeft" align="right" valign="top"><a id="a991b45df4bb1de4750259553e55ab9b6"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>Type</b> { <br />
+&#160;&#160;<b>LayerCustomEvent</b>, 
+<b>KeyPress</b>, 
+<b>MenuNavigation</b>, 
+<b>FileChanged</b>, 
 <br />
-&#160;&#160;<a class="el" href="struct_c_editor_event.html#a991b45df4bb1de4750259553e55ab9b6a252b9f36ca9faf0fa654bc64dbd1b2fe">Exit</a>, 
-<a class="el" href="struct_c_editor_event.html#a991b45df4bb1de4750259553e55ab9b6ac0ed7ab3ed524cc124dfec81251e182f">FileSave</a>, 
-<a class="el" href="struct_c_editor_event.html#a991b45df4bb1de4750259553e55ab9b6a2c8fe22e1e221bead98d559ced3af2e1">OnUndo</a>, 
-<a class="el" href="struct_c_editor_event.html#a991b45df4bb1de4750259553e55ab9b6a3a9bd775073c9a2877c1b735000bcc26">OnRedo</a>, 
+&#160;&#160;<b>Exit</b>, 
+<b>FileSave</b>, 
+<b>OnUndo</b>, 
+<b>OnRedo</b>, 
 <br />
-&#160;&#160;<a class="el" href="struct_c_editor_event.html#a991b45df4bb1de4750259553e55ab9b6a1aae44e44dc8ccf385240c76ffce08e0">OnSwitchedBack</a>, 
-<a class="el" href="struct_c_editor_event.html#a991b45df4bb1de4750259553e55ab9b6a2c9e562cc6dc2087f5260cd60daca670">CameraButtonOn</a>, 
-<a class="el" href="struct_c_editor_event.html#a991b45df4bb1de4750259553e55ab9b6a8a70addc4bf156469aa894a1968b8835">CameraButtonOff</a>, 
-<a class="el" href="struct_c_editor_event.html#a991b45df4bb1de4750259553e55ab9b6a2da5059b48605952f32134efb7d9dc0f">VoxelUpdateMaterial</a>, 
+&#160;&#160;<b>OnSwitchedBack</b>, 
+<b>CameraButtonOn</b>, 
+<b>CameraButtonOff</b>, 
+<b>VoxelUpdateMaterial</b>, 
 <br />
-&#160;&#160;<a class="el" href="struct_c_editor_event.html#a991b45df4bb1de4750259553e55ab9b6a3803ef7fd9534f15ad532952dbc8758e">OpenUVEditor</a>, 
-<a class="el" href="struct_c_editor_event.html#a991b45df4bb1de4750259553e55ab9b6a4f3803d6c051d40c04704bc81a90c0cc">CloseUVEditor</a>, 
-<a class="el" href="struct_c_editor_event.html#a991b45df4bb1de4750259553e55ab9b6ab2b73ffe49080065d57e794a8e7df3a9">EnableUndo</a>, 
-<a class="el" href="struct_c_editor_event.html#a991b45df4bb1de4750259553e55ab9b6ad91b4292b80a076e0be8ebbb76ebea76">DisableUndo</a>, 
+&#160;&#160;<b>OpenUVEditor</b>, 
+<b>CloseUVEditor</b>, 
+<b>EnableUndo</b>, 
+<b>DisableUndo</b>, 
 <br />
-&#160;&#160;<a class="el" href="struct_c_editor_event.html#a991b45df4bb1de4750259553e55ab9b6a4d447306ff0695f369fa490e8e3557db">EnableRedo</a>, 
-<a class="el" href="struct_c_editor_event.html#a991b45df4bb1de4750259553e55ab9b6add34adcbabddac43d64c2e71a06be604">DisableRedo</a>
+&#160;&#160;<b>EnableRedo</b>, 
+<b>DisableRedo</b>
 <br />
  }</td></tr>
 <tr class="separator:a991b45df4bb1de4750259553e55ab9b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_types_struct_c_mania_app_event"><td colspan="2" onclick="javascript:toggleInherit('pub_types_struct_c_mania_app_event')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="struct_c_mania_app_event.html">CManiaAppEvent</a></td></tr>
-<tr class="memitem:a1196187d0374940a7a3a92767d774ac0 inherit pub_types_struct_c_mania_app_event"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_mania_app_event.html#a1196187d0374940a7a3a92767d774ac0">EType</a> { <a class="el" href="struct_c_mania_app_event.html#a1196187d0374940a7a3a92767d774ac0a4464c91851ab39a875b421a4cc3d9feb">LayerCustomEvent</a>, 
-<a class="el" href="struct_c_mania_app_event.html#a1196187d0374940a7a3a92767d774ac0a9ae3bf0cb53d7c022c9c3d3dbf03a365">KeyPress</a>, 
-<a class="el" href="struct_c_mania_app_event.html#a1196187d0374940a7a3a92767d774ac0a958467244d811ff110a07f426a95a514">ExternalCustomEvent</a>, 
-<a class="el" href="struct_c_mania_app_event.html#a1196187d0374940a7a3a92767d774ac0ad0f7a53bde522558193effa8b17a076c">MenuNavigation</a>
+<tr class="memitem:a1196187d0374940a7a3a92767d774ac0 inherit pub_types_struct_c_mania_app_event"><td class="memItemLeft" align="right" valign="top"><a id="a1196187d0374940a7a3a92767d774ac0"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>EType</b> { <b>LayerCustomEvent</b>, 
+<b>KeyPress</b>, 
+<b>ExternalCustomEvent</b>, 
+<b>MenuNavigation</b>
  }</td></tr>
 <tr class="separator:a1196187d0374940a7a3a92767d774ac0 inherit pub_types_struct_c_mania_app_event"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a11e3f587759eee4fe3c87d9584a4d7a6 inherit pub_types_struct_c_mania_app_event"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_mania_app_event.html#a11e3f587759eee4fe3c87d9584a4d7a6">EMenuNavAction</a> { <br />
-&#160;&#160;<a class="el" href="struct_c_mania_app_event.html#a11e3f587759eee4fe3c87d9584a4d7a6ad0b26d7854a4041237702d429ad23165">Up</a>, 
-<a class="el" href="struct_c_mania_app_event.html#a11e3f587759eee4fe3c87d9584a4d7a6a3e59ba840557ad9537b3d34014e862cb">Right</a>, 
-<a class="el" href="struct_c_mania_app_event.html#a11e3f587759eee4fe3c87d9584a4d7a6a28966d8101e0797c85e3e6dc9d8cb6c3">Left</a>, 
-<a class="el" href="struct_c_mania_app_event.html#a11e3f587759eee4fe3c87d9584a4d7a6ab5bf0c9cb1df48cfa39f3a80fb1dce7b">Down</a>, 
+<tr class="memitem:a11e3f587759eee4fe3c87d9584a4d7a6 inherit pub_types_struct_c_mania_app_event"><td class="memItemLeft" align="right" valign="top"><a id="a11e3f587759eee4fe3c87d9584a4d7a6"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>EMenuNavAction</b> { <br />
+&#160;&#160;<b>Up</b>, 
+<b>Right</b>, 
+<b>Left</b>, 
+<b>Down</b>, 
 <br />
-&#160;&#160;<a class="el" href="struct_c_mania_app_event.html#a11e3f587759eee4fe3c87d9584a4d7a6ae65f95b4ac08e536fd0fa628a7741795">Select</a>, 
-<a class="el" href="struct_c_mania_app_event.html#a11e3f587759eee4fe3c87d9584a4d7a6a2ec4a115031f760179fdc29ae2496f23">Cancel</a>, 
-<a class="el" href="struct_c_mania_app_event.html#a11e3f587759eee4fe3c87d9584a4d7a6abf3c164da41521e60a6327a08331fe3b">PageUp</a>, 
-<a class="el" href="struct_c_mania_app_event.html#a11e3f587759eee4fe3c87d9584a4d7a6a8fe6f966ebf633b87f1b1cc133325187">PageDown</a>, 
+&#160;&#160;<b>Select</b>, 
+<b>Cancel</b>, 
+<b>PageUp</b>, 
+<b>PageDown</b>, 
 <br />
-&#160;&#160;<a class="el" href="struct_c_mania_app_event.html#a11e3f587759eee4fe3c87d9584a4d7a6ad2c97d2211ec600317df4d16ffd2ff5a">AppMenu</a>, 
-<a class="el" href="struct_c_mania_app_event.html#a11e3f587759eee4fe3c87d9584a4d7a6a155f51d1a58459366a67e265c9f68a1c">Action1</a>, 
-<a class="el" href="struct_c_mania_app_event.html#a11e3f587759eee4fe3c87d9584a4d7a6ac6f254ec02d04c64471e91cad12c8e07">Action2</a>, 
-<a class="el" href="struct_c_mania_app_event.html#a11e3f587759eee4fe3c87d9584a4d7a6ada6d941cd9ebdd55ac29ca152fffdac4">ScrollUp</a>, 
+&#160;&#160;<b>AppMenu</b>, 
+<b>Action1</b>, 
+<b>Action2</b>, 
+<b>ScrollUp</b>, 
 <br />
-&#160;&#160;<a class="el" href="struct_c_mania_app_event.html#a11e3f587759eee4fe3c87d9584a4d7a6a64ec65ef91a0f67657b8cfe0222c5462">ScrollDown</a>
+&#160;&#160;<b>ScrollDown</b>
 <br />
  }</td></tr>
 <tr class="separator:a11e3f587759eee4fe3c87d9584a4d7a6 inherit pub_types_struct_c_mania_app_event"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a4fd1246faefe07a3c204043fba3426d9"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_c_editor_event.html#a991b45df4bb1de4750259553e55ab9b6">Type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_editor_event.html#a4fd1246faefe07a3c204043fba3426d9">Type</a></td></tr>
+<tr class="memitem:a4fd1246faefe07a3c204043fba3426d9"><td class="memItemLeft" align="right" valign="top"><a id="a4fd1246faefe07a3c204043fba3426d9"></a>
+const Type&#160;</td><td class="memItemRight" valign="bottom"><b>Type</b></td></tr>
 <tr class="separator:a4fd1246faefe07a3c204043fba3426d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_struct_c_mania_app_event"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_struct_c_mania_app_event')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="struct_c_mania_app_event.html">CManiaAppEvent</a></td></tr>
-<tr class="memitem:a36f9fce841ba041c3f1f266e2aa9013b inherit pub_attribs_struct_c_mania_app_event"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_c_mania_app_event.html#a1196187d0374940a7a3a92767d774ac0">EType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_mania_app_event.html#a36f9fce841ba041c3f1f266e2aa9013b">Type</a></td></tr>
+<tr class="memitem:a36f9fce841ba041c3f1f266e2aa9013b inherit pub_attribs_struct_c_mania_app_event"><td class="memItemLeft" align="right" valign="top"><a id="a36f9fce841ba041c3f1f266e2aa9013b"></a>
+const EType&#160;</td><td class="memItemRight" valign="bottom"><b>Type</b></td></tr>
 <tr class="separator:a36f9fce841ba041c3f1f266e2aa9013b inherit pub_attribs_struct_c_mania_app_event"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5f8c1aa59e23b54a54e5664946e5d825 inherit pub_attribs_struct_c_mania_app_event"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_c_u_i_layer.html">CUILayer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_mania_app_event.html#a5f8c1aa59e23b54a54e5664946e5d825">CustomEventLayer</a></td></tr>
+<tr class="memitem:a5f8c1aa59e23b54a54e5664946e5d825 inherit pub_attribs_struct_c_mania_app_event"><td class="memItemLeft" align="right" valign="top"><a id="a5f8c1aa59e23b54a54e5664946e5d825"></a>
+const <a class="el" href="struct_c_u_i_layer.html">CUILayer</a>&#160;</td><td class="memItemRight" valign="bottom"><b>CustomEventLayer</b></td></tr>
 <tr class="separator:a5f8c1aa59e23b54a54e5664946e5d825 inherit pub_attribs_struct_c_mania_app_event"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a26481af6bb326cfd9325b0e4711a0f71 inherit pub_attribs_struct_c_mania_app_event"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_text.html">Text</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_mania_app_event.html#a26481af6bb326cfd9325b0e4711a0f71">CustomEventType</a></td></tr>
+<tr class="memitem:a26481af6bb326cfd9325b0e4711a0f71 inherit pub_attribs_struct_c_mania_app_event"><td class="memItemLeft" align="right" valign="top"><a id="a26481af6bb326cfd9325b0e4711a0f71"></a>
+const <a class="el" href="class_text.html">Text</a>&#160;</td><td class="memItemRight" valign="bottom"><b>CustomEventType</b></td></tr>
 <tr class="separator:a26481af6bb326cfd9325b0e4711a0f71 inherit pub_attribs_struct_c_mania_app_event"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5edfd263aa3014f7f14adfefc766d3d5 inherit pub_attribs_struct_c_mania_app_event"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_text.html">Text</a> []&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_mania_app_event.html#a5edfd263aa3014f7f14adfefc766d3d5">CustomEventData</a></td></tr>
+<tr class="memitem:a5edfd263aa3014f7f14adfefc766d3d5 inherit pub_attribs_struct_c_mania_app_event"><td class="memItemLeft" align="right" valign="top"><a id="a5edfd263aa3014f7f14adfefc766d3d5"></a>
+const <a class="el" href="class_text.html">Text</a> []&#160;</td><td class="memItemRight" valign="bottom"><b>CustomEventData</b></td></tr>
 <tr class="separator:a5edfd263aa3014f7f14adfefc766d3d5 inherit pub_attribs_struct_c_mania_app_event"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4c76ad5408ea560500eba112f1b50daa inherit pub_attribs_struct_c_mania_app_event"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_text.html">Text</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_mania_app_event.html#a4c76ad5408ea560500eba112f1b50daa">ExternalEventType</a></td></tr>
+<tr class="memitem:a4c76ad5408ea560500eba112f1b50daa inherit pub_attribs_struct_c_mania_app_event"><td class="memItemLeft" align="right" valign="top"><a id="a4c76ad5408ea560500eba112f1b50daa"></a>
+const <a class="el" href="class_text.html">Text</a>&#160;</td><td class="memItemRight" valign="bottom"><b>ExternalEventType</b></td></tr>
 <tr class="separator:a4c76ad5408ea560500eba112f1b50daa inherit pub_attribs_struct_c_mania_app_event"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7face332b8785f7e9c7b81a040f98b13 inherit pub_attribs_struct_c_mania_app_event"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_text.html">Text</a> []&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_mania_app_event.html#a7face332b8785f7e9c7b81a040f98b13">ExternalEventData</a></td></tr>
+<tr class="memitem:a7face332b8785f7e9c7b81a040f98b13 inherit pub_attribs_struct_c_mania_app_event"><td class="memItemLeft" align="right" valign="top"><a id="a7face332b8785f7e9c7b81a040f98b13"></a>
+const <a class="el" href="class_text.html">Text</a> []&#160;</td><td class="memItemRight" valign="bottom"><b>ExternalEventData</b></td></tr>
 <tr class="separator:a7face332b8785f7e9c7b81a040f98b13 inherit pub_attribs_struct_c_mania_app_event"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8f1c91e6bc7d11f5ed6c9c3010d37d71 inherit pub_attribs_struct_c_mania_app_event"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_c_mania_app_event.html#a11e3f587759eee4fe3c87d9584a4d7a6">EMenuNavAction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_mania_app_event.html#a8f1c91e6bc7d11f5ed6c9c3010d37d71">MenuNavAction</a></td></tr>
+<tr class="memitem:a8f1c91e6bc7d11f5ed6c9c3010d37d71 inherit pub_attribs_struct_c_mania_app_event"><td class="memItemLeft" align="right" valign="top"><a id="a8f1c91e6bc7d11f5ed6c9c3010d37d71"></a>
+const EMenuNavAction&#160;</td><td class="memItemRight" valign="bottom"><b>MenuNavAction</b></td></tr>
 <tr class="separator:a8f1c91e6bc7d11f5ed6c9c3010d37d71 inherit pub_attribs_struct_c_mania_app_event"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a21d13b1d241d4eec94f3c63e2fa41375 inherit pub_attribs_struct_c_mania_app_event"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_mania_app_event.html#a21d13b1d241d4eec94f3c63e2fa41375">IsActionAutoRepeat</a></td></tr>
+<tr class="memitem:a21d13b1d241d4eec94f3c63e2fa41375 inherit pub_attribs_struct_c_mania_app_event"><td class="memItemLeft" align="right" valign="top"><a id="a21d13b1d241d4eec94f3c63e2fa41375"></a>
+const <a class="el" href="class_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><b>IsActionAutoRepeat</b></td></tr>
 <tr class="separator:a21d13b1d241d4eec94f3c63e2fa41375 inherit pub_attribs_struct_c_mania_app_event"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a58e02a369cd9cb983cf898c9cb8a34d1 inherit pub_attribs_struct_c_mania_app_event"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_mania_app_event.html#a58e02a369cd9cb983cf898c9cb8a34d1">KeyCode</a></td></tr>
+<tr class="memitem:a58e02a369cd9cb983cf898c9cb8a34d1 inherit pub_attribs_struct_c_mania_app_event"><td class="memItemLeft" align="right" valign="top"><a id="a58e02a369cd9cb983cf898c9cb8a34d1"></a>
+const <a class="el" href="class_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><b>KeyCode</b></td></tr>
 <tr class="separator:a58e02a369cd9cb983cf898c9cb8a34d1 inherit pub_attribs_struct_c_mania_app_event"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1e27bbe6f30875ddc63fca4668693a71 inherit pub_attribs_struct_c_mania_app_event"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_text.html">Text</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_mania_app_event.html#a1e27bbe6f30875ddc63fca4668693a71">KeyName</a></td></tr>
+<tr class="memitem:a1e27bbe6f30875ddc63fca4668693a71 inherit pub_attribs_struct_c_mania_app_event"><td class="memItemLeft" align="right" valign="top"><a id="a1e27bbe6f30875ddc63fca4668693a71"></a>
+const <a class="el" href="class_text.html">Text</a>&#160;</td><td class="memItemRight" valign="bottom"><b>KeyName</b></td></tr>
 <tr class="separator:a1e27bbe6f30875ddc63fca4668693a71 inherit pub_attribs_struct_c_mania_app_event"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_struct_c_base_const_event"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_struct_c_base_const_event')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="struct_c_base_const_event.html">CBaseConstEvent</a></td></tr>
 <tr class="memitem:a4bc1e96d742a128d291131fa60fbcd90 inherit pub_attribs_struct_c_base_const_event"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_base_const_event.html#a4bc1e96d742a128d291131fa60fbcd90">HasBeenProcessed</a></td></tr>
 <tr class="separator:a4bc1e96d742a128d291131fa60fbcd90 inherit pub_attribs_struct_c_base_const_event"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_struct_c_nod"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_struct_c_nod')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="struct_c_nod.html">CNod</a></td></tr>
-<tr class="memitem:a4e8985f12f3e272263bfb85ef29196e4 inherit pub_attribs_struct_c_nod"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_ident.html">Ident</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_nod.html#a4e8985f12f3e272263bfb85ef29196e4">Id</a></td></tr>
+<tr class="memitem:a4e8985f12f3e272263bfb85ef29196e4 inherit pub_attribs_struct_c_nod"><td class="memItemLeft" align="right" valign="top"><a id="a4e8985f12f3e272263bfb85ef29196e4"></a>
+const <a class="el" href="class_ident.html">Ident</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Id</b></td></tr>
 <tr class="separator:a4e8985f12f3e272263bfb85ef29196e4 inherit pub_attribs_struct_c_nod"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Supported declare modes : Local An event </p>
-</div><h2 class="groupheader">Member Enumeration Documentation</h2>
-<a id="a991b45df4bb1de4750259553e55ab9b6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a991b45df4bb1de4750259553e55ab9b6">&#9670;&nbsp;</a></span>Type</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="struct_c_editor_event.html#a991b45df4bb1de4750259553e55ab9b6">CEditorEvent::Type</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a991b45df4bb1de4750259553e55ab9b6aea7a07614fbd0e60f4ec035cdbac3b35"></a>LayerCustomEvent&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a991b45df4bb1de4750259553e55ab9b6ab0c88eb695c1ab19c12d7dc89c4b9661"></a>KeyPress&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a991b45df4bb1de4750259553e55ab9b6a2d71313b9dfe071da8dcc412ad2addcd"></a>MenuNavigation&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a991b45df4bb1de4750259553e55ab9b6adebf5a43f61e9180a6348933fe88543f"></a>FileChanged&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a991b45df4bb1de4750259553e55ab9b6a252b9f36ca9faf0fa654bc64dbd1b2fe"></a>Exit&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a991b45df4bb1de4750259553e55ab9b6ac0ed7ab3ed524cc124dfec81251e182f"></a>FileSave&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a991b45df4bb1de4750259553e55ab9b6a2c8fe22e1e221bead98d559ced3af2e1"></a>OnUndo&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a991b45df4bb1de4750259553e55ab9b6a3a9bd775073c9a2877c1b735000bcc26"></a>OnRedo&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a991b45df4bb1de4750259553e55ab9b6a1aae44e44dc8ccf385240c76ffce08e0"></a>OnSwitchedBack&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a991b45df4bb1de4750259553e55ab9b6a2c9e562cc6dc2087f5260cd60daca670"></a>CameraButtonOn&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a991b45df4bb1de4750259553e55ab9b6a8a70addc4bf156469aa894a1968b8835"></a>CameraButtonOff&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a991b45df4bb1de4750259553e55ab9b6a2da5059b48605952f32134efb7d9dc0f"></a>VoxelUpdateMaterial&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a991b45df4bb1de4750259553e55ab9b6a3803ef7fd9534f15ad532952dbc8758e"></a>OpenUVEditor&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a991b45df4bb1de4750259553e55ab9b6a4f3803d6c051d40c04704bc81a90c0cc"></a>CloseUVEditor&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a991b45df4bb1de4750259553e55ab9b6ab2b73ffe49080065d57e794a8e7df3a9"></a>EnableUndo&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a991b45df4bb1de4750259553e55ab9b6ad91b4292b80a076e0be8ebbb76ebea76"></a>DisableUndo&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a991b45df4bb1de4750259553e55ab9b6a4d447306ff0695f369fa490e8e3557db"></a>EnableRedo&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a991b45df4bb1de4750259553e55ab9b6add34adcbabddac43d64c2e71a06be604"></a>DisableRedo&#160;</td><td class="fielddoc"></td></tr>
-</table>
-
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="a4fd1246faefe07a3c204043fba3426d9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4fd1246faefe07a3c204043fba3426d9">&#9670;&nbsp;</a></span>Type</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="struct_c_editor_event.html#a991b45df4bb1de4750259553e55ab9b6">Type</a> <a class="el" href="struct_c_editor_event.html#a991b45df4bb1de4750259553e55ab9b6">CEditorEvent::Type</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
+</div><hr/>The documentation for this struct was generated from the following file:<ul>
+<li>maniascript/<a class="el" href="doc_8h_source.html">doc.h</a></li>
+</ul>
 </div><!-- contents -->
-</div><!-- doc-content -->
 <!-- start footer part -->
-<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
-  <ul>
-    <li class="navelem"><a class="el" href="struct_c_editor_event.html">CEditorEvent</a></li>
-    <li class="footer">Generated by
-    <a href="http://www.doxygen.org/index.html">
-    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
-  </ul>
-</div>
+<hr class="footer"/><address class="footer"><small>
+Generated by &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.14
+</small></address>
 </body>
 </html>

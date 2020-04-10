@@ -1,6 +1,8 @@
 var searchData=
 [
   ['validate',['Validate',['../struct_c_map_editor_plugin.html#af201a91fbc1a5754cbc30fd5b4bf4c64',1,'CMapEditorPlugin']]],
+  ['validationghost_5fgetposition',['ValidationGhost_GetPosition',['../struct_c_tm_ml_script_ingame.html#abf62b02889148a0024a3f2749325b219',1,'CTmMlScriptIngame']]],
+  ['validationghost_5fisvisible',['ValidationGhost_IsVisible',['../struct_c_tm_ml_script_ingame.html#a08acd5249d9da169193e053078c65bf8',1,'CTmMlScriptIngame']]],
   ['vehicle_5fassign_5fautopilot',['Vehicle_Assign_AutoPilot',['../struct_c_mode_vehicle_manager.html#abe2cc7120d840545f8445391990b9b38',1,'CModeVehicleManager::Vehicle_Assign_AutoPilot(CModeVehicle Vehicle, Text ModelName)'],['../struct_c_mode_vehicle_manager.html#a20298a66159814ac90f341259f950a5a',1,'CModeVehicleManager::Vehicle_Assign_AutoPilot(CModeVehicle Vehicle, Text ModelName, Boolean LoopPath)']]],
   ['vehicle_5fcreate',['Vehicle_Create',['../struct_c_mode_vehicle_manager.html#a4cde98c79bbb59183faca077064a276e',1,'CModeVehicleManager::Vehicle_Create(Ident ModelId, Integer Clan, Integer Armor, EArmorUse ArmorUse, CMapSpawn Spawn)'],['../struct_c_mode_vehicle_manager.html#adf059b283f7389c00bd76d0b0489e78c',1,'CModeVehicleManager::Vehicle_Create(Ident ModelId, Vec3 Offset, Integer Armor, EArmorUse ArmorUse, CModeVehicle Owner)']]],
   ['vehicle_5fdestroy',['Vehicle_Destroy',['../struct_c_mode_vehicle_manager.html#a62ee9db52750f0e4fa04ff2239d128de',1,'CModeVehicleManager']]],

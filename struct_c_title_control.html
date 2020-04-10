@@ -5,18 +5,10 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.14"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>ManiaScript Reference: CTitleControl Struct Reference</title>
+<title>ManiaPlanet Maniascript Reference: CTitleControl Struct Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<link href="navtree.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="resize.js"></script>
-<script type="text/javascript" src="navtreedata.js"></script>
-<script type="text/javascript" src="navtree.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-  $(document).ready(initResizable);
-/* @license-end */</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -28,10 +20,12 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="mp.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">ManiaScript Reference
-   &#160;<span id="projectnumber">2019-05</span>
+   <div id="projectname">ManiaPlanet Maniascript Reference
+   &#160;<span id="projectnumber">2019-11-19_18_50</span>
    </div>
+   <div id="projectbrief">A Maniascript Reference of the Maniaplanet</div>
   </td>
  </tr>
  </tbody>
@@ -54,23 +48,6 @@ $(function() {
 });
 /* @license-end */</script>
 <div id="main-nav"></div>
-</div><!-- top -->
-<div id="side-nav" class="ui-resizable side-nav-resizable">
-  <div id="nav-tree">
-    <div id="nav-tree-contents">
-      <div id="nav-sync" class="sync"></div>
-    </div>
-  </div>
-  <div id="splitbar" style="-moz-user-select:none;" 
-       class="ui-resizable-handle">
-  </div>
-</div>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-$(document).ready(function(){initNavTree('struct_c_title_control.html','');});
-/* @license-end */
-</script>
-<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -85,6 +62,7 @@ $(document).ready(function(){initNavTree('struct_c_title_control.html','');});
 </iframe>
 </div>
 
+</div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#pub-types">Public Types</a> &#124;
@@ -95,6 +73,8 @@ $(document).ready(function(){initNavTree('struct_c_title_control.html','');});
 <div class="title">CTitleControl Struct Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p><code>#include &lt;<a class="el" href="doc_8h_source.html">doc.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for CTitleControl:</div>
 <div class="dyncontent">
@@ -107,647 +87,171 @@ Inheritance diagram for CTitleControl:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a22c3b06c960430651f4876f9fc47d573"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_title_control.html#a22c3b06c960430651f4876f9fc47d573">ESplitScreenLayout</a> { <a class="el" href="struct_c_title_control.html#a22c3b06c960430651f4876f9fc47d573a5855808cda402c3296b4301a68eafe1b">Horizontal</a>, 
-<a class="el" href="struct_c_title_control.html#a22c3b06c960430651f4876f9fc47d573a33da47203ed28e6f5598fe6a36b44a80">Vertical</a>, 
-<a class="el" href="struct_c_title_control.html#a22c3b06c960430651f4876f9fc47d573a748e2650ef44382a886aeda103a106ee">Four</a>
+<tr class="memitem:a22c3b06c960430651f4876f9fc47d573"><td class="memItemLeft" align="right" valign="top"><a id="a22c3b06c960430651f4876f9fc47d573"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>ESplitScreenLayout</b> { <b>Horizontal</b>, 
+<b>Vertical</b>, 
+<b>Four</b>
  }</td></tr>
 <tr class="separator:a22c3b06c960430651f4876f9fc47d573"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8c530d072e4204881366e175054c7ac6"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_title_control.html#a8c530d072e4204881366e175054c7ac6">EResult</a> { <br />
-&#160;&#160;<a class="el" href="struct_c_title_control.html#a8c530d072e4204881366e175054c7ac6aaa59426b3c9bb973387016ced58882b1">Success</a>, 
-<a class="el" href="struct_c_title_control.html#a8c530d072e4204881366e175054c7ac6abdcf4c57922fa6bd2285d4810c8e8a2b">Error_Internal</a>, 
-<a class="el" href="struct_c_title_control.html#a8c530d072e4204881366e175054c7ac6a3148252c3250bc4cd44fdf646dac6609">Error_DataMgr</a>, 
-<a class="el" href="struct_c_title_control.html#a8c530d072e4204881366e175054c7ac6a9f91be2c4870b9c5b90426a39f689d6e">Error_Net_ServerNotFound</a>, 
+<tr class="memitem:a8c530d072e4204881366e175054c7ac6"><td class="memItemLeft" align="right" valign="top"><a id="a8c530d072e4204881366e175054c7ac6"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>EResult</b> { <br />
+&#160;&#160;<b>Success</b>, 
+<b>Error_Internal</b>, 
+<b>Error_DataMgr</b>, 
+<b>Error_Net_ServerNotFound</b>, 
 <br />
-&#160;&#160;<a class="el" href="struct_c_title_control.html#a8c530d072e4204881366e175054c7ac6a433674144334cfed1c2afcab9a34da1f">Error_Net_ServerUnreachable</a>, 
-<a class="el" href="struct_c_title_control.html#a8c530d072e4204881366e175054c7ac6ac9fc0a39801bbecc2259d76455a64e66">Error_Net_Disconnected</a>, 
-<a class="el" href="struct_c_title_control.html#a8c530d072e4204881366e175054c7ac6ae4707d695889958ba0a37e8876a28330">Error_Net_WrongPassword</a>, 
-<a class="el" href="struct_c_title_control.html#a8c530d072e4204881366e175054c7ac6a2f7b230ee6451334de20a270b8d67616">Error_Network_OnlineExpired</a>, 
+&#160;&#160;<b>Error_Net_ServerUnreachable</b>, 
+<b>Error_Net_Disconnected</b>, 
+<b>Error_Net_WrongPassword</b>, 
+<b>Error_Network_OnlineExpired</b>, 
 <br />
-&#160;&#160;<a class="el" href="struct_c_title_control.html#a8c530d072e4204881366e175054c7ac6af42e57f32ae8c33d5a0af34a174e96f0">Error_Network_ServerFull</a>, 
-<a class="el" href="struct_c_title_control.html#a8c530d072e4204881366e175054c7ac6a6927a2e20832a590d20c099bbcad9f5c">Error_Abort</a>
+&#160;&#160;<b>Error_Network_ServerFull</b>, 
+<b>Error_Abort</b>
 <br />
  }</td></tr>
 <tr class="separator:a8c530d072e4204881366e175054c7ac6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a85476bbdda32f803352f933025a9c589"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_title_control.html#a85476bbdda32f803352f933025a9c589">EEditorType</a> { <br />
-&#160;&#160;<a class="el" href="struct_c_title_control.html#a85476bbdda32f803352f933025a9c589a1258cfc114a168a3c091519eb14b6bd8">ActionMaker</a>, 
-<a class="el" href="struct_c_title_control.html#a85476bbdda32f803352f933025a9c589aff84e4145a09fa7f1a3f811a6ecb2641">ChallengeEditor</a>, 
-<a class="el" href="struct_c_title_control.html#a85476bbdda32f803352f933025a9c589a9510de36cb59b0c2d09bc1ff3c789cc3">ItemEditor</a>, 
-<a class="el" href="struct_c_title_control.html#a85476bbdda32f803352f933025a9c589a09653d323e36b664f4403c5f2c92f339">InterfaceDesigner</a>, 
+<tr class="memitem:a85476bbdda32f803352f933025a9c589"><td class="memItemLeft" align="right" valign="top"><a id="a85476bbdda32f803352f933025a9c589"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>EEditorType</b> { <br />
+&#160;&#160;<b>ActionMaker</b>, 
+<b>ChallengeEditor</b>, 
+<b>ItemEditor</b>, 
+<b>InterfaceDesigner</b>, 
 <br />
-&#160;&#160;<a class="el" href="struct_c_title_control.html#a85476bbdda32f803352f933025a9c589abdbda46312b2016125d3e7ac37acadf6">MeshModeler</a>, 
-<a class="el" href="struct_c_title_control.html#a85476bbdda32f803352f933025a9c589a5736aa7ce47aa08eb3a8170d5e9a7279">ModuleStudio</a>, 
-<a class="el" href="struct_c_title_control.html#a85476bbdda32f803352f933025a9c589a0c7143491e251f6ad6c4f1d2108bb5fd">PixelArt</a>, 
-<a class="el" href="struct_c_title_control.html#a85476bbdda32f803352f933025a9c589a34e58fbd2720bd1a73021eb234f8d09d">EditorEditor</a>, 
+&#160;&#160;<b>MeshModeler</b>, 
+<b>ModuleStudio</b>, 
+<b>PixelArt</b>, 
+<b>EditorEditor</b>, 
 <br />
-&#160;&#160;<a class="el" href="struct_c_title_control.html#a85476bbdda32f803352f933025a9c589a52283435330e8057c927be922d85c4a9">VehicleAssembler</a>, 
-<a class="el" href="struct_c_title_control.html#a85476bbdda32f803352f933025a9c589a3ea3e800698ea2a222517091a3a090ba">MaterialEditor</a>
+&#160;&#160;<b>VehicleAssembler</b>, 
+<b>MaterialEditor</b>
 <br />
  }</td></tr>
 <tr class="separator:a85476bbdda32f803352f933025a9c589"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a54f137e40dec34b8b2017b9987127dfc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_title_control.html#a54f137e40dec34b8b2017b9987127dfc">PlayMap</a> (<a class="el" href="class_text.html">Text</a> Map, <a class="el" href="class_text.html">Text</a> Mode, <a class="el" href="class_text.html">Text</a> SettingsXml)</td></tr>
+<tr class="memitem:a54f137e40dec34b8b2017b9987127dfc"><td class="memItemLeft" align="right" valign="top"><a id="a54f137e40dec34b8b2017b9987127dfc"></a>
+<a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><b>PlayMap</b> (<a class="el" href="class_text.html">Text</a> Map, <a class="el" href="class_text.html">Text</a> Mode, <a class="el" href="class_text.html">Text</a> SettingsXml)</td></tr>
 <tr class="separator:a54f137e40dec34b8b2017b9987127dfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6e90295ed5c89e048fc9b774378e1bdf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_title_control.html#a6e90295ed5c89e048fc9b774378e1bdf">PlayCampaign</a> (<a class="el" href="struct_c_campaign.html">CCampaign</a> Campaign, <a class="el" href="struct_c_map_info.html">CMapInfo</a> MapInfo, <a class="el" href="class_text.html">Text</a> Mode, <a class="el" href="class_text.html">Text</a> SettingsXml)</td></tr>
+<tr class="memitem:a6e90295ed5c89e048fc9b774378e1bdf"><td class="memItemLeft" align="right" valign="top"><a id="a6e90295ed5c89e048fc9b774378e1bdf"></a>
+<a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><b>PlayCampaign</b> (<a class="el" href="struct_c_campaign.html">CCampaign</a> Campaign, <a class="el" href="struct_c_map_info.html">CMapInfo</a> MapInfo, <a class="el" href="class_text.html">Text</a> Mode, <a class="el" href="class_text.html">Text</a> SettingsXml)</td></tr>
 <tr class="separator:a6e90295ed5c89e048fc9b774378e1bdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6f582d6abc6d6b9cac1f019a9c69fd8b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_title_control.html#a6f582d6abc6d6b9cac1f019a9c69fd8b">PlayMapList</a> (<a class="el" href="class_text.html">Text</a>[] MapList, <a class="el" href="class_text.html">Text</a> Mode, <a class="el" href="class_text.html">Text</a> SettingsXml)</td></tr>
+<tr class="memitem:a6f582d6abc6d6b9cac1f019a9c69fd8b"><td class="memItemLeft" align="right" valign="top"><a id="a6f582d6abc6d6b9cac1f019a9c69fd8b"></a>
+<a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><b>PlayMapList</b> (<a class="el" href="class_text.html">Text</a>[] MapList, <a class="el" href="class_text.html">Text</a> Mode, <a class="el" href="class_text.html">Text</a> SettingsXml)</td></tr>
 <tr class="separator:a6f582d6abc6d6b9cac1f019a9c69fd8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aabb464b2343267580e5ac78a9a84d2ba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_title_control.html#aabb464b2343267580e5ac78a9a84d2ba">PlayMatchSettings</a> (<a class="el" href="struct_c_match_settings.html">CMatchSettings</a> MatchSettings, <a class="el" href="class_text.html">Text</a> OverrideMode, <a class="el" href="class_text.html">Text</a> OverrideSettingsXml)</td></tr>
+<tr class="memitem:aabb464b2343267580e5ac78a9a84d2ba"><td class="memItemLeft" align="right" valign="top"><a id="aabb464b2343267580e5ac78a9a84d2ba"></a>
+<a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><b>PlayMatchSettings</b> (<a class="el" href="struct_c_match_settings.html">CMatchSettings</a> MatchSettings, <a class="el" href="class_text.html">Text</a> OverrideMode, <a class="el" href="class_text.html">Text</a> OverrideSettingsXml)</td></tr>
 <tr class="separator:aabb464b2343267580e5ac78a9a84d2ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a35c05536f278e39c4e907c753e090523"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_title_control.html#a35c05536f278e39c4e907c753e090523">PlaySplitScreen</a> (<a class="el" href="struct_c_title_control.html#a22c3b06c960430651f4876f9fc47d573">ESplitScreenLayout</a> LayoutType, <a class="el" href="class_text.html">Text</a>[] MapList, <a class="el" href="class_text.html">Text</a> Mode, <a class="el" href="class_text.html">Text</a> SettingsXml)</td></tr>
+<tr class="memitem:a35c05536f278e39c4e907c753e090523"><td class="memItemLeft" align="right" valign="top"><a id="a35c05536f278e39c4e907c753e090523"></a>
+<a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><b>PlaySplitScreen</b> (ESplitScreenLayout LayoutType, <a class="el" href="class_text.html">Text</a>[] MapList, <a class="el" href="class_text.html">Text</a> Mode, <a class="el" href="class_text.html">Text</a> SettingsXml)</td></tr>
 <tr class="separator:a35c05536f278e39c4e907c753e090523"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab976c60e4a53cc9b1366a02dc0bed366"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_title_control.html#ab976c60e4a53cc9b1366a02dc0bed366">PlayMultiOnSameScreen</a> (<a class="el" href="class_text.html">Text</a>[] MapList, <a class="el" href="class_text.html">Text</a> Mode, <a class="el" href="class_text.html">Text</a> SettingsXml)</td></tr>
+<tr class="memitem:ab976c60e4a53cc9b1366a02dc0bed366"><td class="memItemLeft" align="right" valign="top"><a id="ab976c60e4a53cc9b1366a02dc0bed366"></a>
+<a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><b>PlayMultiOnSameScreen</b> (<a class="el" href="class_text.html">Text</a>[] MapList, <a class="el" href="class_text.html">Text</a> Mode, <a class="el" href="class_text.html">Text</a> SettingsXml)</td></tr>
 <tr class="separator:ab976c60e4a53cc9b1366a02dc0bed366"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa35df40c8a435c00ae7e8caf4a61fc2e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_title_control.html#aa35df40c8a435c00ae7e8caf4a61fc2e">PlaySplitScreen</a> (<a class="el" href="struct_c_title_control.html#a22c3b06c960430651f4876f9fc47d573">ESplitScreenLayout</a> LayoutType, <a class="el" href="struct_c_match_settings.html">CMatchSettings</a> MatchSettings)</td></tr>
+<tr class="memitem:aa35df40c8a435c00ae7e8caf4a61fc2e"><td class="memItemLeft" align="right" valign="top"><a id="aa35df40c8a435c00ae7e8caf4a61fc2e"></a>
+<a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><b>PlaySplitScreen</b> (ESplitScreenLayout LayoutType, <a class="el" href="struct_c_match_settings.html">CMatchSettings</a> MatchSettings)</td></tr>
 <tr class="separator:aa35df40c8a435c00ae7e8caf4a61fc2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae7951f8ef6e9de5b354ff76fa95cb492"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_title_control.html#ae7951f8ef6e9de5b354ff76fa95cb492">PlayMultiOnSameScreen</a> (<a class="el" href="struct_c_match_settings.html">CMatchSettings</a> MatchSettings)</td></tr>
+<tr class="memitem:ae7951f8ef6e9de5b354ff76fa95cb492"><td class="memItemLeft" align="right" valign="top"><a id="ae7951f8ef6e9de5b354ff76fa95cb492"></a>
+<a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><b>PlayMultiOnSameScreen</b> (<a class="el" href="struct_c_match_settings.html">CMatchSettings</a> MatchSettings)</td></tr>
 <tr class="separator:ae7951f8ef6e9de5b354ff76fa95cb492"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3ef9b99ddf6ab0dabf77b2c80d25400b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_title_control.html#a3ef9b99ddf6ab0dabf77b2c80d25400b">ViewReplay</a> (<a class="el" href="class_text.html">Text</a> Replay)</td></tr>
+<tr class="memitem:a3ef9b99ddf6ab0dabf77b2c80d25400b"><td class="memItemLeft" align="right" valign="top"><a id="a3ef9b99ddf6ab0dabf77b2c80d25400b"></a>
+<a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><b>ViewReplay</b> (<a class="el" href="class_text.html">Text</a> Replay)</td></tr>
 <tr class="separator:a3ef9b99ddf6ab0dabf77b2c80d25400b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acc803912d8a41d83111441db75aa52a8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_title_control.html#acc803912d8a41d83111441db75aa52a8">OpenEditor</a> (<a class="el" href="class_text.html">Text</a> EditorName, <a class="el" href="class_text.html">Text</a> MainPluginSettings)</td></tr>
+<tr class="memitem:acc803912d8a41d83111441db75aa52a8"><td class="memItemLeft" align="right" valign="top"><a id="acc803912d8a41d83111441db75aa52a8"></a>
+<a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><b>OpenEditor</b> (<a class="el" href="class_text.html">Text</a> EditorName, <a class="el" href="class_text.html">Text</a> MainPluginSettings)</td></tr>
 <tr class="separator:acc803912d8a41d83111441db75aa52a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a02bbfb711bce94bf41725ef7dad5b8a5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_title_control.html#a02bbfb711bce94bf41725ef7dad5b8a5">OpenEditor</a> (<a class="el" href="struct_c_title_control.html#a85476bbdda32f803352f933025a9c589">EEditorType</a> EditorType)</td></tr>
+<tr class="memitem:a02bbfb711bce94bf41725ef7dad5b8a5"><td class="memItemLeft" align="right" valign="top"><a id="a02bbfb711bce94bf41725ef7dad5b8a5"></a>
+<a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><b>OpenEditor</b> (EEditorType EditorType)</td></tr>
 <tr class="separator:a02bbfb711bce94bf41725ef7dad5b8a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa2c91447a3885026a97ad553bf46e565"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_title_control.html#aa2c91447a3885026a97ad553bf46e565">EditSkins</a> ()</td></tr>
+<tr class="memitem:aa2c91447a3885026a97ad553bf46e565"><td class="memItemLeft" align="right" valign="top"><a id="aa2c91447a3885026a97ad553bf46e565"></a>
+<a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><b>EditSkins</b> ()</td></tr>
 <tr class="separator:aa2c91447a3885026a97ad553bf46e565"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a97278190093bf37108bea306e2e6f91a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_title_control.html#a97278190093bf37108bea306e2e6f91a">EditReplay</a> (<a class="el" href="class_text.html">Text</a>[] ReplayList)</td></tr>
+<tr class="memitem:a97278190093bf37108bea306e2e6f91a"><td class="memItemLeft" align="right" valign="top"><a id="a97278190093bf37108bea306e2e6f91a"></a>
+<a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><b>EditReplay</b> (<a class="el" href="class_text.html">Text</a>[] ReplayList)</td></tr>
 <tr class="separator:a97278190093bf37108bea306e2e6f91a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6b73d53f3041b129bd44c3ead4598685"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_title_control.html#a6b73d53f3041b129bd44c3ead4598685">EditGhosts</a> (<a class="el" href="class_text.html">Text</a> Map)</td></tr>
+<tr class="memitem:a6b73d53f3041b129bd44c3ead4598685"><td class="memItemLeft" align="right" valign="top"><a id="a6b73d53f3041b129bd44c3ead4598685"></a>
+<a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><b>EditGhosts</b> (<a class="el" href="class_text.html">Text</a> Map)</td></tr>
 <tr class="separator:a6b73d53f3041b129bd44c3ead4598685"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a15853acb9a3398d958f4f9555446ba20"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_title_control.html#a15853acb9a3398d958f4f9555446ba20">EditAsset</a> (<a class="el" href="class_text.html">Text</a> EditorName, <a class="el" href="class_text.html">Text</a> MainPluginSettingsXml, <a class="el" href="class_text.html">Text</a> RelativeFileName)</td></tr>
+<tr class="memitem:a15853acb9a3398d958f4f9555446ba20"><td class="memItemLeft" align="right" valign="top"><a id="a15853acb9a3398d958f4f9555446ba20"></a>
+<a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><b>EditAsset</b> (<a class="el" href="class_text.html">Text</a> EditorName, <a class="el" href="class_text.html">Text</a> MainPluginSettingsXml, <a class="el" href="class_text.html">Text</a> RelativeFileName)</td></tr>
 <tr class="separator:a15853acb9a3398d958f4f9555446ba20"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a69d6e9d92efdc833ac82c3e0ceae9e4c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_title_control.html#a69d6e9d92efdc833ac82c3e0ceae9e4c">EditMap</a> (<a class="el" href="class_text.html">Text</a> Map, <a class="el" href="class_text.html">Text</a> EditorPluginScript, <a class="el" href="class_text.html">Text</a> EditorPluginArgument)</td></tr>
+<tr class="memitem:a69d6e9d92efdc833ac82c3e0ceae9e4c"><td class="memItemLeft" align="right" valign="top"><a id="a69d6e9d92efdc833ac82c3e0ceae9e4c"></a>
+<a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><b>EditMap</b> (<a class="el" href="class_text.html">Text</a> Map, <a class="el" href="class_text.html">Text</a> EditorPluginScript, <a class="el" href="class_text.html">Text</a> EditorPluginArgument)</td></tr>
 <tr class="separator:a69d6e9d92efdc833ac82c3e0ceae9e4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2da11626834cfa223d4f277f50e7fcf9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_title_control.html#a2da11626834cfa223d4f277f50e7fcf9">EditNewMap</a> (<a class="el" href="class_text.html">Text</a> Environment, <a class="el" href="class_text.html">Text</a> Decoration, <a class="el" href="class_text.html">Text</a> ModNameOrUrl, <a class="el" href="class_text.html">Text</a> PlayerModel, <a class="el" href="class_text.html">Text</a> MapType, <a class="el" href="class_text.html">Text</a> EditorPluginScript, <a class="el" href="class_text.html">Text</a> EditorPluginArgument)</td></tr>
+<tr class="memitem:a2da11626834cfa223d4f277f50e7fcf9"><td class="memItemLeft" align="right" valign="top"><a id="a2da11626834cfa223d4f277f50e7fcf9"></a>
+<a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><b>EditNewMap</b> (<a class="el" href="class_text.html">Text</a> Environment, <a class="el" href="class_text.html">Text</a> Decoration, <a class="el" href="class_text.html">Text</a> ModNameOrUrl, <a class="el" href="class_text.html">Text</a> PlayerModel, <a class="el" href="class_text.html">Text</a> MapType, <a class="el" href="class_text.html">Text</a> EditorPluginScript, <a class="el" href="class_text.html">Text</a> EditorPluginArgument)</td></tr>
 <tr class="separator:a2da11626834cfa223d4f277f50e7fcf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1d3c887ba074edd491926f5be3fc2556"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_title_control.html#a1d3c887ba074edd491926f5be3fc2556">EditNewMap</a> (<a class="el" href="class_text.html">Text</a> Environment, <a class="el" href="class_text.html">Text</a> Decoration, <a class="el" href="class_text.html">Text</a> ModNameOrUrl, <a class="el" href="class_text.html">Text</a> PlayerModel, <a class="el" href="class_text.html">Text</a> MapType, <a class="el" href="class_boolean.html">Boolean</a> UseSimpleEditor, <a class="el" href="class_text.html">Text</a> EditorPluginScript, <a class="el" href="class_text.html">Text</a> EditorPluginArgument)</td></tr>
+<tr class="memitem:a1d3c887ba074edd491926f5be3fc2556"><td class="memItemLeft" align="right" valign="top"><a id="a1d3c887ba074edd491926f5be3fc2556"></a>
+<a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><b>EditNewMap</b> (<a class="el" href="class_text.html">Text</a> Environment, <a class="el" href="class_text.html">Text</a> Decoration, <a class="el" href="class_text.html">Text</a> ModNameOrUrl, <a class="el" href="class_text.html">Text</a> PlayerModel, <a class="el" href="class_text.html">Text</a> MapType, <a class="el" href="class_boolean.html">Boolean</a> UseSimpleEditor, <a class="el" href="class_text.html">Text</a> EditorPluginScript, <a class="el" href="class_text.html">Text</a> EditorPluginArgument)</td></tr>
 <tr class="separator:a1d3c887ba074edd491926f5be3fc2556"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8a3b20d6a7c7595cc667a98f5a6c444b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_title_control.html#a8a3b20d6a7c7595cc667a98f5a6c444b">EditNewMapFromBaseMap</a> (<a class="el" href="class_text.html">Text</a> BaseMapName, <a class="el" href="class_text.html">Text</a> ModNameOrUrl, <a class="el" href="class_text.html">Text</a> PlayerModel, <a class="el" href="class_text.html">Text</a> MapType, <a class="el" href="class_text.html">Text</a> EditorPluginScript, <a class="el" href="class_text.html">Text</a> EditorPluginArgument)</td></tr>
+<tr class="memitem:a8a3b20d6a7c7595cc667a98f5a6c444b"><td class="memItemLeft" align="right" valign="top"><a id="a8a3b20d6a7c7595cc667a98f5a6c444b"></a>
+<a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><b>EditNewMapFromBaseMap</b> (<a class="el" href="class_text.html">Text</a> BaseMapName, <a class="el" href="class_text.html">Text</a> ModNameOrUrl, <a class="el" href="class_text.html">Text</a> PlayerModel, <a class="el" href="class_text.html">Text</a> MapType, <a class="el" href="class_text.html">Text</a> EditorPluginScript, <a class="el" href="class_text.html">Text</a> EditorPluginArgument)</td></tr>
 <tr class="separator:a8a3b20d6a7c7595cc667a98f5a6c444b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae35837c92007f25f96d95a98f225f773"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_title_control.html#ae35837c92007f25f96d95a98f225f773">EditBadges</a> ()</td></tr>
+<tr class="memitem:ae35837c92007f25f96d95a98f225f773"><td class="memItemLeft" align="right" valign="top"><a id="ae35837c92007f25f96d95a98f225f773"></a>
+<a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><b>EditBadges</b> ()</td></tr>
 <tr class="separator:ae35837c92007f25f96d95a98f225f773"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a744c709b95e04ef723f4b2ce586999aa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_title_control.html#a744c709b95e04ef723f4b2ce586999aa">PublishFile</a> (<a class="el" href="class_text.html">Text</a> FileName)</td></tr>
 <tr class="separator:a744c709b95e04ef723f4b2ce586999aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acc15667bedcb664094bb06200a14f6de"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_title_control.html#acc15667bedcb664094bb06200a14f6de">ProcessManiaCodeXml</a> (<a class="el" href="class_text.html">Text</a> ManiaCodeXml)</td></tr>
+<tr class="memitem:acc15667bedcb664094bb06200a14f6de"><td class="memItemLeft" align="right" valign="top"><a id="acc15667bedcb664094bb06200a14f6de"></a>
+<a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><b>ProcessManiaCodeXml</b> (<a class="el" href="class_text.html">Text</a> ManiaCodeXml)</td></tr>
 <tr class="separator:acc15667bedcb664094bb06200a14f6de"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8cd49215abbba58b2176cd7ba8b34742"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_title_control.html#a8cd49215abbba58b2176cd7ba8b34742">DiscoverLocalServers</a> ()</td></tr>
+<tr class="memitem:a8cd49215abbba58b2176cd7ba8b34742"><td class="memItemLeft" align="right" valign="top"><a id="a8cd49215abbba58b2176cd7ba8b34742"></a>
+<a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><b>DiscoverLocalServers</b> ()</td></tr>
 <tr class="separator:a8cd49215abbba58b2176cd7ba8b34742"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad6337f8ce4775e4f6677eba92318e81d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_title_control.html#ad6337f8ce4775e4f6677eba92318e81d">CreateServer</a> (<a class="el" href="class_text.html">Text</a> ServerName, <a class="el" href="class_text.html">Text</a> ServerComment, <a class="el" href="class_integer.html">Integer</a> MaxPlayerCount, <a class="el" href="class_text.html">Text</a> Password, <a class="el" href="struct_c_match_settings.html">CMatchSettings</a> MatchSettings, <a class="el" href="class_text.html">Text</a> PasswordSpectators)</td></tr>
+<tr class="memitem:ad6337f8ce4775e4f6677eba92318e81d"><td class="memItemLeft" align="right" valign="top"><a id="ad6337f8ce4775e4f6677eba92318e81d"></a>
+<a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><b>CreateServer</b> (<a class="el" href="class_text.html">Text</a> ServerName, <a class="el" href="class_text.html">Text</a> ServerComment, <a class="el" href="class_integer.html">Integer</a> MaxPlayerCount, <a class="el" href="class_text.html">Text</a> Password, <a class="el" href="struct_c_match_settings.html">CMatchSettings</a> MatchSettings, <a class="el" href="class_text.html">Text</a> PasswordSpectators)</td></tr>
 <tr class="separator:ad6337f8ce4775e4f6677eba92318e81d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af9e35db92bb226b3f2021bdff95e02f5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_title_control.html#af9e35db92bb226b3f2021bdff95e02f5">CreateServer</a> (<a class="el" href="class_text.html">Text</a> ServerName, <a class="el" href="class_text.html">Text</a> ServerComment, <a class="el" href="class_integer.html">Integer</a> MaxPlayerCount, <a class="el" href="class_text.html">Text</a> Password, <a class="el" href="class_text.html">Text</a> PasswordSpectators, <a class="el" href="struct_c_match_settings.html">CMatchSettings</a> MatchSettings, <a class="el" href="class_boolean.html">Boolean</a> LocalOnly)</td></tr>
+<tr class="memitem:af9e35db92bb226b3f2021bdff95e02f5"><td class="memItemLeft" align="right" valign="top"><a id="af9e35db92bb226b3f2021bdff95e02f5"></a>
+<a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><b>CreateServer</b> (<a class="el" href="class_text.html">Text</a> ServerName, <a class="el" href="class_text.html">Text</a> ServerComment, <a class="el" href="class_integer.html">Integer</a> MaxPlayerCount, <a class="el" href="class_text.html">Text</a> Password, <a class="el" href="class_text.html">Text</a> PasswordSpectators, <a class="el" href="struct_c_match_settings.html">CMatchSettings</a> MatchSettings, <a class="el" href="class_boolean.html">Boolean</a> LocalOnly)</td></tr>
 <tr class="separator:af9e35db92bb226b3f2021bdff95e02f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a725c6fbe094f926a976f69f1377f4a18"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_title_control.html#a725c6fbe094f926a976f69f1377f4a18">GetServerInfo</a> (<a class="el" href="class_text.html">Text</a> ServerLogin)</td></tr>
 <tr class="separator:a725c6fbe094f926a976f69f1377f4a18"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5553a36f4fcd3b573dd83ef417806f9b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_title_control.html#a5553a36f4fcd3b573dd83ef417806f9b">GetServerInfo</a> (<a class="el" href="struct_c_server_info.html">CServerInfo</a> LocalServer)</td></tr>
+<tr class="memitem:a5553a36f4fcd3b573dd83ef417806f9b"><td class="memItemLeft" align="right" valign="top"><a id="a5553a36f4fcd3b573dd83ef417806f9b"></a>
+<a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><b>GetServerInfo</b> (<a class="el" href="struct_c_server_info.html">CServerInfo</a> LocalServer)</td></tr>
 <tr class="separator:a5553a36f4fcd3b573dd83ef417806f9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5417f4af60af3b4689c50bce144bab69"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_title_control.html#a5417f4af60af3b4689c50bce144bab69">GetServerInfo_Abort</a> ()</td></tr>
+<tr class="memitem:a5417f4af60af3b4689c50bce144bab69"><td class="memItemLeft" align="right" valign="top"><a id="a5417f4af60af3b4689c50bce144bab69"></a>
+<a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><b>GetServerInfo_Abort</b> ()</td></tr>
 <tr class="separator:a5417f4af60af3b4689c50bce144bab69"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5d67b2dc7a8921226277627ea68c3ddb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_title_control.html#a5d67b2dc7a8921226277627ea68c3ddb">Join_GetServerInfo_Result</a> (<a class="el" href="class_boolean.html">Boolean</a> AsSpectator, <a class="el" href="class_text.html">Text</a> Password)</td></tr>
+<tr class="memitem:a5d67b2dc7a8921226277627ea68c3ddb"><td class="memItemLeft" align="right" valign="top"><a id="a5d67b2dc7a8921226277627ea68c3ddb"></a>
+<a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Join_GetServerInfo_Result</b> (<a class="el" href="class_boolean.html">Boolean</a> AsSpectator, <a class="el" href="class_text.html">Text</a> Password)</td></tr>
 <tr class="separator:a5d67b2dc7a8921226277627ea68c3ddb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9fb51e23945703fcb8db241f13278e8c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_title_control.html#a9fb51e23945703fcb8db241f13278e8c">JoinServer</a> (<a class="el" href="class_text.html">Text</a> ServerLogin, <a class="el" href="class_boolean.html">Boolean</a> AsSpectator, <a class="el" href="class_text.html">Text</a> Password)</td></tr>
 <tr class="separator:a9fb51e23945703fcb8db241f13278e8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aae28f86e1b77b1b76a2baa3e3c4e5520"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_title_control.html#aae28f86e1b77b1b76a2baa3e3c4e5520">Quit</a> ()</td></tr>
+<tr class="memitem:aae28f86e1b77b1b76a2baa3e3c4e5520"><td class="memItemLeft" align="right" valign="top"><a id="aae28f86e1b77b1b76a2baa3e3c4e5520"></a>
+<a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Quit</b> ()</td></tr>
 <tr class="separator:aae28f86e1b77b1b76a2baa3e3c4e5520"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a8f19fbdfb0ec28270dcedbe7a8b90258"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_title_control.html#a8f19fbdfb0ec28270dcedbe7a8b90258">IsReady</a></td></tr>
 <tr class="separator:a8f19fbdfb0ec28270dcedbe7a8b90258"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a92a3b199ca6a1835f262f65c46922305"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_c_title_control.html#a8c530d072e4204881366e175054c7ac6">EResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_title_control.html#a92a3b199ca6a1835f262f65c46922305">LatestResult</a></td></tr>
+<tr class="memitem:a92a3b199ca6a1835f262f65c46922305"><td class="memItemLeft" align="right" valign="top">const EResult&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_title_control.html#a92a3b199ca6a1835f262f65c46922305">LatestResult</a></td></tr>
 <tr class="separator:a92a3b199ca6a1835f262f65c46922305"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac1362aa68131d6c257e35998c67525ef"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_text.html">Text</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_title_control.html#ac1362aa68131d6c257e35998c67525ef">CustomResultType</a></td></tr>
+<tr class="memitem:ac1362aa68131d6c257e35998c67525ef"><td class="memItemLeft" align="right" valign="top"><a id="ac1362aa68131d6c257e35998c67525ef"></a>
+const <a class="el" href="class_text.html">Text</a>&#160;</td><td class="memItemRight" valign="bottom"><b>CustomResultType</b></td></tr>
 <tr class="separator:ac1362aa68131d6c257e35998c67525ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9649bebe46565eeea56760a9353b60f4"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_text.html">Text</a> []&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_title_control.html#a9649bebe46565eeea56760a9353b60f4">CustomResultData</a></td></tr>
+<tr class="memitem:a9649bebe46565eeea56760a9353b60f4"><td class="memItemLeft" align="right" valign="top"><a id="a9649bebe46565eeea56760a9353b60f4"></a>
+const <a class="el" href="class_text.html">Text</a> []&#160;</td><td class="memItemRight" valign="bottom"><b>CustomResultData</b></td></tr>
 <tr class="separator:a9649bebe46565eeea56760a9353b60f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3d53b64d79060f7cbc40c4e74d0e9b81"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_title_control.html#a3d53b64d79060f7cbc40c4e74d0e9b81">CanPublishFiles</a></td></tr>
+<tr class="memitem:a3d53b64d79060f7cbc40c4e74d0e9b81"><td class="memItemLeft" align="right" valign="top"><a id="a3d53b64d79060f7cbc40c4e74d0e9b81"></a>
+const <a class="el" href="class_boolean.html">Boolean</a>&#160;</td><td class="memItemRight" valign="bottom"><b>CanPublishFiles</b></td></tr>
 <tr class="separator:a3d53b64d79060f7cbc40c4e74d0e9b81"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a71bf63f3ce6e2c8380a6772a0751acee"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_c_server_info.html">CServerInfo</a> []&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_title_control.html#a71bf63f3ce6e2c8380a6772a0751acee">LocalServers</a></td></tr>
+<tr class="memitem:a71bf63f3ce6e2c8380a6772a0751acee"><td class="memItemLeft" align="right" valign="top"><a id="a71bf63f3ce6e2c8380a6772a0751acee"></a>
+const <a class="el" href="struct_c_server_info.html">CServerInfo</a> []&#160;</td><td class="memItemRight" valign="bottom"><b>LocalServers</b></td></tr>
 <tr class="separator:a71bf63f3ce6e2c8380a6772a0751acee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3253b61d79678650ae071a82b3c962bf"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_c_server_info.html">CServerInfo</a> []&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_title_control.html#a3253b61d79678650ae071a82b3c962bf">LocalServers_CurrentTitle</a></td></tr>
+<tr class="memitem:a3253b61d79678650ae071a82b3c962bf"><td class="memItemLeft" align="right" valign="top"><a id="a3253b61d79678650ae071a82b3c962bf"></a>
+const <a class="el" href="struct_c_server_info.html">CServerInfo</a> []&#160;</td><td class="memItemRight" valign="bottom"><b>LocalServers_CurrentTitle</b></td></tr>
 <tr class="separator:a3253b61d79678650ae071a82b3c962bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7042a68fb4e755d3ad61801619280461"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_c_server_info.html">CServerInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_title_control.html#a7042a68fb4e755d3ad61801619280461">GetServerInfo_Result</a></td></tr>
+<tr class="memitem:a7042a68fb4e755d3ad61801619280461"><td class="memItemLeft" align="right" valign="top"><a id="a7042a68fb4e755d3ad61801619280461"></a>
+const <a class="el" href="struct_c_server_info.html">CServerInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><b>GetServerInfo_Result</b></td></tr>
 <tr class="separator:a7042a68fb4e755d3ad61801619280461"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_struct_c_nod"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_struct_c_nod')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="struct_c_nod.html">CNod</a></td></tr>
-<tr class="memitem:a4e8985f12f3e272263bfb85ef29196e4 inherit pub_attribs_struct_c_nod"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_ident.html">Ident</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_nod.html#a4e8985f12f3e272263bfb85ef29196e4">Id</a></td></tr>
+<tr class="memitem:a4e8985f12f3e272263bfb85ef29196e4 inherit pub_attribs_struct_c_nod"><td class="memItemLeft" align="right" valign="top"><a id="a4e8985f12f3e272263bfb85ef29196e4"></a>
+const <a class="el" href="class_ident.html">Ident</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Id</b></td></tr>
 <tr class="separator:a4e8985f12f3e272263bfb85ef29196e4 inherit pub_attribs_struct_c_nod"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>API for titles menus to control the main loop. </p>
-</div><h2 class="groupheader">Member Enumeration Documentation</h2>
-<a id="a85476bbdda32f803352f933025a9c589"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a85476bbdda32f803352f933025a9c589">&#9670;&nbsp;</a></span>EEditorType</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="struct_c_title_control.html#a85476bbdda32f803352f933025a9c589">CTitleControl::EEditorType</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a85476bbdda32f803352f933025a9c589a1258cfc114a168a3c091519eb14b6bd8"></a>ActionMaker&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a85476bbdda32f803352f933025a9c589aff84e4145a09fa7f1a3f811a6ecb2641"></a>ChallengeEditor&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a85476bbdda32f803352f933025a9c589a9510de36cb59b0c2d09bc1ff3c789cc3"></a>ItemEditor&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a85476bbdda32f803352f933025a9c589a09653d323e36b664f4403c5f2c92f339"></a>InterfaceDesigner&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a85476bbdda32f803352f933025a9c589abdbda46312b2016125d3e7ac37acadf6"></a>MeshModeler&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a85476bbdda32f803352f933025a9c589a5736aa7ce47aa08eb3a8170d5e9a7279"></a>ModuleStudio&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a85476bbdda32f803352f933025a9c589a0c7143491e251f6ad6c4f1d2108bb5fd"></a>PixelArt&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a85476bbdda32f803352f933025a9c589a34e58fbd2720bd1a73021eb234f8d09d"></a>EditorEditor&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a85476bbdda32f803352f933025a9c589a52283435330e8057c927be922d85c4a9"></a>VehicleAssembler&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a85476bbdda32f803352f933025a9c589a3ea3e800698ea2a222517091a3a090ba"></a>MaterialEditor&#160;</td><td class="fielddoc"></td></tr>
-</table>
-
-</div>
-</div>
-<a id="a8c530d072e4204881366e175054c7ac6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8c530d072e4204881366e175054c7ac6">&#9670;&nbsp;</a></span>EResult</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="struct_c_title_control.html#a8c530d072e4204881366e175054c7ac6">CTitleControl::EResult</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a8c530d072e4204881366e175054c7ac6aaa59426b3c9bb973387016ced58882b1"></a>Success&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a8c530d072e4204881366e175054c7ac6abdcf4c57922fa6bd2285d4810c8e8a2b"></a>Error_Internal&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a8c530d072e4204881366e175054c7ac6a3148252c3250bc4cd44fdf646dac6609"></a>Error_DataMgr&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a8c530d072e4204881366e175054c7ac6a9f91be2c4870b9c5b90426a39f689d6e"></a>Error_Net_ServerNotFound&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a8c530d072e4204881366e175054c7ac6a433674144334cfed1c2afcab9a34da1f"></a>Error_Net_ServerUnreachable&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a8c530d072e4204881366e175054c7ac6ac9fc0a39801bbecc2259d76455a64e66"></a>Error_Net_Disconnected&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a8c530d072e4204881366e175054c7ac6ae4707d695889958ba0a37e8876a28330"></a>Error_Net_WrongPassword&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a8c530d072e4204881366e175054c7ac6a2f7b230ee6451334de20a270b8d67616"></a>Error_Network_OnlineExpired&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a8c530d072e4204881366e175054c7ac6af42e57f32ae8c33d5a0af34a174e96f0"></a>Error_Network_ServerFull&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a8c530d072e4204881366e175054c7ac6a6927a2e20832a590d20c099bbcad9f5c"></a>Error_Abort&#160;</td><td class="fielddoc"></td></tr>
-</table>
-
-</div>
-</div>
-<a id="a22c3b06c960430651f4876f9fc47d573"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a22c3b06c960430651f4876f9fc47d573">&#9670;&nbsp;</a></span>ESplitScreenLayout</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="struct_c_title_control.html#a22c3b06c960430651f4876f9fc47d573">CTitleControl::ESplitScreenLayout</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a22c3b06c960430651f4876f9fc47d573a5855808cda402c3296b4301a68eafe1b"></a>Horizontal&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a22c3b06c960430651f4876f9fc47d573a33da47203ed28e6f5598fe6a36b44a80"></a>Vertical&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a22c3b06c960430651f4876f9fc47d573a748e2650ef44382a886aeda103a106ee"></a>Four&#160;</td><td class="fielddoc"></td></tr>
-</table>
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="ad6337f8ce4775e4f6677eba92318e81d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad6337f8ce4775e4f6677eba92318e81d">&#9670;&nbsp;</a></span>CreateServer() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_void.html">Void</a> CTitleControl::CreateServer </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_text.html">Text</a>&#160;</td>
-          <td class="paramname"><em>ServerName</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_text.html">Text</a>&#160;</td>
-          <td class="paramname"><em>ServerComment</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_integer.html">Integer</a>&#160;</td>
-          <td class="paramname"><em>MaxPlayerCount</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_text.html">Text</a>&#160;</td>
-          <td class="paramname"><em>Password</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="struct_c_match_settings.html">CMatchSettings</a>&#160;</td>
-          <td class="paramname"><em>MatchSettings</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_text.html">Text</a>&#160;</td>
-          <td class="paramname"><em>PasswordSpectators</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="af9e35db92bb226b3f2021bdff95e02f5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af9e35db92bb226b3f2021bdff95e02f5">&#9670;&nbsp;</a></span>CreateServer() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_void.html">Void</a> CTitleControl::CreateServer </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_text.html">Text</a>&#160;</td>
-          <td class="paramname"><em>ServerName</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_text.html">Text</a>&#160;</td>
-          <td class="paramname"><em>ServerComment</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_integer.html">Integer</a>&#160;</td>
-          <td class="paramname"><em>MaxPlayerCount</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_text.html">Text</a>&#160;</td>
-          <td class="paramname"><em>Password</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_text.html">Text</a>&#160;</td>
-          <td class="paramname"><em>PasswordSpectators</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="struct_c_match_settings.html">CMatchSettings</a>&#160;</td>
-          <td class="paramname"><em>MatchSettings</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_boolean.html">Boolean</a>&#160;</td>
-          <td class="paramname"><em>LocalOnly</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a8cd49215abbba58b2176cd7ba8b34742"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8cd49215abbba58b2176cd7ba8b34742">&#9670;&nbsp;</a></span>DiscoverLocalServers()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_void.html">Void</a> CTitleControl::DiscoverLocalServers </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a15853acb9a3398d958f4f9555446ba20"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a15853acb9a3398d958f4f9555446ba20">&#9670;&nbsp;</a></span>EditAsset()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_void.html">Void</a> CTitleControl::EditAsset </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_text.html">Text</a>&#160;</td>
-          <td class="paramname"><em>EditorName</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_text.html">Text</a>&#160;</td>
-          <td class="paramname"><em>MainPluginSettingsXml</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_text.html">Text</a>&#160;</td>
-          <td class="paramname"><em>RelativeFileName</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae35837c92007f25f96d95a98f225f773"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae35837c92007f25f96d95a98f225f773">&#9670;&nbsp;</a></span>EditBadges()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_void.html">Void</a> CTitleControl::EditBadges </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a6b73d53f3041b129bd44c3ead4598685"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6b73d53f3041b129bd44c3ead4598685">&#9670;&nbsp;</a></span>EditGhosts()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_void.html">Void</a> CTitleControl::EditGhosts </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_text.html">Text</a>&#160;</td>
-          <td class="paramname"><em>Map</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a69d6e9d92efdc833ac82c3e0ceae9e4c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a69d6e9d92efdc833ac82c3e0ceae9e4c">&#9670;&nbsp;</a></span>EditMap()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_void.html">Void</a> CTitleControl::EditMap </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_text.html">Text</a>&#160;</td>
-          <td class="paramname"><em>Map</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_text.html">Text</a>&#160;</td>
-          <td class="paramname"><em>EditorPluginScript</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_text.html">Text</a>&#160;</td>
-          <td class="paramname"><em>EditorPluginArgument</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a2da11626834cfa223d4f277f50e7fcf9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2da11626834cfa223d4f277f50e7fcf9">&#9670;&nbsp;</a></span>EditNewMap() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_void.html">Void</a> CTitleControl::EditNewMap </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_text.html">Text</a>&#160;</td>
-          <td class="paramname"><em>Environment</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_text.html">Text</a>&#160;</td>
-          <td class="paramname"><em>Decoration</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_text.html">Text</a>&#160;</td>
-          <td class="paramname"><em>ModNameOrUrl</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_text.html">Text</a>&#160;</td>
-          <td class="paramname"><em>PlayerModel</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_text.html">Text</a>&#160;</td>
-          <td class="paramname"><em>MapType</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_text.html">Text</a>&#160;</td>
-          <td class="paramname"><em>EditorPluginScript</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_text.html">Text</a>&#160;</td>
-          <td class="paramname"><em>EditorPluginArgument</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a1d3c887ba074edd491926f5be3fc2556"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1d3c887ba074edd491926f5be3fc2556">&#9670;&nbsp;</a></span>EditNewMap() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_void.html">Void</a> CTitleControl::EditNewMap </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_text.html">Text</a>&#160;</td>
-          <td class="paramname"><em>Environment</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_text.html">Text</a>&#160;</td>
-          <td class="paramname"><em>Decoration</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_text.html">Text</a>&#160;</td>
-          <td class="paramname"><em>ModNameOrUrl</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_text.html">Text</a>&#160;</td>
-          <td class="paramname"><em>PlayerModel</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_text.html">Text</a>&#160;</td>
-          <td class="paramname"><em>MapType</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_boolean.html">Boolean</a>&#160;</td>
-          <td class="paramname"><em>UseSimpleEditor</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_text.html">Text</a>&#160;</td>
-          <td class="paramname"><em>EditorPluginScript</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_text.html">Text</a>&#160;</td>
-          <td class="paramname"><em>EditorPluginArgument</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a8a3b20d6a7c7595cc667a98f5a6c444b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8a3b20d6a7c7595cc667a98f5a6c444b">&#9670;&nbsp;</a></span>EditNewMapFromBaseMap()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_void.html">Void</a> CTitleControl::EditNewMapFromBaseMap </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_text.html">Text</a>&#160;</td>
-          <td class="paramname"><em>BaseMapName</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_text.html">Text</a>&#160;</td>
-          <td class="paramname"><em>ModNameOrUrl</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_text.html">Text</a>&#160;</td>
-          <td class="paramname"><em>PlayerModel</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_text.html">Text</a>&#160;</td>
-          <td class="paramname"><em>MapType</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_text.html">Text</a>&#160;</td>
-          <td class="paramname"><em>EditorPluginScript</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_text.html">Text</a>&#160;</td>
-          <td class="paramname"><em>EditorPluginArgument</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a97278190093bf37108bea306e2e6f91a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a97278190093bf37108bea306e2e6f91a">&#9670;&nbsp;</a></span>EditReplay()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_void.html">Void</a> CTitleControl::EditReplay </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_text.html">Text</a> []&#160;</td>
-          <td class="paramname"><em>ReplayList</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aa2c91447a3885026a97ad553bf46e565"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa2c91447a3885026a97ad553bf46e565">&#9670;&nbsp;</a></span>EditSkins()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_void.html">Void</a> CTitleControl::EditSkins </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
+</div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a725c6fbe094f926a976f69f1377f4a18"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a725c6fbe094f926a976f69f1377f4a18">&#9670;&nbsp;</a></span>GetServerInfo() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a725c6fbe094f926a976f69f1377f4a18">&#9670;&nbsp;</a></span>GetServerInfo()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -762,69 +266,6 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Fetch the server info </p>
-
-</div>
-</div>
-<a id="a5553a36f4fcd3b573dd83ef417806f9b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5553a36f4fcd3b573dd83ef417806f9b">&#9670;&nbsp;</a></span>GetServerInfo() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_void.html">Void</a> CTitleControl::GetServerInfo </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_c_server_info.html">CServerInfo</a>&#160;</td>
-          <td class="paramname"><em>LocalServer</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a5417f4af60af3b4689c50bce144bab69"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5417f4af60af3b4689c50bce144bab69">&#9670;&nbsp;</a></span>GetServerInfo_Abort()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_void.html">Void</a> CTitleControl::GetServerInfo_Abort </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a5d67b2dc7a8921226277627ea68c3ddb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5d67b2dc7a8921226277627ea68c3ddb">&#9670;&nbsp;</a></span>Join_GetServerInfo_Result()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_void.html">Void</a> CTitleControl::Join_GetServerInfo_Result </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_boolean.html">Boolean</a>&#160;</td>
-          <td class="paramname"><em>AsSpectator</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_text.html">Text</a>&#160;</td>
-          <td class="paramname"><em>Password</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
 
 </div>
 </div>
@@ -863,332 +304,6 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="acc803912d8a41d83111441db75aa52a8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acc803912d8a41d83111441db75aa52a8">&#9670;&nbsp;</a></span>OpenEditor() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_void.html">Void</a> CTitleControl::OpenEditor </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_text.html">Text</a>&#160;</td>
-          <td class="paramname"><em>EditorName</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_text.html">Text</a>&#160;</td>
-          <td class="paramname"><em>MainPluginSettings</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a02bbfb711bce94bf41725ef7dad5b8a5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a02bbfb711bce94bf41725ef7dad5b8a5">&#9670;&nbsp;</a></span>OpenEditor() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_void.html">Void</a> CTitleControl::OpenEditor </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_c_title_control.html#a85476bbdda32f803352f933025a9c589">EEditorType</a>&#160;</td>
-          <td class="paramname"><em>EditorType</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a6e90295ed5c89e048fc9b774378e1bdf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6e90295ed5c89e048fc9b774378e1bdf">&#9670;&nbsp;</a></span>PlayCampaign()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_void.html">Void</a> CTitleControl::PlayCampaign </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_c_campaign.html">CCampaign</a>&#160;</td>
-          <td class="paramname"><em>Campaign</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="struct_c_map_info.html">CMapInfo</a>&#160;</td>
-          <td class="paramname"><em>MapInfo</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_text.html">Text</a>&#160;</td>
-          <td class="paramname"><em>Mode</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_text.html">Text</a>&#160;</td>
-          <td class="paramname"><em>SettingsXml</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a54f137e40dec34b8b2017b9987127dfc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a54f137e40dec34b8b2017b9987127dfc">&#9670;&nbsp;</a></span>PlayMap()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_void.html">Void</a> CTitleControl::PlayMap </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_text.html">Text</a>&#160;</td>
-          <td class="paramname"><em>Map</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_text.html">Text</a>&#160;</td>
-          <td class="paramname"><em>Mode</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_text.html">Text</a>&#160;</td>
-          <td class="paramname"><em>SettingsXml</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a6f582d6abc6d6b9cac1f019a9c69fd8b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6f582d6abc6d6b9cac1f019a9c69fd8b">&#9670;&nbsp;</a></span>PlayMapList()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_void.html">Void</a> CTitleControl::PlayMapList </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_text.html">Text</a> []&#160;</td>
-          <td class="paramname"><em>MapList</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_text.html">Text</a>&#160;</td>
-          <td class="paramname"><em>Mode</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_text.html">Text</a>&#160;</td>
-          <td class="paramname"><em>SettingsXml</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aabb464b2343267580e5ac78a9a84d2ba"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aabb464b2343267580e5ac78a9a84d2ba">&#9670;&nbsp;</a></span>PlayMatchSettings()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_void.html">Void</a> CTitleControl::PlayMatchSettings </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_c_match_settings.html">CMatchSettings</a>&#160;</td>
-          <td class="paramname"><em>MatchSettings</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_text.html">Text</a>&#160;</td>
-          <td class="paramname"><em>OverrideMode</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_text.html">Text</a>&#160;</td>
-          <td class="paramname"><em>OverrideSettingsXml</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ab976c60e4a53cc9b1366a02dc0bed366"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab976c60e4a53cc9b1366a02dc0bed366">&#9670;&nbsp;</a></span>PlayMultiOnSameScreen() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_void.html">Void</a> CTitleControl::PlayMultiOnSameScreen </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_text.html">Text</a> []&#160;</td>
-          <td class="paramname"><em>MapList</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_text.html">Text</a>&#160;</td>
-          <td class="paramname"><em>Mode</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_text.html">Text</a>&#160;</td>
-          <td class="paramname"><em>SettingsXml</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae7951f8ef6e9de5b354ff76fa95cb492"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae7951f8ef6e9de5b354ff76fa95cb492">&#9670;&nbsp;</a></span>PlayMultiOnSameScreen() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_void.html">Void</a> CTitleControl::PlayMultiOnSameScreen </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_c_match_settings.html">CMatchSettings</a>&#160;</td>
-          <td class="paramname"><em>MatchSettings</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a35c05536f278e39c4e907c753e090523"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a35c05536f278e39c4e907c753e090523">&#9670;&nbsp;</a></span>PlaySplitScreen() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_void.html">Void</a> CTitleControl::PlaySplitScreen </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_c_title_control.html#a22c3b06c960430651f4876f9fc47d573">ESplitScreenLayout</a>&#160;</td>
-          <td class="paramname"><em>LayoutType</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_text.html">Text</a> []&#160;</td>
-          <td class="paramname"><em>MapList</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_text.html">Text</a>&#160;</td>
-          <td class="paramname"><em>Mode</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_text.html">Text</a>&#160;</td>
-          <td class="paramname"><em>SettingsXml</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aa35df40c8a435c00ae7e8caf4a61fc2e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa35df40c8a435c00ae7e8caf4a61fc2e">&#9670;&nbsp;</a></span>PlaySplitScreen() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_void.html">Void</a> CTitleControl::PlaySplitScreen </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_c_title_control.html#a22c3b06c960430651f4876f9fc47d573">ESplitScreenLayout</a>&#160;</td>
-          <td class="paramname"><em>LayoutType</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="struct_c_match_settings.html">CMatchSettings</a>&#160;</td>
-          <td class="paramname"><em>MatchSettings</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="acc15667bedcb664094bb06200a14f6de"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acc15667bedcb664094bb06200a14f6de">&#9670;&nbsp;</a></span>ProcessManiaCodeXml()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_void.html">Void</a> CTitleControl::ProcessManiaCodeXml </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_text.html">Text</a>&#160;</td>
-          <td class="paramname"><em>ManiaCodeXml</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a744c709b95e04ef723f4b2ce586999aa"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a744c709b95e04ef723f4b2ce586999aa">&#9670;&nbsp;</a></span>PublishFile()</h2>
 
@@ -1208,98 +323,7 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="aae28f86e1b77b1b76a2baa3e3c4e5520"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aae28f86e1b77b1b76a2baa3e3c4e5520">&#9670;&nbsp;</a></span>Quit()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_void.html">Void</a> CTitleControl::Quit </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a3ef9b99ddf6ab0dabf77b2c80d25400b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3ef9b99ddf6ab0dabf77b2c80d25400b">&#9670;&nbsp;</a></span>ViewReplay()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_void.html">Void</a> CTitleControl::ViewReplay </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_text.html">Text</a>&#160;</td>
-          <td class="paramname"><em>Replay</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a3d53b64d79060f7cbc40c4e74d0e9b81"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3d53b64d79060f7cbc40c4e74d0e9b81">&#9670;&nbsp;</a></span>CanPublishFiles</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="class_boolean.html">Boolean</a> CTitleControl::CanPublishFiles</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a9649bebe46565eeea56760a9353b60f4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9649bebe46565eeea56760a9353b60f4">&#9670;&nbsp;</a></span>CustomResultData</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="class_text.html">Text</a> [] CTitleControl::CustomResultData</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac1362aa68131d6c257e35998c67525ef"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac1362aa68131d6c257e35998c67525ef">&#9670;&nbsp;</a></span>CustomResultType</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="class_text.html">Text</a> CTitleControl::CustomResultType</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a7042a68fb4e755d3ad61801619280461"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7042a68fb4e755d3ad61801619280461">&#9670;&nbsp;</a></span>GetServerInfo_Result</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="struct_c_server_info.html">CServerInfo</a> CTitleControl::GetServerInfo_Result</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a8f19fbdfb0ec28270dcedbe7a8b90258"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8f19fbdfb0ec28270dcedbe7a8b90258">&#9670;&nbsp;</a></span>IsReady</h2>
 
@@ -1322,7 +346,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="struct_c_title_control.html#a8c530d072e4204881366e175054c7ac6">EResult</a> CTitleControl::LatestResult</td>
+          <td class="memname">const EResult CTitleControl::LatestResult</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1330,44 +354,15 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a71bf63f3ce6e2c8380a6772a0751acee"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a71bf63f3ce6e2c8380a6772a0751acee">&#9670;&nbsp;</a></span>LocalServers</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="struct_c_server_info.html">CServerInfo</a> [] CTitleControl::LocalServers</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a3253b61d79678650ae071a82b3c962bf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3253b61d79678650ae071a82b3c962bf">&#9670;&nbsp;</a></span>LocalServers_CurrentTitle</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="struct_c_server_info.html">CServerInfo</a> [] CTitleControl::LocalServers_CurrentTitle</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
+<hr/>The documentation for this struct was generated from the following file:<ul>
+<li>maniascript/<a class="el" href="doc_8h_source.html">doc.h</a></li>
+</ul>
 </div><!-- contents -->
-</div><!-- doc-content -->
 <!-- start footer part -->
-<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
-  <ul>
-    <li class="navelem"><a class="el" href="struct_c_title_control.html">CTitleControl</a></li>
-    <li class="footer">Generated by
-    <a href="http://www.doxygen.org/index.html">
-    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
-  </ul>
-</div>
+<hr class="footer"/><address class="footer"><small>
+Generated by &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.14
+</small></address>
 </body>
 </html>

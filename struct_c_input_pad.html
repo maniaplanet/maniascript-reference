@@ -5,18 +5,10 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.14"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>ManiaScript Reference: CInputPad Struct Reference</title>
+<title>ManiaPlanet Maniascript Reference: CInputPad Struct Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<link href="navtree.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="resize.js"></script>
-<script type="text/javascript" src="navtreedata.js"></script>
-<script type="text/javascript" src="navtree.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-  $(document).ready(initResizable);
-/* @license-end */</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -28,10 +20,12 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="mp.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">ManiaScript Reference
-   &#160;<span id="projectnumber">2019-05</span>
+   <div id="projectname">ManiaPlanet Maniascript Reference
+   &#160;<span id="projectnumber">2019-11-19_18_50</span>
    </div>
+   <div id="projectbrief">A Maniascript Reference of the Maniaplanet</div>
   </td>
  </tr>
  </tbody>
@@ -54,23 +48,6 @@ $(function() {
 });
 /* @license-end */</script>
 <div id="main-nav"></div>
-</div><!-- top -->
-<div id="side-nav" class="ui-resizable side-nav-resizable">
-  <div id="nav-tree">
-    <div id="nav-tree-contents">
-      <div id="nav-sync" class="sync"></div>
-    </div>
-  </div>
-  <div id="splitbar" style="-moz-user-select:none;" 
-       class="ui-resizable-handle">
-  </div>
-</div>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-$(document).ready(function(){initNavTree('struct_c_input_pad.html','');});
-/* @license-end */
-</script>
-<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -85,6 +62,7 @@ $(document).ready(function(){initNavTree('struct_c_input_pad.html','');});
 </iframe>
 </div>
 
+</div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#pub-types">Public Types</a> &#124;
@@ -95,6 +73,8 @@ $(document).ready(function(){initNavTree('struct_c_input_pad.html','');});
 <div class="title">CInputPad Struct Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p><code>#include &lt;<a class="el" href="doc_8h_source.html">doc.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for CInputPad:</div>
 <div class="dyncontent">
@@ -107,56 +87,57 @@ Inheritance diagram for CInputPad:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:aceae22fce8fd6c51d929c2a243946e41"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_input_pad.html#aceae22fce8fd6c51d929c2a243946e41">EButton</a> { <br />
-&#160;&#160;<a class="el" href="struct_c_input_pad.html#aceae22fce8fd6c51d929c2a243946e41a846cae8afe32c56b40358501165161d4">Left</a>, 
-<a class="el" href="struct_c_input_pad.html#aceae22fce8fd6c51d929c2a243946e41a782be0ca81ab5e2e61ad02d4c63e1e7b">Right</a>, 
-<a class="el" href="struct_c_input_pad.html#aceae22fce8fd6c51d929c2a243946e41a098e6a0f53b620cb7aa4bb24cde7865e">Up</a>, 
-<a class="el" href="struct_c_input_pad.html#aceae22fce8fd6c51d929c2a243946e41acccf8a8fe726f27eb5832f213ac453bc">Down</a>, 
+<tr class="memitem:aceae22fce8fd6c51d929c2a243946e41"><td class="memItemLeft" align="right" valign="top"><a id="aceae22fce8fd6c51d929c2a243946e41"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>EButton</b> { <br />
+&#160;&#160;<b>Left</b>, 
+<b>Right</b>, 
+<b>Up</b>, 
+<b>Down</b>, 
 <br />
-&#160;&#160;<a class="el" href="struct_c_input_pad.html#aceae22fce8fd6c51d929c2a243946e41ad94c4fd6b98b1106e72dcb1f6cd61ec8">A</a>, 
-<a class="el" href="struct_c_input_pad.html#aceae22fce8fd6c51d929c2a243946e41a67ebacb5113fa89d6c134cec2d1049d5">B</a>, 
-<a class="el" href="struct_c_input_pad.html#aceae22fce8fd6c51d929c2a243946e41a11091fdc0447d33018fbecabe6faa3b0">X</a>, 
-<a class="el" href="struct_c_input_pad.html#aceae22fce8fd6c51d929c2a243946e41a498705ec3e2ff43e50e52afb747a585a">Y</a>, 
+&#160;&#160;<b>A</b>, 
+<b>B</b>, 
+<b>X</b>, 
+<b>Y</b>, 
 <br />
-&#160;&#160;<a class="el" href="struct_c_input_pad.html#aceae22fce8fd6c51d929c2a243946e41a791b3516e34ec4f3c6b5fd41841d92da">L1</a>, 
-<a class="el" href="struct_c_input_pad.html#aceae22fce8fd6c51d929c2a243946e41a5cb8d1762ffdae5edbf9e990f4bcbc8a">R1</a>, 
-<a class="el" href="struct_c_input_pad.html#aceae22fce8fd6c51d929c2a243946e41a51fa6491d78026836c0dc70acaa4905f">LeftStick</a>, 
-<a class="el" href="struct_c_input_pad.html#aceae22fce8fd6c51d929c2a243946e41ad31785f77fc85f5cb60858e68905e4a5">RightStick</a>, 
+&#160;&#160;<b>L1</b>, 
+<b>R1</b>, 
+<b>LeftStick</b>, 
+<b>RightStick</b>, 
 <br />
-&#160;&#160;<a class="el" href="struct_c_input_pad.html#aceae22fce8fd6c51d929c2a243946e41a7ff4379ee1291c4ba4718d5270bcf547">Menu</a>, 
-<a class="el" href="struct_c_input_pad.html#aceae22fce8fd6c51d929c2a243946e41a925ffdf9f06134a862eecf3fd1c41ef2">View</a>, 
-<a class="el" href="struct_c_input_pad.html#aceae22fce8fd6c51d929c2a243946e41ab95d1773b026b536c8c85e7898ad9bcc">LeftStick_Left</a>, 
-<a class="el" href="struct_c_input_pad.html#aceae22fce8fd6c51d929c2a243946e41ad3221254fd5bb58e093d9ccf47baa9e4">LeftStick_Right</a>, 
+&#160;&#160;<b>Menu</b>, 
+<b>View</b>, 
+<b>LeftStick_Left</b>, 
+<b>LeftStick_Right</b>, 
 <br />
-&#160;&#160;<a class="el" href="struct_c_input_pad.html#aceae22fce8fd6c51d929c2a243946e41a1241fc645f6230dd5c5a17626ed4d4c1">LeftStick_Up</a>, 
-<a class="el" href="struct_c_input_pad.html#aceae22fce8fd6c51d929c2a243946e41aa71d521b785362a67c5da48418165ec1">LeftStick_Down</a>, 
-<a class="el" href="struct_c_input_pad.html#aceae22fce8fd6c51d929c2a243946e41ad2d77c273a8e29d7f82f5975a1c6c4ab">RightStick_Left</a>, 
-<a class="el" href="struct_c_input_pad.html#aceae22fce8fd6c51d929c2a243946e41ae66b3743fd270a5d0791dbadde5bc0f7">RightStick_Right</a>, 
+&#160;&#160;<b>LeftStick_Up</b>, 
+<b>LeftStick_Down</b>, 
+<b>RightStick_Left</b>, 
+<b>RightStick_Right</b>, 
 <br />
-&#160;&#160;<a class="el" href="struct_c_input_pad.html#aceae22fce8fd6c51d929c2a243946e41a6fb49cdde87f4a45ad798b64c7a33055">RightStick_Up</a>, 
-<a class="el" href="struct_c_input_pad.html#aceae22fce8fd6c51d929c2a243946e41af8d2e09319061f0a2d5f97c1cbd86411">RightStick_Down</a>, 
-<a class="el" href="struct_c_input_pad.html#aceae22fce8fd6c51d929c2a243946e41af7a4dd06c5800364c004592a74062e96">L2</a>, 
-<a class="el" href="struct_c_input_pad.html#aceae22fce8fd6c51d929c2a243946e41a3ea1913363566a20673d00133da90960">R2</a>, 
+&#160;&#160;<b>RightStick_Up</b>, 
+<b>RightStick_Down</b>, 
+<b>L2</b>, 
+<b>R2</b>, 
 <br />
-&#160;&#160;<a class="el" href="struct_c_input_pad.html#aceae22fce8fd6c51d929c2a243946e41a666d5756d3e867602172df2cddb8c584">None</a>
+&#160;&#160;<b>None</b>
 <br />
  }</td></tr>
 <tr class="separator:aceae22fce8fd6c51d929c2a243946e41"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a12137c30f421d5227891bc716acf938f"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_input_pad.html#a12137c30f421d5227891bc716acf938f">EPadType</a> { <br />
-&#160;&#160;<a class="el" href="struct_c_input_pad.html#a12137c30f421d5227891bc716acf938facdd0e7d8b7425f750565e95454395422">Keyboard</a>, 
-<a class="el" href="struct_c_input_pad.html#a12137c30f421d5227891bc716acf938faf4e664bdd27de9c7bbc1ff22abd92110">Mouse</a>, 
-<a class="el" href="struct_c_input_pad.html#a12137c30f421d5227891bc716acf938fa174bf84e5db1712e750760f7b3ebaed8">Generic</a>, 
-<a class="el" href="struct_c_input_pad.html#a12137c30f421d5227891bc716acf938fa117c46971ae186a7424402c5ca9f85d0">XBox</a>, 
+<tr class="memitem:a12137c30f421d5227891bc716acf938f"><td class="memItemLeft" align="right" valign="top"><a id="a12137c30f421d5227891bc716acf938f"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>EPadType</b> { <br />
+&#160;&#160;<b>Keyboard</b>, 
+<b>Mouse</b>, 
+<b>Generic</b>, 
+<b>XBox</b>, 
 <br />
-&#160;&#160;<a class="el" href="struct_c_input_pad.html#a12137c30f421d5227891bc716acf938facf4db7722f3d31782c0e233e2334cfd4">PlayStation</a>, 
-<a class="el" href="struct_c_input_pad.html#a12137c30f421d5227891bc716acf938fa639dcb95f176b2dcdeb96b01bc80dcd8">Vive</a>
+&#160;&#160;<b>PlayStation</b>, 
+<b>Vive</b>
 <br />
  }</td></tr>
 <tr class="separator:a12137c30f421d5227891bc716acf938f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a0991ff7af7682a9885f238a3b16b8174"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_input_pad.html#a0991ff7af7682a9885f238a3b16b8174">ClearRumble</a> ()</td></tr>
+<tr class="memitem:a0991ff7af7682a9885f238a3b16b8174"><td class="memItemLeft" align="right" valign="top"><a id="a0991ff7af7682a9885f238a3b16b8174"></a>
+<a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><b>ClearRumble</b> ()</td></tr>
 <tr class="separator:a0991ff7af7682a9885f238a3b16b8174"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab9cd7828e1ae9f6c46284c53b2298085"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_void.html">Void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_input_pad.html#ab9cd7828e1ae9f6c46284c53b2298085">AddRumble</a> (<a class="el" href="class_integer.html">Integer</a> Duration, <a class="el" href="class_real.html">Real</a> LargeMotor, <a class="el" href="class_real.html">Real</a> SmallMotor)</td></tr>
 <tr class="separator:ab9cd7828e1ae9f6c46284c53b2298085"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -165,43 +146,62 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a81cf328886c3e23f4317833c36045797"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_input_pad.html#a81cf328886c3e23f4317833c36045797">ControllerId</a></td></tr>
+<tr class="memitem:a81cf328886c3e23f4317833c36045797"><td class="memItemLeft" align="right" valign="top"><a id="a81cf328886c3e23f4317833c36045797"></a>
+const <a class="el" href="class_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><b>ControllerId</b></td></tr>
 <tr class="separator:a81cf328886c3e23f4317833c36045797"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a52cca03fa6bacf05296d9cfd2889054f"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_ident.html">Ident</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_input_pad.html#a52cca03fa6bacf05296d9cfd2889054f">UserId</a></td></tr>
+<tr class="memitem:a52cca03fa6bacf05296d9cfd2889054f"><td class="memItemLeft" align="right" valign="top"><a id="a52cca03fa6bacf05296d9cfd2889054f"></a>
+const <a class="el" href="class_ident.html">Ident</a>&#160;</td><td class="memItemRight" valign="bottom"><b>UserId</b></td></tr>
 <tr class="separator:a52cca03fa6bacf05296d9cfd2889054f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3b17c4ed5c9108a2194cc444c6a08b7b"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_c_input_pad.html#a12137c30f421d5227891bc716acf938f">EPadType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_input_pad.html#a3b17c4ed5c9108a2194cc444c6a08b7b">Type</a></td></tr>
+<tr class="memitem:a3b17c4ed5c9108a2194cc444c6a08b7b"><td class="memItemLeft" align="right" valign="top"><a id="a3b17c4ed5c9108a2194cc444c6a08b7b"></a>
+const EPadType&#160;</td><td class="memItemRight" valign="bottom"><b>Type</b></td></tr>
 <tr class="separator:a3b17c4ed5c9108a2194cc444c6a08b7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab9cd0fcd71c1feaff86ceb4b8df21d67"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_text.html">Text</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_input_pad.html#ab9cd0fcd71c1feaff86ceb4b8df21d67">ModelName</a></td></tr>
+<tr class="memitem:ab9cd0fcd71c1feaff86ceb4b8df21d67"><td class="memItemLeft" align="right" valign="top"><a id="ab9cd0fcd71c1feaff86ceb4b8df21d67"></a>
+const <a class="el" href="class_text.html">Text</a>&#160;</td><td class="memItemRight" valign="bottom"><b>ModelName</b></td></tr>
 <tr class="separator:ab9cd0fcd71c1feaff86ceb4b8df21d67"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad91dfd91df1ae92f84f3ec3709e40490"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_input_pad.html#ad91dfd91df1ae92f84f3ec3709e40490">IdleDuration</a></td></tr>
+<tr class="memitem:ad91dfd91df1ae92f84f3ec3709e40490"><td class="memItemLeft" align="right" valign="top"><a id="ad91dfd91df1ae92f84f3ec3709e40490"></a>
+const <a class="el" href="class_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><b>IdleDuration</b></td></tr>
 <tr class="separator:ad91dfd91df1ae92f84f3ec3709e40490"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af76566848e34aec1ad2137e07fd01856"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_input_pad.html#af76566848e34aec1ad2137e07fd01856">Left</a></td></tr>
+<tr class="memitem:af76566848e34aec1ad2137e07fd01856"><td class="memItemLeft" align="right" valign="top"><a id="af76566848e34aec1ad2137e07fd01856"></a>
+const <a class="el" href="class_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Left</b></td></tr>
 <tr class="separator:af76566848e34aec1ad2137e07fd01856"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac2b96f27f990dba75474bc9ac476d2b9"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_input_pad.html#ac2b96f27f990dba75474bc9ac476d2b9">Right</a></td></tr>
+<tr class="memitem:ac2b96f27f990dba75474bc9ac476d2b9"><td class="memItemLeft" align="right" valign="top"><a id="ac2b96f27f990dba75474bc9ac476d2b9"></a>
+const <a class="el" href="class_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Right</b></td></tr>
 <tr class="separator:ac2b96f27f990dba75474bc9ac476d2b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a78f3549739f988e8289c2eb38cd33557"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_input_pad.html#a78f3549739f988e8289c2eb38cd33557">Up</a></td></tr>
+<tr class="memitem:a78f3549739f988e8289c2eb38cd33557"><td class="memItemLeft" align="right" valign="top"><a id="a78f3549739f988e8289c2eb38cd33557"></a>
+const <a class="el" href="class_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Up</b></td></tr>
 <tr class="separator:a78f3549739f988e8289c2eb38cd33557"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4a20bf8959141eec19d0ccb6efbf912d"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_input_pad.html#a4a20bf8959141eec19d0ccb6efbf912d">Down</a></td></tr>
+<tr class="memitem:a4a20bf8959141eec19d0ccb6efbf912d"><td class="memItemLeft" align="right" valign="top"><a id="a4a20bf8959141eec19d0ccb6efbf912d"></a>
+const <a class="el" href="class_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Down</b></td></tr>
 <tr class="separator:a4a20bf8959141eec19d0ccb6efbf912d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af556e6d101c55335d9469ea4f6c56653"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_input_pad.html#af556e6d101c55335d9469ea4f6c56653">A</a></td></tr>
+<tr class="memitem:af556e6d101c55335d9469ea4f6c56653"><td class="memItemLeft" align="right" valign="top"><a id="af556e6d101c55335d9469ea4f6c56653"></a>
+const <a class="el" href="class_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><b>A</b></td></tr>
 <tr class="separator:af556e6d101c55335d9469ea4f6c56653"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a452bbccbe83c73f36b11005fb7fb4a14"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_input_pad.html#a452bbccbe83c73f36b11005fb7fb4a14">B</a></td></tr>
+<tr class="memitem:a452bbccbe83c73f36b11005fb7fb4a14"><td class="memItemLeft" align="right" valign="top"><a id="a452bbccbe83c73f36b11005fb7fb4a14"></a>
+const <a class="el" href="class_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><b>B</b></td></tr>
 <tr class="separator:a452bbccbe83c73f36b11005fb7fb4a14"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a26aa6efdce753624aa73541aab0158c2"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_input_pad.html#a26aa6efdce753624aa73541aab0158c2">X</a></td></tr>
+<tr class="memitem:a26aa6efdce753624aa73541aab0158c2"><td class="memItemLeft" align="right" valign="top"><a id="a26aa6efdce753624aa73541aab0158c2"></a>
+const <a class="el" href="class_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><b>X</b></td></tr>
 <tr class="separator:a26aa6efdce753624aa73541aab0158c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae948f20514b407f9df116f072cefb65e"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_input_pad.html#ae948f20514b407f9df116f072cefb65e">Y</a></td></tr>
+<tr class="memitem:ae948f20514b407f9df116f072cefb65e"><td class="memItemLeft" align="right" valign="top"><a id="ae948f20514b407f9df116f072cefb65e"></a>
+const <a class="el" href="class_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Y</b></td></tr>
 <tr class="separator:ae948f20514b407f9df116f072cefb65e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a347814606ce0636a3283c3086b8ce3ba"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_input_pad.html#a347814606ce0636a3283c3086b8ce3ba">L1</a></td></tr>
+<tr class="memitem:a347814606ce0636a3283c3086b8ce3ba"><td class="memItemLeft" align="right" valign="top"><a id="a347814606ce0636a3283c3086b8ce3ba"></a>
+const <a class="el" href="class_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><b>L1</b></td></tr>
 <tr class="separator:a347814606ce0636a3283c3086b8ce3ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8f8eecb19961d5c05e003d2a6358373d"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_input_pad.html#a8f8eecb19961d5c05e003d2a6358373d">R1</a></td></tr>
+<tr class="memitem:a8f8eecb19961d5c05e003d2a6358373d"><td class="memItemLeft" align="right" valign="top"><a id="a8f8eecb19961d5c05e003d2a6358373d"></a>
+const <a class="el" href="class_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><b>R1</b></td></tr>
 <tr class="separator:a8f8eecb19961d5c05e003d2a6358373d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a296cde657f29ec5c2ff2d31583823489"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_input_pad.html#a296cde657f29ec5c2ff2d31583823489">LeftStickBut</a></td></tr>
+<tr class="memitem:a296cde657f29ec5c2ff2d31583823489"><td class="memItemLeft" align="right" valign="top"><a id="a296cde657f29ec5c2ff2d31583823489"></a>
+const <a class="el" href="class_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><b>LeftStickBut</b></td></tr>
 <tr class="separator:a296cde657f29ec5c2ff2d31583823489"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a19bfdd993ff93e5e30fdf2bb0480b237"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_input_pad.html#a19bfdd993ff93e5e30fdf2bb0480b237">RightStickBut</a></td></tr>
+<tr class="memitem:a19bfdd993ff93e5e30fdf2bb0480b237"><td class="memItemLeft" align="right" valign="top"><a id="a19bfdd993ff93e5e30fdf2bb0480b237"></a>
+const <a class="el" href="class_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><b>RightStickBut</b></td></tr>
 <tr class="separator:a19bfdd993ff93e5e30fdf2bb0480b237"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a219ba4142fe911c3646760175e4993f7"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_input_pad.html#a219ba4142fe911c3646760175e4993f7">Menu</a></td></tr>
+<tr class="memitem:a219ba4142fe911c3646760175e4993f7"><td class="memItemLeft" align="right" valign="top"><a id="a219ba4142fe911c3646760175e4993f7"></a>
+const <a class="el" href="class_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Menu</b></td></tr>
 <tr class="separator:a219ba4142fe911c3646760175e4993f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b2c1c1f5911d3f257ebeb611c0cba4b"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_input_pad.html#a8b2c1c1f5911d3f257ebeb611c0cba4b">View</a></td></tr>
+<tr class="memitem:a8b2c1c1f5911d3f257ebeb611c0cba4b"><td class="memItemLeft" align="right" valign="top"><a id="a8b2c1c1f5911d3f257ebeb611c0cba4b"></a>
+const <a class="el" href="class_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><b>View</b></td></tr>
 <tr class="separator:a8b2c1c1f5911d3f257ebeb611c0cba4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aca0609778b646557013983423febc76a"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_real.html">Real</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_input_pad.html#aca0609778b646557013983423febc76a">LeftStickX</a></td></tr>
 <tr class="separator:aca0609778b646557013983423febc76a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -215,79 +215,17 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a38809aa08adc0a95ed945c8aa9be2191"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a054ae455c3bab3ddf209d2935ef400db"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_real.html">Real</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_input_pad.html#a054ae455c3bab3ddf209d2935ef400db">R2</a></td></tr>
 <tr class="separator:a054ae455c3bab3ddf209d2935ef400db"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4a3189f86d63ee8dbe7a76842d15b274"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_c_input_pad.html#aceae22fce8fd6c51d929c2a243946e41">EButton</a> []&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_input_pad.html#a4a3189f86d63ee8dbe7a76842d15b274">ButtonEvents</a></td></tr>
+<tr class="memitem:a4a3189f86d63ee8dbe7a76842d15b274"><td class="memItemLeft" align="right" valign="top"><a id="a4a3189f86d63ee8dbe7a76842d15b274"></a>
+const EButton []&#160;</td><td class="memItemRight" valign="bottom"><b>ButtonEvents</b></td></tr>
 <tr class="separator:a4a3189f86d63ee8dbe7a76842d15b274"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_struct_c_nod"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_struct_c_nod')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="struct_c_nod.html">CNod</a></td></tr>
-<tr class="memitem:a4e8985f12f3e272263bfb85ef29196e4 inherit pub_attribs_struct_c_nod"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="class_ident.html">Ident</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_c_nod.html#a4e8985f12f3e272263bfb85ef29196e4">Id</a></td></tr>
+<tr class="memitem:a4e8985f12f3e272263bfb85ef29196e4 inherit pub_attribs_struct_c_nod"><td class="memItemLeft" align="right" valign="top"><a id="a4e8985f12f3e272263bfb85ef29196e4"></a>
+const <a class="el" href="class_ident.html">Ident</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Id</b></td></tr>
 <tr class="separator:a4e8985f12f3e272263bfb85ef29196e4 inherit pub_attribs_struct_c_nod"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>game controller. </p>
-</div><h2 class="groupheader">Member Enumeration Documentation</h2>
-<a id="aceae22fce8fd6c51d929c2a243946e41"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aceae22fce8fd6c51d929c2a243946e41">&#9670;&nbsp;</a></span>EButton</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="struct_c_input_pad.html#aceae22fce8fd6c51d929c2a243946e41">CInputPad::EButton</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aceae22fce8fd6c51d929c2a243946e41a846cae8afe32c56b40358501165161d4"></a>Left&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aceae22fce8fd6c51d929c2a243946e41a782be0ca81ab5e2e61ad02d4c63e1e7b"></a>Right&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aceae22fce8fd6c51d929c2a243946e41a098e6a0f53b620cb7aa4bb24cde7865e"></a>Up&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aceae22fce8fd6c51d929c2a243946e41acccf8a8fe726f27eb5832f213ac453bc"></a>Down&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aceae22fce8fd6c51d929c2a243946e41ad94c4fd6b98b1106e72dcb1f6cd61ec8"></a>A&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aceae22fce8fd6c51d929c2a243946e41a67ebacb5113fa89d6c134cec2d1049d5"></a>B&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aceae22fce8fd6c51d929c2a243946e41a11091fdc0447d33018fbecabe6faa3b0"></a>X&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aceae22fce8fd6c51d929c2a243946e41a498705ec3e2ff43e50e52afb747a585a"></a>Y&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aceae22fce8fd6c51d929c2a243946e41a791b3516e34ec4f3c6b5fd41841d92da"></a>L1&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aceae22fce8fd6c51d929c2a243946e41a5cb8d1762ffdae5edbf9e990f4bcbc8a"></a>R1&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aceae22fce8fd6c51d929c2a243946e41a51fa6491d78026836c0dc70acaa4905f"></a>LeftStick&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aceae22fce8fd6c51d929c2a243946e41ad31785f77fc85f5cb60858e68905e4a5"></a>RightStick&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aceae22fce8fd6c51d929c2a243946e41a7ff4379ee1291c4ba4718d5270bcf547"></a>Menu&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aceae22fce8fd6c51d929c2a243946e41a925ffdf9f06134a862eecf3fd1c41ef2"></a>View&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aceae22fce8fd6c51d929c2a243946e41ab95d1773b026b536c8c85e7898ad9bcc"></a>LeftStick_Left&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aceae22fce8fd6c51d929c2a243946e41ad3221254fd5bb58e093d9ccf47baa9e4"></a>LeftStick_Right&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aceae22fce8fd6c51d929c2a243946e41a1241fc645f6230dd5c5a17626ed4d4c1"></a>LeftStick_Up&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aceae22fce8fd6c51d929c2a243946e41aa71d521b785362a67c5da48418165ec1"></a>LeftStick_Down&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aceae22fce8fd6c51d929c2a243946e41ad2d77c273a8e29d7f82f5975a1c6c4ab"></a>RightStick_Left&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aceae22fce8fd6c51d929c2a243946e41ae66b3743fd270a5d0791dbadde5bc0f7"></a>RightStick_Right&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aceae22fce8fd6c51d929c2a243946e41a6fb49cdde87f4a45ad798b64c7a33055"></a>RightStick_Up&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aceae22fce8fd6c51d929c2a243946e41af8d2e09319061f0a2d5f97c1cbd86411"></a>RightStick_Down&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aceae22fce8fd6c51d929c2a243946e41af7a4dd06c5800364c004592a74062e96"></a>L2&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aceae22fce8fd6c51d929c2a243946e41a3ea1913363566a20673d00133da90960"></a>R2&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aceae22fce8fd6c51d929c2a243946e41a666d5756d3e867602172df2cddb8c584"></a>None&#160;</td><td class="fielddoc"></td></tr>
-</table>
-
-</div>
-</div>
-<a id="a12137c30f421d5227891bc716acf938f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a12137c30f421d5227891bc716acf938f">&#9670;&nbsp;</a></span>EPadType</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="struct_c_input_pad.html#a12137c30f421d5227891bc716acf938f">CInputPad::EPadType</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a12137c30f421d5227891bc716acf938facdd0e7d8b7425f750565e95454395422"></a>Keyboard&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a12137c30f421d5227891bc716acf938faf4e664bdd27de9c7bbc1ff22abd92110"></a>Mouse&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a12137c30f421d5227891bc716acf938fa174bf84e5db1712e750760f7b3ebaed8"></a>Generic&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a12137c30f421d5227891bc716acf938fa117c46971ae186a7424402c5ca9f85d0"></a>XBox&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a12137c30f421d5227891bc716acf938facf4db7722f3d31782c0e233e2334cfd4"></a>PlayStation&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a12137c30f421d5227891bc716acf938fa639dcb95f176b2dcdeb96b01bc80dcd8"></a>Vive&#160;</td><td class="fielddoc"></td></tr>
-</table>
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
+</div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="ab9cd7828e1ae9f6c46284c53b2298085"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab9cd7828e1ae9f6c46284c53b2298085">&#9670;&nbsp;</a></span>AddRumble()</h2>
 
@@ -323,23 +261,6 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a0991ff7af7682a9885f238a3b16b8174"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0991ff7af7682a9885f238a3b16b8174">&#9670;&nbsp;</a></span>ClearRumble()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_void.html">Void</a> CInputPad::ClearRumble </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a7dd7a5e89debb5553402eb75be7869c7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7dd7a5e89debb5553402eb75be7869c7">&#9670;&nbsp;</a></span>SetColor()</h2>
 
@@ -360,104 +281,6 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="af556e6d101c55335d9469ea4f6c56653"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af556e6d101c55335d9469ea4f6c56653">&#9670;&nbsp;</a></span>A</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="class_integer.html">Integer</a> CInputPad::A</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a452bbccbe83c73f36b11005fb7fb4a14"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a452bbccbe83c73f36b11005fb7fb4a14">&#9670;&nbsp;</a></span>B</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="class_integer.html">Integer</a> CInputPad::B</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a4a3189f86d63ee8dbe7a76842d15b274"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4a3189f86d63ee8dbe7a76842d15b274">&#9670;&nbsp;</a></span>ButtonEvents</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="struct_c_input_pad.html#aceae22fce8fd6c51d929c2a243946e41">EButton</a> [] CInputPad::ButtonEvents</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a81cf328886c3e23f4317833c36045797"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a81cf328886c3e23f4317833c36045797">&#9670;&nbsp;</a></span>ControllerId</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="class_integer.html">Integer</a> CInputPad::ControllerId</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a4a20bf8959141eec19d0ccb6efbf912d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4a20bf8959141eec19d0ccb6efbf912d">&#9670;&nbsp;</a></span>Down</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="class_integer.html">Integer</a> CInputPad::Down</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ad91dfd91df1ae92f84f3ec3709e40490"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad91dfd91df1ae92f84f3ec3709e40490">&#9670;&nbsp;</a></span>IdleDuration</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="class_integer.html">Integer</a> CInputPad::IdleDuration</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a347814606ce0636a3283c3086b8ce3ba"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a347814606ce0636a3283c3086b8ce3ba">&#9670;&nbsp;</a></span>L1</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="class_integer.html">Integer</a> CInputPad::L1</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a38809aa08adc0a95ed945c8aa9be2191"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a38809aa08adc0a95ed945c8aa9be2191">&#9670;&nbsp;</a></span>L2</h2>
 
@@ -470,34 +293,6 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Values in range (0.000000-1.000000) </p>
-
-</div>
-</div>
-<a id="af76566848e34aec1ad2137e07fd01856"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af76566848e34aec1ad2137e07fd01856">&#9670;&nbsp;</a></span>Left</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="class_integer.html">Integer</a> CInputPad::Left</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a296cde657f29ec5c2ff2d31583823489"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a296cde657f29ec5c2ff2d31583823489">&#9670;&nbsp;</a></span>LeftStickBut</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="class_integer.html">Integer</a> CInputPad::LeftStickBut</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
 
 </div>
 </div>
@@ -531,48 +326,6 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a219ba4142fe911c3646760175e4993f7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a219ba4142fe911c3646760175e4993f7">&#9670;&nbsp;</a></span>Menu</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="class_integer.html">Integer</a> CInputPad::Menu</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ab9cd0fcd71c1feaff86ceb4b8df21d67"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab9cd0fcd71c1feaff86ceb4b8df21d67">&#9670;&nbsp;</a></span>ModelName</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="class_text.html">Text</a> CInputPad::ModelName</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a8f8eecb19961d5c05e003d2a6358373d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8f8eecb19961d5c05e003d2a6358373d">&#9670;&nbsp;</a></span>R1</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="class_integer.html">Integer</a> CInputPad::R1</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a054ae455c3bab3ddf209d2935ef400db"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a054ae455c3bab3ddf209d2935ef400db">&#9670;&nbsp;</a></span>R2</h2>
 
@@ -585,34 +338,6 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Values in range (0.000000-1.000000) </p>
-
-</div>
-</div>
-<a id="ac2b96f27f990dba75474bc9ac476d2b9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac2b96f27f990dba75474bc9ac476d2b9">&#9670;&nbsp;</a></span>Right</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="class_integer.html">Integer</a> CInputPad::Right</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a19bfdd993ff93e5e30fdf2bb0480b237"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a19bfdd993ff93e5e30fdf2bb0480b237">&#9670;&nbsp;</a></span>RightStickBut</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="class_integer.html">Integer</a> CInputPad::RightStickBut</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
 
 </div>
 </div>
@@ -646,100 +371,15 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a3b17c4ed5c9108a2194cc444c6a08b7b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3b17c4ed5c9108a2194cc444c6a08b7b">&#9670;&nbsp;</a></span>Type</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="struct_c_input_pad.html#a12137c30f421d5227891bc716acf938f">EPadType</a> CInputPad::Type</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a78f3549739f988e8289c2eb38cd33557"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a78f3549739f988e8289c2eb38cd33557">&#9670;&nbsp;</a></span>Up</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="class_integer.html">Integer</a> CInputPad::Up</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a52cca03fa6bacf05296d9cfd2889054f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a52cca03fa6bacf05296d9cfd2889054f">&#9670;&nbsp;</a></span>UserId</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="class_ident.html">Ident</a> CInputPad::UserId</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a8b2c1c1f5911d3f257ebeb611c0cba4b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8b2c1c1f5911d3f257ebeb611c0cba4b">&#9670;&nbsp;</a></span>View</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="class_integer.html">Integer</a> CInputPad::View</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a26aa6efdce753624aa73541aab0158c2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a26aa6efdce753624aa73541aab0158c2">&#9670;&nbsp;</a></span>X</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="class_integer.html">Integer</a> CInputPad::X</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae948f20514b407f9df116f072cefb65e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae948f20514b407f9df116f072cefb65e">&#9670;&nbsp;</a></span>Y</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="class_integer.html">Integer</a> CInputPad::Y</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
+<hr/>The documentation for this struct was generated from the following file:<ul>
+<li>maniascript/<a class="el" href="doc_8h_source.html">doc.h</a></li>
+</ul>
 </div><!-- contents -->
-</div><!-- doc-content -->
 <!-- start footer part -->
-<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
-  <ul>
-    <li class="navelem"><a class="el" href="struct_c_input_pad.html">CInputPad</a></li>
-    <li class="footer">Generated by
-    <a href="http://www.doxygen.org/index.html">
-    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
-  </ul>
-</div>
+<hr class="footer"/><address class="footer"><small>
+Generated by &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.14
+</small></address>
 </body>
 </html>

@@ -5,18 +5,10 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.14"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>ManiaScript Reference: TimeLib Namespace Reference</title>
+<title>ManiaPlanet Maniascript Reference: TimeLib Namespace Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<link href="navtree.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="resize.js"></script>
-<script type="text/javascript" src="navtreedata.js"></script>
-<script type="text/javascript" src="navtree.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-  $(document).ready(initResizable);
-/* @license-end */</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -28,10 +20,12 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="mp.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">ManiaScript Reference
-   &#160;<span id="projectnumber">2019-05</span>
+   <div id="projectname">ManiaPlanet Maniascript Reference
+   &#160;<span id="projectnumber">2019-11-19_18_50</span>
    </div>
+   <div id="projectbrief">A Maniascript Reference of the Maniaplanet</div>
   </td>
  </tr>
  </tbody>
@@ -54,23 +48,6 @@ $(function() {
 });
 /* @license-end */</script>
 <div id="main-nav"></div>
-</div><!-- top -->
-<div id="side-nav" class="ui-resizable side-nav-resizable">
-  <div id="nav-tree">
-    <div id="nav-tree-contents">
-      <div id="nav-sync" class="sync"></div>
-    </div>
-  </div>
-  <div id="splitbar" style="-moz-user-select:none;" 
-       class="ui-resizable-handle">
-  </div>
-</div>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-$(document).ready(function(){initNavTree('namespace_time_lib.html','');});
-/* @license-end */
-</script>
-<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -85,6 +62,7 @@ $(document).ready(function(){initNavTree('namespace_time_lib.html','');});
 </iframe>
 </div>
 
+</div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#enum-members">Enumerations</a> &#124;
@@ -93,36 +71,39 @@ $(document).ready(function(){initNavTree('namespace_time_lib.html','');});
 <div class="title">TimeLib Namespace Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Standard time manipulation functions.  
+<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a61bd18cc93cd6fa9cca4e2b66125afe8"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_time_lib.html#a61bd18cc93cd6fa9cca4e2b66125afe8">EDateFormats</a> { <br />
-&#160;&#160;<a class="el" href="namespace_time_lib.html#ab25afd1fe35e44e43a5c27ef9d7ba863ab5b1faa8f7c472ba7924d30f1c388c0d">Full</a>, 
-<a class="el" href="namespace_time_lib.html#a61bd18cc93cd6fa9cca4e2b66125afe8ad5b286bd51f81c9f3a94e22fd2ea454a">Date</a>, 
-<a class="el" href="namespace_time_lib.html#a61bd18cc93cd6fa9cca4e2b66125afe8ae98580d1de92f5bdd721b0cd29aabdea">DateShort</a>, 
-<a class="el" href="namespace_time_lib.html#a61bd18cc93cd6fa9cca4e2b66125afe8aedafb5d851179a36730ea4db4c19e7fb">Time</a>, 
+<tr class="memitem:a61bd18cc93cd6fa9cca4e2b66125afe8"><td class="memItemLeft" align="right" valign="top"><a id="a61bd18cc93cd6fa9cca4e2b66125afe8"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>EDateFormats</b> { <br />
+&#160;&#160;<b>Full</b>, 
+<b>Date</b>, 
+<b>DateShort</b>, 
+<b>Time</b>, 
 <br />
-&#160;&#160;<a class="el" href="namespace_time_lib.html#a61bd18cc93cd6fa9cca4e2b66125afe8a1e8c8a5cbf3b9b315b17484a1ebb4bcf">TimeShort</a>, 
-<a class="el" href="namespace_time_lib.html#a61bd18cc93cd6fa9cca4e2b66125afe8a26ce2a7252b9467bdfce39641e4407cc">Relative</a>, 
-<a class="el" href="namespace_time_lib.html#a61bd18cc93cd6fa9cca4e2b66125afe8afb7fc9e36486c354860125684ade6d30">RelativeShort</a>
+&#160;&#160;<b>TimeShort</b>, 
+<b>Relative</b>, 
+<b>RelativeShort</b>
 <br />
  }</td></tr>
 <tr class="separator:a61bd18cc93cd6fa9cca4e2b66125afe8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab25afd1fe35e44e43a5c27ef9d7ba863"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_time_lib.html#ab25afd1fe35e44e43a5c27ef9d7ba863">EDurationFormats</a> { <a class="el" href="namespace_time_lib.html#ab25afd1fe35e44e43a5c27ef9d7ba863ab5b1faa8f7c472ba7924d30f1c388c0d">Full</a>, 
-<a class="el" href="namespace_time_lib.html#ab25afd1fe35e44e43a5c27ef9d7ba863abafe98bedafdd809474349897f30c8f9">Abbreviated</a>, 
-<a class="el" href="namespace_time_lib.html#ab25afd1fe35e44e43a5c27ef9d7ba863aa18795b03128b9986319e966fb570739">Chrono</a>
+<tr class="memitem:ab25afd1fe35e44e43a5c27ef9d7ba863"><td class="memItemLeft" align="right" valign="top"><a id="ab25afd1fe35e44e43a5c27ef9d7ba863"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>EDurationFormats</b> { <b>Full</b>, 
+<b>Abbreviated</b>, 
+<b>Chrono</b>
  }</td></tr>
 <tr class="separator:ab25afd1fe35e44e43a5c27ef9d7ba863"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ae1c55491218e93c7a92295f4867e66bd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_text.html">Text</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_time_lib.html#ae1c55491218e93c7a92295f4867e66bd">FormatDate</a> (<a class="el" href="class_text.html">Text</a> _Timestamp, <a class="el" href="namespace_time_lib.html#a61bd18cc93cd6fa9cca4e2b66125afe8">EDateFormats</a> _Format)</td></tr>
+<tr class="memitem:ae1c55491218e93c7a92295f4867e66bd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_text.html">Text</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_time_lib.html#ae1c55491218e93c7a92295f4867e66bd">FormatDate</a> (<a class="el" href="class_text.html">Text</a> _Timestamp, EDateFormats _Format)</td></tr>
 <tr class="memdesc:ae1c55491218e93c7a92295f4867e66bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the date corresponding to a timestamp, formatted according to the locale. Not available on servers.  <a href="#ae1c55491218e93c7a92295f4867e66bd">More...</a><br /></td></tr>
 <tr class="separator:ae1c55491218e93c7a92295f4867e66bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9a36b23165d90326d3278547c4c6a8c2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_text.html">Text</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_time_lib.html#a9a36b23165d90326d3278547c4c6a8c2">FormatDelta</a> (<a class="el" href="class_text.html">Text</a> _Timestamp1, <a class="el" href="class_text.html">Text</a> _Timestamp2, <a class="el" href="namespace_time_lib.html#ab25afd1fe35e44e43a5c27ef9d7ba863">EDurationFormats</a> _Format)</td></tr>
+<tr class="memitem:a9a36b23165d90326d3278547c4c6a8c2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_text.html">Text</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_time_lib.html#a9a36b23165d90326d3278547c4c6a8c2">FormatDelta</a> (<a class="el" href="class_text.html">Text</a> _Timestamp1, <a class="el" href="class_text.html">Text</a> _Timestamp2, EDurationFormats _Format)</td></tr>
 <tr class="memdesc:a9a36b23165d90326d3278547c4c6a8c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the duration between 2 timestamps, formatted according to the locale. Not available on servers.  <a href="#a9a36b23165d90326d3278547c4c6a8c2">More...</a><br /></td></tr>
 <tr class="separator:a9a36b23165d90326d3278547c4c6a8c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad11de83d1793ad46f46a25b394cfcbfb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_text.html">Text</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_time_lib.html#ad11de83d1793ad46f46a25b394cfcbfb">FormatDelta</a> (<a class="el" href="class_text.html">Text</a> _Delta, <a class="el" href="namespace_time_lib.html#ab25afd1fe35e44e43a5c27ef9d7ba863">EDurationFormats</a> _Format)</td></tr>
+<tr class="memitem:ad11de83d1793ad46f46a25b394cfcbfb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_text.html">Text</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_time_lib.html#ad11de83d1793ad46f46a25b394cfcbfb">FormatDelta</a> (<a class="el" href="class_text.html">Text</a> _Delta, EDurationFormats _Format)</td></tr>
 <tr class="memdesc:ad11de83d1793ad46f46a25b394cfcbfb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the duration Delta formatted according to the locale. Not available on servers.  <a href="#ad11de83d1793ad46f46a25b394cfcbfb">More...</a><br /></td></tr>
 <tr class="separator:ad11de83d1793ad46f46a25b394cfcbfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad802f0c578558ee75aa8bce738ec8f6f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_time_lib.html#ad802f0c578558ee75aa8bce738ec8f6f">Compare</a> (<a class="el" href="class_text.html">Text</a> _Timestamp1, <a class="el" href="class_text.html">Text</a> _Timestamp2)</td></tr>
@@ -131,57 +112,17 @@ Functions</h2></td></tr>
 <tr class="memitem:a9a26b6eb869f43c3e5319025a280edf2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_real.html">Real</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_time_lib.html#a9a26b6eb869f43c3e5319025a280edf2">Clamp01</a> (<a class="el" href="class_text.html">Text</a> _Boundary1, <a class="el" href="class_text.html">Text</a> _Boundary2, <a class="el" href="class_text.html">Text</a> _Timestamp)</td></tr>
 <tr class="memdesc:a9a26b6eb869f43c3e5319025a280edf2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a <a class="el" href="class_real.html">Real</a> between 0 and 1, given an interval and a timestamp.  <a href="#a9a26b6eb869f43c3e5319025a280edf2">More...</a><br /></td></tr>
 <tr class="separator:a9a26b6eb869f43c3e5319025a280edf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1717b5cebb9be21540e240308894ffa3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_text.html">Text</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_time_lib.html#a1717b5cebb9be21540e240308894ffa3">GetCurrent</a> ()</td></tr>
-<tr class="memdesc:a1717b5cebb9be21540e240308894ffa3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets current timestamp.  <a href="#a1717b5cebb9be21540e240308894ffa3">More...</a><br /></td></tr>
+<tr class="memitem:a1717b5cebb9be21540e240308894ffa3"><td class="memItemLeft" align="right" valign="top"><a id="a1717b5cebb9be21540e240308894ffa3"></a>
+<a class="el" href="class_text.html">Text</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_time_lib.html#a1717b5cebb9be21540e240308894ffa3">GetCurrent</a> ()</td></tr>
+<tr class="memdesc:a1717b5cebb9be21540e240308894ffa3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets current timestamp. <br /></td></tr>
 <tr class="separator:a1717b5cebb9be21540e240308894ffa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a44ea3b8bdac601cc2ca87b11ca3dfee1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_integer.html">Integer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_time_lib.html#a44ea3b8bdac601cc2ca87b11ca3dfee1">GetDelta</a> (<a class="el" href="class_text.html">Text</a> _Timestamp1, <a class="el" href="class_text.html">Text</a> _Timestamp2)</td></tr>
 <tr class="memdesc:a44ea3b8bdac601cc2ca87b11ca3dfee1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the duration in seconds between 2 timestamps. May be clamped if huge.  <a href="#a44ea3b8bdac601cc2ca87b11ca3dfee1">More...</a><br /></td></tr>
 <tr class="separator:a44ea3b8bdac601cc2ca87b11ca3dfee1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="a61bd18cc93cd6fa9cca4e2b66125afe8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a61bd18cc93cd6fa9cca4e2b66125afe8">&#9670;&nbsp;</a></span>EDateFormats</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="namespace_time_lib.html#a61bd18cc93cd6fa9cca4e2b66125afe8">TimeLib::EDateFormats</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ab25afd1fe35e44e43a5c27ef9d7ba863ab5b1faa8f7c472ba7924d30f1c388c0d"></a>Full&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a61bd18cc93cd6fa9cca4e2b66125afe8ad5b286bd51f81c9f3a94e22fd2ea454a"></a>Date&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a61bd18cc93cd6fa9cca4e2b66125afe8ae98580d1de92f5bdd721b0cd29aabdea"></a>DateShort&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a61bd18cc93cd6fa9cca4e2b66125afe8aedafb5d851179a36730ea4db4c19e7fb"></a>Time&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a61bd18cc93cd6fa9cca4e2b66125afe8a1e8c8a5cbf3b9b315b17484a1ebb4bcf"></a>TimeShort&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a61bd18cc93cd6fa9cca4e2b66125afe8a26ce2a7252b9467bdfce39641e4407cc"></a>Relative&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a61bd18cc93cd6fa9cca4e2b66125afe8afb7fc9e36486c354860125684ade6d30"></a>RelativeShort&#160;</td><td class="fielddoc"></td></tr>
-</table>
-
-</div>
-</div>
-<a id="ab25afd1fe35e44e43a5c27ef9d7ba863"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab25afd1fe35e44e43a5c27ef9d7ba863">&#9670;&nbsp;</a></span>EDurationFormats</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="namespace_time_lib.html#ab25afd1fe35e44e43a5c27ef9d7ba863">TimeLib::EDurationFormats</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ab25afd1fe35e44e43a5c27ef9d7ba863ab5b1faa8f7c472ba7924d30f1c388c0d"></a>Full&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ab25afd1fe35e44e43a5c27ef9d7ba863abafe98bedafdd809474349897f30c8f9"></a>Abbreviated&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ab25afd1fe35e44e43a5c27ef9d7ba863aa18795b03128b9986319e966fb570739"></a>Chrono&#160;</td><td class="fielddoc"></td></tr>
-</table>
-
-</div>
-</div>
-<h2 class="groupheader">Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Standard time manipulation functions. </p>
+</div><h2 class="groupheader">Function Documentation</h2>
 <a id="a9a26b6eb869f43c3e5319025a280edf2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9a26b6eb869f43c3e5319025a280edf2">&#9670;&nbsp;</a></span>Clamp01()</h2>
 
@@ -278,7 +219,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="namespace_time_lib.html#a61bd18cc93cd6fa9cca4e2b66125afe8">EDateFormats</a>&#160;</td>
+          <td class="paramtype">EDateFormats&#160;</td>
           <td class="paramname"><em>_Format</em>&#160;</td>
         </tr>
         <tr>
@@ -321,7 +262,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="namespace_time_lib.html#ab25afd1fe35e44e43a5c27ef9d7ba863">EDurationFormats</a>&#160;</td>
+          <td class="paramtype">EDurationFormats&#160;</td>
           <td class="paramname"><em>_Format</em>&#160;</td>
         </tr>
         <tr>
@@ -359,7 +300,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="namespace_time_lib.html#ab25afd1fe35e44e43a5c27ef9d7ba863">EDurationFormats</a>&#160;</td>
+          <td class="paramtype">EDurationFormats&#160;</td>
           <td class="paramname"><em>_Format</em>&#160;</td>
         </tr>
         <tr>
@@ -378,25 +319,6 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-
-</div>
-</div>
-<a id="a1717b5cebb9be21540e240308894ffa3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1717b5cebb9be21540e240308894ffa3">&#9670;&nbsp;</a></span>GetCurrent()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_text.html">Text</a> TimeLib::GetCurrent </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Gets current timestamp. </p>
 
 </div>
 </div>
@@ -438,15 +360,11 @@ Functions</h2></td></tr>
 </div>
 </div>
 </div><!-- contents -->
-</div><!-- doc-content -->
 <!-- start footer part -->
-<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
-  <ul>
-    <li class="navelem"><a class="el" href="namespace_time_lib.html">TimeLib</a></li>
-    <li class="footer">Generated by
-    <a href="http://www.doxygen.org/index.html">
-    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.14 </li>
-  </ul>
-</div>
+<hr class="footer"/><address class="footer"><small>
+Generated by &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.14
+</small></address>
 </body>
 </html>
